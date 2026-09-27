@@ -1,0 +1,40 @@
+{
+  "type": "post",
+  "slug": "process-knowledge-and-brewing-coffee",
+  "path": "/post/process-knowledge-and-brewing-coffee",
+  "title": "Process Knowledge and Brewing Coffee",
+  "description": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property) and the Process Knowledge – knowhow held by people. ",
+  "date": "2021-02-27",
+  "datetime": "2021-02-27T10:52:53.234Z",
+  "author": "Keiran Jones",
+  "minutes": 2,
+  "categories": [],
+  "categoryIds": [
+    "5a33d0587a50880014ec3443"
+  ],
+  "coverImage": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+  "excerpt": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property)",
+  "body": "![](/images/675337_80b0e0f5234f41b7aa21500383129797~mv2.png)\n\nIt’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property) and the Process Knowledge – knowhow held by people. To frame an example in the kitchen, the first part is utensils, the second a recipe, and the third the person cooking. Many of us have the experience of seeing a picture in a cook book and fail to replicate how it looks, also failing to meet the expectations of how it should taste.\n\nI once watched an Italian Michelin star chef take a few basic ingredients and create a wonderful yet simple pasta dish (and also the best pizza I’ve ever eaten). I watched his movement, his measurements and timing. I tried replicating it but I just couldn’t match the deliciousness of his cooking. However, I definitely improved with more attempts, tasting and tinkering as I went, basing my process on what I had seen.\n\nTo bring this to coffee, we can be a bit too wedded to [guides](/brewing-guides) when unfamiliar with brweing. Of course, there’s an element of needing a starting point but I don’t think it helps to follow too closely. Each person has their own style and their guides will reflect that. There is much to be learned (maybe more) by conscious doing – experiential learning. That means tinkering with [grind sizes](/post/coffee-grind-size-wheel-introduction-to-grind-sizes), pouring speeds, temperature and other variables, and using your natural [senses to judge](/archive/categories/sensory) the results.\n\nSome mornings we might wake up and feel averse to experimentation; we just want a ‘safe’ coffee that tastes good. I’ve had long periods when I been unsatisfied with my brew. During those times I hadn’t tried anything drastically different and stayed quite rigidly to a method, hoping for better results. Improvements came when trying things against intuition – discovering pleasant surprises. These build up understanding over time, developing our process knowledge. It may also be a quicker route to brewing consistently good coffee rather than volatile results associated with underdeveloped knowledge.\n\nWhen brewing for others too, sometimes we receive comments like this is over or under extracted. If you can’t taste this, that is, overly bitter or watery coffee, then have confidence in your own results. We don’t all have [TDS and strength measuring implements](/post/water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water) to gauge coffee against a centralising institute’s ideals, and neither is this practical. Coffee is to be enjoyed (outside of competition, where the enjoyment is in competing against someone’s standards), not obsessed over in matching a set of preconceptions.\n\nNature has endowed us with our own [sensory equipment](/post/testing-your-sensory-skills-a-taste-test). Rather than brewing to match the ideals of another, brew what tastes good to you. It takes a bit more concentration and thoughtful analysis, but this will enhance process knowledge and a personal sense of accomplishment. At that stage, people become capable of making their own innovations.",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_80b0e0f5234f41b7aa21500383129797~mv2.png",
+      "local": "/images/675337_80b0e0f5234f41b7aa21500383129797~mv2.png",
+      "alt": ""
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+      "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/brewing-guides",
+    "/post/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "/archive/categories/sensory",
+    "/post/water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water",
+    "/post/testing-your-sensory-skills-a-taste-test"
+  ],
+  "seoTitle": "Process Knowledge and Brewing Coffee",
+  "seoDescription": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property) and the Process Knowledge – knowhow held by people. ",
+  "draft": false
+}

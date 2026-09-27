@@ -1,0 +1,46 @@
+{
+  "type": "region",
+  "slug": "asia",
+  "path": "/asia",
+  "title": "Asia | World Coffee Guide",
+  "description": "Country guides for coffee growing countries in Asia and Oceania.",
+  "date": "2026-06-10",
+  "body": "# Asia\n\n### [China](/country-guide-china)\n\n### [Indonesia](/country-guide-indonesia)\n\n[![China Coffee Guide](/images/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg)](/country-guide-china)\n\n![Asian Coffee Map](/images/675337_a9454372d0bd4879b11319c7f272becc~mv2.jpg)\n\n[![South America Coffee](/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg)](/south-america)\n\n[![Africa Coffee](/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg)](/africa)\n\n[![Central America Coffee](/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg)](/central-america)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+      "local": "/images/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+      "alt": "China Coffee Guide"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_a9454372d0bd4879b11319c7f272becc~mv2.jpg",
+      "local": "/images/675337_a9454372d0bd4879b11319c7f272becc~mv2.jpg",
+      "alt": "Asian Coffee Map"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "alt": "South America Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "alt": "Africa Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "alt": "Central America Coffee"
+    }
+  ],
+  "internalLinks": [
+    "/country-guide-china",
+    "/country-guide-indonesia",
+    "/south-america",
+    "/africa",
+    "/central-america"
+  ],
+  "seoTitle": "Asia | World Coffee Guide | Coffee Rambler",
+  "seoDescription": "Country guides for coffee growing countries in Asia and Oceania.",
+  "draft": false
+}

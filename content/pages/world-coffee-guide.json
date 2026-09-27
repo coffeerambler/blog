@@ -1,0 +1,45 @@
+{
+  "type": "world-guide",
+  "slug": "world-coffee-guide",
+  "path": "/world-coffee-guide",
+  "title": "World Coffee Guide",
+  "description": "Explore coffee around the world with the Rambler's country guides, covering coffee characteristics, growing regions and more.",
+  "date": "2026-06-10",
+  "body": "![World Coffee Map](/images/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png)\n\n## The Coffee Belt\n\n[![Africa Coffee](/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg)](/africa)\n\n[![South America coffee](/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg)](/south-america)\n\n[![Central America coffee](/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg)](/central-america)\n\n[![Asia Coffee](/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg)](/asia)\n\n[Africa](/africa)\n\n[South America](/south-america)\n\n[Central America](/central-america)\n\n[Asia](/asia)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png",
+      "local": "/images/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png",
+      "alt": "World Coffee Map"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "alt": "Africa Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "alt": "South America coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "alt": "Central America coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "alt": "Asia Coffee"
+    }
+  ],
+  "internalLinks": [
+    "/africa",
+    "/south-america",
+    "/central-america",
+    "/asia"
+  ],
+  "seoTitle": "World Coffee Guide | Coffee Rambler",
+  "seoDescription": "Explore coffee around the world with the Rambler's country guides, covering coffee characteristics, growing regions and more.",
+  "draft": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "country",
+  "slug": "country-guide-ecuador",
+  "path": "/country-guide-ecuador",
+  "title": "Ecuador | World Coffee Guide",
+  "description": "A small Andean arabica origin that people still under-order. Loja, Zaruma, Pichincha, Intag. High-grown lots can be floral and citrus.",
+  "date": "2026-09-19",
+  "body": "# Ecuador\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/ecuador.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/south-america",
+    "/country-guide-colombia",
+    "/archive/the-dry-process-an-introduction-to-natural-coffees"
+  ],
+  "seoTitle": "Ecuador | World Coffee Guide",
+  "seoDescription": "Ecuador coffee guide: Loja, Zaruma, Sidra, Amazon robusta, USDA production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

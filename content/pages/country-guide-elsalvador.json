@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-elsalvador",
+  "path": "/country-guide-elsalvador",
+  "title": "El Salvador | World Coffee Guide",
+  "description": "Almost all arabica, and not a lot of it. Bourbon and Pacamara from the western volcanoes can be excellent when the mill is paying attention. Rust and people leaving the farms have cut the volume.",
+  "date": "2026-09-19",
+  "body": "# El Salvador\n\nThis page is rendered from the country-guide template. See `src/data/country-guides/elsalvador.ts`.",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/el-salvador.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/central-america",
+    "/country-guide-costarica",
+    "/post/coffeeland-a-short-summary-and-review"
+  ],
+  "seoTitle": "El Salvador | World Coffee Guide",
+  "seoDescription": "El Salvador coffee guide: Apaneca-Ilamatepec and the six CSC denominations, Bourbon and Pacamara, USDA production, and how the origin drinks at home.",
+  "status": "approved",
+  "generatedBy": "agent",
+  "approvedAt": "2026-09-19"
+}

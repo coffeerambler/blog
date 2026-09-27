@@ -1,0 +1,46 @@
+{
+  "type": "region",
+  "slug": "south-america",
+  "path": "/south-america",
+  "title": "South America | World Coffee Guide",
+  "description": "Country guides for coffee growing countries in South America and islands of the Atlantic and Pacific.",
+  "date": "2026-06-10",
+  "body": "# South America\n\n### [Colombia](/country-guide-colombia)\n\n### [Bolivia](/country-guide-bolivia)\n\n[![Colombia Coffee Guide](/images/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg)](/country-guide-colombia)\n\n![south America coffee](/images/675337_76fa9a91ce804e3ab74c636e1af3df7e~mv2.png)\n\n[![Africa Coffee](/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg)](/africa)\n\n[![Central America Coffee](/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg)](/central-america)\n\n[![Asia Coffee](/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg)](/asia)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+      "local": "/images/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+      "alt": "Colombia Coffee Guide"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_76fa9a91ce804e3ab74c636e1af3df7e~mv2.png",
+      "local": "/images/675337_76fa9a91ce804e3ab74c636e1af3df7e~mv2.png",
+      "alt": "south America coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "alt": "Africa Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+      "alt": "Central America Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "alt": "Asia Coffee"
+    }
+  ],
+  "internalLinks": [
+    "/country-guide-colombia",
+    "/country-guide-bolivia",
+    "/africa",
+    "/central-america",
+    "/asia"
+  ],
+  "seoTitle": "South America | World Coffee Guide | Coffee Rambler",
+  "seoDescription": "Country guides for coffee growing countries in South America and islands of the Atlantic and Pacific.",
+  "draft": false
+}

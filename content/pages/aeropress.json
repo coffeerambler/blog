@@ -1,0 +1,30 @@
+{
+  "type": "brew-guide",
+  "slug": "aeropress",
+  "path": "/aeropress",
+  "title": "Aeropress | Brew Guides",
+  "description": "A versatile brewer, the Aeropress combines two brewing methods; pour-over and full immersion. For this reason and its design, the Aeropress allows for a range..",
+  "date": "2026-06-10",
+  "body": "# The Aeropress\n\nA [versatile brewer](/archive/alternative-aeropress-recipes), the Aeropress combines two brewing methods; pour-over and full immersion. Firstly, the coffee and water is left to steep together. Then, the water is pressed through the ground coffee and over a filter with a pump to complete the brew. This helps avoid fines (tiny, inconsistent and over extracted grounds) getting into the cup, as they do in the French Press and sometimes the espresso method.\n\n​\n\nFor this reason and its design, the Aeropress allows for a range of results based on different recipes and techniques. You can make short, strong drinks with a higher brew ratio (say, 1:2.5) or something similar to a longer black coffee. A perfect tool for experimenting with coffee.\n\nYou'll need...\n\n​\n\nAeropress\n\nAeropress filter (paper or metal)\n\nGrinder\n\nKettle\n\nDrip Scales\n\nTimer\n\nStirrer\n\n[![Coffee Grind Size Wheel from fine to coarse](/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg)](/archive/coffee-grind-size-wheel-introduction-to-grind-sizes)\n\n![aeropress grind size](/images/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg)\n\nBrew time | 1.40-2.30 minutes\n\n​\n\nBrew Ratio | 1:12 - 1:17\n\n​\n\nWater Temp | 90-94C\n\n​\n\nRemember these are guidelines, experimentation is encouraged.\n\n## The Inverted Method\n\n##### 1\n\n##### ​\n\n##### Boil your water & grind your Coffee\n\n​\n\nBring your low-mineral content water to boil. Weigh your chosen amount of coffee. Grind the beans to a powder slighter finer than sea salt.\n\nI like to use 16g of coffee 250ml of water (1:15.6).\n\n##### 2\n\n##### ​\n\n##### Prepare the filter and Aeropress\n\n​\n\nPlace the paper into the cap and rinse with water. This sticks the paper to the cap and runs off the paper’s taste ([or use metal filter](/archive/aeropress-filters-metal-or-paper)).\n\n​\n\nFit the black rubber seal of the pump into the tube, away from the hexagon. Place your Aeropress onto the scales, add the ground coffee and tare the scales to 0.\n\n##### 3\n\n##### ​\n\n##### Pour the water\n\n​\n\nPour around 40-50 ml of water onto the grounds. Give it a gentle stir to ensure the coffee has started to bloom. This allows for easier extraction of flavours. After stirring, fill the tube to the top with water. Pouring slowly will allow you to fill the Aeropress to the top without stopping.\n\n##### 4\n\n##### ​\n\n##### Stir\n\n​\n\nGive another stir and wait for 60-90 seconds.\n\n##### 5\n\n##### ​\n\n##### Pump and serve\n\n​\n\nScrew the cap onto the top and place your heated cup on top. Invert the Aeropress carefully and slowly push down the pump. This should take around 20 seconds. Aim for this process to finish by 2 minutes from first pour.\n\nPushing too fast will cause the coffee to spit and splutter out the side of the cap; too slow could lead to over extraction.\n\n##### 6\n\n##### ​\n\n##### Clean up\n\n​\n\nWhile you wait for your delicious coffee to cool, clean up your Aeropress. Unscrew the cap and push the pump to squeeze out a satisfying puck of coffee. Rinse. If left dirty, the coffee will leave a rancid flavour on the apparatus, affecting the quality of future brews.\n\n##### A versatile brewer\n\n​\n\nResults will differ greatly depending on how the Aeropress is used. You can also brew with the upright method where the pump is only inserted after pouring water onto the grounds. The coffee grounds are poured onto the pre-soaked and fitted cap.\n\n​\n\nYou can also use a finer grind than my suggestion but beware of over extraction; the Aeropress is capable of rich and very sweet brews that can easily be ruined with the unpleasant bitterness of over extraction.\n\n##### [Coffee Rambler's Brew Guides](/brewing-guides)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "alt": "Coffee Grind Size Wheel from fine to coarse"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+      "local": "/images/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+      "alt": "aeropress grind size"
+    }
+  ],
+  "internalLinks": [
+    "/archive/alternative-aeropress-recipes",
+    "/archive/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "/archive/aeropress-filters-metal-or-paper",
+    "/brewing-guides"
+  ],
+  "seoTitle": "Aeropress | Brew Guides | Coffee Rambler",
+  "seoDescription": "A versatile brewer, the Aeropress combines two brewing methods; pour-over and full immersion. For this reason and its design, the Aeropress allows for a range..",
+  "draft": false
+}

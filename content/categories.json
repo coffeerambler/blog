@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "about-coffee-1",
+    "path": "/archive/categories/about-coffee-1",
+    "title": "About Coffee"
+  },
+  {
+    "slug": "brewing-basics",
+    "path": "/archive/categories/brewing-basics",
+    "title": "Brewing Basics"
+  },
+  {
+    "slug": "sensory",
+    "path": "/archive/categories/sensory",
+    "title": "Sensory"
+  },
+  {
+    "slug": "coffee-production",
+    "path": "/archive/categories/coffee-production",
+    "title": "Coffee Production"
+  },
+  {
+    "slug": "recipes",
+    "path": "/archive/categories/recipes",
+    "title": "Recipes"
+  },
+  {
+    "slug": "city-guides",
+    "path": "/archive/categories/city-guides",
+    "title": "City Guides"
+  }
+]

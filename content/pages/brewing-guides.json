@@ -1,0 +1,70 @@
+{
+  "type": "brew-hub",
+  "slug": "brewing-guides",
+  "path": "/brewing-guides",
+  "title": "Home Brewing Guides",
+  "description": "Learn the different methods of brewing pro coffee at home including: coffee grind sizes, water temperatures, brew ratios and time.",
+  "date": "2026-06-10",
+  "body": "# Make coffee like a barista with these brew guides.\n\n[![French Press](/images/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg)\n\nFrench Press](/french-press)\n\n[![Clever Cup](/images/675337_c5c1285e1c2844e0acfec9a1759da0d9~mv2.jpg)\n\nClever Cup](/clever-cup)\n\n[![Syphon](/images/675337_22a34e273d5d40a796bbf8f2c3d7cdee~mv2.jpg)\n\nSyphon](/syphon)\n\n[![Chemex](/images/675337_745e0b8e927f456baecd47d4e6afc55e~mv2.jpg)\n\nChemex](/chemex)\n\n[![Cone Filter](/images/675337_4400b1ec223b460eb6a67e8d36472d98~mv2.jpg)\n\nCone Filter](/pour-over-filter)\n\n[![Aeropress](/images/675337_ca9a6974cd7642c3be19332d4db1fa6f~mv2.jpg)\n\nAeropress](/aeropress)\n\n[![Moka Pot](/images/675337_5141ff1724c54181a4ba40ea9f9f1be1~mv2.jpg)\n\nMoka Pot](/moka-pot)\n\n[![Immersion Cold Brew](/images/675337_5243ba2100a042fb8ff0ddb260ea0520~mv2.jpg)\n\nImmersion Cold Brew](/immersion-cold-brew)\n\n[![Cupping](/images/675337_8e8f5bcf10d04c5f9fd8e17f17cdd211~mv2.jpg)\n\nCupping](/cupping)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg",
+      "local": "/images/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg",
+      "alt": "French Press"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_c5c1285e1c2844e0acfec9a1759da0d9~mv2.jpg",
+      "local": "/images/675337_c5c1285e1c2844e0acfec9a1759da0d9~mv2.jpg",
+      "alt": "Clever Cup"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_22a34e273d5d40a796bbf8f2c3d7cdee~mv2.jpg",
+      "local": "/images/675337_22a34e273d5d40a796bbf8f2c3d7cdee~mv2.jpg",
+      "alt": "Syphon"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_745e0b8e927f456baecd47d4e6afc55e~mv2.jpg",
+      "local": "/images/675337_745e0b8e927f456baecd47d4e6afc55e~mv2.jpg",
+      "alt": "Chemex"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_4400b1ec223b460eb6a67e8d36472d98~mv2.jpg",
+      "local": "/images/675337_4400b1ec223b460eb6a67e8d36472d98~mv2.jpg",
+      "alt": "Cone Filter"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_ca9a6974cd7642c3be19332d4db1fa6f~mv2.jpg",
+      "local": "/images/675337_ca9a6974cd7642c3be19332d4db1fa6f~mv2.jpg",
+      "alt": "Aeropress"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_5141ff1724c54181a4ba40ea9f9f1be1~mv2.jpg",
+      "local": "/images/675337_5141ff1724c54181a4ba40ea9f9f1be1~mv2.jpg",
+      "alt": "Moka Pot"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_5243ba2100a042fb8ff0ddb260ea0520~mv2.jpg",
+      "local": "/images/675337_5243ba2100a042fb8ff0ddb260ea0520~mv2.jpg",
+      "alt": "Immersion Cold Brew"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_8e8f5bcf10d04c5f9fd8e17f17cdd211~mv2.jpg",
+      "local": "/images/675337_8e8f5bcf10d04c5f9fd8e17f17cdd211~mv2.jpg",
+      "alt": "Cupping"
+    }
+  ],
+  "internalLinks": [
+    "/french-press",
+    "/clever-cup",
+    "/syphon",
+    "/chemex",
+    "/pour-over-filter",
+    "/aeropress",
+    "/moka-pot",
+    "/immersion-cold-brew",
+    "/cupping"
+  ],
+  "seoTitle": "Home Brewing Guides | Coffee Rambler",
+  "seoDescription": "Learn the different methods of brewing pro coffee at home including: coffee grind sizes, water temperatures, brew ratios and time.",
+  "draft": false
+}

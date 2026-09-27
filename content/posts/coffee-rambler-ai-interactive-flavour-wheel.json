@@ -1,0 +1,62 @@
+{
+  "type": "post",
+  "slug": "coffee-rambler-ai-interactive-flavour-wheel",
+  "path": "/post/coffee-rambler-ai-interactive-flavour-wheel",
+  "title": "Coffee Rambler AI: Interactive Flavour Wheel and Sensory Training",
+  "description": "The Coffee Rambler AI Flavour wheel is unique adn updates with diary entries. Learn more about the feature and how helps train your sensory appreciation of coffee",
+  "date": "2026-03-17",
+  "datetime": "2026-03-17T11:36:26.000Z",
+  "author": "Keiran Jones",
+  "minutes": 4,
+  "categories": [],
+  "categoryIds": [
+    "5a33d0587a50880014ec3444"
+  ],
+  "coverImage": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+  "excerpt": "Your Palate, Mapped: How Coffee Rambler AI Builds Your Personal Flavour Wheel There's a moment many of us have experienced. You taste something, recognise the flavour and can’t just put your finger on it. That gap between sensation and language is exactly what sensory training is designed to close. And it's the problem that the flavour wheel in Coffee Rambler AI was built to solve. What the Flavour Wheel Actually Is The flavour wheel on the Palate page isn't a static reference chart but a...",
+  "body": "## **Your Palate, Mapped: How Coffee Rambler AI Builds Your Personal Flavour Wheel**\n\nThere's a moment many of us have experienced. You taste something, recognise the flavour and can’t just put your finger on it.\n\nThat gap between sensation and language is exactly what sensory training is designed to close. And it's the problem that the flavour wheel in [Coffee Rambler AI](https://rambler.coffee/) was built to solve.\n\n### **What the Flavour Wheel Actually Is**\n\nThe flavour wheel on the Palate page isn't a static reference chart but a record of your own tasting history, built entirely from the notes you've written in your brew diary.\n\nEvery time you log a brew and write tasting notes, even imperfectly, Coffee Rambler AI reads those notes and extracts the flavour descriptors from them. It uses a language model to identify the sensory words, normalise them into canonical forms, and assign each one to a flavour category. \"Blueberry\", \"blueberries\", and \"blueberry jam\" all resolve to the same descriptor. A misspelling like \"choclate\" becomes \"chocolate\". A word written in Japanese becomes its English equivalent for categorisation, while your original word is preserved for display.\n\n[](https://video.wixstatic.com/video/675337_4ac6fc8d79a7403e91f8045f3edd33d5/1080p/mp4/file.mp4)\n\nA mobile view of uploading a flavour to the flavour wheel\n\nThose descriptors are then stored against your account and used to build the wheel. The inner ring shows eight fixed categories — Fruity, Floral, Sweet, Nutty Chocolate, Spicy Herbal, Roasted, Earthy Fermented, and Sour Acidic. Categories you've encountered light up in full colour. Categories you haven't are shown as faint ghost segments, present but clearly inactive. The outer ring shows your actual descriptors, sized proportionally to how often each one appears across your entries.\n\nThe result is a snapshot of your palate, not what coffee is supposed to taste like, but what you actually taste.\n\n### **How It Builds Over Time**\n\nThe wheel isn't just a display. It's a tracking system.\n\nEach descriptor carries a count; how often it appears across your diary entries. The visual weight of each segment reflects the frequency and consistency of that flavour in your experience.\n\nThis means the wheel builds as you use the app. Early entries produce a sparse wheel with a handful of descriptors. After six months of consistent logging, the wheel fills in. Dominant flavour categories emerge, recurring descriptors become prominent, and you start to see patterns in what you gravitate toward.\n\nThat progression is the point. The wheel isn't static data but a record of your sensory development.\n\n### **The Sensory Lexicon Built Into the Chat**\n\nThe flavour wheel is one half of the [sensory training](/post/testing-your-sensory-skills-a-taste-test) picture. The other is the AI chat.\n\nCoffee Rambler AI's chat assistant is trained with a detailed understanding of the specialty coffee flavours and is a reference framework that underpins how trained tasters describe and evaluate coffee. When you bring your brewing questions to the chat, it doesn't just answer in generic terms. It draws on that lexicon to discuss flavour with precision.\n\nAsk why your Ethiopian natural tastes \"winey\" and you'll get an explanation of how natural processing encourages fermentation-derived compounds that produce the fruit-wine character typical of that processing style. Ask what's causing a \"papery\" note in your pour over and the chat will explain both the likely causes (under-extraction, stale beans, filter contamination) and what the tasting vocabulary means by that descriptor.\n\n![Coffee Rambler AI describing the flavour of tea in coffee](/images/675337_211f88b3cf554896af64aa156ee583c4~mv2.png)\n\nAn example of the chat assistant with suggested adjustments\n\nThis is different from what you'd get from a general-purpose AI assistant. The chat knows the difference between a floral note that suggests jasmine versus one that suggests lavender, and why that distinction matters for identifying processing method and terroir. It understands that \"bright acidity\" and \"sharp acidity\" describe different sensory experiences, not the same one at different intensities.\n\n### **Using Both Together to Train Your Palate**\n\nThe combination of the wheel and the chat creates a feedback loop for sensory development.\n\nStart with the wheel. Look at what's missing. If your Floral category is a ghost segment is empty, that tells you floral notes are either absent from your current beans or present but unrecognised. Open the chat and ask: what does a floral coffee actually taste like? How do you detect jasmine versus hibiscus? What processing and origin characteristics produce floral notes, and how do you find coffees that are likely to express them?\n\n![Coffee Rambler AI - Jasmine vs Hibiscus](/images/675337_625970a058b348bca1ab36aced8a0572~mv2.jpg)\n\nThe chat assistant describes the how you might differentiate jasmine from hibiscus\n\nThen buy a coffee known for floral character e.g. a washed Ethiopian Yirgacheffe is an obvious starting point, then brew it. Log the entry. Write your notes honestly, including the words you're uncertain about. The wheel will update. If you detected something floral and wrote it down, it will appear.\n\nDo this deliberately across categories and the wheel becomes a training log as much as a taste map. You're not just recording what you've tasted. You're tracking your ability to identify and articulate what's in the cup.\n\nThe chat accelerates this by giving you the vocabulary in advance. Professional tasters don't experience a coffee and then search for words. They arrive at the cup already fluent in the language of coffee flavour, so recognition is faster and more precise. The chat lets you develop that fluency incrementally.\n\n### **What Your Wheel Reveals**\n\nAfter a few months of consistent logging, your Palate page starts to tell a story. A wheel dominated by Fruity and Earthy Fermented with a ghost Floral segment suggests you're drawn to natural-process coffees and haven't yet explored washed East African coffees that produce bright floral character. A wheel heavy in Sweet and Nutty Chocolate with sparse Sour Acidic entries suggests you prefer medium to dark roasts and might find high-acidity coffees challenging, or might simply mean you find other flavours harder to detect.\n\nWhat you do with the wheel entirely up to you. The chat is there when you want to understand what's in those unexplored territories. The wheel is there to show you how far you've come. And once you’ve got a wheel you’re proud, download it or share it with your community.\n\n*The Palate page is available on the* *Hobbyist plan**. Log your first brew diary entry with tasting notes and your wheel will start building automatically.*\n\nRead more about the [Enthusiast tier here](/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does).\n\n- ![Flavour Wheel Stats](/images/675337_5829fc8344b04a8e90ea3ed9f77a2906~mv2.jpg)\n\n  Flavour Wheel Stats\n- ![Coffee rambler ai Flavour wheel legend](/images/675337_535b71d649a147fc95eaf1278d824cea~mv2.jpg)\n\n  Flavour wheel legend\n- ![Flavour pills and count on coffee rambler ai](/images/675337_d4bc913e47764912b22a17ebfd43dfb9~mv2.jpg)\n\n  Flavour pills and count\n- ![Shareable Flavour wheel on coffee rambler ai](/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png)\n\n  Shareable Flavour wheel",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_211f88b3cf554896af64aa156ee583c4~mv2.png",
+      "local": "/images/675337_211f88b3cf554896af64aa156ee583c4~mv2.png",
+      "alt": "Coffee Rambler AI describing the flavour of tea in coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_625970a058b348bca1ab36aced8a0572~mv2.jpg",
+      "local": "/images/675337_625970a058b348bca1ab36aced8a0572~mv2.jpg",
+      "alt": "Coffee Rambler AI - Jasmine vs Hibiscus"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_5829fc8344b04a8e90ea3ed9f77a2906~mv2.jpg",
+      "local": "/images/675337_5829fc8344b04a8e90ea3ed9f77a2906~mv2.jpg",
+      "alt": "Flavour Wheel Stats"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_535b71d649a147fc95eaf1278d824cea~mv2.jpg",
+      "local": "/images/675337_535b71d649a147fc95eaf1278d824cea~mv2.jpg",
+      "alt": "Coffee rambler ai Flavour wheel legend"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_d4bc913e47764912b22a17ebfd43dfb9~mv2.jpg",
+      "local": "/images/675337_d4bc913e47764912b22a17ebfd43dfb9~mv2.jpg",
+      "alt": "Flavour pills and count on coffee rambler ai"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "alt": "Shareable Flavour wheel on coffee rambler ai"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "alt": "the coffee rambler ai flavour wheel"
+    }
+  ],
+  "internalLinks": [
+    "/post/testing-your-sensory-skills-a-taste-test",
+    "/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does"
+  ],
+  "seoTitle": "Coffee Rambler AI: Interactive Flavour Wheel and Sensory Training",
+  "seoDescription": "The Coffee Rambler AI Flavour wheel is unique adn updates with diary entries. Learn more about the feature and how helps train your sensory appreciation of coffee",
+  "draft": false
+}

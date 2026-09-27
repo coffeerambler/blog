@@ -1,0 +1,3311 @@
+[
+  {
+    "url": "https://www.coffeerambler.com/about",
+    "path": "/about",
+    "kind": "about",
+    "title": "About/Contact Me",
+    "date": "2026-06-10",
+    "description": "Contact Me at Coffee Rambler for making a contribution to the site, to make an enquiry, ask for advice or anything else.",
+    "coverImage": "/images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg",
+        "local": "/images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg",
+        "alt": "Keiran Jones Coffee Farm in Pu'er, China"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive",
+    "path": "/archive",
+    "kind": "archive",
+    "title": "Make Better Coffee | Archive",
+    "date": "2026-06-10",
+    "description": "Explore more about all things specialty coffee with Coffee Rambler's past blog posts.",
+    "coverImage": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "the coffee rambler ai flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "the coffee rambler ai flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "local": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "alt": "Coffee Rambler AI hompage"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "local": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "alt": "Coffee Rambler AI hompage"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": "Coffeeland: A Short Summary and Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": "Coffeeland: A Short Summary and Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "alt": "Process Knowledge and Brewing Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "alt": "Process Knowledge and Brewing Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": "A Guide to How Coffee is Traded"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": "A Guide to How Coffee is Traded"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in Bristol"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in Bristol"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": "Instant Coffee Production – A Summary of BBC’s Inside the Factory"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": "Instant Coffee Production – A Summary of BBC’s Inside the Factory"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": "The Dry Process - An Introduction to Natural Coffees"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": "The Dry Process - An Introduction to Natural Coffees"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in London"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in London"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": "Making Espresso – The Basics of Good Espresso"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": "Making Espresso – The Basics of Good Espresso"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate – Recipe for a summer refresher"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate – Recipe for a summer refresher"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": "Acrylamide – Beware the Californian coffee cancer "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": "Acrylamide – Beware the Californian coffee cancer "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/aeropress",
+    "path": "/aeropress",
+    "kind": "brew-guide",
+    "title": "Aeropress | Brew Guides",
+    "date": "2026-06-10",
+    "description": "A versatile brewer, the Aeropress combines two brewing methods; pour-over and full immersion. For this reason and its design, the Aeropress allows for a range..",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+        "local": "/images/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+        "alt": "aeropress grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/chemex",
+    "path": "/chemex",
+    "kind": "brew-guide",
+    "title": "Chemex | Brew Guides",
+    "date": "2026-06-10",
+    "description": "The Chemex provides a great way to brew an exceptionally clean cup of coffee. Not only that, it has a fun social element and is perfect for sharing.",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+        "local": "/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+        "alt": "chemex grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/clever-cup",
+    "path": "/clever-cup",
+    "kind": "brew-guide",
+    "title": "Clever Cup | Brew Guides",
+    "date": "2026-06-10",
+    "description": "A method combining the repeatability of immersion brewing and the clarity of a pour over. The Clever cup produces a clean, rich coffee",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65268aa34b3f43a3b2e5dc70b4fd4ce6~mv2.jpg",
+        "local": "/images/675337_65268aa34b3f43a3b2e5dc70b4fd4ce6~mv2.jpg",
+        "alt": "clever cup grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/cupping",
+    "path": "/cupping",
+    "kind": "brew-guide",
+    "title": "Cupping | Brew Guides",
+    "date": "2026-06-10",
+    "description": "Cupping is an excellent way of tasting several coffees side-by-side.  Coffee Rambler believes it's a fun way for learning more about coffee, a real eye-opener.",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_66ae519cb39e49d5975c4d34b8a1b1d3~mv2.jpg",
+        "local": "/images/675337_66ae519cb39e49d5975c4d34b8a1b1d3~mv2.jpg",
+        "alt": "Cupping Grind Size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/french-press",
+    "path": "/french-press",
+    "kind": "brew-guide",
+    "title": "French Press | Brew Guides",
+    "date": "2026-06-10",
+    "description": "The French Press is a traditional method of brewing coffee, creating a rich and full bodied cup with big flavours.",
+    "coverImage": "/images/675337_26ef866671504b0a9e7fca2078040421~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26ef866671504b0a9e7fca2078040421~mv2.jpg",
+        "local": "/images/675337_26ef866671504b0a9e7fca2078040421~mv2.jpg",
+        "alt": "french press grind size"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/immersion-cold-brew",
+    "path": "/immersion-cold-brew",
+    "kind": "brew-guide",
+    "title": "Immersion Cold Brew | Brew Guides",
+    "date": "2026-06-10",
+    "description": "Cold Brew has a smooth mouthfeel and delivers a sweet, distinctive flavour. And it's easy to make!",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9e4e1c009fbb4d3a8f89f6972e62a2d7~mv2.jpg",
+        "local": "/images/675337_9e4e1c009fbb4d3a8f89f6972e62a2d7~mv2.jpg",
+        "alt": "cold brew grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/moka-pot",
+    "path": "/moka-pot",
+    "kind": "brew-guide",
+    "title": "Moka Pot | Brew Guides",
+    "date": "2026-06-10",
+    "description": "The Moka Pot produces a full bodied and beautifully rich cup when brewed right. Find out how to make the sweetest of Moka brews here.",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a584e3d083784046a1d29d0e25ae8458~mv2.jpg",
+        "local": "/images/675337_a584e3d083784046a1d29d0e25ae8458~mv2.jpg",
+        "alt": "moka pot grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/pour-over-filter",
+    "path": "/pour-over-filter",
+    "kind": "brew-guide",
+    "title": "Pour Over Filters | Brew Guides",
+    "date": "2026-06-10",
+    "description": "Brewing with a cone filter requires a bit of finesse but the results are spectacular. The paper filter catches oils and fines to serve a sweet, clean coffee.",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_68540c6434cc43e89ba4235de350bb4a~mv2.jpg",
+        "local": "/images/675337_68540c6434cc43e89ba4235de350bb4a~mv2.jpg",
+        "alt": "pour over grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/syphon",
+    "path": "/syphon",
+    "kind": "brew-guide",
+    "title": "Syphon | Brew Guides",
+    "date": "2026-06-10",
+    "description": "Not only a beautiful way to brew, syphons also produce delicious cups of coffee.",
+    "coverImage": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+        "alt": "Coffee Grind Size Wheel from fine to coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+        "local": "/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+        "alt": "syphon grind size"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/brewing-guides",
+    "path": "/brewing-guides",
+    "kind": "brew-hub",
+    "title": "Home Brewing Guides",
+    "date": "2026-06-10",
+    "description": "Learn the different methods of brewing pro coffee at home including: coffee grind sizes, water temperatures, brew ratios and time.",
+    "coverImage": "/images/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg",
+        "local": "/images/675337_ff745aba58164f00992e544ea7bcf09d~mv2.jpg",
+        "alt": "French Press"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c5c1285e1c2844e0acfec9a1759da0d9~mv2.jpg",
+        "local": "/images/675337_c5c1285e1c2844e0acfec9a1759da0d9~mv2.jpg",
+        "alt": "Clever Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_22a34e273d5d40a796bbf8f2c3d7cdee~mv2.jpg",
+        "local": "/images/675337_22a34e273d5d40a796bbf8f2c3d7cdee~mv2.jpg",
+        "alt": "Syphon"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_745e0b8e927f456baecd47d4e6afc55e~mv2.jpg",
+        "local": "/images/675337_745e0b8e927f456baecd47d4e6afc55e~mv2.jpg",
+        "alt": "Chemex"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4400b1ec223b460eb6a67e8d36472d98~mv2.jpg",
+        "local": "/images/675337_4400b1ec223b460eb6a67e8d36472d98~mv2.jpg",
+        "alt": "Cone Filter"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ca9a6974cd7642c3be19332d4db1fa6f~mv2.jpg",
+        "local": "/images/675337_ca9a6974cd7642c3be19332d4db1fa6f~mv2.jpg",
+        "alt": "Aeropress"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5141ff1724c54181a4ba40ea9f9f1be1~mv2.jpg",
+        "local": "/images/675337_5141ff1724c54181a4ba40ea9f9f1be1~mv2.jpg",
+        "alt": "Moka Pot"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5243ba2100a042fb8ff0ddb260ea0520~mv2.jpg",
+        "local": "/images/675337_5243ba2100a042fb8ff0ddb260ea0520~mv2.jpg",
+        "alt": "Immersion Cold Brew"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8e8f5bcf10d04c5f9fd8e17f17cdd211~mv2.jpg",
+        "local": "/images/675337_8e8f5bcf10d04c5f9fd8e17f17cdd211~mv2.jpg",
+        "alt": "Cupping"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/about-coffee-1",
+    "path": "/archive/categories/about-coffee-1",
+    "kind": "category",
+    "title": "About Coffee",
+    "date": "2026-03-17",
+    "description": "Learn more about all things coffee",
+    "coverImage": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "local": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "alt": "Coffee Rambler AI hompage"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "local": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "alt": "Coffee Rambler AI hompage"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": "Coffeeland: A Short Summary and Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": "Coffeeland: A Short Summary and Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": "A Guide to How Coffee is Traded"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": "A Guide to How Coffee is Traded"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": "Acrylamide – Beware the Californian coffee cancer "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": "Acrylamide – Beware the Californian coffee cancer "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": "Coffee and Consciousness – How coffee can aid our general awareness and personal development "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": "Coffee and Consciousness – How coffee can aid our general awareness and personal development "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "local": "/images/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "alt": "Snobbery in Specialty Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "local": "/images/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "alt": "Snobbery in Specialty Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": "Advanced Brewing Presentation with Barista Hustle - Something to think about."
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": "Advanced Brewing Presentation with Barista Hustle - Something to think about."
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": "Coffee Varieties - A brief look at significant varieties"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": "Coffee Varieties - A brief look at significant varieties"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "local": "/images/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "alt": "The Geisha Variety – What’s the big deal?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "local": "/images/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "alt": "The Geisha Variety – What’s the big deal?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": "What is Coffee? Coffee, the fruit and its species"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": "What is Coffee? Coffee, the fruit and its species"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "local": "/images/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "alt": "What is the World’s best coffee?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "local": "/images/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "alt": "What is the World’s best coffee?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": "What is Specialty Coffee?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": "What is Specialty Coffee?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": "How is Coffee Extracted?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": "How is Coffee Extracted?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "local": "/images/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "alt": "Roast Definitions - From Light to Dark"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "local": "/images/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "alt": "Roast Definitions - From Light to Dark"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": "Coffee and its Compounds - What is Aroma, Taste and Flavour?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": "Coffee and its Compounds - What is Aroma, Taste and Flavour?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "local": "/images/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "alt": "The Health Benefits of Coffee - Is coffee good for Me?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "local": "/images/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "alt": "The Health Benefits of Coffee - Is coffee good for Me?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "alt": "Caffeine Content and Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "alt": "Caffeine Content and Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/brewing-basics",
+    "path": "/archive/categories/brewing-basics",
+    "kind": "category",
+    "title": "Brewing Basics",
+    "date": "2026-03-17",
+    "description": "Tips for beginners - Improve your brew with these simple steps",
+    "coverImage": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "alt": "Process Knowledge and Brewing Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "alt": "Process Knowledge and Brewing Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": "Making Espresso – The Basics of Good Espresso"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": "Making Espresso – The Basics of Good Espresso"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": "Milky Coffee at Home – Understanding Milk and Doing it Right"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": "Milky Coffee at Home – Understanding Milk and Doing it Right"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": "Advanced Brewing Presentation with Barista Hustle - Something to think about."
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": "Advanced Brewing Presentation with Barista Hustle - Something to think about."
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": "Water for coffee Part II – Tasting with pH in mind"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": "Water for coffee Part II – Tasting with pH in mind"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": "Water for Coffee Part I - A TDS taste test and the importance of water"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": "Water for Coffee Part I - A TDS taste test and the importance of water"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": "Aeropress Filters - Metal or Paper?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": "Aeropress Filters - Metal or Paper?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "local": "/images/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "alt": "Why is the Grind So Important?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "local": "/images/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "alt": "Why is the Grind So Important?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": "How is Coffee Extracted?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": "How is Coffee Extracted?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "local": "/images/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "alt": "Keeping that Fresh Coffee Taste"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "local": "/images/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "alt": "Keeping that Fresh Coffee Taste"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "alt": "Coffee Brewing Tips - Simple Ways to Improve Your Brew"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "alt": "Coffee Brewing Tips - Simple Ways to Improve Your Brew"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/city-guides",
+    "path": "/archive/categories/city-guides",
+    "kind": "category",
+    "title": "City Guides",
+    "date": "2021-04-15",
+    "description": "Find out where to get great coffee with our cafe guides.",
+    "coverImage": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in Bristol"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in Bristol"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in London"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "City Café Guide - Coffee in London"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "local": "/images/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "alt": "City Café Guide - Coffee in Wuhan"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "local": "/images/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "alt": "City Café Guide - Coffee in Wuhan"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "local": "/images/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "alt": "City Café Guide - Coffee in Tokyo"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "local": "/images/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "alt": "City Café Guide - Coffee in Tokyo"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "local": "/images/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "alt": "City Café Guide – Coffee in Beijing"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "local": "/images/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "alt": "City Café Guide – Coffee in Beijing"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/coffee-production",
+    "path": "/archive/categories/coffee-production",
+    "kind": "category",
+    "title": "Coffee Production",
+    "date": "2021-04-15",
+    "description": "Learn how and where coffee grows, how it's processed and its journey to you",
+    "coverImage": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": "Instant Coffee Production – A Summary of BBC’s Inside the Factory"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": "Instant Coffee Production – A Summary of BBC’s Inside the Factory"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": "The Dry Process - An Introduction to Natural Coffees"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": "The Dry Process - An Introduction to Natural Coffees"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "The Journey of Coffee – From Seed to Cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Pests, (not-so) Fungi and Diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": "Coffee Varieties - A brief look at significant varieties"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": "Coffee Varieties - A brief look at significant varieties"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "local": "/images/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "alt": "Coffee Processing - The Honey Process"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "local": "/images/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "alt": "Coffee Processing - The Honey Process"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "local": "/images/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "alt": "Coffee Processing Methods – From Cherry to Green Bean"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "local": "/images/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "alt": "Coffee Processing Methods – From Cherry to Green Bean"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": "What is Coffee? Coffee, the fruit and its species"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": "What is Coffee? Coffee, the fruit and its species"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": "What is Specialty Coffee?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": "What is Specialty Coffee?"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/recipes",
+    "path": "/archive/categories/recipes",
+    "kind": "category",
+    "title": "Recipes",
+    "date": "2021-04-15",
+    "description": "Food and drink recipes for enjoying your coffee time",
+    "coverImage": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate – Recipe for a summer refresher"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate – Recipe for a summer refresher"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Coffee Grind Size Wheel - Introduction to grind sizes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": "Milky Coffee at Home – Understanding Milk and Doing it Right"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": "Milky Coffee at Home – Understanding Milk and Doing it Right"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "local": "/images/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "alt": "Coffee Cheesecake - Simply Lovely"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "local": "/images/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "alt": "Coffee Cheesecake - Simply Lovely"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "local": "/images/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "alt": "Tiramisu - I love it"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "local": "/images/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "alt": "Tiramisu - I love it"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "local": "/images/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "alt": "Alternative Aeropress Recipes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "local": "/images/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "alt": "Alternative Aeropress Recipes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "local": "/images/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "alt": "Pancakes for Lazy Mornings"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "local": "/images/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "alt": "Pancakes for Lazy Mornings"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": "Aeropress Filters - Metal or Paper?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": "Aeropress Filters - Metal or Paper?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "local": "/images/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "alt": "It’s Cold Brew Time – And it’s Surprisingly Easy"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "local": "/images/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "alt": "It’s Cold Brew Time – And it’s Surprisingly Easy"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/archive/categories/sensory",
+    "path": "/archive/categories/sensory",
+    "kind": "category",
+    "title": "Sensory",
+    "date": "2026-03-17",
+    "description": "Discover your full appreciation of coffee's aromas, tastes and flavours",
+    "coverImage": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "the coffee rambler ai flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "the coffee rambler ai flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee with Covid"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": "A Whole New Water World - A Peak Water Review"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "Coffee and Strength – What is a Strong Coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": "Coffee and Consciousness – How coffee can aid our general awareness and personal development "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": "Coffee and Consciousness – How coffee can aid our general awareness and personal development "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": "Water for coffee Part II – Tasting with pH in mind"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": "Water for coffee Part II – Tasting with pH in mind"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "alt": "Tasting Extraction – An easy experiment for understanding balance"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "alt": "Tasting Extraction – An easy experiment for understanding balance"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": "Water for Coffee Part I - A TDS taste test and the importance of water"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": "Water for Coffee Part I - A TDS taste test and the importance of water"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "local": "/images/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "alt": "Testing Your Sensory Skills - A Taste Test"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "local": "/images/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "alt": "Testing Your Sensory Skills - A Taste Test"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": "Coffee and its Compounds - What is Aroma, Taste and Flavour?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": "Coffee and its Compounds - What is Aroma, Taste and Flavour?"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "local": "/images/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "alt": "Tasting Coffee - Learning to taste Specialty Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "local": "/images/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "alt": "Tasting Coffee - Learning to taste Specialty Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/country-guide-china",
+    "path": "/country-guide-china",
+    "kind": "country",
+    "title": "China | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "China's coffee industry is expanding rapidly but there's still much work to be done for it to be considered a serious contender in the specialty market. Yunnan",
+    "coverImage": "/images/675337_7dc0b827c2e041fdb40b3bbd28be6e6d~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7dc0b827c2e041fdb40b3bbd28be6e6d~mv2.png",
+        "local": "/images/675337_7dc0b827c2e041fdb40b3bbd28be6e6d~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7dc0b827c2e041fdb40b3bbd28be6e6d~mv2.png",
+        "local": "/images/675337_7dc0b827c2e041fdb40b3bbd28be6e6d~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+        "local": "/images/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6ba4e5ad1ed040409e4e34c2b58d017c~mv2.jpg",
+        "local": "/images/675337_6ba4e5ad1ed040409e4e34c2b58d017c~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8cecb111c6d4be78b9ed8dd51e94847~mv2.jpg",
+        "local": "/images/675337_e8cecb111c6d4be78b9ed8dd51e94847~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eba960ce49db4a48b28f21a28f753b65~mv2.jpg",
+        "local": "/images/675337_eba960ce49db4a48b28f21a28f753b65~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a6a246f6a96455e9d4c47ffc61848f6~mv2.jpg",
+        "local": "/images/675337_6a6a246f6a96455e9d4c47ffc61848f6~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/country-guide-colombia",
+    "path": "/country-guide-colombia",
+    "kind": "country",
+    "title": "Colombia | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Colombian coffee is well known for its high quality. Typically grown at high altitudes, the beans mature more slower becoming denser and developing a bright...",
+    "coverImage": "/images/675337_2d305059e44c4edfad17ba86276ad30e~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_2d305059e44c4edfad17ba86276ad30e~mv2.jpg",
+        "local": "/images/675337_2d305059e44c4edfad17ba86276ad30e~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_2d305059e44c4edfad17ba86276ad30e~mv2.jpg",
+        "local": "/images/675337_2d305059e44c4edfad17ba86276ad30e~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+        "local": "/images/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b77d244d1e4c4cd686dd97dd5c9d6ac2~mv2.png",
+        "local": "/images/675337_b77d244d1e4c4cd686dd97dd5c9d6ac2~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eb739007799443ea81994f0c9ff9ec44~mv2.jpg",
+        "local": "/images/675337_eb739007799443ea81994f0c9ff9ec44~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3989f2618e3c4dcbba5a4c43701a1f5a~mv2.jpg",
+        "local": "/images/675337_3989f2618e3c4dcbba5a4c43701a1f5a~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/country-guide-costarica",
+    "path": "/country-guide-costarica",
+    "kind": "country",
+    "title": "Costa Rica | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Costa Rican coffees are easy to like, with good sweetness and tasting generally quite juicy. Where washed coffees can have a rather light body and taste very clean, the newer micro mill honey processed coffees are fuller and exhibit citrus, grape and tropical fruit flavours. Read more here...",
+    "coverImage": "/images/675337_5325c78b01874f5585b0edd947d37165~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5325c78b01874f5585b0edd947d37165~mv2.png",
+        "local": "/images/675337_5325c78b01874f5585b0edd947d37165~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5325c78b01874f5585b0edd947d37165~mv2.png",
+        "local": "/images/675337_5325c78b01874f5585b0edd947d37165~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+        "local": "/images/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a07d8fdda4c44a11b9804a301d1203c1~mv2.jpg",
+        "local": "/images/675337_a07d8fdda4c44a11b9804a301d1203c1~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e6d903f177fb4b409fdd963213bd1615~mv2.jpg",
+        "local": "/images/675337_e6d903f177fb4b409fdd963213bd1615~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8937fb16cadc47388dbbb3621f3dc29b~mv2.jpg",
+        "local": "/images/675337_8937fb16cadc47388dbbb3621f3dc29b~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/country-guide-ethiopia",
+    "path": "/country-guide-ethiopia",
+    "kind": "country",
+    "title": "Ethiopia | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Ethiopian coffee is diverse and delicious. Coffee Rambler covers Ethiopian coffee's basic characteristics, growing regions and local coffee custom.",
+    "coverImage": "/images/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "local": "/images/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "alt": "Ethiopia flag"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "local": "/images/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "alt": "Ethiopia flag"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg",
+        "local": "/images/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg",
+        "alt": "Ethiopia Coffee Map"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cc9dd86ca21443fbba41e3f47a0c8e23~mv2.jpg",
+        "local": "/images/675337_cc9dd86ca21443fbba41e3f47a0c8e23~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1293d133fc8a4084b45da9af583d1593~mv2.jpeg",
+        "local": "/images/675337_1293d133fc8a4084b45da9af583d1593~mv2.jpeg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_177918cc65264560a412da38bb0b5f1b~mv2.jpg",
+        "local": "/images/675337_177918cc65264560a412da38bb0b5f1b~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/country-guides-1",
+    "path": "/country-guides-1",
+    "kind": "country",
+    "title": "World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "",
+    "coverImage": "/images/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "local": "/images/675337_9a52fe04185a4addbc48086bf161e944~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_dec3d118de87456bb571bc596671501c~mv2_d_2638_1387_s_2.png",
+        "local": "/images/675337_dec3d118de87456bb571bc596671501c~mv2_d_2638_1387_s_2.png",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com",
+    "path": "/",
+    "kind": "home",
+    "title": "Find, Share and Enjoy Better Coffee",
+    "date": "2026-06-10",
+    "description": "Coffee Rambler is a free resource for discovering more about all things specialty coffee, with home brew guides, coffee archive and coffee around the world. Login and share your experiences with our growing community.",
+    "coverImage": "/images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg",
+        "local": "/images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg",
+        "alt": "Coffee Rambler blog "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg",
+        "local": "/images/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg",
+        "alt": "Brewing guides"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "The flavour wheel available on coffee rambler ai. sensory palate"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg",
+        "local": "/images/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg",
+        "alt": "World Coffee Map"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/a-guide-to-how-coffee-is-traded",
+    "path": "/post/a-guide-to-how-coffee-is-traded",
+    "kind": "post",
+    "title": "A Guide to How Coffee is Traded",
+    "date": "2020-12-30",
+    "description": "Anyone who drinks coffee knows its price fluctuates over time. Investors and traders can profit from these price movements by knowing how this agricultural commodity is traded. ",
+    "coverImage": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "local": "/images/675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/a-whole-new-water-world-a-peak-water-review",
+    "path": "/post/a-whole-new-water-world-a-peak-water-review",
+    "kind": "post",
+    "title": "A Whole New Water World - A Peak Water Review",
+    "date": "2020-06-07",
+    "description": "I haven’t been this excited about a home brewing tool for a long, long time. The Peak Water jug has arrived and it has handed greater control to the coffee brewer. This article is a short review of using the product without going into too much depth about the science of water and extraction.",
+    "coverImage": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "local": "/images/a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/acrylamide-beware-the-californian-coffee-cancer",
+    "path": "/post/acrylamide-beware-the-californian-coffee-cancer",
+    "kind": "post",
+    "title": "Acrylamide – Beware the Californian coffee cancer",
+    "date": "2018-03-30",
+    "description": "In the wake of a judge ruling that all coffee must come with a cancer warning in California, we look at why. Acrylamide is indeed a carcinogenic but is any fear warranted?",
+    "coverImage": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": "Acrylamide cancer warning coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "local": "/images/675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+    "path": "/post/advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+    "kind": "post",
+    "title": "Advanced Brewing Presentation with Barista Hustle - Something to think about.",
+    "date": "2018-02-01",
+    "description": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee extraction and his discoveries, challenging some of the held beliefs in the specialty coffee industry. There were certainly things to think about...",
+    "coverImage": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": "Matt Perger in London advanced brewing barista hustle Assembly coffee Volcano coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_044303a0938d4e6e97e0f05818b7e431~mv2.jpg",
+        "local": "/images/675337_044303a0938d4e6e97e0f05818b7e431~mv2.jpg",
+        "alt": "How deep water penetrates coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/aeropress-filters-metal-or-paper",
+    "path": "/post/aeropress-filters-metal-or-paper",
+    "kind": "post",
+    "title": "Aeropress Filters - Metal or Paper?",
+    "date": "2017-09-16",
+    "description": "Which filter makes a better coffee with the Aeropress? Paper or Metal?",
+    "coverImage": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": "aeropress filters paper metal filter"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "local": "/images/675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/alternative-aeropress-recipes",
+    "path": "/post/alternative-aeropress-recipes",
+    "kind": "post",
+    "title": "Alternative Aeropress Recipes",
+    "date": "2017-10-14",
+    "description": "The Aeropress is a wonderful thing. Its versatility allows you to make many different kinds of coffee of varying intensity. Below are a few favourite and very different alternative recipes when using the Aeropress.",
+    "coverImage": "/images/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "local": "/images/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "alt": "alternative aeropress recipes"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e71dee32005841d68907c551f1644367~mv2.jpg",
+        "local": "/images/675337_e71dee32005841d68907c551f1644367~mv2.jpg",
+        "alt": "Aeropress grind size"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26ef866671504b0a9e7fca2078040421~mv2.jpg",
+        "local": "/images/675337_26ef866671504b0a9e7fca2078040421~mv2.jpg",
+        "alt": "Aeropress grind size coarse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65268aa34b3f43a3b2e5dc70b4fd4ce6~mv2.jpg",
+        "local": "/images/675337_65268aa34b3f43a3b2e5dc70b4fd4ce6~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+        "local": "/images/675337_fc46ba8f3ca54834bb6331c8079b3542~mv2.jpg",
+        "alt": "Spiced coffee grind size"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/9d48a5de41d24f18b66930e09a19726c.jpg",
+        "local": "/images/9d48a5de41d24f18b66930e09a19726c.jpg",
+        "alt": "Spices for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "local": "/images/675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/caffeine-content-and-coffee",
+    "path": "/post/caffeine-content-and-coffee",
+    "kind": "post",
+    "title": "Caffeine Content and Coffee",
+    "date": "2017-06-24",
+    "description": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is caffeinated, what happens when coffee is decaffeinated, the taste of caffeine and the affect roasting has on the bean’s caffeine content.",
+    "coverImage": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "alt": "Caffeine content and coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/city-cafe-guide-coffee-in-beijing",
+    "path": "/post/city-cafe-guide-coffee-in-beijing",
+    "kind": "post",
+    "title": "City Café Guide – Coffee in Beijing",
+    "date": "2017-11-11",
+    "description": "It’s very possible to find great coffee in Beijing. Good coffee shops tend to congregate in certain areas, like around the Yonghe Temple and other parts of Old Beijing. This is the area of the city which was once surrounded by high walls, protecting the famous Old Town...",
+    "coverImage": "/images/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "local": "/images/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "alt": "Coffee in Beijing bear coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d36ee063526f47ba90a442ac61c3ad6a~mv2.jpg",
+        "local": "/images/675337_d36ee063526f47ba90a442ac61c3ad6a~mv2.jpg",
+        "alt": "Coffee in Beijing bracket coffee shop"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_50f9e5e60773454b9724ac7114f39b93~mv2.jpg",
+        "local": "/images/675337_50f9e5e60773454b9724ac7114f39b93~mv2.jpg",
+        "alt": "Barista coffee Beijing Chinese coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0e11ce30529c48b9b5f8ab8ef13c05e4~mv2.jpg",
+        "local": "/images/675337_0e11ce30529c48b9b5f8ab8ef13c05e4~mv2.jpg",
+        "alt": "Voyage coffee Beijing"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_592a9e1a1f1f4c4d8db21829681e7e4c~mv2.jpg",
+        "local": "/images/675337_592a9e1a1f1f4c4d8db21829681e7e4c~mv2.jpg",
+        "alt": "Fresh Bean coffee in Beijing"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "local": "/images/675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/city-cafe-guide-coffee-in-tokyo",
+    "path": "/post/city-cafe-guide-coffee-in-tokyo",
+    "kind": "post",
+    "title": "City Café Guide - Coffee in Tokyo",
+    "date": "2017-12-06",
+    "description": "Japan has a long history with coffee and is one of the main importers of Hawaiian Kona and Blue Mountain. In Tokyo though, both older gourmet cafes and newer specialty shops can be found. Both are excellent.",
+    "coverImage": "/images/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "local": "/images/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "alt": "Coffee in Tokyo Japan"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9627ed4b298e4e9cb2fa536c1650e135~mv2.jpg",
+        "local": "/images/675337_9627ed4b298e4e9cb2fa536c1650e135~mv2.jpg",
+        "alt": "Fuglen coffee shop Tokyo"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_63d158709dc2417ea5402dfdaec1522b~mv2.jpg",
+        "local": "/images/675337_63d158709dc2417ea5402dfdaec1522b~mv2.jpg",
+        "alt": "Tokyo Maruyama Coffee Japan"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_98d3a389ecbb4447b2f7495273786770~mv2.jpg",
+        "local": "/images/675337_98d3a389ecbb4447b2f7495273786770~mv2.jpg",
+        "alt": "Toyko Switch Coffee Japan"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_dbbb74dabe164c0d948e2b71e0d0d01c~mv2.jpg",
+        "local": "/images/675337_dbbb74dabe164c0d948e2b71e0d0d01c~mv2.jpg",
+        "alt": "Tokyo About life coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_198d321ea31b4dda96930f2625a722b5~mv2.jpg",
+        "local": "/images/675337_198d321ea31b4dda96930f2625a722b5~mv2.jpg",
+        "alt": "Tokyo Allpress coffee loring roaster"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0cfafd88318349d8bc0ba727a34f3886~mv2.jpg",
+        "local": "/images/675337_0cfafd88318349d8bc0ba727a34f3886~mv2.jpg",
+        "alt": "Allpress coffee Japan Tokyo"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "local": "/images/675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/city-cafe-guide-coffee-in-wuhan",
+    "path": "/post/city-cafe-guide-coffee-in-wuhan",
+    "kind": "post",
+    "title": "City Café Guide - Coffee in Wuhan",
+    "date": "2018-01-09",
+    "description": "The Yellow Crane Tower Wuhan’s coffee scene has grown rapidly in the last couple years. Where it was almost impossible to find specialty coffee, there are now oases popping up with surprisingly good espresso. This is what stood out most in my last visit to Wuhan.",
+    "coverImage": "/images/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "local": "/images/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "alt": "Wuhan Coffee in Wuhan China"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6822186c12fe4fd8a2a7c149be7cf2d1~mv2.jpg",
+        "local": "/images/675337_6822186c12fe4fd8a2a7c149be7cf2d1~mv2.jpg",
+        "alt": "Wuhan 1.Z coffee shop"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51826e11acda4ad6942a828c623cf65d~mv2.jpg",
+        "local": "/images/675337_51826e11acda4ad6942a828c623cf65d~mv2.jpg",
+        "alt": "Chinese coffee flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f3d6c3d6e5214999a9fd00c4bf4eb638~mv2.jpg",
+        "local": "/images/675337_f3d6c3d6e5214999a9fd00c4bf4eb638~mv2.jpg",
+        "alt": "Wuhan Wagon coffee shop China"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_2c0be4faeb7c47dbaacc5c9d874b6672~mv2.jpg",
+        "local": "/images/675337_2c0be4faeb7c47dbaacc5c9d874b6672~mv2.jpg",
+        "alt": "Wuhan 3 specialty coffee China"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "local": "/images/675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/city-café-guide-coffee-in-bristol",
+    "path": "/post/city-café-guide-coffee-in-bristol",
+    "kind": "post",
+    "title": "City Café Guide - Coffee in Bristol",
+    "date": "2018-07-29",
+    "description": "Bristol, the tenth largest city in the UK, has a laid back attitude with a lively independent streak. There are plenty of excellent restaurants, great places to party and a multitude of events to experience (your writer went during Upfest, a large Street Art Festival). Naturally then, there is a vibrant ...",
+    "coverImage": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Clifton Suspension Bridge Bristol Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3371a91129004427b1db6e3e7f84e18e~mv2_d_1488_1984_s_2.jpg",
+        "local": "/images/675337_3371a91129004427b1db6e3e7f84e18e~mv2_d_1488_1984_s_2.jpg",
+        "alt": "Clifton Coffee Bristol cafe guide"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cbe65f2f4bc942efb0a883618c5ea3d6~mv2_d_1984_1488_s_2.jpg",
+        "local": "/images/675337_cbe65f2f4bc942efb0a883618c5ea3d6~mv2_d_1984_1488_s_2.jpg",
+        "alt": "Bristol coffee Extract coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_49cce6416f7942879a158f7e8ae6b02b~mv2_d_2500_3024_s_4_2.jpg",
+        "local": "/images/675337_49cce6416f7942879a158f7e8ae6b02b~mv2_d_2500_3024_s_4_2.jpg",
+        "alt": "Albatross coffee Bristol cafe"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7248a3d7e5674fc28cbfd2fa712ea48a~mv2_d_3244_2883_s_4_2.jpg",
+        "local": "/images/675337_7248a3d7e5674fc28cbfd2fa712ea48a~mv2_d_3244_2883_s_4_2.jpg",
+        "alt": "Boston Tea Party Bristol"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3d904dd0cb274d98842aeaf907c50a8b~mv2_d_3968_2976_s_4_2.jpg",
+        "local": "/images/675337_3d904dd0cb274d98842aeaf907c50a8b~mv2_d_3968_2976_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a1f07904c0174cd7a2652a127f805eac~mv2_d_1488_1984_s_2.jpg",
+        "local": "/images/675337_a1f07904c0174cd7a2652a127f805eac~mv2_d_1488_1984_s_2.jpg",
+        "alt": "Bristol Upfest street art"
+      }
+    ],
+    "gscIndexed": true
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/city-café-guide-coffee-in-london",
+    "path": "/post/city-café-guide-coffee-in-london",
+    "kind": "post",
+    "title": "City Café Guide - Coffee in London",
+    "date": "2018-06-07",
+    "description": "London is an incredibly varied city for coffee. There are countless high street commercial coffee shops, independent cafes serving big Italian brands and then there's the specialty scene. Even within the specialty sector there is a great selection of different styles, from the darker caramel roasts of ...",
+    "coverImage": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "London Coffee guide st Pauls cathedral"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a5fd09321e24460ea33241a2ba17b804~mv2_d_3968_2976_s_4_2.jpg",
+        "local": "/images/675337_a5fd09321e24460ea33241a2ba17b804~mv2_d_3968_2976_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_132a6a1c91c34b2a873e88cfd853bdb7~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_132a6a1c91c34b2a873e88cfd853bdb7~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_98321976ac78456d9d12da4a15b13b6c~mv2_d_3968_2976_s_4_2.jpg",
+        "local": "/images/675337_98321976ac78456d9d12da4a15b13b6c~mv2_d_3968_2976_s_4_2.jpg",
+        "alt": "Taylor street baristas london coffee shop"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_82b306b853e14b85899e3c84927bde29~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_82b306b853e14b85899e3c84927bde29~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Shoreditch Grind London coffee shop"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_99774806418e4ac49b1a0d2c12e83b79~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_99774806418e4ac49b1a0d2c12e83b79~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Kaffeine London Coffee cafe"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7b36a99f6d994d308427e5b5da1450eb~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7b36a99f6d994d308427e5b5da1450eb~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Watch House London coffee shops"
+      }
+    ],
+    "gscIndexed": true
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-and-consciousness-how-coffee-has-aided-my-general-awareness-and-personal-development",
+    "path": "/post/coffee-and-consciousness-how-coffee-has-aided-my-general-awareness-and-personal-development",
+    "kind": "post",
+    "title": "Coffee and Consciousness – How coffee can aid our general awareness and personal development",
+    "date": "2018-03-12",
+    "description": "Through learning more about coffee we can come to learn more about ourselves. My experience has lead me to a greater consciousness of many aspects in my life to which I find transferable, particularly relating to the sensory analysis of coffee.",
+    "coverImage": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "local": "/images/675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-and-its-compounds-what-is-aroma-taste-and-flavour",
+    "path": "/post/coffee-and-its-compounds-what-is-aroma-taste-and-flavour",
+    "kind": "post",
+    "title": "Coffee and its Compounds - What is Aroma, Taste and Flavour?",
+    "date": "2017-07-15",
+    "description": "We hear the words aroma, taste and flavour being used but what do they actually mean? These are categories for how the human senses perceive different chemical compounds. It is now known that roasted coffee is made up of over 800 aroma-imparting compounds and roughly 700 of these are soluble in water, meaning ...",
+    "coverImage": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": "coffee taste and flavour compounds"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c3a4f313b3c34bee9b53caf5d2f8cf80~mv2_d_2560_1600_s_2.png",
+        "local": "/images/675337_c3a4f313b3c34bee9b53caf5d2f8cf80~mv2_d_2560_1600_s_2.png",
+        "alt": "Coffee flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "local": "/images/675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-and-strength-what-is-a-strong-coffee",
+    "path": "/post/coffee-and-strength-what-is-a-strong-coffee",
+    "kind": "post",
+    "title": "Coffee and Strength – What is a Strong Coffee?",
+    "date": "2018-04-05",
+    "description": "\"I like a really Strong Coffee!\" What is a strong coffee? How do we make coffee weaker or stronger? Here we discuss proper use of the term in order to improve our coffee experience.",
+    "coverImage": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": "What is a strong coffee? "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "local": "/images/675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-brewing-tips-simple-ways-to-improve-your-brew",
+    "path": "/post/coffee-brewing-tips-simple-ways-to-improve-your-brew",
+    "kind": "post",
+    "title": "Coffee Brewing Tips - Simple Ways to Improve Your Brew",
+    "date": "2017-08-05",
+    "description": "Here are some simple coffee brewing tips for making better coffee. Keep these in mind for all brew methods.",
+    "coverImage": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "alt": "Extraction pour over"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-cheesecake-simply-lovely",
+    "path": "/post/coffee-cheesecake-simply-lovely",
+    "kind": "post",
+    "title": "Coffee Cheesecake - Simply Lovely",
+    "date": "2018-02-16",
+    "description": "Coffee Cheesecake Just like the tiramisu, this is another delicious, creamy, coffee dessert that’s so easy to make. Double cream thickens out the coffee and mascarpone, creating a smooth and satisfying mousse. This contrasts and balances nicely with the spiced biscuit base, with cinnamon and nutmeg adding a lively ...",
+    "coverImage": "/images/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "local": "/images/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "alt": "Coffee cheesecake recipe"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cbf9419e512d46358f431d8b959a8006~mv2.jpg",
+        "local": "/images/675337_cbf9419e512d46358f431d8b959a8006~mv2.jpg",
+        "alt": "Cheesecake base recipe"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0e1e85c4f6274501a3b4db8538cd3052~mv2.jpg",
+        "local": "/images/675337_0e1e85c4f6274501a3b4db8538cd3052~mv2.jpg",
+        "alt": "Making a coffee cheesecake"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c28c26aaa27d43ec8ce98150111b8842~mv2.jpg",
+        "local": "/images/675337_c28c26aaa27d43ec8ce98150111b8842~mv2.jpg",
+        "alt": "Coffee cheesecake recipe mousse mix"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0ad4cf99f716464b872a9883f4c75589~mv2.jpg",
+        "local": "/images/675337_0ad4cf99f716464b872a9883f4c75589~mv2.jpg",
+        "alt": "How to make a coffee cheesecake"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_bbad713eabf649dc99f6c42bebdd3d28~mv2.jpg",
+        "local": "/images/675337_bbad713eabf649dc99f6c42bebdd3d28~mv2.jpg",
+        "alt": "Slice of coffee cheesecake"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "local": "/images/675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "path": "/post/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "kind": "post",
+    "title": "Coffee Grind Size Wheel - Introduction to grind sizes",
+    "date": "2018-04-25",
+    "description": "The Coffee Rambler grind size wheel was designed to make it easier to learn about grind sizes. It aims to reduce the need of referring to grind sizes as salt, sugar or sesame seeds. By looking at the wheel we can see the grind size required for different brew methods.",
+    "coverImage": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": "Grind Size Wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "local": "/images/675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-pests-not-so-fungi-and-diseases",
+    "path": "/post/coffee-pests-not-so-fungi-and-diseases",
+    "kind": "post",
+    "title": "Coffee Pests, (not-so) Fungi and Diseases",
+    "date": "2018-04-16",
+    "description": "125 million people depend on coffee for their livelihoods. 41% of Ethiopia’s exports are in coffee. With coffee making up such an important part of developing country’s economies, coffee pests, fungi and diseases can cause great damage to the lives of many. Read more....",
+    "coverImage": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": "Coffee Borer Beetle damage - coffee pests, fungi and diseases"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0be6fc2221d74c9ea04bbb2a31084d0f~mv2.jpg",
+        "local": "/images/675337_0be6fc2221d74c9ea04bbb2a31084d0f~mv2.jpg",
+        "alt": "Coffee Borer Beetle"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0968fdeb19b7426a922613810ab572d0~mv2.jpg",
+        "local": "/images/675337_0968fdeb19b7426a922613810ab572d0~mv2.jpg",
+        "alt": "Coffee Leaf Rust, la Roya "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1e2f1c0238de419e9c65316fb774688c~mv2.jpg",
+        "local": "/images/675337_1e2f1c0238de419e9c65316fb774688c~mv2.jpg",
+        "alt": "Coffee berry disease Anthracnose"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "local": "/images/675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-processing-methods-from-cherry-to-green-bean",
+    "path": "/post/coffee-processing-methods-from-cherry-to-green-bean",
+    "kind": "post",
+    "title": "Coffee Processing Methods – From Cherry to Green Bean",
+    "date": "2017-10-28",
+    "description": "Dried Coffee Cherries Coffee must be processed from fruit to green bean before roasting. There are a number of ways of achieving this and each method produces a bean with quite different characteristics. See more...",
+    "coverImage": "/images/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "local": "/images/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "alt": "Natural Processed coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1469955949d2405fbda7d63dfb52ca9a~mv2.png",
+        "local": "/images/675337_1469955949d2405fbda7d63dfb52ca9a~mv2.png",
+        "alt": "Coffee structure"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e69ff5c73d8a499e84f90a86d8f36604~mv2.jpg",
+        "local": "/images/675337_e69ff5c73d8a499e84f90a86d8f36604~mv2.jpg",
+        "alt": "Coffee Drying on patio"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9c2040d38a60412987022c8657dc21f7~mv2.jpg",
+        "local": "/images/675337_9c2040d38a60412987022c8657dc21f7~mv2.jpg",
+        "alt": "Coffee is China washing station"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4d3185f18c314de188919d35249b01a7~mv2.jpg",
+        "local": "/images/675337_4d3185f18c314de188919d35249b01a7~mv2.jpg",
+        "alt": "Coffee warehouse"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "local": "/images/675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-processing-the-honey-process",
+    "path": "/post/coffee-processing-the-honey-process",
+    "kind": "post",
+    "title": "Coffee Processing - The Honey Process",
+    "date": "2017-12-01",
+    "description": "The Honey Process (also called Pulped Natural) is a method of coffee processing first used in Brazil, which involves drying coffee with a certain amount of fruit left on the bean. Producers are becoming more innovative ...",
+    "coverImage": "/images/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "local": "/images/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "alt": "honey process coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "local": "/images/675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-rambler-ai-interactive-flavour-wheel",
+    "path": "/post/coffee-rambler-ai-interactive-flavour-wheel",
+    "kind": "post",
+    "title": "Coffee Rambler AI: Interactive Flavour Wheel and Sensory Training",
+    "date": "2026-03-17",
+    "description": "The Coffee Rambler AI Flavour wheel is unique adn updates with diary entries. Learn more about the feature and how helps train your sensory appreciation of coffee",
+    "coverImage": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_211f88b3cf554896af64aa156ee583c4~mv2.png",
+        "local": "/images/675337_211f88b3cf554896af64aa156ee583c4~mv2.png",
+        "alt": "Coffee Rambler AI describing the flavour of tea in coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_625970a058b348bca1ab36aced8a0572~mv2.jpg",
+        "local": "/images/675337_625970a058b348bca1ab36aced8a0572~mv2.jpg",
+        "alt": "Coffee Rambler AI - Jasmine vs Hibiscus"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5829fc8344b04a8e90ea3ed9f77a2906~mv2.jpg",
+        "local": "/images/675337_5829fc8344b04a8e90ea3ed9f77a2906~mv2.jpg",
+        "alt": "Flavour Wheel Stats"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_535b71d649a147fc95eaf1278d824cea~mv2.jpg",
+        "local": "/images/675337_535b71d649a147fc95eaf1278d824cea~mv2.jpg",
+        "alt": "Coffee rambler ai Flavour wheel legend"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d4bc913e47764912b22a17ebfd43dfb9~mv2.jpg",
+        "local": "/images/675337_d4bc913e47764912b22a17ebfd43dfb9~mv2.jpg",
+        "alt": "Flavour pills and count on coffee rambler ai"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "Shareable Flavour wheel on coffee rambler ai"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "alt": "the coffee rambler ai flavour wheel"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does",
+    "path": "/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does",
+    "kind": "post",
+    "title": "Coffee Rambler AI: what the Coffee Enthusiast tier actually does",
+    "date": "2026-03-11",
+    "description": "Learn more about the Coffee Enthusiast features on Coffee Rambler AI and waht the app looks like. ",
+    "coverImage": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4a4496f943324971ab0c46e5339ad8f7~mv2.png",
+        "local": "/images/675337_4a4496f943324971ab0c46e5339ad8f7~mv2.png",
+        "alt": "Coffee Rambler stats page showing insight feature and stats overview"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f0776b0faa884578b9b5d46a5d833130~mv2.png",
+        "local": "/images/675337_f0776b0faa884578b9b5d46a5d833130~mv2.png",
+        "alt": "Coffee Rambler AI chat function summarises stats"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c599b94a4e2a4ecd9437df860ac9e6f3~mv2.png",
+        "local": "/images/675337_c599b94a4e2a4ecd9437df860ac9e6f3~mv2.png",
+        "alt": "Coffee rambler beans page community beans tab"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0c1d76623cbc4a53a9753f9b75314acc~mv2.jpg",
+        "local": "/images/675337_0c1d76623cbc4a53a9753f9b75314acc~mv2.jpg",
+        "alt": "Mobile view of user asking coffee rambler chat about their equipment"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_dc853e0d7c0047af84a050ff083f3706~mv2.jpg",
+        "local": "/images/675337_dc853e0d7c0047af84a050ff083f3706~mv2.jpg",
+        "alt": "Add the details you want in the coffee diary"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7fdf420bcdea4014b1216b89fa3b2446~mv2.png",
+        "local": "/images/675337_7fdf420bcdea4014b1216b89fa3b2446~mv2.png",
+        "alt": "Advanced options for water chemistry"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_12a613000ff14c279750ac2860e77bd2~mv2.png",
+        "local": "/images/675337_12a613000ff14c279750ac2860e77bd2~mv2.png",
+        "alt": "Coffee Rambler stats page world coffee map feature"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a57bb488bb164c35a63f4ae92666ad48~mv2.jpg",
+        "local": "/images/675337_a57bb488bb164c35a63f4ae92666ad48~mv2.jpg",
+        "alt": "Mobile view of coffee rambler ai stats page"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7b370e61af53438db5e22dffd3798a70~mv2.png",
+        "local": "/images/675337_7b370e61af53438db5e22dffd3798a70~mv2.png",
+        "alt": "Coffee Rambler chat showing a user asking about improving a bitter pourover"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "local": "/images/675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "alt": "Coffee Rambler AI hompage"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-varieties-a-brief-look-at-significant-varieties",
+    "path": "/post/coffee-varieties-a-brief-look-at-significant-varieties",
+    "kind": "post",
+    "title": "Coffee Varieties - A brief look at significant varieties",
+    "date": "2018-01-02",
+    "description": "There are many strands of the Coffea Arabica species, some natural varieties, and some man-made cultivars. Here we look at some of the most well-known varieties and their general characteristics. Most coffee strands are descendent of Typica and Bourbon...",
+    "coverImage": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": "Coffee varieties"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d039e27c5ab24190a26bf81746aa4f3e~mv2_d_2400_1553_s_2.jpg",
+        "local": "/images/675337_d039e27c5ab24190a26bf81746aa4f3e~mv2_d_2400_1553_s_2.jpg",
+        "alt": "coffee variety tree"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "local": "/images/675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffee-with-covid",
+    "path": "/post/coffee-with-covid",
+    "kind": "post",
+    "title": "Coffee with Covid",
+    "date": "2021-12-10",
+    "description": "I’ve recently suffered Covid-19 and it got me thinking about the sensory side of coffee, given the taste buds and olfactory system have decided to pack up and die. As of writing this, it is 10 days since my flavour and scent perception faded and 14 since the first symptoms started, those being fatigue, headaches and brain fog. ",
+    "coverImage": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": "Coffee cup with covid virus"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "local": "/images/675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/coffeeland-a-short-summary-and-review",
+    "path": "/post/coffeeland-a-short-summary-and-review",
+    "kind": "post",
+    "title": "Coffeeland: A Short Summary and Review",
+    "date": "2022-05-02",
+    "description": "Coffeeland is the story of El Salvador’s century-long development into a coffee plantation. The book zooms in and out on the family and life of the tireless autodidact, James Hill (1871-1951), a Manchester-born product of Britain’s late industrial revolution, to exemplify how El Salvador’s economy became debt-laden and reliant on ‘mild’ coffee exports for cash. This had grave consequences for the people of El Salvador and their ability to feed themselves.",
+    "coverImage": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": "Coffeeland book"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "local": "/images/675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/how-is-coffee-extracted",
+    "path": "/post/how-is-coffee-extracted",
+    "kind": "post",
+    "title": "How is Coffee Extracted?",
+    "date": "2017-08-19",
+    "description": "Coffee Extraction The way coffee is extracted has an enormous effect on the end result. After such a long journey from farm to cup, it’s a massive shame when the brew produces a terrible cup. It is therefore important to know how coffee is extracted and what you should do to bring the best out of every coffee.",
+    "coverImage": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": "How is coffee extracted"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9509ca69616a4d5dacb81a519463cda1~mv2.jpg",
+        "local": "/images/675337_9509ca69616a4d5dacb81a519463cda1~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/248646daa00d44a7bca9d770106f36bd.jpg",
+        "local": "/images/248646daa00d44a7bca9d770106f36bd.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/instant-coffee-production-a-summary-of-bbc-s-inside-the-factory",
+    "path": "/post/instant-coffee-production-a-summary-of-bbc-s-inside-the-factory",
+    "kind": "post",
+    "title": "Instant Coffee Production – A Summary of BBC’s Inside the Factory",
+    "date": "2018-07-19",
+    "description": "How do they make instant coffee? On the 17th of august the BBC show, Inside the Factory, gave us an insight into the manufacturing of instant coffee. It was an incredibly interesting watch and revealed the vast scale and energy required to make such a product in vast quantities. Read more here...",
+    "coverImage": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": "Instant Coffee Production "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "local": "/images/675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/it-s-cold-brew-time-and-it-s-surprisingly-easy",
+    "path": "/post/it-s-cold-brew-time-and-it-s-surprisingly-easy",
+    "kind": "post",
+    "title": "It’s Cold Brew Time – And it’s Surprisingly Easy",
+    "date": "2017-07-01",
+    "description": "The weather is warming up, the mornings are getting brighter and there’s not much more rewarding than waking up and pouring yourself a glass of sweet, smooth, cold brew coffee. And what’s greater is immersion cold brew is actually easy to make.",
+    "coverImage": "/images/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "local": "/images/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "alt": "Cold brew coffee immersion cold brew"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "local": "/images/675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/keeping-that-fresh-coffee-taste",
+    "path": "/post/keeping-that-fresh-coffee-taste",
+    "kind": "post",
+    "title": "Keeping that Fresh Coffee Taste",
+    "date": "2017-08-12",
+    "description": "As soon as coffee is roasted it starts to lose freshness. Therefore, storing coffee correctly is important for maintaining a high quality cup.",
+    "coverImage": "/images/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "local": "/images/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "alt": "Storing coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "local": "/images/675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/making-arabic-coffee-an-exciting-change-to-your-coffee-through-adding-cardamom",
+    "path": "/post/making-arabic-coffee-an-exciting-change-to-your-coffee-through-adding-cardamom",
+    "kind": "post",
+    "title": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom",
+    "date": "2018-03-23",
+    "description": "Sometimes a change in our daily coffee is appreciated. Although single origins can be varied and very delicious, craving for a different experience can take over. So why not make an Arabic coffee and have fun with an unfamiliar brew method?",
+    "coverImage": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4f6ebd4c325d4aada552c87979286a0e~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_4f6ebd4c325d4aada552c87979286a0e~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_334f7d2f5bdb42d1802bdb65f1550b19~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_334f7d2f5bdb42d1802bdb65f1550b19~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/making-espresso-the-basics-of-good-espresso",
+    "path": "/post/making-espresso-the-basics-of-good-espresso",
+    "kind": "post",
+    "title": "Making Espresso – The Basics of Good Espresso",
+    "date": "2018-05-30",
+    "description": "Making espresso is a craft. We may have visited shops where we prefer a particular barista to another and here’s why. Some people understand coffee better and use machines professionally. They understand the nuances of flavour and care about the quality of their cup. These are some basic tips to make great espresso",
+    "coverImage": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": "Espresso machine La Marzocco Leva"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7dd4e30bedf147439514f549f003f410~mv2.png",
+        "local": "/images/675337_7dd4e30bedf147439514f549f003f410~mv2.png",
+        "alt": "making espresso Portfilter la marzocco"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_de25dfd1975e4fe0905e1c96f62a2745~mv2.png",
+        "local": "/images/675337_de25dfd1975e4fe0905e1c96f62a2745~mv2.png",
+        "alt": "Making espresso basic for sweet cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4644ca0bfcfc455abe88ddce508b31a9~mv2.jpg",
+        "local": "/images/675337_4644ca0bfcfc455abe88ddce508b31a9~mv2.jpg",
+        "alt": "Making espresso in japan Nozy Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "local": "/images/675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/milky-coffee-at-home-understanding-milk-and-doing-it-right",
+    "path": "/post/milky-coffee-at-home-understanding-milk-and-doing-it-right",
+    "kind": "post",
+    "title": "Milky Coffee at Home – Understanding Milk and Doing it Right",
+    "date": "2018-03-02",
+    "description": "How do we best prepare milk for coffee at home? Even without a Nespresso milk frother or a steam wand we can still produce good, foamy milk. Here's how...",
+    "coverImage": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": "Milk for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e9cf1b820e9043bdbde984c285c5f02c~mv2.jpg",
+        "local": "/images/675337_e9cf1b820e9043bdbde984c285c5f02c~mv2.jpg",
+        "alt": "coffee milk whisk"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a72b16861b1f480f81eb295e3e607727~mv2.jpg",
+        "local": "/images/675337_a72b16861b1f480f81eb295e3e607727~mv2.jpg",
+        "alt": "frothy coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_45461fff955f441cba1ae8872ecd0fde~mv2.jpg",
+        "local": "/images/675337_45461fff955f441cba1ae8872ecd0fde~mv2.jpg",
+        "alt": "cardamom and cloves spiced milk for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "local": "/images/675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/pancakes-for-lazy-mornings",
+    "path": "/post/pancakes-for-lazy-mornings",
+    "kind": "post",
+    "title": "Pancakes for Lazy Mornings",
+    "date": "2017-09-30",
+    "description": "To wake up on a weekend morning, feel the warm light and realise there are no commitments is a glorious thing. The smell of coffee will enhance the relaxed atmosphere, so why not go further and make some pancakes too? Here is a simple pancake recipe for such mornings with a little guidance on getting it right",
+    "coverImage": "/images/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "local": "/images/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "alt": "lazy morning pancake banana and coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "local": "/images/675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/process-knowledge-and-brewing-coffee",
+    "path": "/post/process-knowledge-and-brewing-coffee",
+    "kind": "post",
+    "title": "Process Knowledge and Brewing Coffee",
+    "date": "2021-02-27",
+    "description": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property) and the Process Knowledge – knowhow held by people. ",
+    "coverImage": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_80b0e0f5234f41b7aa21500383129797~mv2.png",
+        "local": "/images/675337_80b0e0f5234f41b7aa21500383129797~mv2.png",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "local": "/images/675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/roast-definitions-from-light-to-dark",
+    "path": "/post/roast-definitions-from-light-to-dark",
+    "kind": "post",
+    "title": "Roast Definitions - From Light to Dark",
+    "date": "2017-07-29",
+    "description": "We regularly hear people speaking about light, medium and dark roasted coffee. This article will cover what is meant by these terms without going into the science of roasting.",
+    "coverImage": "/images/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "local": "/images/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "alt": "roast profile"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_29ed40f309424391ace7fd7a5b928767~mv2.jpg",
+        "local": "/images/675337_29ed40f309424391ace7fd7a5b928767~mv2.jpg",
+        "alt": "roast profile greem green coffee to dark roast"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c7dc14715e9e49fc8f4d04a210953b03~mv2.jpg",
+        "local": "/images/675337_c7dc14715e9e49fc8f4d04a210953b03~mv2.jpg",
+        "alt": "agtron scale"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "local": "/images/675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/snobbery-in-specialty-coffee",
+    "path": "/post/snobbery-in-specialty-coffee",
+    "kind": "post",
+    "title": "Snobbery in Specialty Coffee",
+    "date": "2018-02-23",
+    "description": "There is a perceived snobbery in Specialty Coffee. Many of us have entered a coffee shop and felt either a little out of our depth, the staff are rude or that we’re amongst a bunch of pretentious bum heads.",
+    "coverImage": "/images/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "local": "/images/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "alt": "Nude coffee london"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "local": "/images/675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/tasting-coffee-learning-to-taste-specialty-coffee",
+    "path": "/post/tasting-coffee-learning-to-taste-specialty-coffee",
+    "kind": "post",
+    "title": "Tasting Coffee - Learning to taste Specialty Coffee",
+    "date": "2017-06-17",
+    "description": "I believe specialty coffee is superior partly for the beautiful natural flavours missing in dark roasts and low grade coffees. But how can we most appreciate these flavours? Tasting coffee (or anything for that matter) and then describing what you taste is a skill. With that in mind, here are some tips for improving",
+    "coverImage": "/images/675337_c437242988944849b592d876e5470e99~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "local": "/images/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "alt": "tastes and flavours in coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "local": "/images/675337_c437242988944849b592d876e5470e99~mv2.png",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "path": "/post/tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "kind": "post",
+    "title": "Tasting Extraction – An easy experiment for understanding balance",
+    "date": "2017-11-04",
+    "description": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or over extracted. With little experience of what these taste like, bitter and sour are easy to confuse. This test is helpful for knowing the difference.",
+    "coverImage": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "alt": "Coffee cupping extraction"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_058fb2b642fc41a78c27a0257ad816f6~mv2.jpg",
+        "local": "/images/675337_058fb2b642fc41a78c27a0257ad816f6~mv2.jpg",
+        "alt": "Ground coffee for cupping "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_00615ea3a118442e8f85c2a0696b5475~mv2.jpg",
+        "local": "/images/675337_00615ea3a118442e8f85c2a0696b5475~mv2.jpg",
+        "alt": "coffee cupping extraction taste results"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/testing-your-sensory-skills-a-taste-test",
+    "path": "/post/testing-your-sensory-skills-a-taste-test",
+    "kind": "post",
+    "title": "Testing Your Sensory Skills - A Taste Test",
+    "date": "2017-07-22",
+    "description": "This is a nice little experiment for testing your sensory skills and learning the difference between sour and bitter. Here’s how to set up your taste test.",
+    "coverImage": "/images/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "local": "/images/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "alt": "Sensory skills test taste test"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "local": "/images/675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/the-dry-process-an-introduction-to-natural-coffees",
+    "path": "/post/the-dry-process-an-introduction-to-natural-coffees",
+    "kind": "post",
+    "title": "The Dry Process - An Introduction to Natural Coffees",
+    "date": "2018-06-18",
+    "description": "Natural processed coffees (also called dry) are capable of beautiful tropical fruit, dried fruit and rum cocktail like flavours. They are relatively low in acidity (compared with the washed process), fuller in body and are perceived as sweeter. It was a natural processed coffee which really kicked off ...",
+    "coverImage": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": "Natural Processed Coffee - Dry process"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ac168c4613ba4c37a9bc614781ad5d06~mv2.jpg",
+        "local": "/images/675337_ac168c4613ba4c37a9bc614781ad5d06~mv2.jpg",
+        "alt": "Quakers - Natural process coffee quaker"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "local": "/images/675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/the-geisha-variety-what-s-the-big-deal",
+    "path": "/post/the-geisha-variety-what-s-the-big-deal",
+    "kind": "post",
+    "title": "The Geisha Variety – What’s the big deal?",
+    "date": "2017-11-18",
+    "description": "The specialty coffee market appears to be flooded with companies flaunting their high quality, Geisha (also spelt Gesha) variety coffee. Even Starbucks are plastering pictures and painting it in their shops. The price is high, its aromatic/floral flavours big, and it is treated with great reverence",
+    "coverImage": "/images/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "local": "/images/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "alt": "Coffee Geisha Gesha Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "local": "/images/675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/the-health-benefits-of-coffee-is-coffee-good-for-me",
+    "path": "/post/the-health-benefits-of-coffee-is-coffee-good-for-me",
+    "kind": "post",
+    "title": "The Health Benefits of Coffee - Is coffee good for Me?",
+    "date": "2017-07-08",
+    "description": "The Health Benefits of Coffee Drinking coffee daily in moderation is heathy and something to relax about (sorry baristas, 7 espressos when dialling in the machine is not in moderation). Before we get scientific, I’d like to say I use coffee as a cure-all, a panacea. Got a headache? Have a coffee. Can't sleep? Have a ..",
+    "coverImage": "/images/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "local": "/images/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "alt": "Health benefits of coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "local": "/images/675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/the-journey-of-coffee-from-seed-to-cup",
+    "path": "/post/the-journey-of-coffee-from-seed-to-cup",
+    "kind": "post",
+    "title": "The Journey of Coffee – From Seed to Cup",
+    "date": "2018-05-17",
+    "description": "Taking the journey of coffee for granted is understandable. We pay to receive a latte at the local shop or just add water to granules at home. Some are even unsure of what coffee is, unaware it is the fruit of a tropical tree. Here we’ll look at the journey of coffee seed to roasted bean.",
+    "coverImage": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": "Coffee's Epic Journey From seed to cup"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_41c08106df4843638fe6df0ad8afbcf8~mv2.jpg",
+        "local": "/images/675337_41c08106df4843638fe6df0ad8afbcf8~mv2.jpg",
+        "alt": "Coffee Sapling with cute bean on stem"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a957b81a95f94ee29aa6d94fff0930f9~mv2.jpg",
+        "local": "/images/675337_a957b81a95f94ee29aa6d94fff0930f9~mv2.jpg",
+        "alt": "60kg Coffee bags jute"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_b68565259a74407ca6fb0af32376eb00~mv2_d_3968_2976_s_4_2.jpg",
+        "local": "/images/675337_b68565259a74407ca6fb0af32376eb00~mv2_d_3968_2976_s_4_2.jpg",
+        "alt": "Cortado Piccolo Barista latte art coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "local": "/images/675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/tiramisu-i-love-it",
+    "path": "/post/tiramisu-i-love-it",
+    "kind": "post",
+    "title": "Tiramisu - I love it",
+    "date": "2018-01-22",
+    "description": "Here’s a coffee dessert recipe for those who have a party coming up, a special date, or just love tiramisu. The warming chocolate, coffee and liquor flavours, smooth creaminess and light sponge fingers make this a harmonious treat.",
+    "coverImage": "/images/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "local": "/images/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "alt": "Coffee Tiramisu make tiramisu"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0c918ed731be48a9b1ae5df1397b6853~mv2.jpg",
+        "local": "/images/675337_0c918ed731be48a9b1ae5df1397b6853~mv2.jpg",
+        "alt": "tiramisu ingredients"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e6dedb52c1e3439e94047e7d3ba3f4d9~mv2.jpg",
+        "local": "/images/675337_e6dedb52c1e3439e94047e7d3ba3f4d9~mv2.jpg",
+        "alt": "Make a tiramisu"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_3e659f6fc84f422ea7687aea4a3c9b1d~mv2.jpg",
+        "local": "/images/675337_3e659f6fc84f422ea7687aea4a3c9b1d~mv2.jpg",
+        "alt": "Making a tiramisu recipe"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4ebd0315edb144689ced0a4619eac355~mv2.jpg",
+        "local": "/images/675337_4ebd0315edb144689ced0a4619eac355~mv2.jpg",
+        "alt": "tiramisu ladyfingers"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "local": "/images/675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/v60-brew-ratios-a-guide",
+    "path": "/post/v60-brew-ratios-a-guide",
+    "kind": "post",
+    "title": "V60 Brew Ratios - A Guide",
+    "date": "2026-03-14",
+    "description": "Choosing the right brew ratio and recipe for a v60 pourover can be confusing at first. This article outlines where your baseline should be and how to experiment. ",
+    "coverImage": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60 - what should my v60 ratio be"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "local": "/images/675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "alt": "A brewed v60"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water",
+    "path": "/post/water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water",
+    "kind": "post",
+    "title": "Water for Coffee Part I - A TDS taste test and the importance of water",
+    "date": "2017-10-21",
+    "description": "Water makes up over 98% of brewed coffee and is the solvent for extracting flavour from the beans. As you might imagine, it is important to use the right water for brewing. But how much does water affect taste? How does it affect acidity, bitterness and flavour? I joined up with a water sommelier, Götz of MaiAqua.",
+    "coverImage": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": "Water for coffee "
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c0edbbfa698142268b451eafd705f56c~mv2.jpg",
+        "local": "/images/675337_c0edbbfa698142268b451eafd705f56c~mv2.jpg",
+        "alt": "TDS water for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_213ded0a19cb494abd8250e7452a67eb~mv2.jpg",
+        "local": "/images/675337_213ded0a19cb494abd8250e7452a67eb~mv2.jpg",
+        "alt": "Maiaqua water for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_4f59fe30d2b14c9d98f7feb04972fd37~mv2.jpg",
+        "local": "/images/675337_4f59fe30d2b14c9d98f7feb04972fd37~mv2.jpg",
+        "alt": "Tanzania, Sulawesi and Peru coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_98fd147c2aae4e8ab3fa5173fe3723cb~mv2.jpg",
+        "local": "/images/675337_98fd147c2aae4e8ab3fa5173fe3723cb~mv2.jpg",
+        "alt": "Taste results for water TDS is coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "local": "/images/675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/water-for-coffee-part-ii-tasting-with-ph-in-mind",
+    "path": "/post/water-for-coffee-part-ii-tasting-with-ph-in-mind",
+    "kind": "post",
+    "title": "Water for coffee Part II – Tasting with pH in mind",
+    "date": "2017-11-25",
+    "description": "In Part I we looked at how Total Dissolved Solids (TDS) in water impact the taste of coffee. We also wanted to know how much the pH (acidity and alkalinity) affected taste and so selected 4 different mineral waters with similar TDS counts. Once again, I partnered up with water sommelier, Götz of MaiAqua, for the test.Note – I am in no way affiliated with MaiAqua. The reason for this test was purely in the interest of coffee.We used one, light roasted, Kenyan coffee so we could focus on the wate",
+    "coverImage": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": ""
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_03c4fdd227cd44258bbd41c63ece859f~mv2.jpg",
+        "local": "/images/675337_03c4fdd227cd44258bbd41c63ece859f~mv2.jpg",
+        "alt": "Water for coffee pH water test"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_644a3df9e17d430b8c4a13f5cfef20ae~mv2.jpg",
+        "local": "/images/675337_644a3df9e17d430b8c4a13f5cfef20ae~mv2.jpg",
+        "alt": "pH and acidity in coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_46a34125edd24675a2bc8272514b85b8~mv2.jpg",
+        "local": "/images/675337_46a34125edd24675a2bc8272514b85b8~mv2.jpg",
+        "alt": "pH taste test for coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": "pH reference for different foodstuff"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "local": "/images/675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/what-is-coffee-coffee-the-fruit-and-its-species",
+    "path": "/post/what-is-coffee-coffee-the-fruit-and-its-species",
+    "kind": "post",
+    "title": "What is Coffee? Coffee, the fruit and its species",
+    "date": "2017-10-07",
+    "description": "Many of us consume coffee without a thought for where it comes from or what it even is. Coffee Rambler hopes to not only share the joys of great coffee but also provide a platform for people to explore the extraordinary depths behind it; that being its biology, origins, history, cultivation, processing, trading and ...",
+    "coverImage": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": "Coffee cherry coffee fruit"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_1469955949d2405fbda7d63dfb52ca9a~mv2.png",
+        "local": "/images/675337_1469955949d2405fbda7d63dfb52ca9a~mv2.png",
+        "alt": "structure of coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a26270a6755b47a48e08957ddec5b9f4~mv2.jpg",
+        "local": "/images/675337_a26270a6755b47a48e08957ddec5b9f4~mv2.jpg",
+        "alt": "coffee flower"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c3a4f313b3c34bee9b53caf5d2f8cf80~mv2_d_2560_1600_s_2.png",
+        "local": "/images/675337_c3a4f313b3c34bee9b53caf5d2f8cf80~mv2_d_2560_1600_s_2.png",
+        "alt": "coffee flavour wheel"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "local": "/images/675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/what-is-specialty-coffee",
+    "path": "/post/what-is-specialty-coffee",
+    "kind": "post",
+    "title": "What is Specialty Coffee?",
+    "date": "2017-09-09",
+    "description": "Why is there such a buzz around Specialty Coffee and how do we define it? The aim of Coffee Rambler is to get more people sharing and drinking great coffee, but it helps to know a bit more ...",
+    "coverImage": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": "what is specialty coffee speciality coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "local": "/images/675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/what-is-the-world-s-best-coffee",
+    "path": "/post/what-is-the-world-s-best-coffee",
+    "kind": "post",
+    "title": "What is the World’s best coffee?",
+    "date": "2017-09-23",
+    "description": "I am frequently asked this question and you may not be surprised that I don't believe there is an answer.  I would never make such a judgement on a single coffee myself, knowing that coffee is highly subjective and that the brew method, roast level, processing and mood all play a part.",
+    "coverImage": "/images/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "local": "/images/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "alt": "world's best coffee sunshine crystal glass"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6c846f6b9d6c45618236babcea60cbfd~mv2.jpg",
+        "local": "/images/675337_6c846f6b9d6c45618236babcea60cbfd~mv2.jpg",
+        "alt": "kopi luwak coffee civet caged"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_6be575888b024975a49a03c5fcfa583b~mv2.jpg",
+        "local": "/images/675337_6be575888b024975a49a03c5fcfa583b~mv2.jpg",
+        "alt": "jamaica blue mountain coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "local": "/images/675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/why-is-the-grind-so-important",
+    "path": "/post/why-is-the-grind-so-important",
+    "kind": "post",
+    "title": "Why is the Grind So Important?",
+    "date": "2017-09-02",
+    "description": "Getting the Right GrindIt may appear rather trivial, but one of the most important aspects of brewing coffee is getting your grind right. To put it simply, too large a grind size for a particular brew method, and the coffee will be too sour or watery. Too fine a grind, the coffee will be overly bitter and unpleasant.Uneven Grind SizeOne of the worst things for brewing coffee is having an uneven grind size. This is why clean burr grinders are preferable to blades. Blades chop the coffee up into",
+    "coverImage": "/images/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "local": "/images/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "alt": "coffee rambler why coffee grind important"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_480ec8c1fae248ebb4a6bb9f5593ce65~mv2.jpg",
+        "local": "/images/675337_480ec8c1fae248ebb4a6bb9f5593ce65~mv2.jpg",
+        "alt": "blade and burr grinder"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "local": "/images/675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/post/yerba-mate-recipe-for-a-summer-refresher",
+    "path": "/post/yerba-mate-recipe-for-a-summer-refresher",
+    "kind": "post",
+    "title": "Yerba Mate – Recipe for a summer refresher",
+    "date": "2018-05-04",
+    "description": "Yerba Mate Not quite coffee, not quite tea, Yerba Mate is a caffeinated drink of its own. Mostly enjoyed in South America and Lebanon (biggest importer), it’s definitely another beverage for coffee and tea lovers to try.",
+    "coverImage": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Cold Brew Yerba Mate"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_e898c7fda116433999caf8a5c76eaf38~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_e898c7fda116433999caf8a5c76eaf38~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate cup gourd and straw"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7ca5aedfa8524383bedb8a814bb738ac~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7ca5aedfa8524383bedb8a814bb738ac~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": "Yerba Mate Herb Mix"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "local": "/images/675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "alt": ""
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/africa",
+    "path": "/africa",
+    "kind": "region",
+    "title": "Africa | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Country guides for coffee growing countries on the African continent.",
+    "coverImage": "/images/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg",
+        "local": "/images/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg",
+        "alt": "Ethiopia Coffee Guide"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_0b5fb54400f3452e9f561897d8c96aad~mv2.jpg",
+        "local": "/images/675337_0b5fb54400f3452e9f561897d8c96aad~mv2.jpg",
+        "alt": "Africa coffee map"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "alt": "Central America Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "alt": "Asia Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "alt": "South America Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/asia",
+    "path": "/asia",
+    "kind": "region",
+    "title": "Asia | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Country guides for coffee growing countries in Asia and Oceania.",
+    "coverImage": "/images/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+        "local": "/images/675337_627b1e436f3a4d91a90e54632cb8647b~mv2.jpg",
+        "alt": "China Coffee Guide"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_a9454372d0bd4879b11319c7f272becc~mv2.jpg",
+        "local": "/images/675337_a9454372d0bd4879b11319c7f272becc~mv2.jpg",
+        "alt": "Asian Coffee Map"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "alt": "South America Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "alt": "Africa Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "alt": "Central America Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/central-america",
+    "path": "/central-america",
+    "kind": "region",
+    "title": "Central America | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Country guides for coffee growing countries in Central America and the Caribbean.",
+    "coverImage": "/images/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+        "local": "/images/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+        "alt": "Costa Rica Coffee Guide"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_c48dd63e88eb46ada2b8affa5392bad7~mv2.png",
+        "local": "/images/675337_c48dd63e88eb46ada2b8affa5392bad7~mv2.png",
+        "alt": "Central American Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "alt": "Africa Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "alt": "South America Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "alt": "Asia Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/south-america",
+    "path": "/south-america",
+    "kind": "region",
+    "title": "South America | World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Country guides for coffee growing countries in South America and islands of the Atlantic and Pacific.",
+    "coverImage": "/images/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+        "local": "/images/675337_646e77b1226b4364b644f5ede0cc48cc~mv2.jpg",
+        "alt": "Colombia Coffee Guide"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_76fa9a91ce804e3ab74c636e1af3df7e~mv2.png",
+        "local": "/images/675337_76fa9a91ce804e3ab74c636e1af3df7e~mv2.png",
+        "alt": "south America coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "alt": "Africa Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "alt": "Central America Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "alt": "Asia Coffee"
+      }
+    ],
+    "gscIndexed": null
+  },
+  {
+    "url": "https://www.coffeerambler.com/world-coffee-guide",
+    "path": "/world-coffee-guide",
+    "kind": "world-guide",
+    "title": "World Coffee Guide",
+    "date": "2026-06-10",
+    "description": "Explore coffee around the world with the Rambler's country guides, covering coffee characteristics, growing regions and more.",
+    "coverImage": "/images/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png",
+    "images": [
+      {
+        "wix": "https://static.wixstatic.com/media/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png",
+        "local": "/images/675337_d04539fc51b44eaaaef88060280a18d5~mv2.png",
+        "alt": "World Coffee Map"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+        "alt": "Africa Coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+        "alt": "South America coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "local": "/images/675337_8fb24cf182b84aee9f490a61e870fe79~mv2.jpg",
+        "alt": "Central America coffee"
+      },
+      {
+        "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+        "alt": "Asia Coffee"
+      }
+    ],
+    "gscIndexed": null
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "about",
+    "path": "/about",
+    "type": "about",
+    "title": "About/Contact Me",
+    "description": "Contact Me at Coffee Rambler for making a contribution to the site, to make an enquiry, ask for advice or anything else.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "aeropress",
+    "path": "/aeropress",
+    "type": "brew-guide",
+    "title": "Aeropress | Brew Guides",
+    "description": "A versatile brewer, the Aeropress combines two brewing methods; pour-over and full immersion. For this reason and its design, the Aeropress allows for a range..",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "africa",
+    "path": "/africa",
+    "type": "region",
+    "title": "Africa | World Coffee Guide",
+    "description": "Country guides for coffee growing countries on the African continent.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "archive/categories/about-coffee-1",
+    "path": "/archive/categories/about-coffee-1",
+    "type": "category",
+    "title": "About Coffee",
+    "description": "Learn more about all things coffee",
+    "date": "2026-03-17"
+  },
+  {
+    "slug": "archive/categories/brewing-basics",
+    "path": "/archive/categories/brewing-basics",
+    "type": "category",
+    "title": "Brewing Basics",
+    "description": "Tips for beginners - Improve your brew with these simple steps",
+    "date": "2026-03-17"
+  },
+  {
+    "slug": "archive/categories/city-guides",
+    "path": "/archive/categories/city-guides",
+    "type": "category",
+    "title": "City Guides",
+    "description": "Find out where to get great coffee with our cafe guides.",
+    "date": "2021-04-15"
+  },
+  {
+    "slug": "archive/categories/coffee-production",
+    "path": "/archive/categories/coffee-production",
+    "type": "category",
+    "title": "Coffee Production",
+    "description": "Learn how and where coffee grows, how it's processed and its journey to you",
+    "date": "2021-04-15"
+  },
+  {
+    "slug": "archive/categories/recipes",
+    "path": "/archive/categories/recipes",
+    "type": "category",
+    "title": "Recipes",
+    "description": "Food and drink recipes for enjoying your coffee time",
+    "date": "2021-04-15"
+  },
+  {
+    "slug": "archive/categories/sensory",
+    "path": "/archive/categories/sensory",
+    "type": "category",
+    "title": "Sensory",
+    "description": "Discover your full appreciation of coffee's aromas, tastes and flavours",
+    "date": "2026-03-17"
+  },
+  {
+    "slug": "archive",
+    "path": "/archive",
+    "type": "archive",
+    "title": "Make Better Coffee | Archive",
+    "description": "Explore more about all things specialty coffee with Coffee Rambler's past blog posts.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "asia",
+    "path": "/asia",
+    "type": "region",
+    "title": "Asia | World Coffee Guide",
+    "description": "Country guides for coffee growing countries in Asia and Oceania.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "brewing-guides",
+    "path": "/brewing-guides",
+    "type": "brew-hub",
+    "title": "Home Brewing Guides",
+    "description": "Learn the different methods of brewing pro coffee at home including: coffee grind sizes, water temperatures, brew ratios and time.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "central-america",
+    "path": "/central-america",
+    "type": "region",
+    "title": "Central America | World Coffee Guide",
+    "description": "Country guides for coffee growing countries in Central America and the Caribbean.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "chemex",
+    "path": "/chemex",
+    "type": "brew-guide",
+    "title": "Chemex | Brew Guides",
+    "description": "The Chemex provides a great way to brew an exceptionally clean cup of coffee. Not only that, it has a fun social element and is perfect for sharing.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "clever-cup",
+    "path": "/clever-cup",
+    "type": "brew-guide",
+    "title": "Clever Cup | Brew Guides",
+    "description": "A method combining the repeatability of immersion brewing and the clarity of a pour over. The Clever cup produces a clean, rich coffee",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "country-guide-bolivia",
+    "path": "/country-guide-bolivia",
+    "type": "country",
+    "title": "Bolivia | World Coffee Guide",
+    "description": "Almost all of it sits in the Yungas of La Paz, especially Caranavi. High, often organic, and not much of it. Caturra and Catuai, usually washed.",
+    "date": "2026-09-19"
+  },
+  {
+    "slug": "country-guide-china",
+    "path": "/country-guide-china",
+    "type": "country",
+    "title": "China | World Coffee Guide",
+    "description": "China's coffee industry is expanding rapidly but there's still much work to be done for it to be considered a serious contender in the specialty market. Yunnan",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "country-guide-colombia",
+    "path": "/country-guide-colombia",
+    "type": "country",
+    "title": "Colombia | World Coffee Guide",
+    "description": "Colombian coffee is well known for its high quality. Typically grown at high altitudes, the beans mature more slower becoming denser and developing a bright...",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "country-guide-costarica",
+    "path": "/country-guide-costarica",
+    "type": "country",
+    "title": "Costa Rica | World Coffee Guide",
+    "description": "Costa Rican coffees are easy to like, with good sweetness and tasting generally quite juicy. Where washed coffees can have a rather light body and taste very clean, the newer micro mill honey processed coffees are fuller and exhibit citrus, grape and tropical fruit flavours. Read more here...",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "country-guide-elsalvador",
+    "path": "/country-guide-elsalvador",
+    "type": "country",
+    "title": "El Salvador | World Coffee Guide",
+    "description": "Almost all arabica, and not a lot of it. Bourbon and Pacamara from the western volcanoes can be excellent when the mill is paying attention. Rust and people leaving the farms have cut the volume.",
+    "date": "2026-09-19"
+  },
+  {
+    "slug": "country-guide-indonesia",
+    "path": "/country-guide-indonesia",
+    "type": "country",
+    "title": "Indonesia | World Coffee Guide",
+    "description": "Most of the crop is robusta from southern Sumatra. The arabica on specialty menus is a smaller pile: Gayo, Lintong, Toraja, Kintamani, Flores, a little Java and Papua.",
+    "date": "2026-09-19"
+  },
+  {
+    "slug": "country-guide-kenya",
+    "path": "/country-guide-kenya",
+    "type": "country",
+    "title": "Kenya | World Coffee Guide",
+    "description": "Washed Kenyan lots are the ones people mean when they talk about blackcurrant and a savoury tomato note. SL28 and SL34 still do most of the interesting work.",
+    "date": "2026-09-19"
+  },
+  {
+    "slug": "country-guide-ethiopia",
+    "path": "/country-guide-ethiopia",
+    "type": "country",
+    "title": "Ethiopia | World Coffee Guide",
+    "description": "Ethiopian coffee is diverse and delicious. Coffee Rambler covers Ethiopian coffee's basic characteristics, growing regions and local coffee custom.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "country-guides-1",
+    "path": "/country-guides-1",
+    "type": "country",
+    "title": "World Coffee Guide",
+    "description": "",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "cupping",
+    "path": "/cupping",
+    "type": "brew-guide",
+    "title": "Cupping | Brew Guides",
+    "description": "Cupping is an excellent way of tasting several coffees side-by-side.  Coffee Rambler believes it's a fun way for learning more about coffee, a real eye-opener.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "french-press",
+    "path": "/french-press",
+    "type": "brew-guide",
+    "title": "French Press | Brew Guides",
+    "description": "The French Press is a traditional method of brewing coffee, creating a rich and full bodied cup with big flavours.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "home",
+    "path": "/",
+    "type": "home",
+    "title": "Find, Share and Enjoy Better Coffee",
+    "description": "Coffee Rambler is a free resource for discovering more about all things specialty coffee, with home brew guides, coffee archive and coffee around the world. Login and share your experiences with our growing community.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "immersion-cold-brew",
+    "path": "/immersion-cold-brew",
+    "type": "brew-guide",
+    "title": "Immersion Cold Brew | Brew Guides",
+    "description": "Cold Brew has a smooth mouthfeel and delivers a sweet, distinctive flavour. And it's easy to make!",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "moka-pot",
+    "path": "/moka-pot",
+    "type": "brew-guide",
+    "title": "Moka Pot | Brew Guides",
+    "description": "The Moka Pot produces a full bodied and beautifully rich cup when brewed right. Find out how to make the sweetest of Moka brews here.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "pour-over-filter",
+    "path": "/pour-over-filter",
+    "type": "brew-guide",
+    "title": "Pour Over Filters | Brew Guides",
+    "description": "Brewing with a cone filter requires a bit of finesse but the results are spectacular. The paper filter catches oils and fines to serve a sweet, clean coffee.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "south-america",
+    "path": "/south-america",
+    "type": "region",
+    "title": "South America | World Coffee Guide",
+    "description": "Country guides for coffee growing countries in South America and islands of the Atlantic and Pacific.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "syphon",
+    "path": "/syphon",
+    "type": "brew-guide",
+    "title": "Syphon | Brew Guides",
+    "description": "Not only a beautiful way to brew, syphons also produce delicious cups of coffee.",
+    "date": "2026-06-10"
+  },
+  {
+    "slug": "world-coffee-guide",
+    "path": "/world-coffee-guide",
+    "type": "world-guide",
+    "title": "World Coffee Guide",
+    "description": "Explore coffee around the world with the Rambler's country guides, covering coffee characteristics, growing regions and more.",
+    "date": "2026-06-10"
+  }
+]

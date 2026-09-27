@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-papuanewguinea",
+  "path": "/country-guide-papuanewguinea",
+  "title": "Papua New Guinea | World Coffee Guide",
+  "description": "Almost all of the crop is arabica from the highlands. Eastern Highlands, Western Highlands, Simbu, Jiwaka. Typica and Bourbon, usually washed.",
+  "date": "2026-09-19",
+  "body": "# Papua New Guinea\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/papuanewguinea.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/asia",
+    "/country-guide-indonesia",
+    "/country-guide-kenya",
+    "/archive/coffee-varieties-a-brief-look-at-significant-varieties"
+  ],
+  "seoTitle": "Papua New Guinea | World Coffee Guide",
+  "seoDescription": "Papua New Guinea coffee guide: Goroka, Hagen, highland arabica, Lae, USDA production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

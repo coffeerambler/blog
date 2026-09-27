@@ -1,0 +1,55 @@
+{
+  "type": "post",
+  "slug": "tasting-extraction-an-easy-experiment-for-understanding-balance",
+  "path": "/post/tasting-extraction-an-easy-experiment-for-understanding-balance",
+  "title": "Tasting Extraction – An easy experiment for understanding balance",
+  "description": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or over extracted. With little experience of what these taste like, bitter and sour are easy to confuse. This test is helpful for knowing the difference.",
+  "date": "2017-11-04",
+  "datetime": "2017-11-04T16:06:44.000Z",
+  "author": "Keiran Jones",
+  "minutes": 2,
+  "categories": [],
+  "categoryIds": [
+    "5a33d0587a50880014ec3444"
+  ],
+  "coverImage": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+  "excerpt": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or...",
+  "body": "![Coffee cupping extraction](/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg)\n\nWhen drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or over extracted. With little experience of what these taste like, bitter and sour are easy to confuse. As a general rule, under extraction tastes sour and over extraction is bitter; and a balanced coffee is one you’re likely to enjoy.\n\nThe best way to learn the difference is to gain direct experience [by way of comparison](/archive/tasting-extraction-an-easy-experiment-for-understanding-balance). This simply repeatable experiment will help in the challenge of tasting different levels of extraction.\n\n## **Setup**\n\nSetup as you would for cupping and follow the [steps in the guide](/cupping). Use only one coffee as we want to compare the difference in extraction, not different coffees. Find 3 cups of equal size. In one cup weigh out 9 grams (Cup 1), in the next 11 (Cup 2) and in the third, 22 grams (Cup 3). Put the kettle on with at least 600 millilitres of water. Now grind the 9g fine for espresso (the next smallest sizes on the grind size wheel). Grind the 11g as per the cupping guide and the 22g coarser than for [French Press](/french-press). It should look something like this:\n\n![Ground coffee for cupping ](/images/675337_058fb2b642fc41a78c27a0257ad816f6~mv2.jpg)\n\nPour equal amounts of water onto each cup of grounds and wait four minutes before tasting. After four minutes, break the seal and breathe in the aroma. Clear away the crema and floating grounds. Now it’s time to taste the coffee.\n\n## **The Tasting Results**\n\nFor my experiment I had a test subject who was unaware of the setup and what it was for, in effect blind. We both tried the different cups. She quickly determined that Cup 2 was the best. She said Cup 1 was weak and watery and Cup 3 was bitter. Calling Cup 3 bitter is a common misidentification of tastes; it was in fact unpleasantly sour.\n\nCup 1 was certainly watery, an example of a strong/weak coffee. The extraction yield was high, likely above 22%, but the percentage of coffee in the solution was likely low, below the 1.20% mark. (I did not measure these, but merely relied on my experience and the estimation of strengths based on the [ideal brew chart](/archive/how-is-coffee-extracted).) Cup 3 was the opposite of this.\n\nThis is where the difficulty in labelling coffee strong or weak lies as some describe the perception of bitterness as strength. It would be more accurate to say Cup 1 was weak and bitter. Although the first mouthful was not as offensive to the taste buds as Cup 3, the lingering aftertaste was unpleasant, hanging around on the tongue and giving me bad breath! By contrast, Cup 3 had a short aftertaste, no discernible bitterness but left the mouth feeling dry, almost as if there was sand in the mouth. This is astringency. The first sip was intense and sour.\n\nCup 2 was by far the most pleasant and the sweetest. This is what we would describe as balanced.\n\n![coffee cupping extraction taste results](/images/675337_00615ea3a118442e8f85c2a0696b5475~mv2.jpg)\n\nHappy experimenting!\n",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+      "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+      "alt": "Coffee cupping extraction"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_058fb2b642fc41a78c27a0257ad816f6~mv2.jpg",
+      "local": "/images/675337_058fb2b642fc41a78c27a0257ad816f6~mv2.jpg",
+      "alt": "Ground coffee for cupping "
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_00615ea3a118442e8f85c2a0696b5475~mv2.jpg",
+      "local": "/images/675337_00615ea3a118442e8f85c2a0696b5475~mv2.jpg",
+      "alt": "coffee cupping extraction taste results"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+      "local": "/images/675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/archive/tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "/cupping",
+    "/french-press",
+    "/archive/how-is-coffee-extracted",
+    "/archive/hashtags/tastingextraction",
+    "/archive/hashtags/underextraction",
+    "/archive/hashtags/overextraction",
+    "/archive/hashtags/tastetest",
+    "/archive/hashtags/cupping",
+    "/archive/hashtags/coffeeextraction"
+  ],
+  "seoTitle": "Tasting Extraction – An easy experiment for understanding balance",
+  "seoDescription": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or over extracted. With little experience of what these taste like, bitter and sour are easy to confuse. This test is helpful for knowing the difference.",
+  "draft": false
+}

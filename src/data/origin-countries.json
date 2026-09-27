@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Angola",
+    "code": "AO",
+    "numericCode": "024"
+  },
+  {
+    "name": "Bolivia",
+    "code": "BO",
+    "numericCode": "068"
+  },
+  {
+    "name": "Brazil",
+    "code": "BR",
+    "numericCode": "076"
+  },
+  {
+    "name": "Burundi",
+    "code": "BI",
+    "numericCode": "108"
+  },
+  {
+    "name": "Cameroon",
+    "code": "CM",
+    "numericCode": "120"
+  },
+  {
+    "name": "Central African Republic",
+    "code": "CF",
+    "numericCode": "140"
+  },
+  {
+    "name": "China",
+    "code": "CN",
+    "numericCode": "156"
+  },
+  {
+    "name": "Colombia",
+    "code": "CO",
+    "numericCode": "170"
+  },
+  {
+    "name": "Costa Rica",
+    "code": "CR",
+    "numericCode": "188"
+  },
+  {
+    "name": "Cuba",
+    "code": "CU",
+    "numericCode": "192"
+  },
+  {
+    "name": "Democratic Republic of the Congo",
+    "code": "CD",
+    "numericCode": "180"
+  },
+  {
+    "name": "Dominican Republic",
+    "code": "DO",
+    "numericCode": "214"
+  },
+  {
+    "name": "Ecuador",
+    "code": "EC",
+    "numericCode": "218"
+  },
+  {
+    "name": "El Salvador",
+    "code": "SV",
+    "numericCode": "222"
+  },
+  {
+    "name": "Equatorial Guinea",
+    "code": "GQ",
+    "numericCode": "226"
+  },
+  {
+    "name": "Ethiopia",
+    "code": "ET",
+    "numericCode": "231"
+  },
+  {
+    "name": "Gabon",
+    "code": "GA",
+    "numericCode": "266"
+  },
+  {
+    "name": "Ghana",
+    "code": "GH",
+    "numericCode": "288"
+  },
+  {
+    "name": "Guatemala",
+    "code": "GT",
+    "numericCode": "320"
+  },
+  {
+    "name": "Guinea",
+    "code": "GN",
+    "numericCode": "324"
+  },
+  {
+    "name": "Haiti",
+    "code": "HT",
+    "numericCode": "332"
+  },
+  {
+    "name": "Honduras",
+    "code": "HN",
+    "numericCode": "340"
+  },
+  {
+    "name": "India",
+    "code": "IN",
+    "numericCode": "356"
+  },
+  {
+    "name": "Indonesia",
+    "code": "ID",
+    "numericCode": "360"
+  },
+  {
+    "name": "Jamaica",
+    "code": "JM",
+    "numericCode": "388"
+  },
+  {
+    "name": "Kenya",
+    "code": "KE",
+    "numericCode": "404"
+  },
+  {
+    "name": "Laos",
+    "code": "LA",
+    "numericCode": "418"
+  },
+  {
+    "name": "Liberia",
+    "code": "LR",
+    "numericCode": "430"
+  },
+  {
+    "name": "Madagascar",
+    "code": "MG",
+    "numericCode": "450"
+  },
+  {
+    "name": "Malawi",
+    "code": "MW",
+    "numericCode": "454"
+  },
+  {
+    "name": "Malaysia",
+    "code": "MY",
+    "numericCode": "458"
+  },
+  {
+    "name": "Mexico",
+    "code": "MX",
+    "numericCode": "484"
+  },
+  {
+    "name": "Mozambique",
+    "code": "MZ",
+    "numericCode": "508"
+  },
+  {
+    "name": "Myanmar",
+    "code": "MM",
+    "numericCode": "104"
+  },
+  {
+    "name": "Nepal",
+    "code": "NP",
+    "numericCode": "524"
+  },
+  {
+    "name": "Nicaragua",
+    "code": "NI",
+    "numericCode": "558"
+  },
+  {
+    "name": "Nigeria",
+    "code": "NG",
+    "numericCode": "566"
+  },
+  {
+    "name": "Panama",
+    "code": "PA",
+    "numericCode": "591"
+  },
+  {
+    "name": "Papua New Guinea",
+    "code": "PG",
+    "numericCode": "598"
+  },
+  {
+    "name": "Paraguay",
+    "code": "PY",
+    "numericCode": "600"
+  },
+  {
+    "name": "Peru",
+    "code": "PE",
+    "numericCode": "604"
+  },
+  {
+    "name": "Philippines",
+    "code": "PH",
+    "numericCode": "608"
+  },
+  {
+    "name": "Rwanda",
+    "code": "RW",
+    "numericCode": "646"
+  },
+  {
+    "name": "Sierra Leone",
+    "code": "SL",
+    "numericCode": "694"
+  },
+  {
+    "name": "Solomon Islands",
+    "code": "SB",
+    "numericCode": "090"
+  },
+  {
+    "name": "Sri Lanka",
+    "code": "LK",
+    "numericCode": "144"
+  },
+  {
+    "name": "Tanzania",
+    "code": "TZ",
+    "numericCode": "834"
+  },
+  {
+    "name": "Thailand",
+    "code": "TH",
+    "numericCode": "764"
+  },
+  {
+    "name": "Timor-Leste",
+    "code": "TL",
+    "numericCode": "626"
+  },
+  {
+    "name": "Togo",
+    "code": "TG",
+    "numericCode": "768"
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "code": "TT",
+    "numericCode": "780"
+  },
+  {
+    "name": "Uganda",
+    "code": "UG",
+    "numericCode": "800"
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "numericCode": "840"
+  },
+  {
+    "name": "Vanuatu",
+    "code": "VU",
+    "numericCode": "548"
+  },
+  {
+    "name": "Venezuela",
+    "code": "VE",
+    "numericCode": "862"
+  },
+  {
+    "name": "Vietnam",
+    "code": "VN",
+    "numericCode": "704"
+  },
+  {
+    "name": "Yemen",
+    "code": "YE",
+    "numericCode": "887"
+  },
+  {
+    "name": "Zambia",
+    "code": "ZM",
+    "numericCode": "894"
+  },
+  {
+    "name": "Zimbabwe",
+    "code": "ZW",
+    "numericCode": "716"
+  },
+  {
+    "name": "Taiwan",
+    "code": "TW",
+    "numericCode": "158"
+  },
+  {
+    "name": "Côte d'Ivoire",
+    "code": "CI",
+    "numericCode": "384"
+  },
+  {
+    "name": "Congo",
+    "code": "CG",
+    "numericCode": "178"
+  },
+  {
+    "name": "Benin",
+    "code": "BJ",
+    "numericCode": "204"
+  }
+]

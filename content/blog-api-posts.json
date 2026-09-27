@@ -1,0 +1,5381 @@
+[
+  {
+    "_id": "69b91d8ffaed8c5e63ca5d38",
+    "id": "9dd3e1db-78b8-4ad2-9241-e2327e2fe604",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2026-03-17T11:36:26.000Z",
+    "slugs": [
+      "coffee-rambler-ai-interactive-flavour-wheel"
+    ],
+    "seoSlug": "coffee-rambler-ai-interactive-flavour-wheel",
+    "seoTitle": null,
+    "seoDescription": "The Coffee Rambler AI Flavour wheel is unique adn updates with diary entries. Learn more about the feature and how helps train your sensory appreciation of coffee",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 14,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2026-03-17T11:36:26.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "8863f13c-1042-4c8c-a605-3d37c0223073",
+      "6c246955-afab-4143-a5c0-659a235cb772"
+    ],
+    "relatedPostIds": [
+      "e1416ff7-43e3-4f86-8b0b-e8d972da1ab2",
+      "19553ff6-0bac-4f3e-a06f-a69eab330feb"
+    ],
+    "translationId": null,
+    "title": "Coffee Rambler AI: Interactive Flavour Wheel and Sensory Training",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Your Palate, Mapped: How Coffee Rambler AI Builds Your Personal Flavour Wheel There's a moment many of us have experienced. You taste something, recognise the flavour and can’t just put your finger on it. That gap between sensation and language is exactly what sensory training is designed to close. And it's the problem that the flavour wheel in Coffee Rambler AI was built to solve. What the Flavour Wheel Actually Is The flavour wheel on the Palate page isn't a static reference chart but a...",
+    "slug": "coffee-rambler-ai-interactive-flavour-wheel",
+    "coverImage": {
+      "src": {
+        "id": "675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "file_name": "675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "width": 852,
+        "height": 954,
+        "original_file_name": "675337_635b291743a84837a77127fe674c2dbb~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "file_name": "675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+        "width": 852,
+        "height": 954,
+        "original_file_name": "675337_635b291743a84837a77127fe674c2dbb~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "69b90c3f99279fec8af2262d",
+    "id": "c2a65634-0534-4bb5-aa6c-e16fc4b902e9",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2026-03-14T08:26:03.820Z",
+    "slugs": [
+      "v60-brew-ratios-a-guide"
+    ],
+    "seoSlug": "v60-brew-ratios-a-guide",
+    "seoTitle": null,
+    "seoDescription": "Choosing the right brew ratio and recipe for a v60 pourover can be confusing at first. This article outlines where your baseline should be and how to experiment. ",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 31,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2026-03-14T08:26:03.820Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "51f64755-42a9-440a-a79c-ba20ae1e3aad",
+      "a7ef98c3-c5d0-4673-b4f0-335206402cc9",
+      "cb2fbcf6-42a2-463e-9fa7-f3e145708888"
+    ],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "V60 Brew Ratios - A Guide",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "V60 Brew Ratio Guide: Finding what works for you Coffee is one of the most variable drinks you can make at home. Grind size, water temperature, pour technique - it all matters. But if there's one variable that has the most immediate, predictable impact on what ends up in your cup, it's brew ratio. It is easy to follow a V60 recipe  without ever questioning the ratio. Change that, and you unlock a level of control that makes every other adjustment easier to understand. What is a brew ratio? A...",
+    "slug": "v60-brew-ratios-a-guide",
+    "coverImage": {
+      "src": {
+        "id": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "file_name": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "width": 1024,
+        "height": 1536,
+        "original_file_name": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "file_name": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png",
+        "width": 1024,
+        "height": 1536,
+        "original_file_name": "675337_971de66273884cb6aee92c8ea62ad445~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "69b032c9be29996eed562708",
+    "id": "da81bc6c-ae6e-427e-8ecb-ba42c5348b12",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2026-06-10T13:57:04.690Z",
+    "slugs": [
+      "coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does"
+    ],
+    "seoSlug": "coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does",
+    "seoTitle": null,
+    "seoDescription": "Learn more about the Coffee Enthusiast features on Coffee Rambler AI and waht the app looks like. ",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 7,
+    "canonicalUrl": null,
+    "viewCount": 66,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2026-03-11T20:47:39.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "5b1ef959-a848-44a9-bee2-e5ee5f1539b0",
+      "17a73d0b-b618-4597-8f52-c07184680f77"
+    ],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Rambler AI: what the Coffee Enthusiast tier actually does",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Most coffee enthusiasts already know what variables matter. Grind size, water temperature, dose, and ratio. The fundamentals are well documented and widely discussed. The harder problem is remembering what you actually did last Tuesday, whether it tasted better than the week before, and what specifically was different. A notebook helps. A spreadsheet helps more. But neither one can look at three months of your brewing history and tell you that your V60 brews consistently score two points...",
+    "slug": "coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does",
+    "coverImage": {
+      "src": {
+        "id": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "file_name": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "width": 1722,
+        "height": 805,
+        "original_file_name": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "file_name": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg",
+        "width": 1722,
+        "height": 805,
+        "original_file_name": "675337_ccc08bf0ce664f7cad529da9e007d990~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "626fa155463ba7f41e49b838",
+    "id": "c277976e-8fa4-4e0d-b415-7a47e273dfc9",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2022-05-02T09:41:53.372Z",
+    "slugs": [
+      "coffeeland-a-short-summary-and-review"
+    ],
+    "seoSlug": "coffeeland-a-short-summary-and-review",
+    "seoTitle": null,
+    "seoDescription": "Coffeeland is the story of El Salvador’s century-long development into a coffee plantation. The book zooms in and out on the family and life of the tireless autodidact, James Hill (1871-1951), a Manchester-born product of Britain’s late industrial revolution, to exemplify how El Salvador’s economy became debt-laden and reliant on ‘mild’ coffee exports for cash. This had grave consequences for the people of El Salvador and their ability to feed themselves.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 5,
+    "canonicalUrl": null,
+    "viewCount": 106,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2022-05-02T09:41:53.372Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "b8b5a07a-7d7f-46a3-b196-4f02dc1126db",
+      "e9f630f9-e546-41f9-886b-09c934a84fd5",
+      "0f1ac7fc-874f-4866-8fba-689b319060d5",
+      "47fd323a-7d0b-45fe-9491-392163aaec42",
+      "a61380c0-f328-4577-bd72-10c640b05286",
+      "96ecfce4-bec6-4c5d-ab40-0569b48ea37b",
+      "3e755e9b-b28e-4fa8-ad7f-1d77be59da63",
+      "2603c60d-2ffa-43d4-9de3-ac40a945c0bf"
+    ],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffeeland: A Short Summary and Review",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Coffeeland is the story of El Salvador’s century-long development into a coffee plantation. ",
+    "slug": "coffeeland-a-short-summary-and-review",
+    "coverImage": {
+      "src": {
+        "id": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "file_name": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "width": 400,
+        "height": 616,
+        "original_file_name": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "file_name": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg",
+        "width": 400,
+        "height": 616,
+        "original_file_name": "675337_38d53472eae44dae9deced1c833bd015~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "61b36b5b79c81200166acf42",
+    "id": "db430ce6-bb43-4442-b0b9-73a64d30c518",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444",
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2021-12-10T16:56:49.411Z",
+    "slugs": [
+      "coffee-with-covid"
+    ],
+    "seoSlug": "coffee-with-covid",
+    "seoTitle": null,
+    "seoDescription": "I’ve recently suffered Covid-19 and it got me thinking about the sensory side of coffee, given the taste buds and olfactory system have decided to pack up and die. As of writing this, it is 10 days since my flavour and scent perception faded and 14 since the first symptoms started, those being fatigue, headaches and brain fog. ",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 85,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2021-12-10T16:56:49.411Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "b8b5a07a-7d7f-46a3-b196-4f02dc1126db",
+      "499b405b-33e2-4c7e-ac77-c6c7a3783cdb",
+      "b400db48-c9e6-4052-b1d1-42e502725e62",
+      "a4d626e7-2c66-413f-98ab-180435455a37",
+      "8863f13c-1042-4c8c-a605-3d37c0223073",
+      "227809eb-6784-4d99-8ab3-54f6124628e5",
+      "e6ef7922-6eee-4990-b94c-d084f60c8cc5"
+    ],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee with Covid",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "I’ve recently suffered Covid-19 and it got me thinking about the sensory side of coffee, given the taste buds and olfactory system have...",
+    "slug": "coffee-with-covid",
+    "coverImage": {
+      "src": {
+        "id": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "file_name": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "width": 1080,
+        "height": 1080,
+        "original_file_name": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "file_name": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png",
+        "width": 1080,
+        "height": 1080,
+        "original_file_name": "675337_6933ff2040cf40df9eebc2ed161a4f11~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "603a22968460ed005905d41a",
+    "id": "d50c6f2c-142d-4a0f-9aa9-1d5ac4a78d78",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2021-02-27T10:52:53.234Z",
+    "slugs": [
+      "process-knowledge-and-brewing-coffee"
+    ],
+    "seoSlug": "process-knowledge-and-brewing-coffee",
+    "seoTitle": null,
+    "seoDescription": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property) and the Process Knowledge – knowhow held by people. ",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 65,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2021-02-27T10:52:53.234Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "b8b5a07a-7d7f-46a3-b196-4f02dc1126db",
+      "424ee60c-1957-462b-91c4-e5052b00fbc3",
+      "37c3add4-5702-49c3-94b8-ed209bd001a3",
+      "4eca8545-4c2d-4635-84b1-1f5be6d11067",
+      "e3114925-2c71-4399-8cef-4097697ac1da"
+    ],
+    "relatedPostIds": [
+      "e1416ff7-43e3-4f86-8b0b-e8d972da1ab2",
+      "038d5288-672f-4da3-9af0-dcb5353f81df"
+    ],
+    "translationId": null,
+    "title": "Process Knowledge and Brewing Coffee",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "It’s been argued that technology comes in three components; the ‘stuff’, the accompanying written information (Intellectual Property)",
+    "slug": "process-knowledge-and-brewing-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "file_name": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "width": 844,
+        "height": 889,
+        "original_file_name": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "file_name": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png",
+        "width": 844,
+        "height": 889,
+        "original_file_name": "675337_794ed8e3510e47cc9afa984ef9be3b08~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5fec66a95f3cbe00179aa612",
+    "id": "505667a1-eed8-44d1-8cc5-502c880b1485",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2020-12-30T12:17:04.432Z",
+    "slugs": [
+      "a-guide-to-how-coffee-is-traded"
+    ],
+    "seoSlug": "a-guide-to-how-coffee-is-traded",
+    "seoTitle": null,
+    "seoDescription": "Anyone who drinks coffee knows its price fluctuates over time. Investors and traders can profit from these price movements by knowing how this agricultural commodity is traded. ",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 60,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2020-12-30T12:17:04.432Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [
+      "2f79a5b3-baca-48b9-9fd4-6b1d92effad3",
+      "e6fc7163-2177-4dbb-a581-8ec436fac861",
+      "4f1e5245-a658-410e-b452-90e442e6b9cf",
+      "714566fe-4839-4400-83e2-74b9a67eafd5",
+      "974b22e0-638e-4ca7-9d4b-c9aea05be82a",
+      "858bc11d-eed3-4b34-97ce-3c3a882e5a90",
+      "e93003b9-6808-47ff-9ed3-3a57e8d2c418",
+      "f1702f47-ac21-447f-aba2-d9cec825bf2d"
+    ],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "A Guide to How Coffee is Traded",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Anyone who drinks coffee knows its price fluctuates over time. Investors and traders can profit from these movements...",
+    "slug": "a-guide-to-how-coffee-is-traded",
+    "coverImage": {
+      "src": {
+        "id": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "file_name": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "width": 2734,
+        "height": 1337,
+        "original_file_name": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "file_name": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg",
+        "width": 2734,
+        "height": 1337,
+        "original_file_name": "675337_00a17128a18a4750a233dc457cb268f5~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5edcefe963a37500179c2d53",
+    "id": "3d98e808-866b-400a-a41a-0b00f80ab1d9",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444",
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2020-12-30T12:26:25.393Z",
+    "slugs": [
+      "a-whole-new-water-world-a-peak-water-review"
+    ],
+    "seoSlug": "a-whole-new-water-world-a-peak-water-review",
+    "seoTitle": null,
+    "seoDescription": "I haven’t been this excited about a home brewing tool for a long, long time. The Peak Water jug has arrived and it has handed greater control to the coffee brewer. This article is a short review of using the product without going into too much depth about the science of water and extraction.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 721,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2020-06-07T14:09:06.262Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "A Whole New Water World - A Peak Water Review",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Last edited 30 December 2020 I haven’t been this excited about a home brewing tool for a long, long time. The Peak Water jug has arrived...",
+    "slug": "a-whole-new-water-world-a-peak-water-review",
+    "coverImage": {
+      "src": {
+        "id": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "file_name": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "width": 1486,
+        "height": 2015,
+        "original_file_name": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "file_name": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg",
+        "width": 1486,
+        "height": 2015,
+        "original_file_name": "a27d24_713f3df8c2334816944726d76223b7b3~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b672db29b3947001e6a0111",
+    "id": "dbb01604-0c0f-4ca4-9319-19d71541894a",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d3957a50880014ec39e2"
+    ],
+    "lastPublishedDate": "2018-07-29T17:20:14.000Z",
+    "slugs": [
+      "city-café-guide-coffee-in-bristol"
+    ],
+    "seoSlug": "city-café-guide-coffee-in-bristol",
+    "seoTitle": null,
+    "seoDescription": "Bristol, the tenth largest city in the UK, has a laid back attitude with a lively independent streak. There are plenty of excellent restaurants, great places to party and a multitude of events to experience (your writer went during Upfest, a large Street Art Festival). Naturally then, there is a vibrant ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 59,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-07-29T17:20:14.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "City Café Guide - Coffee in Bristol",
+    "language": "en",
+    "hashtags": [
+      "bristol",
+      "specialtycoffee",
+      "coffee",
+      "cafeguide",
+      "coffeeshop",
+      "ukcoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Bristol Coffee Bristol, the tenth largest city in the UK, has a laid back attitude with a lively independent streak. There are plenty of...",
+    "slug": "city-café-guide-coffee-in-bristol",
+    "coverImage": {
+      "src": {
+        "id": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_80166c61481146f8875a0c4b5d071720~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b5e00ab6adb5002bef010f1",
+    "id": "1691432c-ba00-4fcc-8b6e-dc76f6adadec",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-07-19T18:12:12.000Z",
+    "slugs": [
+      "instant-coffee-production-a-summary-of-bbc-s-inside-the-factory"
+    ],
+    "seoSlug": "instant-coffee-production-a-summary-of-bbc-s-inside-the-factory",
+    "seoTitle": null,
+    "seoDescription": "How do they make instant coffee? On the 17th of august the BBC show, Inside the Factory, gave us an insight into the manufacturing of instant coffee. It was an incredibly interesting watch and revealed the vast scale and energy required to make such a product in vast quantities. Read more here...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 383,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-07-19T18:12:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Instant Coffee Production – A Summary of BBC’s Inside the Factory",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "instantcoffee",
+      "gregwallace",
+      "bald",
+      "history"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "How do they make instant coffee? On the 17th of august the BBC show, Inside the Factory, gave us an insight into the manufacturing of...",
+    "slug": "instant-coffee-production-a-summary-of-bbc-s-inside-the-factory",
+    "coverImage": {
+      "src": {
+        "id": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "file_name": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "width": 2448,
+        "height": 3264,
+        "original_file_name": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "file_name": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg",
+        "width": 2448,
+        "height": 3264,
+        "original_file_name": "675337_9a87f489c2e84625a1c07ac9f10396ef~mv2_d_2448_3264_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b43cb36c8752f0063c353cb",
+    "id": "f01f63bc-03b9-4576-82bf-5f34ed87fdb6",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-06-18T21:07:01.000Z",
+    "slugs": [
+      "the-dry-process-an-introduction-to-natural-coffees"
+    ],
+    "seoSlug": "the-dry-process-an-introduction-to-natural-coffees",
+    "seoTitle": null,
+    "seoDescription": "Natural processed coffees (also called dry) are capable of beautiful tropical fruit, dried fruit and rum cocktail like flavours. They are relatively low in acidity (compared with the washed process), fuller in body and are perceived as sweeter. It was a natural processed coffee which really kicked off ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 654,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-06-18T21:07:01.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "The Dry Process - An Introduction to Natural Coffees",
+    "language": "en",
+    "hashtags": [
+      "naturalprocess",
+      "naturalcoffee",
+      "dryprocess",
+      "processingcoffee",
+      "quakers",
+      "defects"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Natural processed coffees (also called dry) are capable of beautiful tropical fruit, dried fruit and rum cocktail like flavours. They are...",
+    "slug": "the-dry-process-an-introduction-to-natural-coffees",
+    "coverImage": {
+      "src": {
+        "id": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "file_name": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "width": 891,
+        "height": 706,
+        "original_file_name": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "file_name": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg",
+        "width": 891,
+        "height": 706,
+        "original_file_name": "675337_c195738f9034403c825265f65b68b8a5~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b32ad36ace2e500876db19c",
+    "id": "0458091b-b2d3-4afa-afa1-02892f398c59",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d3957a50880014ec39e2"
+    ],
+    "lastPublishedDate": "2020-12-30T12:20:11.900Z",
+    "slugs": [
+      "city-café-guide-coffee-in-london"
+    ],
+    "seoSlug": "city-café-guide-coffee-in-london",
+    "seoTitle": null,
+    "seoDescription": "London is an incredibly varied city for coffee. There are countless high street commercial coffee shops, independent cafes serving big Italian brands and then there's the specialty scene. Even within the specialty sector there is a great selection of different styles, from the darker caramel roasts of ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 5,
+    "canonicalUrl": null,
+    "viewCount": 67,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-06-07T22:13:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "City Café Guide - Coffee in London",
+    "language": "en",
+    "hashtags": [
+      "london",
+      "coffeerambler",
+      "londoncafe",
+      "coffeeculture"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "London Coffee Last edited 30 December 2020 London is an incredibly varied city for coffee. There are countless high street commercial...",
+    "slug": "city-café-guide-coffee-in-london",
+    "coverImage": {
+      "src": {
+        "id": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_6a165cb1c4b14564ac7d6d19396117bf~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b1ee82fbb420b008687907c",
+    "id": "48cc56f1-c713-4390-b77d-dbc39d59475b",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-05-30T21:46:12.000Z",
+    "slugs": [
+      "making-espresso-the-basics-of-good-espresso"
+    ],
+    "seoSlug": "making-espresso-the-basics-of-good-espresso",
+    "seoTitle": null,
+    "seoDescription": "Making espresso is a craft. We may have visited shops where we prefer a particular barista to another and here’s why. Some people understand coffee better and use machines professionally. They understand the nuances of flavour and care about the quality of their cup. These are some basic tips to make great espresso",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 5,
+    "canonicalUrl": null,
+    "viewCount": 100,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-05-30T21:46:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Making Espresso – The Basics of Good Espresso",
+    "language": "en",
+    "hashtags": [
+      "espresso",
+      "coffeerambler",
+      "makingcoffee",
+      "lamarzocco",
+      "portafilter",
+      "coffeemachine",
+      "espressomachine"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The Basics of Making Good Espresso Making espresso is a craft. We may have visited shops where we prefer a particular barista to another...",
+    "slug": "making-espresso-the-basics-of-good-espresso",
+    "coverImage": {
+      "src": {
+        "id": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "file_name": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "width": 1024,
+        "height": 682,
+        "original_file_name": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "file_name": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg",
+        "width": 1024,
+        "height": 682,
+        "original_file_name": "675337_e099231926994e03adc21559d0ba022f~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5b1055d97a0249010360d7c2",
+    "id": "28d247aa-ab78-4ca8-8fd6-daf64ef55e39",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d37f1a8f8e00146d6ee7",
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-05-17T20:27:12.000Z",
+    "slugs": [
+      "the-journey-of-coffee-from-seed-to-cup"
+    ],
+    "seoSlug": "the-journey-of-coffee-from-seed-to-cup",
+    "seoTitle": null,
+    "seoDescription": "Taking the journey of coffee for granted is understandable. We pay to receive a latte at the local shop or just add water to granules at home. Some are even unsure of what coffee is, unaware it is the fruit of a tropical tree. Here we’ll look at the journey of coffee seed to roasted bean.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 96,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-05-17T20:27:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "The Journey of Coffee – From Seed to Cup",
+    "language": "en",
+    "hashtags": [
+      "coffeerambler",
+      "specialitycoffee",
+      "seedtocup",
+      "processingcoffee",
+      "roastingcoffee",
+      "harvestingcoffee",
+      "plantingcoffee",
+      "coffeetree"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Taking the journey of coffee for granted is understandable. We pay to receive a latte at the local shop or just add water to granules at...",
+    "slug": "the-journey-of-coffee-from-seed-to-cup",
+    "coverImage": {
+      "src": {
+        "id": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "file_name": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "width": 808,
+        "height": 803,
+        "original_file_name": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "file_name": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg",
+        "width": 808,
+        "height": 803,
+        "original_file_name": "675337_f84ee023313b4693b259da15ec4c956c~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5afedc8a1b521700143191ba",
+    "id": "2f8131dd-a89a-40ef-b1eb-80f79ab66c0d",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2019-02-26T20:05:41.132Z",
+    "slugs": [
+      "yerba-mate-recipe-for-a-summer-refresher"
+    ],
+    "seoSlug": "yerba-mate-recipe-for-a-summer-refresher",
+    "seoTitle": null,
+    "seoDescription": "Yerba Mate Not quite coffee, not quite tea, Yerba Mate is a caffeinated drink of its own. Mostly enjoyed in South America and Lebanon (biggest importer), it’s definitely another beverage for coffee and tea lovers to try.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 571,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-05-04T14:17:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Yerba Mate – Recipe for a summer refresher",
+    "language": "en",
+    "hashtags": [
+      "yerbamate",
+      "recipes",
+      "coldbrew",
+      "argentina",
+      "chile",
+      "uruguay",
+      "brazil"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Yerba Mate Not quite coffee, not quite tea, Yerba Mate is a caffeinated drink of its own. Mostly enjoyed in South America and Lebanon...",
+    "slug": "yerba-mate-recipe-for-a-summer-refresher",
+    "coverImage": {
+      "src": {
+        "id": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_7c62944d6d114b01b82b9dcefbed899d~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5af074c89e68cd0013ecb4e9",
+    "id": "c7bc0fb1-5bdf-4a5e-91c4-3a7f4473b154",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443",
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-25T16:15:24.000Z",
+    "slugs": [
+      "coffee-grind-size-wheel-introduction-to-grind-sizes"
+    ],
+    "seoSlug": "coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "seoTitle": null,
+    "seoDescription": "The Coffee Rambler grind size wheel was designed to make it easier to learn about grind sizes. It aims to reduce the need of referring to grind sizes as salt, sugar or sesame seeds. By looking at the wheel we can see the grind size required for different brew methods.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 328,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-04-25T16:15:24.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Grind Size Wheel - Introduction to grind sizes",
+    "language": "en",
+    "hashtags": [
+      "frenchpress",
+      "grindsizewheel",
+      "aeropress",
+      "v60",
+      "pourover",
+      "ethiopia",
+      "yemen",
+      "grindsize",
+      "coffeegrounds",
+      "espresso"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Grind Size Wheel The Coffee Rambler grind size wheel was designed to make it easier to learn about grind sizes. It aims to reduce the...",
+    "slug": "coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "coverImage": {
+      "src": {
+        "id": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "file_name": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "width": 2976,
+        "height": 3029,
+        "original_file_name": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "file_name": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg",
+        "width": 2976,
+        "height": 3029,
+        "original_file_name": "675337_b02c3487c3844bf7bc6ca7af6df17d57~mv2_d_2976_3029_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5ad86e5c2cc5830013a5cd0c",
+    "id": "e58c7ba6-3b5d-4728-98f3-d7acb00c4867",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-04-19T10:52:51.919Z",
+    "slugs": [
+      "coffee-pests-not-so-fungi-and-diseases"
+    ],
+    "seoSlug": "coffee-pests-not-so-fungi-and-diseases",
+    "seoTitle": null,
+    "seoDescription": "125 million people depend on coffee for their livelihoods. 41% of Ethiopia’s exports are in coffee. With coffee making up such an important part of developing country’s economies, coffee pests, fungi and diseases can cause great damage to the lives of many. Read more....",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 300,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-04-16T10:36:56.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Pests, (not-so) Fungi and Diseases",
+    "language": "en",
+    "hashtags": [
+      "specialtycoffee",
+      "costarica",
+      "srilanka",
+      "coffeeleafrust",
+      "coffeeberrydisease",
+      "coffeepests",
+      "coffeeborerbeetle",
+      "laroya",
+      "ethiopia",
+      "varieties",
+      "arabica"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "By Fairtrade’s reckoning, 125 million people depend on coffee for their livelihoods. 41% of Ethiopia’s exports are in coffee, with...",
+    "slug": "coffee-pests-not-so-fungi-and-diseases",
+    "coverImage": {
+      "src": {
+        "id": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "file_name": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "width": 300,
+        "height": 199,
+        "original_file_name": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "file_name": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg",
+        "width": 300,
+        "height": 199,
+        "original_file_name": "675337_f74db7317c324daabafeb6ac46f6d6f8~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5acc7fd0ab976e088da6d5dd",
+    "id": "060a26dc-bdbf-45e0-9039-e23b4b7281f5",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443",
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2018-04-10T10:06:20.407Z",
+    "slugs": [
+      "coffee-and-strength-what-is-a-strong-coffee"
+    ],
+    "seoSlug": "coffee-and-strength-what-is-a-strong-coffee",
+    "seoTitle": null,
+    "seoDescription": "\"I like a really Strong Coffee!\" What is a strong coffee? How do we make coffee weaker or stronger? Here we discuss proper use of the term in order to improve our coffee experience.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 1341,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-04-05T09:48:56.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee and Strength – What is a Strong Coffee? ",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "specialtycoffee",
+      "coffeerambler",
+      "weakcoffee",
+      "strongcoffee",
+      "extraction",
+      "makingcoffee",
+      "brewingbasics"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "\"I like a really Strong Coffee!\" I hear this sentence and the misuse of the word strong rather frequently. Whereas some people might...",
+    "slug": "coffee-and-strength-what-is-a-strong-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "file_name": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "width": 800,
+        "height": 800,
+        "original_file_name": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "file_name": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg",
+        "width": 800,
+        "height": 800,
+        "original_file_name": "675337_1dc34743bcd949aca5ef5f37efab63aa~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5ac4c3fa83d8480030693a4f",
+    "id": "d3346a79-8572-4337-ab60-69ddb9ec93db",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-05T07:46:40.023Z",
+    "slugs": [
+      "acrylamide-beware-the-californian-coffee-cancer"
+    ],
+    "seoSlug": "acrylamide-beware-the-californian-coffee-cancer",
+    "seoTitle": null,
+    "seoDescription": "In the wake of a judge ruling that all coffee must come with a cancer warning in California, we look at why. Acrylamide is indeed a carcinogenic but is any fear warranted?",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 51,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-03-30T12:43:07.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Acrylamide – Beware the Californian coffee cancer ",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "coffeehealth",
+      "coffeeandcancer",
+      "acrylamide",
+      "specialtycoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "In California, a judge has deemed it necessary for coffee to come with a cancer warning Shock horror! Cancer has found another way to get...",
+    "slug": "acrylamide-beware-the-californian-coffee-cancer",
+    "coverImage": {
+      "src": {
+        "id": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "file_name": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "width": 1536,
+        "height": 1920,
+        "original_file_name": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "file_name": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg",
+        "width": 1536,
+        "height": 1920,
+        "original_file_name": "675337_338892d91b3f4d93bab597cbe4599e30~mv2_d_1536_1920_s_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5ab52686964d25008a91089f",
+    "id": "ed878f69-8830-4cb9-a7b5-7c4e1bac1458",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-03-23T16:39:20.414Z",
+    "slugs": [
+      "making-arabic-coffee-an-exciting-change-to-your-coffee-through-adding-cardamom"
+    ],
+    "seoSlug": "making-arabic-coffee-an-exciting-change-to-your-coffee-through-adding-cardamom",
+    "seoTitle": null,
+    "seoDescription": "Sometimes a change in our daily coffee is appreciated. Although single origins can be varied and very delicious, craving for a different experience can take over. So why not make an Arabic coffee and have fun with an unfamiliar brew method?",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 1484,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-03-23T16:32:13.291Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Making Arabic Coffee – An exciting change to your coffee through adding cardamom",
+    "language": "en",
+    "hashtags": [
+      "coffeerambler",
+      "coffee",
+      "arabiccoffee",
+      "qahwah",
+      "kahwa",
+      "spicedcoffee",
+      "cardamomcoffee",
+      "brewmethod",
+      "coffeerecipe",
+      "oman"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Sometimes a change in our daily coffee is appreciated. Although single origins can be varied and very delicious, craving for a different...",
+    "slug": "making-arabic-coffee-an-exciting-change-to-your-coffee-through-adding-cardamom",
+    "coverImage": {
+      "src": {
+        "id": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "file_name": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg",
+        "width": 2976,
+        "height": 3968,
+        "original_file_name": "675337_9fde8b330dbd4e64b902ebef81db0af2~mv2_d_2976_3968_s_4_2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5aa682d63a39570024092bb2",
+    "id": "e5b4320a-184d-42d1-a28c-944403a4f291",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2018-03-12T14:20:40.712Z",
+    "slugs": [
+      "coffee-and-consciousness-how-coffee-has-aided-my-general-awareness-and-personal-development"
+    ],
+    "seoSlug": "coffee-and-consciousness-how-coffee-has-aided-my-general-awareness-and-personal-development",
+    "seoTitle": null,
+    "seoDescription": "Through learning more about coffee we can come to learn more about ourselves. My experience has lead me to a greater consciousness of many aspects in my life to which I find transferable, particularly relating to the sensory analysis of coffee.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 172,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-03-12T14:19:35.038Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee and Consciousness – How coffee can aid our general awareness and personal development ",
+    "language": "en",
+    "hashtags": [
+      "specialtycoffee",
+      "awareness",
+      "mindfulness",
+      "coffeerambler",
+      "consciousness",
+      "plumbus",
+      "coffee",
+      "coffeesensory",
+      "sensoryskills",
+      "cooking"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Coffee and Consciousness - Becoming more aware Through learning more about coffee we can come to learn more about ourselves. My...",
+    "slug": "coffee-and-consciousness-how-coffee-has-aided-my-general-awareness-and-personal-development",
+    "coverImage": {
+      "src": {
+        "id": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "file_name": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "width": 668,
+        "height": 652,
+        "original_file_name": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "file_name": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg",
+        "width": 668,
+        "height": 652,
+        "original_file_name": "675337_972c76dd9ccf4345bd57cc7825143255~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a996f24a2b831006dc13e26",
+    "id": "678c6113-4af3-4192-94ea-dd674b8b3815",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa",
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:44:55.059Z",
+    "slugs": [
+      "milky-coffee-at-home-understanding-milk-and-doing-it-right"
+    ],
+    "seoSlug": "milky-coffee-at-home-understanding-milk-and-doing-it-right",
+    "seoTitle": null,
+    "seoDescription": "How do we best prepare milk for coffee at home? Even without a Nespresso milk frother or a steam wand we can still produce good, foamy milk. Here's how...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 214,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-03-02T15:59:17.141Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Milky Coffee at Home – Understanding Milk and Doing it Right",
+    "language": "en",
+    "hashtags": [
+      "milk",
+      "coffee",
+      "milkforcoffee",
+      "cardamom",
+      "cloves",
+      "spicedmilk",
+      "specialtycoffee",
+      "microfoam",
+      "steamwand",
+      "steamedmilk",
+      "protein"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Most of the time I drink my coffee black. However, there are times I want a dark roasted coffee with milk to accompany a sickly sweet...",
+    "slug": "milky-coffee-at-home-understanding-milk-and-doing-it-right",
+    "coverImage": {
+      "src": {
+        "id": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "file_name": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "width": 1500,
+        "height": 1125,
+        "original_file_name": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "file_name": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg",
+        "width": 1500,
+        "height": 1125,
+        "original_file_name": "675337_51737ca8a0cd45d6a98055882ac68037~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a8fd7d3928144009303c155",
+    "id": "ad10f088-5f04-4807-af04-a5c1b2a2674f",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-10T10:43:34.953Z",
+    "slugs": [
+      "snobbery-in-specialty-coffee"
+    ],
+    "seoSlug": "snobbery-in-specialty-coffee",
+    "seoTitle": null,
+    "seoDescription": "There is a perceived snobbery in Specialty Coffee. Many of us have entered a coffee shop and felt either a little out of our depth, the staff are rude or that we’re amongst a bunch of pretentious bum heads.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 373,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-02-23T09:16:52.302Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Snobbery in Specialty Coffee",
+    "language": "en",
+    "hashtags": [
+      "snobbery",
+      "snob",
+      "specialtycoffee",
+      "ethiopia",
+      "hasbean",
+      "prufrock",
+      "london",
+      "kunming",
+      "china"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Coffee Snob There is a perceived snobbery in Specialty Coffee. Many of us have entered a coffee shop and felt either a little out of our...",
+    "slug": "snobbery-in-specialty-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "file_name": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "width": 1080,
+        "height": 1440,
+        "original_file_name": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "file_name": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg",
+        "width": 1080,
+        "height": 1440,
+        "original_file_name": "675337_a22313ccf8c74eb0914bdfcc726a1d15~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a86e4b96e9c8b02d4d086fe",
+    "id": "699a4790-41dc-4994-a725-bf76c308b650",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:43:08.709Z",
+    "slugs": [
+      "coffee-cheesecake-simply-lovely"
+    ],
+    "seoSlug": "coffee-cheesecake-simply-lovely",
+    "seoTitle": null,
+    "seoDescription": "Coffee Cheesecake Just like the tiramisu, this is another delicious, creamy, coffee dessert that’s so easy to make. Double cream thickens out the coffee and mascarpone, creating a smooth and satisfying mousse. This contrasts and balances nicely with the spiced biscuit base, with cinnamon and nutmeg adding a lively ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 34,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-02-16T14:18:43.928Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Cheesecake - Simply Lovely",
+    "language": "en",
+    "hashtags": [],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Coffee Cheesecake Just like the tiramisu, this is another delicious, creamy, coffee dessert that’s so easy to make. Double cream thickens...",
+    "slug": "coffee-cheesecake-simply-lovely",
+    "coverImage": {
+      "src": {
+        "id": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "file_name": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "width": 1191,
+        "height": 893,
+        "original_file_name": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "file_name": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg",
+        "width": 1191,
+        "height": 893,
+        "original_file_name": "675337_70ce65435585480694497fc8f5a785d4~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a7356abc2e24b015524a001",
+    "id": "7a0c690e-4197-40a0-aaed-09c613b8a239",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:41:33.180Z",
+    "slugs": [
+      "advanced-brewing-presentation-with-barista-hustle-something-to-think-about"
+    ],
+    "seoSlug": "advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+    "seoTitle": null,
+    "seoDescription": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee extraction and his discoveries, challenging some of the held beliefs in the specialty coffee industry. There were certainly things to think about...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 148,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-02-01T18:31:16.803Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Advanced Brewing Presentation with Barista Hustle - Something to think about.",
+    "language": "en",
+    "hashtags": [
+      "baristahustle",
+      "mattperger",
+      "coffeeextraction",
+      "extraction",
+      "overextraction",
+      "brewingcoffee",
+      "micron",
+      "sca",
+      "jameshoffman",
+      "coffeeevent"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee...",
+    "slug": "advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+    "coverImage": {
+      "src": {
+        "id": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "file_name": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "width": 752,
+        "height": 704,
+        "original_file_name": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "file_name": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+        "width": 752,
+        "height": 704,
+        "original_file_name": "675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a66042fc83216008545f97a",
+    "id": "e9f90deb-bf7a-412d-82f4-7bb45af4ae06",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:40:18.589Z",
+    "slugs": [
+      "tiramisu-i-love-it"
+    ],
+    "seoSlug": "tiramisu-i-love-it",
+    "seoTitle": "Tiramisu - How to make tiramisu",
+    "seoDescription": "Here’s a coffee dessert recipe for those who have a party coming up, a special date, or just love tiramisu. The warming chocolate, coffee and liquor flavours, smooth creaminess and light sponge fingers make this a harmonious treat.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 1873,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-01-22T15:56:36.636Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Tiramisu - I love it",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "dessert",
+      "tiramisu",
+      "coffeedessert",
+      "italiandessert",
+      "ladyfingers",
+      "delicious"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Here’s a coffee dessert recipe for those who have a party coming up, a special date, or just love tiramisu. Done correctly, this is a...",
+    "slug": "tiramisu-i-love-it",
+    "coverImage": {
+      "src": {
+        "id": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "file_name": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "width": 1080,
+        "height": 1185,
+        "original_file_name": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "file_name": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg",
+        "width": 1080,
+        "height": 1185,
+        "original_file_name": "675337_82a4ee30bfe34f2d98bb1e94944b9cd5~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cc93fdb152b00a7944a6a",
+    "id": "c372af10-c917-4999-aee2-49265f4cf1ad",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d3957a50880014ec39e2"
+    ],
+    "lastPublishedDate": "2018-04-10T10:38:57.640Z",
+    "slugs": [
+      "city-cafe-guide-coffee-in-wuhan"
+    ],
+    "seoSlug": "city-cafe-guide-coffee-in-wuhan",
+    "seoTitle": null,
+    "seoDescription": "The Yellow Crane Tower Wuhan’s coffee scene has grown rapidly in the last couple years. Where it was almost impossible to find specialty coffee, there are now oases popping up with surprisingly good espresso. This is what stood out most in my last visit to Wuhan.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 959,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-01-09T15:57:14.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "City Café Guide - Coffee in Wuhan",
+    "language": "en",
+    "hashtags": [
+      "cityguides",
+      "cafeguide",
+      "wuhan",
+      "china",
+      "chinesecoffee",
+      "espresso",
+      "flavourwheel",
+      "yellowcranetower",
+      "coffeeinchina"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The Yellow Crane Tower Wuhan’s coffee scene has grown rapidly in the last couple years. Where it was almost impossible to find specialty...",
+    "slug": "city-cafe-guide-coffee-in-wuhan",
+    "coverImage": {
+      "src": {
+        "id": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "file_name": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "width": 844,
+        "height": 853,
+        "original_file_name": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "file_name": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg",
+        "width": 844,
+        "height": 853,
+        "original_file_name": "675337_013ce3511a564e23b18533a75f5cdc69~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cc768f2abb2009922f40a",
+    "id": "f673336f-2bc1-4bbc-8f07-b612fbfd8843",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-04-10T10:37:35.936Z",
+    "slugs": [
+      "coffee-varieties-a-brief-look-at-significant-varieties"
+    ],
+    "seoSlug": "coffee-varieties-a-brief-look-at-significant-varieties",
+    "seoTitle": null,
+    "seoDescription": "There are many strands of the Coffea Arabica species, some natural varieties, and some man-made cultivars. Here we look at some of the most well-known varieties and their general characteristics. Most coffee strands are descendent of Typica and Bourbon...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 5,
+    "canonicalUrl": null,
+    "viewCount": 621,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2018-01-02T15:58:23.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Varieties - A brief look at significant varieties",
+    "language": "en",
+    "hashtags": [
+      "specialtycoffee",
+      "coffeevarieties",
+      "varietals",
+      "cultivar",
+      "sl28",
+      "sl34",
+      "caturra",
+      "bourbon",
+      "typica",
+      "pacamara",
+      "geisha",
+      "castillo",
+      "arabica",
+      "liberica",
+      "robusta"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "There are many strands of the Coffea Arabica species, some natural varieties, and some man-made cultivars. Here we look at some of the...",
+    "slug": "coffee-varieties-a-brief-look-at-significant-varieties",
+    "coverImage": {
+      "src": {
+        "id": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "file_name": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "width": 687,
+        "height": 358,
+        "original_file_name": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "file_name": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg",
+        "width": 687,
+        "height": 358,
+        "original_file_name": "675337_7841a64cc9db4564b4ecec775aa30ed6~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cb6ff16b9320078e618e8",
+    "id": "b5f0f0c0-9cab-458e-9699-94c6738d6f14",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d3957a50880014ec39e2"
+    ],
+    "lastPublishedDate": "2018-04-10T10:36:37.130Z",
+    "slugs": [
+      "city-cafe-guide-coffee-in-tokyo"
+    ],
+    "seoSlug": "city-cafe-guide-coffee-in-tokyo",
+    "seoTitle": null,
+    "seoDescription": "Japan has a long history with coffee and is one of the main importers of Hawaiian Kona and Blue Mountain. In Tokyo though, both older gourmet cafes and newer specialty shops can be found. Both are excellent.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 207,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-12-06T15:59:42.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "City Café Guide - Coffee in Tokyo",
+    "language": "en",
+    "hashtags": [
+      "cafeguide",
+      "cityguide",
+      "coffeeshop",
+      "tokyo",
+      "japan",
+      "jamaicabluemountain",
+      "lightroast"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Japan has a long history with coffee and is one of the main importers of Hawaiian Kona and Blue Mountain. In Tokyo though, both older...",
+    "slug": "city-cafe-guide-coffee-in-tokyo",
+    "coverImage": {
+      "src": {
+        "id": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "file_name": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "width": 626,
+        "height": 834,
+        "original_file_name": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "file_name": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg",
+        "width": 626,
+        "height": 834,
+        "original_file_name": "675337_f37b253afa5541b592385541b7764e43~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cb39cf3c69b006348dfc4",
+    "id": "b1bd5c83-5f33-4afc-9763-4cce72267298",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-07-09T21:08:23.073Z",
+    "slugs": [
+      "coffee-processing-the-honey-process"
+    ],
+    "seoSlug": "coffee-processing-the-honey-process",
+    "seoTitle": null,
+    "seoDescription": "The Honey Process (also called Pulped Natural) is a method of coffee processing first used in Brazil, which involves drying coffee with a certain amount of fruit left on the bean. Producers are becoming more innovative ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 496,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-12-01T16:02:13.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Processing - The Honey Process",
+    "language": "en",
+    "hashtags": [
+      "pulpednatural",
+      "honeyprocess",
+      "honeycoffee",
+      "coffeeprocessing",
+      "guatemala",
+      "costarica",
+      "washedprocess",
+      "wetprocess",
+      "dryprocess",
+      "naturalprocess"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The Honey Process (also called Pulped Natural) is a method of coffee processing first used in Brazil, which involves drying coffee with a...",
+    "slug": "coffee-processing-the-honey-process",
+    "coverImage": {
+      "src": {
+        "id": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "file_name": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "width": 866,
+        "height": 642,
+        "original_file_name": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "file_name": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg",
+        "width": 866,
+        "height": 642,
+        "original_file_name": "675337_3263e06aa4d84063b8dfde10a22bec1e~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cb0f11ba29900511972da",
+    "id": "2b199c04-888e-4a8b-a2f9-b6405fcc0bbf",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444",
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:34:06.222Z",
+    "slugs": [
+      "water-for-coffee-part-ii-tasting-with-ph-in-mind"
+    ],
+    "seoSlug": "water-for-coffee-part-ii-tasting-with-ph-in-mind",
+    "seoTitle": null,
+    "seoDescription": null,
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 120,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-11-25T16:03:30.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Water for coffee Part II – Tasting with pH in mind",
+    "language": "en",
+    "hashtags": [
+      "water",
+      "waterforcoffee",
+      "phscale",
+      "tastingcoffee",
+      "tastetest",
+      "waterhardness",
+      "specialtycoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "In Part I we looked at how Total Dissolved Solids (TDS) in water impact the taste of coffee. We also wanted to know how much the pH...",
+    "slug": "water-for-coffee-part-ii-tasting-with-ph-in-mind",
+    "coverImage": {
+      "src": {
+        "id": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "file_name": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "width": 884,
+        "height": 361,
+        "original_file_name": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "file_name": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg",
+        "width": 884,
+        "height": 361,
+        "original_file_name": "675337_951689a0d9614555a2c594ee091902da~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cafb52a8b440047f23143",
+    "id": "bc61134b-bb3a-40d9-b63c-5b37a30e7d18",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-10T10:32:12.146Z",
+    "slugs": [
+      "the-geisha-variety-what-s-the-big-deal"
+    ],
+    "seoSlug": "the-geisha-variety-what-s-the-big-deal",
+    "seoTitle": null,
+    "seoDescription": "The specialty coffee market appears to be flooded with companies flaunting their high quality, Geisha (also spelt Gesha) variety coffee. Even Starbucks are plastering pictures and painting it in their shops. The price is high, its aromatic/floral flavours big, and it is treated with great reverence",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 82,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-11-18T16:04:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "The Geisha Variety – What’s the big deal?",
+    "language": "en",
+    "hashtags": [
+      "gesha",
+      "geisha",
+      "coffeevarieties",
+      "varietals",
+      "ethiopia",
+      "panama",
+      "costarica",
+      "coffeeprices"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The specialty coffee market appears to be flooded with companies flaunting their high quality, Geisha (also spelt Gesha) variety coffee....",
+    "slug": "the-geisha-variety-what-s-the-big-deal",
+    "coverImage": {
+      "src": {
+        "id": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "file_name": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "width": 653,
+        "height": 709,
+        "original_file_name": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "file_name": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg",
+        "width": 653,
+        "height": 709,
+        "original_file_name": "675337_44a8601be8514f38bb4b191e3b0b468f~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a4cacb4e95ebe0014572931",
+    "id": "4abb836d-a94e-42bc-acec-27e55daf1eb1",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d3957a50880014ec39e2"
+    ],
+    "lastPublishedDate": "2018-04-10T10:31:30.450Z",
+    "slugs": [
+      "city-cafe-guide-coffee-in-beijing"
+    ],
+    "seoSlug": "city-cafe-guide-coffee-in-beijing",
+    "seoTitle": null,
+    "seoDescription": "It’s very possible to find great coffee in Beijing. Good coffee shops tend to congregate in certain areas, like around the Yonghe Temple and other parts of Old Beijing. This is the area of the city which was once surrounded by high walls, protecting the famous Old Town...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 946,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-11-11T16:05:12.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "City Café Guide – Coffee in Beijing",
+    "language": "en",
+    "hashtags": [
+      "cafeguide",
+      "coffeeshop",
+      "beijing",
+      "china",
+      "worldcoffee",
+      "lamarzocco",
+      "chinesecoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The view of White Tower Temple from Bear Brew, West District It’s very possible to find great coffee in Beijing. Good coffee shops tend...",
+    "slug": "city-cafe-guide-coffee-in-beijing",
+    "coverImage": {
+      "src": {
+        "id": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "file_name": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "width": 922,
+        "height": 519,
+        "original_file_name": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "file_name": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg",
+        "width": 922,
+        "height": 519,
+        "original_file_name": "675337_68c964466856437589f4d8a66b60d342~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47d6ea5efd690e6c9724d8",
+    "id": "19553ff6-0bac-4f3e-a06f-a69eab330feb",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2018-04-10T10:30:05.688Z",
+    "slugs": [
+      "tasting-extraction-an-easy-experiment-for-understanding-balance"
+    ],
+    "seoSlug": "tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "seoTitle": null,
+    "seoDescription": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or over extracted. With little experience of what these taste like, bitter and sour are easy to confuse. This test is helpful for knowing the difference.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 2,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 88,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-11-04T16:06:44.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Tasting Extraction – An easy experiment for understanding balance",
+    "language": "en",
+    "hashtags": [
+      "tastingextraction",
+      "underextraction",
+      "overextraction",
+      "tastetest",
+      "cupping",
+      "coffeeextraction"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "When drinking a badly brewed coffee with nothing to compare the taste with, it can sometimes be difficult to identify if it’s under or...",
+    "slug": "tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "coverImage": {
+      "src": {
+        "id": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "file_name": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "width": 744,
+        "height": 992,
+        "original_file_name": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "file_name": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg",
+        "width": 744,
+        "height": 992,
+        "original_file_name": "675337_79dcf546a9e54b18a2643c5beb8db3ae~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47d3308c738a0d74fe6dbc",
+    "id": "96910cfa-2f1c-4490-8def-828d5a119370",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-07-09T21:09:15.547Z",
+    "slugs": [
+      "coffee-processing-methods-from-cherry-to-green-bean"
+    ],
+    "seoSlug": "coffee-processing-methods-from-cherry-to-green-bean",
+    "seoTitle": null,
+    "seoDescription": "Dried Coffee Cherries Coffee must be processed from fruit to green bean before roasting. There are a number of ways of achieving this and each method produces a bean with quite different characteristics. See more...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 5,
+    "canonicalUrl": null,
+    "viewCount": 2929,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-10-28T15:07:39.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Processing Methods – From Cherry to Green Bean",
+    "language": "en",
+    "hashtags": [
+      "coffeeprocessing",
+      "wetprocess",
+      "dryprocess",
+      "honeyprocess",
+      "washedcoffee",
+      "naturalcoffee",
+      "wethulledprocess",
+      "semiwashedcoffee",
+      "coffeecherry"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Dried Coffee Cherries Coffee must be processed from fruit to green bean before roasting. There are a number of ways of achieving this and...",
+    "slug": "coffee-processing-methods-from-cherry-to-green-bean",
+    "coverImage": {
+      "src": {
+        "id": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "file_name": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "width": 853,
+        "height": 568,
+        "original_file_name": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "file_name": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg",
+        "width": 853,
+        "height": 568,
+        "original_file_name": "675337_8155108cae5343baade70556e7415fcb~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47d07e7b226b0de26821fe",
+    "id": "e3a20cd5-d3c5-4dd6-b000-5d8e4b4e0b23",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444",
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:27:26.775Z",
+    "slugs": [
+      "water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water"
+    ],
+    "seoSlug": "water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water",
+    "seoTitle": null,
+    "seoDescription": "Water makes up over 98% of brewed coffee and is the solvent for extracting flavour from the beans. As you might imagine, it is important to use the right water for brewing. But how much does water affect taste? How does it affect acidity, bitterness and flavour? I joined up with a water sommelier, Götz of MaiAqua.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 622,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-10-21T15:08:45.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Water for Coffee Part I - A TDS taste test and the importance of water",
+    "language": "en",
+    "hashtags": [
+      "tds",
+      "waterforcoffee",
+      "sensory",
+      "totaldissolvedsolids",
+      "water",
+      "sulawesi",
+      "peru",
+      "phscale",
+      "tanzania",
+      "waterhardness"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Water makes up over 98% of brewed coffee and is the solvent for extracting flavour from the beans. As you might imagine, it is important...",
+    "slug": "water-for-coffee-part-i-a-tds-taste-test-and-the-importance-of-water",
+    "coverImage": {
+      "src": {
+        "id": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "file_name": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "width": 1080,
+        "height": 1461,
+        "original_file_name": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "file_name": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg",
+        "width": 1080,
+        "height": 1461,
+        "original_file_name": "675337_e11d0084a92d43cab61a8b073c5b0dc0~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47cb835efd690e6c9712f0",
+    "id": "745ebaa0-b7df-4632-963b-691353980eb8",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:25:43.541Z",
+    "slugs": [
+      "alternative-aeropress-recipes"
+    ],
+    "seoSlug": "alternative-aeropress-recipes",
+    "seoTitle": null,
+    "seoDescription": "The Aeropress is a wonderful thing. Its versatility allows you to make many different kinds of coffee of varying intensity. Below are a few favourite and very different alternative recipes when using the Aeropress.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 200,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-10-14T15:12:23.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Alternative Aeropress Recipes",
+    "language": "en",
+    "hashtags": [
+      "aeropress",
+      "aeropressrecipe",
+      "recipe",
+      "coffeerecipe",
+      "coldbrew",
+      "coldbrewcoffee",
+      "spicedcoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The Aeropress is a wonderful thing. Its versatility allows you to make many different kinds of coffee of varying intensity. Below are a...",
+    "slug": "alternative-aeropress-recipes",
+    "coverImage": {
+      "src": {
+        "id": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "file_name": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "width": 896,
+        "height": 891,
+        "original_file_name": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "file_name": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg",
+        "width": 896,
+        "height": 891,
+        "original_file_name": "675337_eda8e9ea85234d1580d348ae9da057f6~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47c9348c738a0d74fe5d7a",
+    "id": "52e0e27b-6b5d-4b12-9db0-c42c9c1b9735",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-04-10T10:24:07.492Z",
+    "slugs": [
+      "what-is-coffee-coffee-the-fruit-and-its-species"
+    ],
+    "seoSlug": "what-is-coffee-coffee-the-fruit-and-its-species",
+    "seoTitle": null,
+    "seoDescription": "Many of us consume coffee without a thought for where it comes from or what it even is. Coffee Rambler hopes to not only share the joys of great coffee but also provide a platform for people to explore the extraordinary depths behind it; that being its biology, origins, history, cultivation, processing, trading and ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 355,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-10-07T15:13:09.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "What is Coffee? Coffee, the fruit and its species",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "robusta",
+      "arabica",
+      "charrier",
+      "cameroon",
+      "liberica",
+      "philippines",
+      "flavourwheel",
+      "whatiscoffee",
+      "coffeecherry"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Many of us consume coffee without a thought for where it comes from or what it even is. Coffee Rambler hopes to not only share the joys...",
+    "slug": "what-is-coffee-coffee-the-fruit-and-its-species",
+    "coverImage": {
+      "src": {
+        "id": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "file_name": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "width": 354,
+        "height": 398,
+        "original_file_name": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "file_name": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png",
+        "width": 354,
+        "height": 398,
+        "original_file_name": "675337_e8eebb9715b64a799d88ddc2e0d18049~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47c83c8c738a0d74fe5bba",
+    "id": "09e5c599-c3d0-40df-9c8b-6faf7f59bd38",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:22:29.679Z",
+    "slugs": [
+      "pancakes-for-lazy-mornings"
+    ],
+    "seoSlug": "pancakes-for-lazy-mornings",
+    "seoTitle": null,
+    "seoDescription": "To wake up on a weekend morning, feel the warm light and realise there are no commitments is a glorious thing. The smell of coffee will enhance the relaxed atmosphere, so why not go further and make some pancakes too? Here is a simple pancake recipe for such mornings with a little guidance on getting it right",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 31,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-09-30T15:14:50.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Pancakes for Lazy Mornings",
+    "language": "en",
+    "hashtags": [
+      "pancakes",
+      "coffee",
+      "breakfast",
+      "breakfastcoffee",
+      "recipe",
+      "pancakerecipe",
+      "lazymornings"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "To wake up on a weekend morning, feel the warm light and realise there are no commitments is a glorious thing. The smell of coffee will...",
+    "slug": "pancakes-for-lazy-mornings",
+    "coverImage": {
+      "src": {
+        "id": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "file_name": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "width": 736,
+        "height": 721,
+        "original_file_name": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "file_name": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg",
+        "width": 736,
+        "height": 721,
+        "original_file_name": "675337_19ce631ad8384464abfa6db6185d8662~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47c5be7b226b0de2680ee0",
+    "id": "871c0582-7874-4ff4-8552-fa565dbc75a5",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-10T10:21:54.031Z",
+    "slugs": [
+      "what-is-the-world-s-best-coffee"
+    ],
+    "seoSlug": "what-is-the-world-s-best-coffee",
+    "seoTitle": null,
+    "seoDescription": "I am frequently asked this question and you may not be surprised that I don't believe there is an answer.  I would never make such a judgement on a single coffee myself, knowing that coffee is highly subjective and that the brew method, roast level, processing and mood all play a part.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 35,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-09-23T15:15:21.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "What is the World’s best coffee?",
+    "language": "en",
+    "hashtags": [
+      "italiancoffee",
+      "bestcoffee",
+      "geisha",
+      "kona",
+      "bluemountain",
+      "cupofexcellence",
+      "homebrewing"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "I am frequently asked this question and you may not be surprised that I don't believe there is an answer.  I would never make such a...",
+    "slug": "what-is-the-world-s-best-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "file_name": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "width": 626,
+        "height": 626,
+        "original_file_name": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "file_name": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg",
+        "width": 626,
+        "height": 626,
+        "original_file_name": "675337_cfb69d2380154082aa725e5b6e4b6db4~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a47c3608c738a0d74fe52b8",
+    "id": "17463bcc-3a1e-4ff4-bdae-dae66dd91883",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443",
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:20:27.804Z",
+    "slugs": [
+      "aeropress-filters-metal-or-paper"
+    ],
+    "seoSlug": "aeropress-filters-metal-or-paper",
+    "seoTitle": null,
+    "seoDescription": "Which filter makes a better coffee with the Aeropress? Paper or Metal?",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 73,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-09-16T15:16:44.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Aeropress Filters - Metal or Paper?",
+    "language": "en",
+    "hashtags": [
+      "aeropress",
+      "metalfilter",
+      "paperfilter",
+      "filtercoffee",
+      "specialtycoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "This article first appeared on The Home Barista. Which filter makes a better coffee with the Aeropress? The Aeropress is great for making...",
+    "slug": "aeropress-filters-metal-or-paper",
+    "coverImage": {
+      "src": {
+        "id": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "file_name": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "width": 1054,
+        "height": 523,
+        "original_file_name": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "file_name": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg",
+        "width": 1054,
+        "height": 523,
+        "original_file_name": "675337_c0ae32a3b41c43f7aaf27dace85f22b3~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a45425c38bb000659ae9835",
+    "id": "b70e0dc8-79cd-4bee-8693-fe06148c0326",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442",
+      "5a33d37f1a8f8e00146d6ee7"
+    ],
+    "lastPublishedDate": "2018-04-10T10:20:00.099Z",
+    "slugs": [
+      "what-is-specialty-coffee"
+    ],
+    "seoSlug": "what-is-specialty-coffee",
+    "seoTitle": null,
+    "seoDescription": "Why is there such a buzz around Specialty Coffee and how do we define it? The aim of Coffee Rambler is to get more people sharing and drinking great coffee, but it helps to know a bit more ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 100,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-09-09T15:18:39.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "What is Specialty Coffee?",
+    "language": "en",
+    "hashtags": [
+      "specialtycoffee",
+      "specialtycoffee",
+      "defects",
+      "coffeescoring",
+      "coffeegrading",
+      "kenya",
+      "arabica"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "How do we define Specialty Coffee? The aim of Coffee Rambler is to get more people drinking specialty coffee. However, first we need to...",
+    "slug": "what-is-specialty-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "file_name": "675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "width": 447,
+        "height": 596,
+        "original_file_name": "675337_38236574639445088c205a74908ee924~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "file_name": "675337_38236574639445088c205a74908ee924~mv2.jpg",
+        "width": 447,
+        "height": 596,
+        "original_file_name": "675337_38236574639445088c205a74908ee924~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a453c9bfb59670b779d3eea",
+    "id": "8cb3d7ec-d361-4d6a-9e6d-0e38f0e5e97a",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-06-10T20:35:48.829Z",
+    "slugs": [
+      "why-is-the-grind-so-important"
+    ],
+    "seoSlug": "why-is-the-grind-so-important",
+    "seoTitle": null,
+    "seoDescription": null,
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 114,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-09-02T15:19:03.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Why is the Grind So Important?",
+    "language": "en",
+    "hashtags": [
+      "grinder",
+      "coffeegrind",
+      "coarsegrind",
+      "finegrind",
+      "groundcoffee",
+      "overextraction",
+      "underextraction"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Getting the Right Grind It may appear rather trivial, but one of the most important aspects of brewing coffee is getting your grind...",
+    "slug": "why-is-the-grind-so-important",
+    "coverImage": {
+      "src": {
+        "id": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "file_name": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "width": 636,
+        "height": 477,
+        "original_file_name": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "file_name": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg",
+        "width": 636,
+        "height": 477,
+        "original_file_name": "675337_5f6c4c32f74a4d0f920125b92b064f4d~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a452f27b65f4b098099330a",
+    "id": "dd0ecff5-16dd-4517-90a0-476003fad573",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443",
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-10T10:18:26.903Z",
+    "slugs": [
+      "how-is-coffee-extracted"
+    ],
+    "seoSlug": "how-is-coffee-extracted",
+    "seoTitle": null,
+    "seoDescription": "Coffee Extraction The way coffee is extracted has an enormous effect on the end result. After such a long journey from farm to cup, it’s a massive shame when the brew produces a terrible cup. It is therefore important to know how coffee is extracted and what you should do to bring the best out of every coffee.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 92,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-08-19T15:19:56.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "How is Coffee Extracted?",
+    "language": "en",
+    "hashtags": [
+      "coffeeextraction",
+      "extractingcoffee",
+      "overextraction",
+      "underextraction",
+      "brewingtips"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Coffee Extraction The way coffee is extracted has an enormous effect on the end result. After such a long journey from farm to cup, it’s...",
+    "slug": "how-is-coffee-extracted",
+    "coverImage": {
+      "src": {
+        "id": "248646daa00d44a7bca9d770106f36bd.jpg",
+        "file_name": "248646daa00d44a7bca9d770106f36bd.jpg",
+        "width": 5760,
+        "height": 3840,
+        "original_file_name": "248646daa00d44a7bca9d770106f36bd.jpg"
+      },
+      "imageMetadata": {
+        "id": "248646daa00d44a7bca9d770106f36bd.jpg",
+        "file_name": "248646daa00d44a7bca9d770106f36bd.jpg",
+        "width": 5760,
+        "height": 3840,
+        "original_file_name": "248646daa00d44a7bca9d770106f36bd.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec344a",
+    "id": "423aab26-4336-4de6-a289-449c9b93e356",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:17:40.309Z",
+    "slugs": [
+      "keeping-that-fresh-coffee-taste"
+    ],
+    "seoSlug": "keeping-that-fresh-coffee-taste",
+    "seoTitle": null,
+    "seoDescription": "As soon as coffee is roasted it starts to lose freshness. Therefore, storing coffee correctly is important for maintaining a high quality cup.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 31,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-08-12T15:20:31.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Keeping that Fresh Coffee Taste",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "storingcoffee",
+      "coffeeinthefridge",
+      "oxygenandcoffee",
+      "moisturecontent",
+      "brewingtips",
+      "aroma"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "As soon as coffee is roasted it starts to lose freshness. Therefore, storing coffee correctly is important for maintaining a high quality...",
+    "slug": "keeping-that-fresh-coffee-taste",
+    "coverImage": {
+      "src": {
+        "id": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "file_name": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "width": 942,
+        "height": 486,
+        "original_file_name": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "file_name": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg",
+        "width": 942,
+        "height": 486,
+        "original_file_name": "675337_34daef3324f04ea29fc38a6cca591481~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec344c",
+    "id": "56aac18c-8d86-41c8-95df-7a23e3c1776b",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3443"
+    ],
+    "lastPublishedDate": "2018-04-10T10:17:09.234Z",
+    "slugs": [
+      "coffee-brewing-tips-simple-ways-to-improve-your-brew"
+    ],
+    "seoSlug": "coffee-brewing-tips-simple-ways-to-improve-your-brew",
+    "seoTitle": null,
+    "seoDescription": "Here are some simple coffee brewing tips for making better coffee. Keep these in mind for all brew methods.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 55,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-08-05T15:21:40.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee Brewing Tips - Simple Ways to Improve Your Brew",
+    "language": "en",
+    "hashtags": [
+      "coffee",
+      "makingcoffee",
+      "brewingtips",
+      "filtercoffee",
+      "groundcoffee",
+      "brewtips",
+      "extraction",
+      "bloom"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "Here are some simple coffee brewing tips for making better coffee. Keep these in mind for all brew methods. Coffee Brewing Tips Equipment...",
+    "slug": "coffee-brewing-tips-simple-ways-to-improve-your-brew",
+    "coverImage": {
+      "src": {
+        "id": "675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "file_name": "675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "width": 760,
+        "height": 453,
+        "original_file_name": "675337_3a63114735594626a7607faca3263a39~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "file_name": "675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+        "width": 760,
+        "height": 453,
+        "original_file_name": "675337_3a63114735594626a7607faca3263a39~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec3449",
+    "id": "1827dc0e-602b-42fd-92aa-3ea81401ba6c",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2018-04-10T10:16:33.210Z",
+    "slugs": [
+      "roast-definitions-from-light-to-dark"
+    ],
+    "seoSlug": "roast-definitions-from-light-to-dark",
+    "seoTitle": null,
+    "seoDescription": "We regularly hear people speaking about light, medium and dark roasted coffee. This article will cover what is meant by these terms without going into the science of roasting.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 815,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-07-29T15:22:36.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Roast Definitions - From Light to Dark",
+    "language": "en",
+    "hashtags": [
+      "roasting",
+      "coffeeroast",
+      "lightroast",
+      "mediumroast",
+      "darkroast",
+      "cityroast",
+      "agtron",
+      "roastprofile"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "We regularly hear people speaking about light, medium and dark roasted coffee. This article will cover what is meant by these terms...",
+    "slug": "roast-definitions-from-light-to-dark",
+    "coverImage": {
+      "src": {
+        "id": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "file_name": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "width": 780,
+        "height": 235,
+        "original_file_name": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "file_name": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg",
+        "width": 780,
+        "height": 235,
+        "original_file_name": "675337_d281ae2b05ee4f7dbd53b7f8e0eb27e5~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec3448",
+    "id": "8f46e5fb-2343-4ed2-b3d1-45007593c8be",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2018-04-10T10:15:30.708Z",
+    "slugs": [
+      "testing-your-sensory-skills-a-taste-test"
+    ],
+    "seoSlug": "testing-your-sensory-skills-a-taste-test",
+    "seoTitle": null,
+    "seoDescription": "This is a nice little experiment for testing your sensory skills and learning the difference between sour and bitter. Here’s how to set up your taste test.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 432,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-07-22T15:25:50.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Testing Your Sensory Skills - A Taste Test",
+    "language": "en",
+    "hashtags": [
+      "taste",
+      "sensory",
+      "sour",
+      "bitter",
+      "sweet",
+      "tastetest",
+      "tastingcoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "This is a nice little experiment for testing your sensory skills and learning the difference between sour and bitter. Here’s how to set...",
+    "slug": "testing-your-sensory-skills-a-taste-test",
+    "coverImage": {
+      "src": {
+        "id": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "file_name": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "width": 600,
+        "height": 424,
+        "original_file_name": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "file_name": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg",
+        "width": 600,
+        "height": 424,
+        "original_file_name": "675337_26a8733940a94081bfc4eba1d9395e93~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec3447",
+    "id": "e1416ff7-43e3-4f86-8b0b-e8d972da1ab2",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444",
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2017-07-15T15:26:25.000Z",
+    "slugs": [
+      "coffee-and-its-compounds-what-is-aroma-taste-and-flavour"
+    ],
+    "seoSlug": "coffee-and-its-compounds-what-is-aroma-taste-and-flavour",
+    "seoTitle": null,
+    "seoDescription": "We hear the words aroma, taste and flavour being used but what do they actually mean? These are categories for how the human senses perceive different chemical compounds. It is now known that roasted coffee is made up of over 800 aroma-imparting compounds and roughly 700 of these are soluble in water, meaning ...",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 407,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-07-15T15:26:25.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Coffee and its Compounds - What is Aroma, Taste and Flavour?",
+    "language": "en",
+    "hashtags": [
+      "coffeecompounds",
+      "compounds",
+      "aroma",
+      "flavour",
+      "taste",
+      "sweet",
+      "bitter",
+      "sour",
+      "acidity",
+      "umami",
+      "salty",
+      "coffee",
+      "sensory"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "We hear the words aroma, taste and flavour being used but what do they actually mean? These are categories for how the human senses...",
+    "slug": "coffee-and-its-compounds-what-is-aroma-taste-and-flavour",
+    "coverImage": {
+      "src": {
+        "id": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "file_name": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "width": 864,
+        "height": 327,
+        "original_file_name": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "file_name": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg",
+        "width": 864,
+        "height": 327,
+        "original_file_name": "675337_9b4ffe10467c4434b8ef8eb4d2cb93a5~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec3446",
+    "id": "75d5a167-977a-4008-9ddc-400dacb6e6b7",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.052Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2017-07-08T15:27:09.000Z",
+    "slugs": [
+      "the-health-benefits-of-coffee-is-coffee-good-for-me"
+    ],
+    "seoSlug": "the-health-benefits-of-coffee-is-coffee-good-for-me",
+    "seoTitle": null,
+    "seoDescription": "The Health Benefits of Coffee Drinking coffee daily in moderation is heathy and something to relax about (sorry baristas, 7 espressos when dialling in the machine is not in moderation). Before we get scientific, I’d like to say I use coffee as a cure-all, a panacea. Got a headache? Have a coffee. Can't sleep? Have a ..",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 1,
+    "timeToRead": 4,
+    "canonicalUrl": null,
+    "viewCount": 257,
+    "totalComments": 1,
+    "lastActivityDate": "2026-09-17T10:29:00.052Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-07-08T15:27:09.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "The Health Benefits of Coffee - Is coffee good for Me?",
+    "language": "en",
+    "hashtags": [
+      "caffeine",
+      "kahweol",
+      "antioxidants",
+      "cafestol",
+      "coffee",
+      "health",
+      "liver",
+      "diabetes"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The Health Benefits of Coffee Last edited 30 December 2020 Drinking coffee daily in moderation is heathy and something to relax about...",
+    "slug": "the-health-benefits-of-coffee-is-coffee-good-for-me",
+    "coverImage": {
+      "src": {
+        "id": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "file_name": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "width": 660,
+        "height": 440,
+        "original_file_name": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "file_name": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg",
+        "width": 660,
+        "height": 440,
+        "original_file_name": "675337_6f07cc3ec6a449358cd93eb416d3be3a~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec344e",
+    "id": "ad18ff29-25a4-4a66-979e-9b8d22401aa5",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.261Z",
+    "categoryIds": [
+      "5a33d38e0d462f00143a69fa"
+    ],
+    "lastPublishedDate": "2018-04-10T10:13:11.646Z",
+    "slugs": [
+      "it-s-cold-brew-time-and-it-s-surprisingly-easy"
+    ],
+    "seoSlug": "it-s-cold-brew-time-and-it-s-surprisingly-easy",
+    "seoTitle": null,
+    "seoDescription": "The weather is warming up, the mornings are getting brighter and there’s not much more rewarding than waking up and pouring yourself a glass of sweet, smooth, cold brew coffee. And what’s greater is immersion cold brew is actually easy to make.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 2,
+    "canonicalUrl": null,
+    "viewCount": 45,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.261Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-07-01T15:27:47.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "It’s Cold Brew Time – And it’s Surprisingly Easy",
+    "language": "en",
+    "hashtags": [
+      "coldbrew",
+      "immersioncoffee"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "The weather is warming up, the mornings are getting brighter and there’s not much more rewarding than waking up and pouring yourself a...",
+    "slug": "it-s-cold-brew-time-and-it-s-surprisingly-easy",
+    "coverImage": {
+      "src": {
+        "id": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "file_name": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "width": 1600,
+        "height": 800,
+        "original_file_name": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "file_name": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg",
+        "width": 1600,
+        "height": 800,
+        "original_file_name": "675337_bcd94cedfe844e9c94dd35cc5669a3ba~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec344d",
+    "id": "f5c16756-ff55-4db4-b3af-0a31d547ff79",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.261Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3442"
+    ],
+    "lastPublishedDate": "2019-02-26T20:04:56.059Z",
+    "slugs": [
+      "caffeine-content-and-coffee"
+    ],
+    "seoSlug": "caffeine-content-and-coffee",
+    "seoTitle": null,
+    "seoDescription": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is caffeinated, what happens when coffee is decaffeinated, the taste of caffeine and the affect roasting has on the bean’s caffeine content.",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 146,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.261Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-06-24T15:28:40.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Caffeine Content and Coffee",
+    "language": "en",
+    "hashtags": [
+      "caffeine",
+      "decaf",
+      "robusta",
+      "arabica",
+      "roasting"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is...",
+    "slug": "caffeine-content-and-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "file_name": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "width": 852,
+        "height": 577,
+        "original_file_name": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg"
+      },
+      "imageMetadata": {
+        "id": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "file_name": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+        "width": 852,
+        "height": 577,
+        "original_file_name": "675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  },
+  {
+    "_id": "5a33d0587a50880014ec344b",
+    "id": "038d5288-672f-4da3-9af0-dcb5353f81df",
+    "instanceId": "55f1c643-2310-45e9-9bfb-97ccf5f6ec7a",
+    "status": "published",
+    "createdDate": "2026-09-17T10:29:00.261Z",
+    "categoryIds": [
+      "5a33d0587a50880014ec3444"
+    ],
+    "lastPublishedDate": "2019-02-26T20:04:06.328Z",
+    "slugs": [
+      "tasting-coffee-learning-to-taste-specialty-coffee"
+    ],
+    "seoSlug": "tasting-coffee-learning-to-taste-specialty-coffee",
+    "seoTitle": null,
+    "seoDescription": "I believe specialty coffee is superior partly for the beautiful natural flavours missing in dark roasts and low grade coffees. But how can we most appreciate these flavours? Tasting coffee (or anything for that matter) and then describing what you taste is a skill. With that in mind, here are some tips for improving",
+    "ownerSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "lastWriterSiteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+    "isPinned": false,
+    "isCommentsDisabled": false,
+    "likeCount": 0,
+    "timeToRead": 3,
+    "canonicalUrl": null,
+    "viewCount": 56,
+    "totalComments": 0,
+    "lastActivityDate": "2026-09-17T10:29:00.261Z",
+    "isFeatured": false,
+    "firstPublishedDate": "2017-06-17T15:29:17.000Z",
+    "seoShowInSearch": true,
+    "seoShowSnippetInSearch": true,
+    "heroImage": {
+      "src": null,
+      "isCustom": false,
+      "isEnabled": false
+    },
+    "paidPlansGroupIds": [],
+    "tagIds": [],
+    "relatedPostIds": [],
+    "translationId": null,
+    "title": "Tasting Coffee - Learning to taste Specialty Coffee",
+    "language": "en",
+    "hashtags": [
+      "tastingcoffee",
+      "specialtycoffee",
+      "confidence",
+      "taste",
+      "flavour",
+      "aroma"
+    ],
+    "totalRatings": 0,
+    "averageRating": 0,
+    "isDemo": false,
+    "excerpt": "I believe specialty coffee is superior partly for the beautiful natural flavours missing in dark roasts and low grade coffees. But how...",
+    "slug": "tasting-coffee-learning-to-taste-specialty-coffee",
+    "coverImage": {
+      "src": {
+        "id": "675337_c437242988944849b592d876e5470e99~mv2.png",
+        "file_name": "675337_c437242988944849b592d876e5470e99~mv2.png",
+        "width": 1032,
+        "height": 354,
+        "original_file_name": "675337_c437242988944849b592d876e5470e99~mv2.png"
+      },
+      "imageMetadata": {
+        "id": "675337_c437242988944849b592d876e5470e99~mv2.png",
+        "file_name": "675337_c437242988944849b592d876e5470e99~mv2.png",
+        "width": 1032,
+        "height": 354,
+        "original_file_name": "675337_c437242988944849b592d876e5470e99~mv2.png"
+      },
+      "isCustom": false,
+      "isEnabled": true,
+      "isResolved": true,
+      "shouldRender": true
+    },
+    "isLiked": false,
+    "owner": {
+      "name": "Keiran Jones",
+      "image": {
+        "id": "a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "url": "https://static.wixstatic.com/media/a27d24_31a43e4a54324cf89536ef40db9acfb8%7Emv2.jpg",
+        "height": 100,
+        "width": 100
+      },
+      "cover": null,
+      "siteMemberId": "675337a1-d00c-42f4-877c-18d9dcc57f65",
+      "isOwner": true,
+      "isBlocked": true,
+      "appStore": {
+        "14bcded7-0066-7c35-14d7-466cb3f09103": {
+          "permissions": {
+            "role": "owner"
+          }
+        }
+      },
+      "privacyStatus": "UNKNOWN",
+      "title": null,
+      "slug": "keiran-jones"
+    },
+    "isSubscribed": false
+  }
+]

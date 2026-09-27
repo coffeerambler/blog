@@ -1,0 +1,31 @@
+{
+  "type": "brew-guide",
+  "slug": "syphon",
+  "path": "/syphon",
+  "title": "Syphon | Brew Guides",
+  "description": "Not only a beautiful way to brew, syphons also produce delicious cups of coffee.",
+  "date": "2026-06-10",
+  "body": "# The Syphon\n\nNot only a beautiful way to brew, syphons also produce delicious cups of coffee. Invented in the 1840s, this brew method is useful in that the brewing temperature remains relatively constant. [Pour over method](/pour-over-filter) temperatures raise over time as the apparatus heats up and the volume of water increases. The water temperature of infusion methods like the [French Press](/french-press) always drops. This means certain compounds, both desirable and undesirable, might be missed because of fluctuating temperatures.\n\n​\n\nFurthermore, the syphon doesn't boil the water but maintains [ideal brewing temperature](/archive/coffee-brewing-tips-simple-ways-to-improve-your-brew) (90-96C). The steam pressure created by the heat pushes water up the funnel and into the brew chamber, mixing with the coffee grounds until the heat source is removed. A natural vacuum then pulls the brewed coffee back past the filter into the starting chamber. As the water doesn't boil, overly bitter compounds are less likely to be extracted, resulting in a perceivably sweeter cup.\n\nAs always, try different amounts of coffee with a medium grind.\n\n​\n\nCoffee Rambler recommends brewing between 20-25 g of coffee to 300 ml of water.\n\nYou'll need...\n\n​\n\nSyphon\n\nGrinder\n\nKettle\n\nDrip Scales\n\nTimer\n\nStirrer\n\n[![Coffee Grind Size Wheel from fine to coarse](/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg)](/archive/coffee-grind-size-wheel-introduction-to-grind-sizes)\n\nBrew time | 2-3 minutes\n\n​\n\nBrew Ratio | 1:12 - 1:15\n\n​\n\nWater Temp | 90-96C\n\n​\n\nRemember these are guidelines, experimentation is encouraged.\n\n![syphon grind size](/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg)\n\n##### 1\n\n##### ​\n\n##### Boil your water & grind your Coffee\n\n​\n\nBoil your low mineral content water in a kettle to save your burner working too hard. Weigh out as much coffee as you need (23g) for the size of your brew and grind it to a medium coarseness (like granulated sugar).\n\nKeep the ground coffee sealed until ready to use.\n\n##### 2\n\n##### ​\n\n##### Set up your syphon\n\n​\n\nEnsure your syphon is set up correctly. There are many different kinds of syphon, some that look like scales and others built vertically. The syphon in the picture linking to this page is manufactured by [Hario](http://www.hario.com/).\n\n​\n\nCheck your filter is well placed, we don’t want ground coffee finding its way into your cup.\n\n##### 3\n\n##### ​\n\n##### Fill the water (lower) chamber\n\n​\n\nFill the chamber with 300ml of hot water and fully assemble the syphon. Turn on the burner and apply heat to the water chamber.\n\n​\n\nBe sure to pre-boil the water to speed up the process.\n\n##### 4\n\n##### ​\n\n##### Add coffee and stir\n\n​\n\nOnce the water has entered into the brewing chamber reduce the heat. Do not extinguish the flame. Here you can use a thermometer to measure the temperature, aiming for 90-96C. Add your coffee and stir.\n\n##### 5\n\n##### ​\n\n##### Steep\n\n​\n\nAllow the coffee to steep for 80 seconds. If the coffee is clumping together, give it a gentle stir\n\n##### 6\n\n##### ​\n\n##### Turn off the heat, pour and clean\n\n​\n\nAfter 80 seconds extinguish the heat and allow the coffee to filter back into the water chamber. You will see the rate at which it drains accelerate due to the syphon’s vacuum. This should take 50-60 seconds.\n\n​\n\nClean up and make sure the filter cloth is done so carefully (to avoid rancid stains). Pour and enjoy.\n\n##### An impressive but expensive syphon\n\n​\n\nLook out for the [Steampunk](http://alphadominche.com/steampunk/), another vacuum brewing method. Coffee Rambler found this expensive kit to be highly adept at extracting super sweet and exciting flavours with extraordinary clarity.\n\n##### [Coffee Rambler's Brew Guides](/brewing-guides)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "alt": "Coffee Grind Size Wheel from fine to coarse"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+      "local": "/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+      "alt": "syphon grind size"
+    }
+  ],
+  "internalLinks": [
+    "/pour-over-filter",
+    "/french-press",
+    "/archive/coffee-brewing-tips-simple-ways-to-improve-your-brew",
+    "/archive/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "/brewing-guides"
+  ],
+  "seoTitle": "Syphon | Brew Guides | Coffee Rambler",
+  "seoDescription": "Not only a beautiful way to brew, syphons also produce delicious cups of coffee.",
+  "draft": false
+}

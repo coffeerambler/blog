@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-rwanda",
+  "path": "/country-guide-rwanda",
+  "title": "Rwanda | World Coffee Guide",
+  "description": "Bourbon, washed, small lots from the hills around the Western and Southern provinces. Nyamasheke, Huye, Nyamagabe.",
+  "date": "2026-09-19",
+  "body": "# Rwanda\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/rwanda.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/africa",
+    "/country-guide-kenya",
+    "/country-guide-burundi",
+    "/archive/coffee-processing-methods-from-cherry-to-green-bean"
+  ],
+  "seoTitle": "Rwanda | World Coffee Guide",
+  "seoDescription": "Rwanda coffee guide: Nyamasheke, Bourbon, washing stations, potato defect, USDA PSD production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

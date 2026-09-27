@@ -1,0 +1,29 @@
+{
+  "type": "brew-guide",
+  "slug": "chemex",
+  "path": "/chemex",
+  "title": "Chemex | Brew Guides",
+  "description": "The Chemex provides a great way to brew an exceptionally clean cup of coffee. Not only that, it has a fun social element and is perfect for sharing.",
+  "date": "2026-06-10",
+  "body": "# The Chemex\n\nInvented in 1941, the Chemex provides a great way to brew an exceptionally clean cup of coffee. The paper, heavier than other pour over filter papers, traps many of the oils and fines (miniscule grounds prone to over-extraction) that contribute to greater bitterness and a heavier body. It also slows the flow of water down, increasing contact time relative to other pour overs, so a slightly coarser grind is required. This results in a smooth cup full of delicate flavours reminiscent of a fine tea. Just don’t forget to rinse that paper first, you don’t want that flavour in there!\n\n​\n\nWhen brewed well it's hard to beat such joyful clarity. It's also a great social way of brewing and sharing.\n\n​\n\nI personally like to pour faster and have a slightly coarser grind as the paper is long, concentrating extraction at the narrow bottom. For this reason [there are some who](http://www.coffeed.com/viewtopic.php?f=17&t=2656) don't like the Chemex, but it really can produce some lovely brews.\n\nYou'll need...\n\n​\n\nChemex\n\nChemex Filter Paper\n\nGrinder\n\nKettle\n\nDrip Scales\n\nTimer\n\nStirrer\n\n[![Coffee Grind Size Wheel from fine to coarse](/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg)](/archive/coffee-grind-size-wheel-introduction-to-grind-sizes)\n\n![chemex grind size](/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg)\n\nBrew time | 2.30 - 4 minutes\n\n​\n\nBrew Ratio | 1:15 - 1:18\n\n​\n\nWater Temp | 94-96C\n\n​\n\nRemember these are guidelines, experimentation is encouraged.\n\n##### 1\n\n##### ​\n\n##### Boil your water & grind your Coffee\n\n​\n\nBring your low-mineral content water to boil. Weigh your chosen amount of coffee. Grind the beans to a powder size slightly larger than salt.\n\n​\n\n30 grams of coffee to 500 ml of water is good here, although you can buy much larger Chemex and double this.\n\n​\n\n​\n\n##### 2\n\n##### ​\n\n##### Prepare the filter paper\n\n​\n\nFold the paper and place it into the Chemex so that the triple-fold is facing the spout (folding instructions on the box). Rinse the paper with hot water, allowing the water to heat up the glass. Pour away the water and pour the ground coffee into the cone, ensuring it is level.\n\n##### 3\n\n##### ​\n\n##### The Bloom\n\n​\n\nWith your Chemex on the scales, pour water gently into the centre and circle your way to the edges, adding in double quantity to the amount of coffee (e.g. 30g coffee/60g water). Watch the coffee swell and rise and then stir to ensure all grounds are soaked. This satisfying sight is called the bloom. Wait 30 seconds to allow carbon dioxide to escape. Now the coffee is more easily extracted.\n\n##### 4\n\n##### ​\n\n##### Pouring the water\n\n​\n\nPour water onto the coffee again, starting in the centre and moving in a circular motion to the edges. Once at the top of the paper, pause and wait. As the level drops you can start pouring again. All in all the brew time should not exceed 4 minutes. Try experimenting with the number of pours, speed of your pour and the extraction this results in. [This article](/single-post/coffee-brewing-tips) offers more brewing tips.\n\n##### 5\n\n##### ​\n\n##### Brew Completion\n\n​\n\nWait until all the water has passed through and the coffee sits flat or a small dome, not attached to the walls of the paper. If it passed through to quickly (2 minutes), your grind is likely to be too course and your coffee acidic and flavourless. If too slow (5 minutes and beyond), the grind is too fine and the cup will be bitter and flat. However, your best instrument is your tongue. Remember, time is only a reference, your tongue is the true measure of a great coffee.\n\n##### 6\n\n##### ​\n\n##### Serve and clean\n\n​\n\nGive the Chemex a swirl to blend the brew. Sours and sweets are the first to be extracted, followed by bitters, which will sit at the top. Mixing will ensure a greater balance in your pre-heated cup.\n\n##### [Coffee Rambler's Brew Guides](/brewing-guides)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "alt": "Coffee Grind Size Wheel from fine to coarse"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+      "local": "/images/675337_d110ba687ab040ecaa846da3681802c8~mv2.jpg",
+      "alt": "chemex grind size"
+    }
+  ],
+  "internalLinks": [
+    "/archive/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "/single-post/coffee-brewing-tips",
+    "/brewing-guides"
+  ],
+  "seoTitle": "Chemex | Brew Guides | Coffee Rambler",
+  "seoDescription": "The Chemex provides a great way to brew an exceptionally clean cup of coffee. Not only that, it has a fun social element and is perfect for sharing.",
+  "draft": false
+}

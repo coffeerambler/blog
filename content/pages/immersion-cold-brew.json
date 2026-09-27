@@ -1,0 +1,31 @@
+{
+  "type": "brew-guide",
+  "slug": "immersion-cold-brew",
+  "path": "/immersion-cold-brew",
+  "title": "Immersion Cold Brew | Brew Guides",
+  "description": "Cold Brew has a smooth mouthfeel and delivers a sweet, distinctive flavour. And it's easy to make!",
+  "date": "2026-06-10",
+  "body": "# Immersion Cold Brew\n\nCold Brew has become [incredibly popular](https://www.nytimes.com/2017/06/05/dining/cold-brew-coffee.html) in the last few years, appearing in shops and supermarkets everywhere. Its low acidity, smooth mouthfeel and distinct flavours make it an enjoyable drink, especially on hot days.\n\nIt differs from iced coffee in that the coffee is brewed with cold water. Most iced coffees are brewed hot and then ice is added. The taste differs greatly due to the different compounds that are extracted when using hot and cold water. Results also differ when making drip and immersion cold brew coffees.\n\n​\n\nThis guide is for the easiest and most inexpensive form of cold brew, full immersion.\n\nYou'll need...\n\n​\n\nSeal-able Jug\n\nStrainer \n\nFridge\n\nGrinder\n\nDrip Scales\n\nStirrer\n\n[![Coffee Grind Size Wheel from fine to coarse](/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg)](/archive/coffee-grind-size-wheel-introduction-to-grind-sizes)\n\n![cold brew grind size](/images/675337_9e4e1c009fbb4d3a8f89f6972e62a2d7~mv2.jpg)\n\nBrew time | 12 - 24 hours\n\n​\n\nBrew Ratio | 1:10 - 1:12\n\n​\n\nWater Temp | 21C\n\n​\n\nRemember these are guidelines, experimentation is encouraged.\n\n##### 1\n\n##### ​\n\n##### Grind your Coffee\n\n​\n\nThe coffee will be in contact with water for a very long time; [from 12 to 24 hours](/archive/it-s-cold-brew-time-and-it-s-surprisingly-easy). We will also need to drain the coffee later to separate it from the grounds. For these reasons, we will need a coarse grind size, a little finer than for the French press.\n\n​\n\nI like to use 10g of coffee for each 100ml of water.\n\n##### 2\n\n##### ​\n\n##### Pour the water\n\n​\n\nWith the ground coffee in the jug, cold or room temperature water can now be poured onto the grounds. Use scales to measure the water.\n\n​\n\nPour fairly fast to soak more coffee.\n\n​\n\n500ml of water to 50g will produce a nice amount of cold brew.\n\n##### 3\n\n##### ​\n\n##### Give it a stir\n\n​\n\nGently stir the coffee ground to ensure there are no dry pockets of coffee. Try not to be too vigorous, we don't want all the grounds to collect at the bottom.\n\n##### 4\n\n##### ​\n\n##### Seal and put it in the fridge​\n\n​\n\nCover the jug and put it in the fridge. Covering is important. Coffee and water are both marvellous at taking on aromas and flavours from other sources. If you don't want coffee tasting like the rest of last night's curry, seal it well.\n\n##### 5\n\n##### ​\n\n##### Time to strain\n\n​\n\nAfter at least 12 hours (I like 16-18 hours) remove the coffee. Now you'll need to strain it to remove the grounds. You can use a metal mesh (like that of a French Press) or filter paper. The [Clever Cup](/clever-cup) will work well here with its draining catch.\n\n​\n\nBeware draining can slow to a halt because of clogging. Rinsing the filter or stirring will allow all the coffee to pass.\n\n##### 6\n\n##### ​\n\n##### Pour and Enjoy\n\n​\n\nNow it's drained, enjoy. Expect to produce around 75% of the water volume initially added. The grounds soak up a lot of water in the brewing process.\n\n​\n\nCold Brew looks and tastes great with ice and milk. Match it with sweet deserts too. You can also use it at a concentrate, adding water when needed. Consume within 24-48 hours.\n\n​\n\nBeware - Be sure to clean all equipment properly. If you used a [French Press](/french-press) then remove the mesh and clean well. Coffee oils are stubborn and can make all your equipment rancid if not cleaned well, affecting the taste of future brews.\n\n##### [Coffee Rambler's Brew Guides](/brewing-guides)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "local": "/images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg",
+      "alt": "Coffee Grind Size Wheel from fine to coarse"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_9e4e1c009fbb4d3a8f89f6972e62a2d7~mv2.jpg",
+      "local": "/images/675337_9e4e1c009fbb4d3a8f89f6972e62a2d7~mv2.jpg",
+      "alt": "cold brew grind size"
+    }
+  ],
+  "internalLinks": [
+    "/archive/coffee-grind-size-wheel-introduction-to-grind-sizes",
+    "/archive/it-s-cold-brew-time-and-it-s-surprisingly-easy",
+    "/clever-cup",
+    "/french-press",
+    "/brewing-guides"
+  ],
+  "seoTitle": "Immersion Cold Brew | Brew Guides | Coffee Rambler",
+  "seoDescription": "Cold Brew has a smooth mouthfeel and delivers a sweet, distinctive flavour. And it's easy to make!",
+  "draft": false
+}

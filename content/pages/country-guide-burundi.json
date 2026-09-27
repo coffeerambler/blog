@@ -1,0 +1,26 @@
+{
+  "type": "country",
+  "slug": "country-guide-burundi",
+  "path": "/country-guide-burundi",
+  "title": "Burundi | World Coffee Guide",
+  "description": "Bourbon from small gardens, washed at stations, often sold as Kayanza or Ngozi. The cups I like are bright, with red fruit and a bergamot edge.",
+  "date": "2026-09-19",
+  "body": "# Burundi\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/burundi.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/africa",
+    "/country-guide-rwanda",
+    "/country-guide-ethiopia"
+  ],
+  "seoTitle": "Burundi | World Coffee Guide",
+  "seoDescription": "Burundi coffee guide: Kayanza, Ngozi, Bourbon, washing stations, USDA PSD production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

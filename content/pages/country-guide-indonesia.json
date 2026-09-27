@@ -1,0 +1,26 @@
+{
+  "type": "country",
+  "slug": "country-guide-indonesia",
+  "path": "/country-guide-indonesia",
+  "title": "Indonesia | World Coffee Guide",
+  "description": "Most of the crop is robusta from southern Sumatra. The arabica on specialty menus is a smaller pile: Gayo, Lintong, Toraja, Kintamani, Flores, a little Java and Papua.",
+  "date": "2026-09-19",
+  "body": "# Indonesia\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/indonesia.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/asia",
+    "/country-guide-china",
+    "/archive/what-is-the-world-s-best-coffee"
+  ],
+  "seoTitle": "Indonesia | World Coffee Guide",
+  "seoDescription": "Indonesia coffee guide: wet-hulled arabica, Gayo and Lintong, and the robusta belt in southern Sumatra.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

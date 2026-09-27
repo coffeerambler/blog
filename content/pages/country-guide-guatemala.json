@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-guatemala",
+  "path": "/country-guide-guatemala",
+  "title": "Guatemala | World Coffee Guide",
+  "description": "Washed arabica from volcanic slopes. Huehuetenango, Antigua, Cobán, Atitlán, San Marcos. Bourbon and Caturra still do most of the work.",
+  "date": "2026-09-19",
+  "body": "# Guatemala\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/guatemala.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/central-america",
+    "/country-guide-elsalvador",
+    "/country-guide-costarica",
+    "/archive/coffee-varieties-a-brief-look-at-significant-varieties"
+  ],
+  "seoTitle": "Guatemala | World Coffee Guide",
+  "seoDescription": "Guatemala coffee guide: Antigua, Huehuetenango, Cobán, Anacafé regions, USDA production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

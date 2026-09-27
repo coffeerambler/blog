@@ -1,0 +1,28 @@
+{
+  "type": "country",
+  "slug": "country-guide-bolivia",
+  "path": "/country-guide-bolivia",
+  "title": "Bolivia | World Coffee Guide",
+  "description": "Almost all Bolivian coffee sits in the Yungas of La Paz, especially Caranavi. It is high-grown, often organic, and there is not much of it. Caturra and Catuai, usually washed.",
+  "date": "2026-09-19",
+  "body": "# Bolivia\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/bolivia.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/south-america",
+    "/country-guide-colombia",
+    "/country-guide-elsalvador"
+  ],
+  "seoTitle": "Bolivia | World Coffee Guide",
+  "seoDescription": "Bolivia coffee guide: Caranavi and the Yungas, high-grown Caturra, and why the origin stays small.",
+  "status": "approved",
+  "generatedBy": "agent",
+  "draft": false,
+  "approvedAt": "2026-09-19"
+}

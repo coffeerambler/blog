@@ -1,0 +1,26 @@
+{
+  "type": "country",
+  "slug": "country-guide-mexico",
+  "path": "/country-guide-mexico",
+  "title": "Mexico | World Coffee Guide",
+  "description": "Chiapas grows most of it. Veracruz, Oaxaca, Puebla, a little Guerrero and Hidalgo. Washed arabica, often shade-grown, often organic.",
+  "date": "2026-09-19",
+  "body": "# Mexico\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/mexico.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/central-america",
+    "/country-guide-guatemala",
+    "/archive/coffee-varieties-a-brief-look-at-significant-varieties"
+  ],
+  "seoTitle": "Mexico | World Coffee Guide",
+  "seoDescription": "Mexico coffee guide: Chiapas, Veracruz, Oaxaca, washed arabica, USDA 2026/27 production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

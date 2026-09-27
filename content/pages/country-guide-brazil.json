@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-brazil",
+  "path": "/country-guide-brazil",
+  "title": "Brazil | World Coffee Guide",
+  "description": "Brazil grows about two fifths of the world's coffee. Most of what you actually drink is a natural or pulped-natural arabica from Minas Gerais, or conilon robusta from Espírito Santo.",
+  "date": "2026-09-19",
+  "body": "# Brazil\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/brazil.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/south-america",
+    "/country-guide-colombia",
+    "/country-guide-vietnam",
+    "/archive/the-dry-process-an-introduction-to-natural-coffees"
+  ],
+  "seoTitle": "Brazil | World Coffee Guide",
+  "seoDescription": "Brazil coffee guide: Minas Gerais, Santos, naturals and conilon, USDA 2026/27 production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

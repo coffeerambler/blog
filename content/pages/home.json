@@ -1,0 +1,40 @@
+{
+  "type": "home",
+  "slug": "home",
+  "path": "/",
+  "title": "Find, share and enjoy better coffee",
+  "description": "Coffee Rambler is a free resource for discovering more about all things specialty coffee, with home brew guides, coffee archive and coffee around the world. Login and share your experiences with our growing community.",
+  "date": "2026-06-10",
+  "body": "# Welcome to Coffee Rambler ​ Helping each other to find, make and enjoy better Coffee\n\n## [Blog Archive](/archive)\n\nExplore the world of specialty coffee with Coffee Rambler's blog posts. Categories include sensory training, basic brewing information, coffee recipes, city guides and more.\n\n[![Coffee Rambler blog ](/images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg)](/archive)\n\n[![Brewing guides](/images/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg)](/brewing-guides)\n\n## [Home Brewing Guides](/brewing-guides)\n\nMake coffee like a barista with Coffee Rambler's brewing guides.\n\n## Coffee Rambler AI\n\nCoffee Rambler AI is the coffee app that gets smarter the more you brew.\n\n[Sign up](http://www.rambler.coffee/signup) for free online. \n\n​\n\n​\n\n- Download to your mobile's homepage to use as an app​\n\n- Log your brews, beans and equipment and get personalised stats on your preferences​\n\n- Get expert advice from the chat function, which remembers you and analyses your brew setup​\n\n- Complete the origin map by adding more brews​\n\n- Enhance your sensory skills and build your own flavour wheel\n\n​\n\nGo to [Rambler.coffee](http://www.rambler.coffee)to try it today\n\n​\n\nRead more about the Enthusiast tier [in the archive](/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does)[.](/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does)\n\n[![The flavour wheel available on coffee rambler ai. sensory palate](/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png)](http://www.rambler.coffee)\n\n![World Coffee Map](/images/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg)\n\n## [World Coffee Guide](/world-coffee-guide)\n\n## ​\n\nA look at the world's coffee growing countries",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg",
+      "local": "/images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg",
+      "alt": "Coffee Rambler blog "
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg",
+      "local": "/images/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg",
+      "alt": "Brewing guides"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "local": "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png",
+      "alt": "The flavour wheel available on coffee rambler ai. sensory palate"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg",
+      "local": "/images/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg",
+      "alt": "World Coffee Map"
+    }
+  ],
+  "internalLinks": [
+    "/archive",
+    "/brewing-guides",
+    "/post/coffee-rambler-ai-what-the-coffee-enthusiast-tier-actually-does",
+    "/world-coffee-guide"
+  ],
+  "seoTitle": "Find, share and enjoy better coffee | Coffee Rambler",
+  "seoDescription": "Coffee Rambler is a free resource for discovering more about all things specialty coffee, with home brew guides, coffee archive and coffee around the world. Login and share your experiences with our growing community.",
+  "draft": false
+}

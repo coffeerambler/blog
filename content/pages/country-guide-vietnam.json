@@ -1,0 +1,27 @@
+{
+  "type": "country",
+  "slug": "country-guide-vietnam",
+  "path": "/country-guide-vietnam",
+  "title": "Vietnam | World Coffee Guide",
+  "description": "The second-largest coffee origin on earth, and almost all of it is robusta from the Central Highlands. Đắk Lắk, Gia Lai, Đắk Nông.",
+  "date": "2026-09-19",
+  "body": "# Vietnam\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/vietnam.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/asia",
+    "/country-guide-brazil",
+    "/country-guide-indonesia",
+    "/country-guide-kenya"
+  ],
+  "seoTitle": "Vietnam | World Coffee Guide",
+  "seoDescription": "Vietnam coffee guide: Đắk Lắk robusta, Cầu Đất arabica, cà phê sữa đá, USDA 2026/27 production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}

@@ -1,0 +1,43 @@
+{
+  "type": "post",
+  "slug": "caffeine-content-and-coffee",
+  "path": "/post/caffeine-content-and-coffee",
+  "title": "Caffeine Content and Coffee",
+  "description": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is caffeinated, what happens when coffee is decaffeinated, the taste of caffeine and the affect roasting has on the bean’s caffeine content.",
+  "date": "2017-06-24",
+  "datetime": "2017-06-24T15:28:40.000Z",
+  "author": "Keiran Jones",
+  "minutes": 3,
+  "categories": [],
+  "categoryIds": [
+    "5a33d0587a50880014ec3442"
+  ],
+  "coverImage": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+  "excerpt": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is...",
+  "body": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is caffeinated, what happens when coffee is decaffeinated, the taste of caffeine and the affect roasting has on the bean’s caffeine content.\n\n## **Caffeine content in different coffees**\n\nIt is thought the coffee plant contains caffeine to protect itself from hungry insects. Typically speaking, [Robusta coffee](/archive/what-is-coffee-coffee-the-fruit-and-its-species) beans contain around double the caffeine content than Arabica beans, and therefore have greater defence against pests. One theory explains that Arabica coffee trees grow at higher altitudes than Robusta shrubs where insects are fewer. The reduction in pests may then account for the reduction in caffeine, as there is a lesser need to defend itself. Furthermore, certain [varieties of Arabica](/archive/coffee-varieties-a-brief-look-at-significant-varieties) contain less caffeine than others, believed to be a result of genes and environmental factors.\n\nDifferent [brew methods](/brewing-guides) also result in different levels of caffeine. Although an espresso has an intense flavour, its caffeine count is lower than a cup of typical filter coffee because of the size of the brew. Also, when more coffee is used in brewing, the drink will have a greater caffeine content due to the larger number of caffeine molecules extracted. Grind size, temperature and contact time (think cold brew) all play a part.\n\nThis [Wikipedia page on low caffeine coffee](https://en.wikipedia.org/wiki/Low_caffeine_coffee) displays a table comparing the caffeine content of various items. You’ll notice that decaf coffee is not caffeine-free.\n\n# **Decaf coffee**\n\n#\n\nDecaffeinated coffee has gone through a chemical process to reduce the caffeine content. There are a number of processes that use either chemical solvents or organic ones when the bean is still green (unroasted), though they cannot remove all traces of caffeine. However, these processes also remove certain desirable flavour and body characteristics, leading many to view decaf as inferior.\n\nFor truly caffeine-free coffee, there is the Cameroonian Charrier species that is yet to be commercially exploited. This discovery, described and recognised in 2008, brings progress to the Decaffito movement. This involves growing low caffeine or caffeine-free coffee by way of hybridisation or gene manipulation, a goal the discovery of Charrier has brought closer to realisation.\n\n# **The taste of caffeine and roasting**\n\n#\n\nThere is a tendency for people to draw parallels between caffeine content and bitterness. Although caffeine is a bitter tasting compound, there is no correlation. For this reason too, some believe a darker roast has more caffeine. In fact, the opposite is true as caffeine is slightly reduced (if not at all) in darker roasts. The majority of the bitter taste ([caffeine is only said to contribute to 15%](https://www.eurekalert.org/pub_releases/2007-08/acs-bbc080907.php)) actually comes from other compounds such as phenylindanes (for darker roasts), a product formed by the breaking down of chlorogenic acid lactones (quinic and caffeic acid). These are responsible for much of the bitterness in medium and light roasts. For more on the bitters in coffee, check out this article on [compound interest](http://www.compoundchem.com/2014/01/30/why-is-coffee-bitter-the-chemistry-of-coffee/).\n\nHowever, there may still be some confusion as to whether a cup of dark roasted coffee has more or less caffeine than a light roasted cup. Dark roasts may have slightly less caffeine but each individual bean weighs less than a lighter roasted one due to water loss. Weighing out equal amounts of light and dark coffee does not mean one will contain **significantly** more caffeine than the other, but because of individual bean weight you can expect the darker roast to contain more caffeine for the higher bean count.\n\n![Caffeine content and coffee](/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg)\n\n[#caffeine](/archive/hashtags/caffeine) [#decaf](/archive/hashtags/decaf) [#robusta](/archive/hashtags/robusta) [#arabica](/archive/hashtags/arabica) [#roasting](/archive/hashtags/roasting)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+      "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+      "alt": "Caffeine content and coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+      "local": "/images/675337_b111a587a26048649f99e6ea8b3fd9e8~mv2.jpg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/archive/what-is-coffee-coffee-the-fruit-and-its-species",
+    "/archive/coffee-varieties-a-brief-look-at-significant-varieties",
+    "/brewing-guides",
+    "/archive/hashtags/caffeine",
+    "/archive/hashtags/decaf",
+    "/archive/hashtags/robusta",
+    "/archive/hashtags/arabica",
+    "/archive/hashtags/roasting"
+  ],
+  "seoTitle": "Caffeine Content and Coffee",
+  "seoDescription": "There is some confusion regarding the caffeine content of certain roasts and beans. In this article we will cover why coffee is caffeinated, what happens when coffee is decaffeinated, the taste of caffeine and the affect roasting has on the bean’s caffeine content.",
+  "draft": false
+}

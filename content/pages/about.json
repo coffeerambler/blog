@@ -1,0 +1,25 @@
+{
+  "type": "about",
+  "slug": "about",
+  "path": "/about",
+  "title": "About/Contact Me",
+  "description": "Contact Me at Coffee Rambler for making a contribution to the site, to make an enquiry, ask for advice or anything else.",
+  "date": "2026-06-10",
+  "body": "![Keiran Jones Coffee Farm in Pu'er, China](/images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg)\n\n# Keiran Jones\n\nI built Coffee Rambler to help and encourage more people to brew great coffee at home, share their experiences and to explore the wealth of information about coffee.\n\nCoffee allows for continuous discovery; from drinking instant coffee to buying from mega-chains, brewing with automatic machines to seeking out independent specialty coffee shops. The journey is long but anyone who loves coffee is capable of making the most professional coffee at home or at the office.\n\n​\n\nMy own leap into the exciting acidity and sweet tastes of specialty coffee was greatly enhanced whilst working at Taylor Street Baristas in London. One particular coffee stands out, an Ethiopian from Rocko Mountain. The coffee left me stunned with big flavours of juicy peach, lemon acidity and strawberries. I had no idea coffee could be so complex. I have since moved to Beijing, spent some time providing cafes with beans and founded a country-wide coffee subscription service for home brewing.\n\n​\n\nWe all have time to make coffee, from grinding through to brewing. Those five minutes allow for a quiet moment to think about and enjoy the craft, setting aside other thoughts for a moment.\n\nThank you for visiting and I hope you enjoy Coffee Rambler.\n\n![](/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg)\n",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg",
+      "local": "/images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg",
+      "alt": "Keiran Jones Coffee Farm in Pu'er, China"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+      "local": "/images/675337_3a63114735594626a7607faca3263a39~mv2.jpg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [],
+  "seoTitle": "About/Contact Me | Coffee Rambler",
+  "seoDescription": "Contact Me at Coffee Rambler for making a contribution to the site, to make an enquiry, ask for advice or anything else.",
+  "draft": false
+}

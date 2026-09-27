@@ -1,0 +1,56 @@
+{
+  "type": "post",
+  "slug": "advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+  "path": "/post/advanced-brewing-presentation-with-barista-hustle-something-to-think-about",
+  "title": "Advanced Brewing Presentation with Barista Hustle - Something to think about.",
+  "description": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee extraction and his discoveries, challenging some of the held beliefs in the specialty coffee industry. There were certainly things to think about...",
+  "date": "2018-02-01",
+  "datetime": "2018-02-01T18:31:16.803Z",
+  "author": "Keiran Jones",
+  "minutes": 3,
+  "categories": [],
+  "categoryIds": [
+    "5a33d0587a50880014ec3442",
+    "5a33d0587a50880014ec3443"
+  ],
+  "coverImage": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+  "excerpt": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee...",
+  "body": "![Matt Perger in London advanced brewing barista hustle Assembly coffee Volcano coffee](/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg)\n\nOn 30th January, [Barista Hustle’s](https://baristahustle.com/) Matt Perger spoke at the [Assembly Coffee](https://www.assemblycoffee.co.uk/) in Brixton, London. The presentation was about advanced coffee extraction and his discoveries, challenging some of the held beliefs in the specialty coffee industry. There were certainly things to think about, which both make sense as regards to our experience, but some other points which are a little harder to grasp.\n\nOne argument that stood out was Perger’s explanation of the difficulty in [over extracting coffee](/archive/tasting-extraction-an-easy-experiment-for-understanding-balance). He argues it is very hard to over extract coffee on the basis that a [28% extraction of coffee solids](/archive/how-is-coffee-extracted) is actually very tasty. True over extraction would require boiling very fine coffee for an extended period of time, perhaps as with an ibrik. The issue of unpleasant bitterness or astringency is more to do with the unevenness of extraction, where some particles are mostly fully extracted and where the ‘core’ of other particles are left untouched.\n\nBut what of the [SCA](https://sca.coffee/)’s ideal brew chart of 18-22% extraction of solids? We may be able to hit this ideal range but we are dealing with averages and therefore are not getting the complete picture. Because of the nature of averages we may still get a 23% extraction of solids (which Perger said can still be under extraction) but only because some of the coffee’s solids have been extracted to 28%, whereas a portion of the mass hasn’t been extracted at all. A refractometer is therefore imperfect for measuring extraction but it does allow us to work with whether we want to extract more or less. Below is a crude copy of the theoretical spherical coffee particles Perger used to emphasise his point. Please don't sue me.\n\n![How deep water penetrates coffee](/images/675337_044303a0938d4e6e97e0f05818b7e431~mv2.jpg)\n\nThis image here helps to visualise the argument. Through the use of electron microscopes and other clever tech, Perger sees that water only penetrates coffee grounds to 100 microns. That’s incredibly small, only 0.1 millimetres. This is partly because of coffee’s complex structure of cellulose tunnels, making it hard for water to travel further. At this depth, coffee solids are extracted to around 28% and then the water leaves. As you see with the larger particle, the core is untouched.\n\nSounds good but this becomes less intuitive when you think about your tasting experiences and perceived contradictions. My obvious first thoughts were that why then, when I have a pour over with reduced sweetness and increased bitterness and astringency do I perceive it as over extracted? And on the contrary, why when I taste at [cuppings](/cupping) is coffee still delicious after 20 minutes? Due to how we currently understand coffee, after 20 minutes brew time the drink should taste terrible. It’s always puzzled me. The argument might be, as put forward by Perger, that as the coffee’s walls erode, more solids are extracted and we get closer and closer to a more uniform extraction of 28% for the whole mass. But of course, the water has also cooled and extraction is not at the same level as when the water was 93◦C.\n\n## **What does this mean for brewing coffee?**\n\nSo for arguments sake, let’s say that a uniform 28% extraction is well and truly the most delicious coffee. What does that mean for us as brewers? It certainly isn’t ideal or even possible to ensure all our coffee is ground to neat 200-250 micron spheres; and producing a pour over with coffee so fine will take over a century.\n\nHow should we now brew our [French Press](/french-press)? Many guides say to drain the liquid from the grounds at 4 minutes but this will be nowhere near a 28% extraction. This probably accounts for traditionally using a much larger dose of coffee for this brew method. In fact, if water does only penetrate to 100 microns, brewing with a French Press is incredibly wasteful. [Squaremile](https://shop.squaremilecoffee.com/)’s [James Hoffman](https://jimseven.com/2010/11/04/cupping-vs-french-press/) has written before (in 2010) about extending the time of French Press brews because of these same thoughts on cupping. It might mean we change our habits to enjoy cooler coffee. I personally feel that with the best coffees, they taste most amazing and flavoursome at room temperature anyway.\n\n## Does it matter?\n\nUltimately, how much does this matter? It’s highly unlikely we will be able to grind all our brews so finely without clogging or effecting mouthfeel. Many of us have also worked out methods for brewing coffee which we swear by and thoroughly enjoy. But once upon a time some of us happily drank coffee that we wouldn't even touch now. Once more thoroughly understood it is a new ideal to reach; one which massively reduces coffee waste and with good and well-roasted coffee, produces a superb cup every time. Is there a super, coffee-changing product which Perger has in the pipeline?\n",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+      "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+      "alt": "Matt Perger in London advanced brewing barista hustle Assembly coffee Volcano coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_044303a0938d4e6e97e0f05818b7e431~mv2.jpg",
+      "local": "/images/675337_044303a0938d4e6e97e0f05818b7e431~mv2.jpg",
+      "alt": "How deep water penetrates coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+      "local": "/images/675337_91e1b733f5b74ed9a8e05cf0cb511016~mv2.jpg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/archive/tasting-extraction-an-easy-experiment-for-understanding-balance",
+    "/archive/how-is-coffee-extracted",
+    "/cupping",
+    "/french-press",
+    "/archive/hashtags/baristahustle",
+    "/archive/hashtags/mattperger",
+    "/archive/hashtags/coffeeextraction",
+    "/archive/hashtags/extraction",
+    "/archive/hashtags/overextraction",
+    "/archive/hashtags/brewingcoffee",
+    "/archive/hashtags/micron",
+    "/archive/hashtags/SCA",
+    "/archive/hashtags/Jameshoffman",
+    "/archive/hashtags/coffeeevent"
+  ],
+  "seoTitle": "Advanced Brewing Presentation with Barista Hustle - Something to think about.",
+  "seoDescription": "On 30th January, Barista Hustle’s Matt Perger spoke at the Assembly Coffee in Brixton, London. The presentation was about advanced coffee extraction and his discoveries, challenging some of the held beliefs in the specialty coffee industry. There were certainly things to think about...",
+  "draft": true,
+  "status": "draft"
+}

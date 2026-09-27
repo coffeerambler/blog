@@ -1,0 +1,46 @@
+{
+  "type": "region",
+  "slug": "central-america",
+  "path": "/central-america",
+  "title": "Central America | World Coffee Guide",
+  "description": "Country guides for coffee growing countries in Central America and the Caribbean.",
+  "date": "2026-06-10",
+  "body": "# Central America\n\n[![Costa Rica Coffee Guide](/images/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg)](/country-guide-costarica)\n\n![Central American Coffee](/images/675337_c48dd63e88eb46ada2b8affa5392bad7~mv2.png)\n\n### [Costa Rica](/country-guide-costarica)\n\n### [El Salvador](/country-guide-elsalvador)\n\n[![Africa Coffee](/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg)](/africa)\n\n[![South America Coffee](/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg)](/south-america)\n\n[![Asia Coffee](/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg)](/asia)",
+  "images": [
+    {
+      "wix": "https://static.wixstatic.com/media/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+      "local": "/images/675337_2b14905144154be1afda1e2f80b3fa56~mv2.jpg",
+      "alt": "Costa Rica Coffee Guide"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_c48dd63e88eb46ada2b8affa5392bad7~mv2.png",
+      "local": "/images/675337_c48dd63e88eb46ada2b8affa5392bad7~mv2.png",
+      "alt": "Central American Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "local": "/images/675337_28320f3705d549e5a34a818a61c68e7e~mv2.jpg",
+      "alt": "Africa Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "local": "/images/675337_65510884d1ef42039a042d8c84659906~mv2.jpg",
+      "alt": "South America Coffee"
+    },
+    {
+      "wix": "https://static.wixstatic.com/media/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "local": "/images/675337_ca9f772211e342959b27e14280bdc999~mv2.jpg",
+      "alt": "Asia Coffee"
+    }
+  ],
+  "internalLinks": [
+    "/country-guide-costarica",
+    "/country-guide-elsalvador",
+    "/africa",
+    "/south-america",
+    "/asia"
+  ],
+  "seoTitle": "Central America | World Coffee Guide | Coffee Rambler",
+  "seoDescription": "Country guides for coffee growing countries in Central America and the Caribbean.",
+  "draft": false
+}

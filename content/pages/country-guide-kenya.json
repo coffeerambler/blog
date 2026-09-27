@@ -1,0 +1,26 @@
+{
+  "type": "country",
+  "slug": "country-guide-kenya",
+  "path": "/country-guide-kenya",
+  "title": "Kenya | World Coffee Guide",
+  "description": "Specialty Kenyan coffee often has a wine-like body, a bright acidity and blackcurrant flavour notes. Washed lots from Nyeri and Kirinyaga are the ones people mean.",
+  "date": "2026-09-19",
+  "body": "# Kenya\n",
+  "images": [
+    {
+      "wix": "",
+      "local": "/images/flags/kenya.svg",
+      "alt": ""
+    }
+  ],
+  "internalLinks": [
+    "/world-coffee-guide",
+    "/africa",
+    "/country-guide-ethiopia",
+    "/archive/water-for-coffee-part-ii-tasting-with-ph-in-mind"
+  ],
+  "seoTitle": "Kenya | World Coffee Guide",
+  "seoDescription": "Kenya coffee guide: Nyeri, Kirinyaga and the central highlands, SL28, the Nairobi auction, and USDA production.",
+  "status": "in_review",
+  "generatedBy": "agent"
+}
