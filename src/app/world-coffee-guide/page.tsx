@@ -41,7 +41,11 @@ export default async function WorldCoffeeGuidePage() {
           <OriginsMap guides={guides} />
           <p className="text-sm text-cream/60">
             Amber countries have a written guide. Other coffee-belt countries still highlight; pages for
-            those origins come later.
+            those origins come later. The{" "}
+            <Link href="/harvest-calendar" className="text-amber hover:underline">
+              harvest calendar
+            </Link>{" "}
+            shows which origins are being picked, or arriving at roasters, each month.
           </p>
           {guides.length ? (
             <ul className="flex flex-wrap gap-2 text-sm">

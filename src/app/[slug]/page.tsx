@@ -16,6 +16,7 @@ const RESERVED = new Set([
   "archive",
   "brewing-guides",
   "world-coffee-guide",
+  "harvest-calendar",
   "about",
   "privacy",
   "admin",

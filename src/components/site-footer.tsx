@@ -31,6 +31,9 @@ export function SiteFooter() {
             <Link href="/brewing-guides" className="inline-flex min-h-11 items-center hover:text-amber">
               Brewing Guides
             </Link>
+            <Link href="/harvest-calendar" className="inline-flex min-h-11 items-center hover:text-amber">
+              Harvest Calendar
+            </Link>
             <Link href="/privacy" className="inline-flex min-h-11 items-center hover:text-amber">
               Privacy
             </Link>
