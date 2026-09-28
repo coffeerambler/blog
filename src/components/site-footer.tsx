@@ -21,13 +21,7 @@ export function SiteFooter() {
           </p>
         </div>
         <div className="text-sm text-cream/70">
-          <p>
-            Email:{" "}
-            <a className="inline-flex min-h-11 items-center text-amber" href="mailto:CoffeeRambler@yahoo.com">
-              CoffeeRambler@yahoo.com
-            </a>
-          </p>
-          <p className="mt-2">© 2017–26 Coffee Rambler All rights reserved</p>
+          <p>© 2017–26 Coffee Rambler All rights reserved</p>
           <p className="mt-4 flex flex-wrap gap-x-4 gap-y-1">
             <Link href="/about" className="inline-flex min-h-11 items-center hover:text-amber">
               About

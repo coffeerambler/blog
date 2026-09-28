@@ -36,7 +36,7 @@ NEXT_PUBLIC_ADSENSE_SLOT_FOOTER=
 
 Restart the app after changing these.
 
-There is no visitor login. Contact is the footer email.
+There is no visitor login.
 
 Pages use `draft` | `in_review` | `approved`. Only **approved** pages are live. A gitignored overlay (`content/local-status.json` and `content/local-editorial.json`) can keep a local approve if JSON is reset. Do not commit those overlay files.
 
