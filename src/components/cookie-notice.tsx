@@ -64,8 +64,8 @@ export function CookieNotice() {
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-cream/80">
           {adsOn
-            ? "There is no visitor login. Google AdSense may set cookies to serve ads. The homepage hero does not carry an advertisement. Dismissing this notice uses local storage on the device."
-            : "There is no visitor login and no tracking cookies from this site. Advertisement boxes are placeholders until Google AdSense is on. Dismissing this notice uses local storage on the device."}{" "}
+            ? "You do not need an account to read Coffee Rambler. Google may use cookies to serve and measure advertisements on this site."
+            : "You do not need an account to read Coffee Rambler. This site does not use tracking cookies."}{" "}
           <Link href="/privacy" className="text-amber hover:underline">
             Privacy and cookies
           </Link>
