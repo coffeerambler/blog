@@ -24,7 +24,7 @@ Café slugs are exact Wix paths: `/post/city-café-guide-coffee-in-bristol` and 
 | Path | Kind | Title | Date | GSC keep | Cover |
 |---|---|---|---|---|---|
 | `/` | home | Find, Share and Enjoy Better Coffee | 2026-06-10 | yes | /images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg |
-| `/about` | about | About/Contact Me | 2026-06-10 |  | /images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg |
+| `/about` | about | About | 2026-06-10 |  | /images/675337_c86eacc836e14f44824f2076c3818c6c~mv2.jpg |
 | `/aeropress` | brew-guide | Aeropress \| Brew Guides | 2026-06-10 |  | /images/675337_fcc32df5ce5543d393698793d6c61e18~mv2_d_1474_1500_s_2.jpg |
 | `/africa` | region | Africa \| World Coffee Guide | 2026-06-10 | yes | /images/675337_44a49b4c5fe1439293a314bc37e66b85~mv2.jpg |
 | `/archive` | archive | Make Better Coffee \| Archive | 2026-06-10 |  | /images/675337_635b291743a84837a77127fe674c2dbb~mv2.png |

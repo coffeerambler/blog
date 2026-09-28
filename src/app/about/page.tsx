@@ -5,7 +5,7 @@ import { documentTitle, loadPageByPath } from "@/lib/content";
 export async function generateMetadata(): Promise<Metadata> {
   const page = loadPageByPath("/about");
   return {
-    title: { absolute: page ? documentTitle(page) : "About/Contact Me | Coffee Rambler" },
+    title: { absolute: page ? documentTitle(page) : "About | Coffee Rambler" },
     description: page?.description,
     alternates: { canonical: "https://www.coffeerambler.com/about" },
   };
