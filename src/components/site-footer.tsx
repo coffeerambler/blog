@@ -9,8 +9,8 @@ export function SiteFooter() {
         <div>
           <p className="font-serif text-xl text-cream">Coffee Rambler</p>
           <p className="mt-2 max-w-sm text-sm text-cream/70">
-            Independent writing on brewing, origin and taste. The Coffee Rambler
-            AI app lives at{" "}
+            Independent blog on coffee, country guides and brew guides. Find the
+            Coffee Rambler AI app on{" "}
             <a
               href="https://rambler.coffee"
               className="inline-flex min-h-11 items-center text-amber hover:underline"
