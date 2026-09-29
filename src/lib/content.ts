@@ -239,6 +239,18 @@ export function groupPostsByTopic(posts: Post[]): TopicGroup[] {
   return groups;
 }
 
+/** Three other live posts that share this post's archive category. */
+export function otherPostsInSameCategory(post: Post, limit = 3): Post[] {
+  const groups = groupPostsByTopic(loadPosts());
+  const explicit = (post.categories || []).find((slug) => groups.some((group) => group.topic.slug === slug));
+  const group =
+    groups.find((entry) => entry.posts.some((item) => item.slug === post.slug)) ||
+    groups.find((entry) => entry.topic.slug === explicit) ||
+    groups.find((entry) => entry.topic.slug === guessArchiveTopicSlug(post));
+  if (!group) return [];
+  return group.posts.filter((item) => item.slug !== post.slug).slice(0, limit);
+}
+
 export const RETIRED_CONTINENT_PATHS = [
   "/africa",
   "/asia",
