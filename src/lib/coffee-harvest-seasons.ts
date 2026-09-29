@@ -34,7 +34,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
     country: "Colombia",
     harvestMonths: [1, 2, 3, 4, 5, 9, 10, 11, 12],
     marketMonths: [5, 6, 7, 11, 12, 1, 2],
-    notes: "Mitaca (Jan), mid-year (Apr–Jun), and main crop (Oct–Dec).",
+    notes: "Centre: main Sep–Jan, mitaca Apr–Jun; south reverses.",
   },
   {
     country: "Brazil",
@@ -88,8 +88,8 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Bolivia",
-    harvestMonths: [5, 6, 7, 8, 9, 10],
-    marketMonths: [7, 8, 9, 10, 11, 12],
+    harvestMonths: [5, 6, 7, 8, 9],
+    marketMonths: [7, 8, 9, 10, 11],
     notes: "Yungas & Caranavi May–Sep.",
   },
   {
@@ -100,13 +100,15 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Rwanda",
-    harvestMonths: [3, 4, 5, 9, 10, 11, 12],
-    marketMonths: [5, 6, 7, 11, 12, 1, 2],
+    harvestMonths: [3, 4, 5, 6, 7],
+    marketMonths: [5, 6, 7, 8, 9],
+    notes: "Main crop Mar–Jul; small northwest fly crop Sep–Nov.",
   },
   {
     country: "Burundi",
-    harvestMonths: [3, 4, 5, 9, 10, 11, 12, 1],
-    marketMonths: [5, 6, 7, 11, 12, 1, 2, 3],
+    harvestMonths: [3, 4, 5, 6, 7],
+    marketMonths: [5, 6, 7, 8, 9],
+    notes: "Main crop Mar–Jul.",
   },
   {
     country: "Democratic Republic of the Congo",
@@ -135,7 +137,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
     country: "Indonesia",
     harvestMonths: [5, 6, 7, 8, 9, 10, 11, 12],
     marketMonths: [7, 8, 9, 10, 11, 12, 1, 2],
-    notes: "Sumatra Jun–Dec; Java May–Sep; Sulawesi varies.",
+    notes: "Sumatra arabica Mar–May & Oct–Jan; Java May–Sep; Sulawesi May–Oct.",
   },
   {
     country: "India",
@@ -191,7 +193,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
     country: "Jamaica",
     harvestMonths: [8, 9, 10, 11, 12, 1],
     marketMonths: [10, 11, 12, 1, 2, 3],
-    notes: "Blue Mountain Aug–Mar.",
+    notes: "Blue Mountain Aug–Jan.",
   },
   {
     country: "Malawi",
@@ -210,8 +212,9 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Haiti",
-    harvestMonths: [8, 9, 10, 11, 12],
-    marketMonths: [10, 11, 12, 1, 2],
+    harvestMonths: [11, 12, 1, 2, 3],
+    marketMonths: [1, 2, 3, 4, 5],
+    notes: "Main crop Nov–Mar.",
   },
   {
     country: "Dominican Republic",
