@@ -22,7 +22,6 @@ export default async function AdminPage() {
     return (
       <div className="mx-auto max-w-xl px-4 py-16">
         <h1 className="font-serif text-4xl text-cream">Admin</h1>
-        <p className="mt-3 text-sm text-cream/70">Keiran only. Simple password login for this first slice.</p>
         <AdminLoginForm />
       </div>
     );
