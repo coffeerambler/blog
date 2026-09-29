@@ -101,6 +101,13 @@ The majority is [Catimor](/archive/coffee-varieties-a-brief-look-at-significant-
 More recently farmers have been experimenting with specialty varieties like Pacamara, Maragogype and even Geisha, a variety becoming incredibly famous in China for its delicate tea-like flavours. With much focus on soil enrichment too there should be some exciting, if not expensive, Chinese coffees appearing in the next few years.`,
     },
     {
+      id: "grading",
+      title: "Grading",
+      markdown: `Yunnan does not sort coffee into a national grade that you will see on a specialty menu the way Costa Rica puts SHB on a sack. The better lots are sold by mill, variety and a cup score. Catimor is still most of the trees. Pacamara and Geisha are the experiments.
+
+Hainan and Fujian robusta is a different, lower commercial coffee. It is not the Yunnan arabica people mean when they talk about Chinese single origin.`,
+    },
+    {
       id: "history",
       title: "Historical development",
       markdown: `French missionaries [brought coffee to China](https://www.freshcup.com/yunnan-coffee/) but it took a good hundred years for it to be grown on any scale. [Since 2009](http://www.ico.org/documents/cy2014-15/icc-115-7e-study-china.pdf) coffee production has soared and since 2013 more has been staying for in-country consumption. A lot of that coffee used to leave for Hamburg. Most of it is roasted in China now. USDA has the country at about 1.9 million bags.

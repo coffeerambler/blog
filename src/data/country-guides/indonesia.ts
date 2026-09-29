@@ -49,27 +49,30 @@ I find these coffees quite difficult to enjoy, but they are well liked in Asia a
 
 Washed coffee exists, especially on Java, Bali and some Gayo lots. Honey is an experiment, as elsewhere.
 
-Robusta is the majority of the crop. USDA's 2026/27 split is about 10 million bags of robusta and 1.4 million of arabica. Instant and espresso blends absorb most of the robusta. Specialty talks about the arabica.
+Robusta is the majority of the crop. USDA's 2026/27 split is about 10 million bags of robusta and 1.4 million of arabica. Instant and espresso blends absorb most of the robusta. Specialty talks about the arabica, which is the smaller and more interesting pile.
 
-[Kopi luwak](/archive/what-is-the-world-s-best-coffee) is a civet story, usually caged. Don't buy it. It isn't the world's best coffee.`,
+[Kopi luwak](/archive/what-is-the-world-s-best-coffee) is a civet story, usually from caged animals. Don't buy it. It isn't the world's best coffee.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Indonesian coffee is graded by defects, under the national standard, not by altitude. Grade 1 is the cleanest, with the fewest defects in the sample. Grades 2, 3 and on down are progressively dirtier. On a Sumatra sack, Grade 1 is what you want to see next to the regional name.
+
+The grade does not tell you the coffee was wet-hulled, and it does not tell you it will taste like earth and cedar. A Grade 1 Mandheling and a Grade 1 washed Java are both "good" by the defect count and nothing like each other in the cup. Screen size is sometimes printed as well. Treat it the way you treat AA in Kenya: useful for the roast, not a score.`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `The Dutch East India Company planted arabica on Java in the 1690s. Leaf rust in the 1870s wiped a lot of it out. Robusta came in from Africa because it survived. That is why Indonesia is a robusta country with arabica pockets.
+      markdown: `The Dutch East India Company planted arabica on Java in the 1690s. Leaf rust in the 1870s wiped a lot of it out, and robusta was brought in from Africa because it survived. That is why Indonesia is a robusta country with arabica pockets, rather than the other way around.
 
-Trade names stuck: Java, Mandheling, Ankola, Toraja. They are markets and methods more than farm gates. A bag labelled Mandheling might be a wet-hulled blend from North Sumatra. It might be good. It is not a single hillside.
-
-USDA has production around 11.4 million bags for 2026/27, down on the year before after wet weather in southern Sumatra.`,
+The trade names stuck: Java, Mandheling, Ankola, Toraja. They are markets and methods more than farm gates. A bag labelled Mandheling might be a wet-hulled blend from North Sumatra. It might be good. It is not one hillside. USDA has production around 11.4 million bags for 2026/27, down on the year before after wet weather in southern Sumatra.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `Kopi tubruk is the everyday brew: grounds in a glass, hot water, wait, and drink past the sludge. Kopi jahe adds ginger. Street stalls do this all day.
+      markdown: `Kopi tubruk is the everyday brew. Grounds go in a glass, hot water goes on top, you wait, and you drink past the sludge. Kopi jahe adds ginger. Street stalls do this all day, and it is a better introduction to how coffee is actually drunk than a tasting flight in a hotel.
 
-Jakarta, Bandung and Yogyakarta have specialty bars now. They roast Gayo and Flores, and they will talk about process in the same way a Melbourne bar would. At home, tubruk still wins.
-
-A wet-hulled Lintong is a fairer introduction to what this origin actually tastes like than anything with a civet on the bag. It will not cup like Kenya. They are different drinks.`,
+Jakarta, Bandung and Yogyakarta have specialty bars now. They roast Gayo and Flores, and they will talk about process in the same way a Melbourne bar would. At home, tubruk still wins. A wet-hulled Lintong is a fairer introduction to what this origin tastes like than anything with a civet on the bag. It will not cup like Kenya. They are different drinks.`,
     },
   ],
   gallery: [],

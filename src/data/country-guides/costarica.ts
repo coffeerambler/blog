@@ -43,9 +43,18 @@ As a relatively rich coffee producing country, farmers have a little more money 
 
 There is much experimentation with processing methods in Costa Rica, with many farmers operating their own micro mills. This is a specialty coffee buyer's dream, offering the chance to find exciting new profiles but not without risk. The farmers can roll the dice experimenting, especially if asked to do so by major specialty roasters. If the bean doesn't cup well after processing, the farmer can be left with large quantities of coffee they can't sell, or which they lose money on. However, results can be great with Costa Rica consistently producing fantastic coffees, particularly [honey-processed](/archive/coffee-processing-the-honey-process) beans.
 
-Grading of Costa Rican coffee is done by the density of the bean based on the altitude it grows at. The classifications are SHB, Strictly Hard Bean, grown above 1,188 metres; GHB, Good Hard Bean, grown between 1,005 and 1,188 metres; and MHB, Medium Hard Bean, the rest.
-
 The Panamanian [Geishas](/archive/the-geisha-variety-what-s-the-big-deal) we have all come to know was carried away from Costa Rica in the 1960s. Since they blew up in the 00s, Costa Rica has taken again to high quality geisha and SL28 [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties). Other common varieties include Caturra, Villa Sarchi (a mutation of bourbon endemic to Costa Rica), Villa Lobos and Venesia, a mutation of Caturra.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Grading of Costa Rican coffee is done by the density of the bean based on the altitude it grows at. Coffee beans grown at higher elevations are more dense than those grown closer to the sea. The classifications are as follows:
+
+SHB, Strictly Hard Bean — grown above 1,188 metres
+
+GHB, Good Hard Bean — grown between 1,005 and 1,188 metres
+
+MHB, Medium Hard Bean — the rest`,
     },
     {
       id: "history",

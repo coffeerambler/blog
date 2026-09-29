@@ -40,31 +40,38 @@ export const kenyaGuide: CountryGuide = {
     {
       id: "processes",
       title: "Common processes",
-      markdown: `Almost all of the coffee that matters here is [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean). Cherry is pulped, fermented in water, washed and dried. Kenyan factories often ferment twice, which is part of why the acidity can feel so sharp and clean. Washed Kenya is the origin I think of when people talk about blackcurrant and plum.
+      markdown: `Almost all of the coffee that matters here is [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean). Cherry is pulped at a factory, fermented in water, washed and dried on raised beds. Kenyan factories often ferment twice, once in the tank and again after a wash, which is a big part of why the acidity can feel so sharp and clean. Washed Kenya is the origin I think of when people talk about blackcurrant and plum. Naturals exist, but they are still the exception, and they are not what built the reputation.
 
-Naturals exist, but they are still the exception.
+[SL28 and SL34](/archive/coffee-varieties-a-brief-look-at-significant-varieties) were selected in the 1930s at Scott Laboratories. Ruiru 11 and Batian came later, bred so the trees could cope with leaf rust and still yield. You can often taste the difference when a lot is honest about what is in the bag. The older SL varieties are still what most people mean when they say a Kenyan tastes like blackcurrant.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Grading of Kenyan coffee is done by screen size, not by how the coffee tastes. The beans are shaken over screens and sorted into sizes. A larger bean is not a better cup. I have had AB lots that beat the AA from the same factory. The sizes help a roast stay even, in the same way Supremo and Excelso do in [Colombia](/country-guide-colombia), and they are easy to misread on a menu.
 
-Grading is by screen size: AA, AB, PB and so on. AA is the larger bean, not a cup score. I have had AB lots that beat the AA from the same factory. The sizes are helpful for even roasting, in the same way Supremo and Excelso are in Colombia, and easy to misread on a menu.
+AA — screens 17 and 18, the large bean
 
-[SL28 and SL34](/archive/coffee-varieties-a-brief-look-at-significant-varieties) were selected in the 1930s at Scott Laboratories. Ruiru 11 and Batian came later for leaf rust. You can often taste the difference when a lot is honest about what is in the bag.`,
+AB — screens 15 and 16
+
+PB — peaberry, one round bean in the cherry instead of two
+
+C, TT and T — smaller beans and the lower grades
+
+E — elephant beans, often misshapen rather than a prize`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `Missionaries planted coffee around the turn of the twentieth century. The British built an estate industry, then a co-op and auction system that outlasted them. Smallholders now grow most of the crop. The Nairobi auction, run with the Coffee Directorate, is still how a lot of it is priced.
+      markdown: `Missionaries planted coffee around the turn of the twentieth century. The British then built an estate industry, and after them a co-operative and auction system that is still how a lot of Kenyan coffee gets a price. Smallholders grow most of the crop now. The Nairobi auction, run with the Coffee Directorate, is where factories sell and exporters buy.
 
-Kenya is a small origin by bag count. USDA has it around 950,000 bags for 2026/27. [Ethiopia](/country-guide-ethiopia) next door is more than ten times that. The reputation is about the cup, not the kilos.
-
-I used a [light roasted Kenyan](/archive/water-for-coffee-part-ii-tasting-with-ph-in-mind) when testing water for this site, so we could focus on the water. It shows good water, bad water and over-extraction very clearly. That is why I keep coming back to it, and why a lot of roasters do too.`,
+Kenya is a small origin by the bag. USDA has it around 950,000 bags for 2026/27. [Ethiopia](/country-guide-ethiopia) next door is more than ten times that. The reputation is about the cup, not the kilos. I used a [light roasted Kenyan](/archive/water-for-coffee-part-ii-tasting-with-ph-in-mind) when testing water for this site, so we could focus on the water rather than the coffee. It shows good water, bad water and over-extraction very clearly. That is why I keep coming back to it, and why a lot of roasters do too.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `Tea is still the bigger drink. At a roadside kiosk you are more likely to be poured instant, or a dark roast with milk and sugar, than a Nyeri pour-over. Kahawa is hospitality.
+      markdown: `Tea is still the bigger drink. At a roadside kiosk you are more likely to be poured instant, or a dark roast with milk and sugar, than a Nyeri pour-over. Kahawa is hospitality, and it does not have to be the coffee that wins a cupping.
 
-That said, Nairobi has a proper specialty scene now. Independent bars talk about Nyeri and Kirinyaga in the same way a London bar would, and they have first pick of some lots that used to leave the country immediately.
-
-If you get the chance to visit a factory during harvest, go early. You can see the double fermentation in the tanks, which is the bit that never quite comes across on a tasting card.`,
+Nairobi has a proper specialty scene now. Independent bars talk about Nyeri and Kirinyaga in the same way a London bar would, and they have first pick of some lots that used to leave the country immediately. If you get the chance to visit a factory during harvest, go early. You can see the double fermentation in the tanks, which is the bit that never quite comes across on a tasting card.`,
     },
   ],
   gallery: [],

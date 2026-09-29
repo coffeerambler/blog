@@ -44,6 +44,13 @@ Tainong 1 is a Taiwanese arabica released by the agricultural research institute
 USDA does not list Taiwan in its circular. The Ministry of Agriculture's research institute talks about roughly 1,000 tonnes of green a year, against more than 50,000 tonnes imported. Treat the production number as an order of magnitude, not a USDA bag count.`,
     },
     {
+      id: "grading",
+      title: "Grading",
+      markdown: `Taiwan is too small an origin to have built an export grading system. You will not see SHB or Grade 1 on a sack in the Costa Rican or Ethiopian sense. What you get is a place name, often Alishan or Gukeng, a process, and a price that only works because people in Taipei will pay it.
+
+The cup score, if there is one, is the useful number. "Taiwanese coffee" is not itself a grade.`,
+    },
+    {
       id: "history",
       title: "Historical development",
       markdown: `Coffee was planted under Japanese rule in the early twentieth century, then faded, then came back as a hillside crop once cafés took off. It never became an export origin in the [Colombia](/country-guide-colombia) sense. The interesting bit is domestic: a country that imports almost everything it drinks also grows a little, high up, and sells it as Taiwanese coffee.

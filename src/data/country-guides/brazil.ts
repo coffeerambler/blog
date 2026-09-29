@@ -39,29 +39,30 @@ export const brazilGuide: CountryGuide = {
     {
       id: "processes",
       title: "Common processes",
-      markdown: `Most Brazilian arabica is a [natural](/archive/the-dry-process-an-introduction-to-natural-coffees) or a pulped natural. Cherry dries on the patio, or it is pulped and the mucilage is left on. The climate in the Cerrado and Sul de Minas is dry enough at harvest that this works. You get body and chocolate. You also get the fermenty edge when the drying is slow or the pile is too deep.
+      markdown: `Most Brazilian arabica is a [natural](/archive/the-dry-process-an-introduction-to-natural-coffees) or a pulped natural. Cherry dries on the patio, or it is pulped and the mucilage is left on while it dries. The climate in the Cerrado and Sul de Minas is dry enough at harvest that this works, which is why Brazil can do it at a scale nobody else can. You get body and chocolate. You also get a fermenty edge when the drying is slow or the pile is too deep.
 
-Washed coffee exists. It is not the default. When a Minas lot is fully washed it can taste closer to a mild Central American than to the Brazil people expect in espresso.
+Washed coffee exists. It is not the default. When a Minas lot is fully washed it can taste closer to a mild Central American than to the Brazil people expect in an espresso blend, and it is worth looking for if that is what you want. Conilon is the robusta. It is stripped, dried and used in soluble coffee and in the cheaper end of blends. USDA's 2026/27 split is about 47.5 million bags of arabica and 24.4 million of robusta, a record overall.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Brazilian coffee is graded in more than one way, and none of them is a cupping score. Screen size is the one you see on a sack: 17/18 is the larger bean, 14/16 the smaller. It is not a mark of quality, in the same way AA is not in [Kenya](/country-guide-kenya). It is there so the roast can be even.
 
-Conilon is the robusta. It is stripped, dried and used in soluble and in the cheaper end of blends. USDA's 2026/27 split is about 47.5 million bags of arabica and 24.4 million of robusta, a record overall.
-
-Screen size still shows up on bags: 17/18, 14/16. It is not a cup score, in the same way AA is not in [Kenya](/country-guide-kenya).`,
+The old cup classification runs from Strictly Soft, the cleanest, through Soft and Hard, down to Rio and Rio Zona, which taste of iodine and are not what you want. Separately, a type number counts defects in a sample. Type 2 has fewer defects than Type 4. A fine Strictly Soft, screen 17/18, Type 2 lot is the top of that old system. A specialty natural from Chapada may never mention any of it, and still be the better drink.`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `Coffee came in from French Guiana in the 1720s and became the crop that paid for a lot of the nineteenth-century economy. Rio, then São Paulo, then Paraná, then Minas as frost and soil exhaustion moved the belt. Santos was the port that named the grade.
+      markdown: `Coffee came in from French Guiana in the 1720s and became the crop that paid for a lot of the nineteenth-century economy. The belt moved as frost and tired soil pushed it on: Rio, then São Paulo, then Paraná, then Minas Gerais. Santos was the port, and for a long time the port's name was the grade.
 
-Mechanisation is the bit that still surprises people who only know smallholder origins. Large farms in the Cerrado harvest with machines. That is why Brazil can move tens of millions of bags, and why a lot of it tastes even.
-
-USDA has 2026/27 at 71.9 million bags, up on a rebound in Minas after a run of poor arabica years. [Vietnam](/country-guide-vietnam) is second, at about 32.5 million, almost all robusta. The two of them set the price of the drink more than anyone else.`,
+What still surprises people who only know smallholder origins is the machines. Large farms in the Cerrado harvest with them. That is why Brazil can move tens of millions of bags, and why a lot of it tastes even from bag to bag. USDA has 2026/27 at 71.9 million bags, up on a rebound in Minas after a run of poor arabica years. [Vietnam](/country-guide-vietnam) is second, at about 32.5 million, almost all robusta. Between them they set the price of the drink more than anyone else.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `Cafezinho is the everyday cup: small, hot, sweet, often from a blend that would not get a score on a tasting table. That is the drink. São Paulo and Belo Horizonte have specialty bars now, and they will talk about a Chapada lot the way a Melbourne bar would. At the padaria it is still cafezinho.
+      markdown: `Cafezinho is the everyday cup: small, hot, sweet, often from a blend that would not get a score on a tasting table. That is the drink most Brazilians actually have. São Paulo and Belo Horizonte have specialty bars now, and they will talk about a Chapada lot the way a Melbourne bar would. At the padaria it is still cafezinho.
 
-I use Brazil in espresso blends when I want chocolate and a round body without the brightness of a washed [Colombia](/country-guide-colombia). A single-origin natural from Sul de Minas can be more interesting than the blend coffee people dismiss. It is still Brazil: chocolate and nut, not the blackcurrant you get from a washed Kenya, and that is the cup it is.`,
+I use Brazil in espresso blends when I want chocolate and a round body without the brightness of a washed [Colombia](/country-guide-colombia). A single-origin natural from Sul de Minas can be much more interesting than the blend coffee people dismiss. It is still Brazil though: chocolate and nut, not the blackcurrant you get from a washed Kenya.`,
     },
   ],
   gallery: [

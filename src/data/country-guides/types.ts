@@ -19,6 +19,17 @@ export type CountryGuideSection = {
   markdown: string;
 };
 
+/**
+ * Section order for a country guide. Grading is its own heading, as on the
+ * Costa Rica page: how that origin sorts coffee, then the classifications.
+ */
+export const COUNTRY_GUIDE_SECTION_TEMPLATE: CountryGuideSection[] = [
+  { id: "processes", title: "Common processes", markdown: "" },
+  { id: "grading", title: "Grading", markdown: "" },
+  { id: "history", title: "Historical development", markdown: "" },
+  { id: "culture", title: "Present-day coffee culture", markdown: "" },
+];
+
 export type CountryGuideGalleryImage = {
   src: string;
   alt: string;

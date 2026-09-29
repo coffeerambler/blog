@@ -45,6 +45,10 @@ import { isApproved } from "@/lib/publish";
  * (see scripts/extract-country-growing-regions.py), register both maps below,
  * and drop a `content/pages/country-guide-{slug}.json` so the world map can link it.
  * New guides must set `"status": "in_review"` — they are not live until Keiran approves.
+ * Sections follow COUNTRY_GUIDE_SECTION_TEMPLATE: Common processes, then Grading,
+ * then Historical development, then Present-day coffee culture. Grading explains
+ * how that origin sorts coffee (altitude, screen or defects), in the style of
+ * Costa Rica's SHB / GHB / MHB section.
  * Add `mapPoints` on the guide module (capital, coffee cities, export ports; OSM lon/lat).
  * The `[slug]` route renders any registered guide with CountryGuidePage.
  */
