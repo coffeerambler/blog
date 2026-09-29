@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { AdSlot } from "@/components/ad-slot";
 import { CountryGuideRegions } from "@/components/country-guide-regions";
 import { MarkdownBody } from "@/lib/markdown";
@@ -32,7 +33,12 @@ export function CountryGuidePage({
   return (
     <article className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <header className="mb-8 max-w-3xl">
-        <p className="text-xs uppercase tracking-[0.22em] text-amber">{guide.kicker}</p>
+        <Link
+          href="/world-coffee-guide"
+          className="inline-flex min-h-11 items-center text-xs uppercase tracking-[0.22em] text-amber hover:underline"
+        >
+          {guide.kicker}
+        </Link>
         <h1 className="mt-2 font-serif text-4xl text-cream sm:text-5xl">{guide.name}</h1>
         <p className="mt-4 text-lg text-cream/70">{guide.lede}</p>
       </header>

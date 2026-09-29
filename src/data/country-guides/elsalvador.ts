@@ -92,6 +92,13 @@ Pacas is a Bourbon mutation found here in the 1940s. Pacamara is Pacas × Marago
 Shade is traditional. Altitude does the rest. The [Consejo Salvadoreño del Café](https://www.csc.gob.sv/) runs the six geographical indications and the usual extension work. Certifications (Rainforest, Fairtrade, Café Practices) are how a lot of farms still get paid above C.`,
     },
     {
+      id: "grading",
+      title: "Grading",
+      markdown: `Salvadoran coffee is graded by altitude, in the same family as Costa Rica's hard-bean system. Strictly High Grown, SHG, is the high coffee, generally above about 1,200 metres. High Grown sits below that, and Central Standard is the lower belt.
+
+On a specialty bag the region often matters more than the initials. A Chalatenango SHG and a lower western lot are not the same cup, even when both have been washed. The grade tells you where it could have grown. It does not tell you it was picked ripe.`,
+    },
+    {
       id: "history",
       title: "Historical development",
       markdown: `Coffee made nineteenth-century El Salvador rich and politically lopsided. Augustine Sedgewick’s [Coffeeland](/post/coffeeland-a-short-summary-and-review) is the long version. The civil war (1979–1992) emptied farms and wrecked mills; some of the famous fincas never fully came back. Leaf rust in 2012–13 did a second round of damage. Production has been stuck well below a million bags for years. USDA’s 2026/27 number is about 542,000 bags. Tiny next to Colombia. A live origin if you care about Bourbon.

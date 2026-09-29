@@ -47,6 +47,13 @@ A bag of Ethiopian coffee beans are usually mixed in size. Compare this with uni
 There are so many [varieties of arabica](/archive/coffee-varieties-a-brief-look-at-significant-varieties) in Ethiopia that to isolate and farm them has not occurred on any large scale. There are some cooperatives offering all [Geisha](/archive/the-geisha-variety-what-s-the-big-deal) beans (the variety originates in Ethiopia) but this is rare. Instead, wild and planted coffees are combined and are called heirloom. Characteristics of Ethiopian coffee can therefore be loosely based on their origin, and named after areas such as Yirgacheffe and the cooperatives that grew them.`,
     },
     {
+      id: "grading",
+      title: "Grading",
+      markdown: `Ethiopian coffee is not graded by screen size the way Kenya or Colombia is. A bag is usually a mix of bean sizes, because the trees are heirloom and not planted as one variety. What you see instead is a regional name, Yirgacheffe or Sidama, and a grade from the exchange.
+
+The Ethiopian Commodity Exchange grades by defects and by cup. Grade 1 is the cleanest, then Grade 2, and on down. Specialty buyers want Grade 1 or Grade 2 from a named cooperative or washing station. The grade is not a flavour. A Grade 1 natural and a Grade 1 washed coffee from the same place will not taste the same.`,
+    },
+    {
       id: "history",
       title: "Historical development",
       markdown: `Said to be where coffee originates, specialty grade Ethiopian beans deliver an abundance of flavour. It was an Ethiopian single origin espresso that first blew my mind, kick-starting a coffee epiphany. I couldn't believe the elegant complexity, the creamy mouthfeel and the beautiful flavours.

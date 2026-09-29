@@ -44,15 +44,24 @@ export const colombiaGuide: CountryGuide = {
       title: "Common processes",
       markdown: `Most Colombian coffees are [wet processed](/archive/coffee-processing-methods-from-cherry-to-green-bean). Naturals and honeys exist, but the country's reputation was built on a clean wet mill.
 
+More recently, lots of Colombian farmers are experimenting with [co-ferments](/post/co-fermented-coffee) and other innovative processing methods. However, there are also [reports of adding synthetic flavours to green coffee](https://perfectdailygrind.com/2024/10/why-infused-co-fermented-coffees-are-different/) in the craze for 'fruit bomb' profiles.
+
 Main harvests are generally at the end of the year whilst there is also a smaller fly harvest, or mitaca, just before the midpoint of the year.
 
 Another great aspect of Colombian farming is the diversity of the ecosystem. Many coffees are shade grown with lemon, orange, maize, apples and many other fruits. This is both highly beneficial for soil quality and Colombia's bird species, of which are over 1900. No other country has as many bird species.
 
 It's worth tasting coffee from the different regions as each one has distinct characteristics. Coffee from Nariño can be quite special, grown at very high elevation and therefore highly acidic and aromatic. If it weren't for the rising heat from the valley, coffee crops here would probably die from the night's cold. It's mild flavour contrasts with the obvious fruitier coffees from the Huila region.
 
-Colombian coffees are graded by size rather than quality, though some believe greater size correlates with high quality. It is easy to misinterpret the meaning of terms Supremo and Excelso to equate to quality, but what it really means is the size of the bean. Supremo is the largest of the beans. I personally feel these terms are not overly helpful for the specialty market, as different varieties have different sizes. They are helpful for sorting coffee for roasting though, with similar size beans more likely to roast evenly.
-
 Most of the growing regions' main three [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties) are Typica, Caturra and Castillo. The Caturra is a naturally occurring mutation of the Bourbon variety first found in Brazil. Castillo (2005) has received some negative bias because of its Catimor lineage. This bias might be misplaced though, as [this research](https://coffeelands.crs.org/2015/04/more-precision-on-castillo-v-caturra/) conducted in 2015 shows cuppers could not much distinguish quality between the Castillo and Caturra varieties.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Colombian coffees are graded by size rather than quality, though some believe greater size correlates with high quality. It is easy to misinterpret Supremo and Excelso as a mark of how good the coffee is. What they really mean is the size of the bean. I personally feel these terms are not overly helpful for the specialty market, as different varieties have different sizes. They are helpful for sorting coffee for roasting though, with similar size beans more likely to roast evenly.
+
+Supremo — the larger bean, generally screen 17 and above
+
+Excelso — the smaller export grade, generally screens 14 to 16`,
     },
     {
       id: "history",

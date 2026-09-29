@@ -31,6 +31,7 @@ export default async function AdminPage() {
   const countries = countryGuideRecords(records);
   const posts = postRecords(records);
   const countryReview = recordsByStatus(countries, "in_review");
+  const postReview = recordsByStatus(posts, "in_review");
   const countryApproved = recordsByStatus(countries, "approved");
   const drafts = recordsByStatus(records, "draft");
   const pages = records.filter(
@@ -43,8 +44,8 @@ export default async function AdminPage() {
         <div>
           <h1 className="font-serif text-4xl text-cream">Admin</h1>
           <p className="mt-3 max-w-2xl text-sm text-cream/70">
-            Country guides still land in Review until you sign them off. Search Posts to edit a blog
-            post. Filter Draft, In review or Approved.
+            Country guides and new blog posts land in Review until you sign them off. Search Posts
+            to edit a blog post. Filter Draft, In review or Approved.
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
@@ -58,9 +59,12 @@ export default async function AdminPage() {
       <section className="mt-12" id="review">
         <h2 className="font-serif text-2xl text-cream">Review</h2>
         <p className="mt-2 text-sm text-cream/60">
-          New country guides land here. They are not on the world map or public URLs until you approve them.
+          New country guides and blog posts land here. They stay off the public site until you approve them.
         </p>
-        <AdminRecordList records={countryReview} empty="No country guides waiting for review." />
+        <AdminRecordList
+          records={[...countryReview, ...postReview]}
+          empty="Nothing waiting for review."
+        />
       </section>
 
       <section className="mt-12" id="approved">

@@ -5,7 +5,6 @@ import { CountryGrowingMap } from "@/components/country-growing-map";
 import {
   Table,
   TableBody,
-  TableCaption,
   TableCell,
   TableHead,
   TableHeader,
@@ -73,9 +72,6 @@ export function CountryGuideRegions({
           Region details
         </h2>
         <Table>
-          <TableCaption>
-            <CaptionWithLinks text={guide.regionsCaption} />
-          </TableCaption>
           <TableHeader>
             <TableRow>
               <TableHead className="w-12">No.</TableHead>
