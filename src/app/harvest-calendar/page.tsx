@@ -5,8 +5,7 @@ import { HarvestCalendar } from "@/components/harvest-calendar";
 
 export const metadata: Metadata = {
   title: { absolute: "Harvest Calendar | Coffee Rambler" },
-  description:
-    "Typical harvest and on-market windows for specialty coffee origins. Times vary by region and crop.",
+  description: "Harvest calendar.",
   alternates: { canonical: "https://www.coffeerambler.com/harvest-calendar" },
 };
 
@@ -17,12 +16,10 @@ export default function HarvestCalendarPage() {
         <p className="text-xs uppercase tracking-[0.22em] text-amber">Coffee Rambler</p>
         <h1 className="mt-2 font-serif text-4xl text-cream sm:text-5xl">Harvest Calendar</h1>
         <p className="mt-4 text-lg text-cream/70">
-          Typical harvest and on-market windows for specialty coffee origins. Times vary by region and
-          crop. Country guides live on the{" "}
+          Country guides on{" "}
           <Link href="/world-coffee-guide" className="text-amber hover:underline">
             World Coffee Guide
           </Link>
-          .
         </p>
       </header>
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
@@ -35,10 +32,8 @@ export default function HarvestCalendarPage() {
         <aside className="space-y-4">
           <AdSlot slot="sidebar" className="border" />
           <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
-            <p className="font-serif text-lg text-cream">World Coffee Guide</p>
-            <p className="mt-2">Open a country to read how and where its coffee is grown.</p>
-            <Link href="/world-coffee-guide" className="mt-3 inline-flex min-h-11 items-center text-amber hover:underline">
-              Browse origins
+            <Link href="/world-coffee-guide" className="inline-flex min-h-11 items-center font-serif text-lg text-cream hover:text-amber">
+              World Coffee Guide
             </Link>
           </div>
         </aside>
