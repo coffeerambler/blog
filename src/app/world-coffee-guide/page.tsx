@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { connection } from "next/server";
 import { AdSlot } from "@/components/ad-slot";
@@ -39,13 +40,7 @@ export default async function WorldCoffeeGuidePage() {
         <div className="min-w-0 space-y-8">
           <AdSlot slot="article" className="border-x-0" />
           <OriginsMap guides={guides} />
-          <p className="text-sm text-cream/60">
-            Amber countries have a written guide. Other coffee-belt countries still highlight; pages for
-            those origins come later.{" "}
-            <Link href="/harvest-calendar" className="text-amber hover:underline">
-              Harvest calendar
-            </Link>
-          </p>
+          <p className="text-sm text-cream/60">Click a country to see the guide. More countries to come!</p>
           {guides.length ? (
             <ul className="flex flex-wrap gap-2 text-sm">
               {guides.map((guide) => (
@@ -60,6 +55,25 @@ export default async function WorldCoffeeGuidePage() {
               ))}
             </ul>
           ) : null}
+          <section className="space-y-3">
+            <h2 className="font-serif text-2xl text-cream">
+              <Link href="/harvest-calendar" className="hover:text-amber">
+                Harvest Calendar
+              </Link>
+            </h2>
+            <Link href="/harvest-calendar" className="block overflow-hidden rounded-xl border border-white/10">
+              <Image
+                src="/images/ripe-coffee-cherries.jpg"
+                alt="Ripe coffee cherries"
+                width={1280}
+                height={960}
+                className="h-auto max-h-80 w-full object-cover object-center"
+              />
+            </Link>
+            <p className="text-sm text-cream/70">
+              See the harvest time in each country and when fresh coffee should be landing on the market.
+            </p>
+          </section>
         </div>
         <aside className="space-y-4">
           <AdSlot slot="sidebar" className="border" />

@@ -167,7 +167,6 @@ export function OriginsMap({ guides }: { guides: CountryGuideLink[] }) {
           }}
         >
           {tooltip.name}
-          {tooltip.href ? " — country guide" : ""}
         </div>
       ) : null}
     </div>
