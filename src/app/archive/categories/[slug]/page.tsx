@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArchiveYearList } from "@/components/archive-index";
 import { EmptyState } from "@/components/post-card";
@@ -35,7 +36,12 @@ export default async function CategoryPage({ params }: Props) {
   const posts = postsInCategory(decoded);
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
-      <p className="text-xs uppercase tracking-[0.2em] text-amber">Archive</p>
+      <Link
+        href="/archive"
+        className="inline-flex min-h-11 items-center text-xs uppercase tracking-[0.2em] text-amber hover:underline"
+      >
+        Archive
+      </Link>
       <h1 className="mt-2 font-serif text-4xl text-cream">{displayTitle(page)}</h1>
       {page.description ? <p className="mt-4 text-cream/70">{page.description}</p> : null}
       {posts.length === 0 ? (
