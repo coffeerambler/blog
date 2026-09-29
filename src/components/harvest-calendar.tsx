@@ -1,20 +1,24 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
+import dynamic from "next/dynamic";
+import { ChevronLeft, ChevronRight, Info, Loader2, Maximize2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { FullscreenModal } from "@/components/fullscreen-modal";
 import { HarvestSeasonGantt } from "@/components/harvest-season-gantt";
-import { HarvestSeasonMap } from "@/components/harvest-season-map";
-import {
-  COFFEE_BELT_FILL_HARVEST,
-  COFFEE_BELT_FILL_MARKET,
-  COFFEE_BELT_FILL_OFF_DARK,
-} from "@/lib/coffee-belt";
-import {
-  COFFEE_HARVEST_SEASONS,
-  MONTH_NAMES,
-  getMonthPhaseCounts,
-  type SeasonPhase,
-} from "@/lib/coffee-harvest-seasons";
+import { COFFEE_HARVEST_SEASONS, type SeasonPhase } from "@/lib/coffee-harvest-seasons";
+
+const HarvestSeasonMap = dynamic(
+  () => import("@/components/harvest-season-map").then((mod) => mod.HarvestSeasonMap),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex min-h-[140px] items-center justify-center">
+        <Loader2 className="h-5 w-5 animate-spin text-muted-foreground" />
+      </div>
+    ),
+  },
+);
 
 const PHASE_LABELS: Record<SeasonPhase, string> = {
   harvest: "Harvesting",
@@ -22,124 +26,163 @@ const PHASE_LABELS: Record<SeasonPhase, string> = {
   off: "Off season",
 };
 
-const LEGEND: { phase: SeasonPhase; fill: string }[] = [
-  { phase: "harvest", fill: COFFEE_BELT_FILL_HARVEST },
-  { phase: "market", fill: COFFEE_BELT_FILL_MARKET },
-  { phase: "off", fill: COFFEE_BELT_FILL_OFF_DARK },
+const LOCALE = "en-GB";
+
+const LEGEND: { phase: SeasonPhase; dot: string }[] = [
+  { phase: "harvest", dot: "bg-[#8fcb86]" },
+  { phase: "market", dot: "bg-[#C8925A]" },
+  { phase: "off", dot: "bg-muted-foreground/35" },
 ];
 
 export type HarvestCalendarProps = {
-  initialMonth?: number;
+  mapTourTarget?: string;
   mapFirst?: boolean;
+  initialMonth?: number;
 };
 
-function clampMonth(month: number) {
-  if (month < 1 || month > 12) return new Date().getMonth() + 1;
-  return month;
+function PhaseLegend() {
+  return (
+    <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[11px] text-muted-foreground">
+      {LEGEND.map((item) => (
+        <li key={item.phase} className="inline-flex items-center gap-1.5">
+          <span className={`h-2 w-2 rounded-full ${item.dot}`} />
+          {PHASE_LABELS[item.phase]}
+        </li>
+      ))}
+    </ul>
+  );
 }
 
-export function HarvestCalendar({ initialMonth, mapFirst = true }: HarvestCalendarProps) {
-  const [month, setMonth] = useState(() => clampMonth(initialMonth ?? new Date().getMonth() + 1));
-  const [activeOnly, setActiveOnly] = useState(false);
-  const counts = useMemo(() => getMonthPhaseCounts(month), [month]);
-  const monthName = MONTH_NAMES[month - 1];
+export function HarvestCalendar({
+  mapTourTarget,
+  mapFirst = false,
+  initialMonth,
+}: HarvestCalendarProps) {
+  const [year, setYear] = useState(() => new Date().getFullYear());
+  const [month, setMonth] = useState(() => {
+    if (initialMonth && initialMonth >= 1 && initialMonth <= 12) return initialMonth;
+    return new Date().getMonth() + 1;
+  });
+  const [mapFullscreen, setMapFullscreen] = useState(false);
 
-  function shift(delta: number) {
-    setMonth((current) => ((current - 1 + delta + 12) % 12) + 1);
+  function shiftMonth(delta: number) {
+    const next = month + delta;
+    if (next < 1) {
+      setYear((current) => current - 1);
+      setMonth(12);
+      return;
+    }
+    if (next > 12) {
+      setYear((current) => current + 1);
+      setMonth(1);
+      return;
+    }
+    setMonth(next);
   }
 
-  const map = (
-    <section aria-labelledby="harvest-map-title">
-      <h2 id="harvest-map-title" className="mb-3 font-serif text-2xl text-cream">
-        Harvest season map
-      </h2>
-      <HarvestSeasonMap month={month} phaseLabels={PHASE_LABELS} />
-    </section>
+  const monthYearLabel = useMemo(
+    () =>
+      new Intl.DateTimeFormat(LOCALE, { month: "long", year: "numeric" }).format(
+        new Date(year, month - 1, 1),
+      ),
+    [year, month],
   );
 
-  const chart = (
-    <HarvestSeasonGantt month={month} onMonthChange={setMonth} activeOnly={activeOnly} />
+  const formatCountryName = (name: string) => name;
+  const formatCountryNotes = (_name: string, notes?: string) => notes;
+
+  const map = (
+    <div
+      data-tour={mapTourTarget}
+      className="relative w-full overflow-hidden rounded-md border border-border/40 bg-card/20"
+      style={{ aspectRatio: "2 / 1" }}
+    >
+      <HarvestSeasonMap
+        month={month}
+        phaseLabels={PHASE_LABELS}
+        formatCountryName={formatCountryName}
+        formatCountryNotes={formatCountryNotes}
+      />
+    </div>
   );
 
   return (
-    <div className="space-y-8">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex items-center gap-2">
-          <button
-            type="button"
-            onClick={() => shift(-1)}
-            aria-label="Previous month"
-            className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border border-white/15 text-cream hover:bg-white/5"
-          >
-            <ChevronLeft className="h-4 w-4" />
-          </button>
-          <p className="min-w-36 text-center font-serif text-3xl text-cream">{monthName}</p>
-          <button
-            type="button"
-            onClick={() => shift(1)}
-            aria-label="Next month"
-            className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border border-white/15 text-cream hover:bg-white/5"
-          >
-            <ChevronRight className="h-4 w-4" />
-          </button>
+    <div className="flex h-full min-h-0 flex-col overflow-hidden">
+      <div className="flex shrink-0 flex-col gap-2 border-b border-border/30 px-3 py-2">
+        <div className="flex items-center justify-between gap-2">
+          <div className="flex items-center gap-1">
+            <Button
+              variant="outline"
+              size="icon"
+              className="h-7 w-7"
+              onClick={() => shiftMonth(-1)}
+              aria-label="Previous month"
+            >
+              <ChevronLeft />
+            </Button>
+            <span className="min-w-[9.5rem] text-center text-sm font-medium tabular-nums">{monthYearLabel}</span>
+            <Button
+              variant="outline"
+              size="icon"
+              className="h-7 w-7"
+              onClick={() => shiftMonth(1)}
+              aria-label="Next month"
+            >
+              <ChevronRight />
+            </Button>
+          </div>
+          {mapFirst ? null : (
+            <Button variant="outline" size="sm" className="h-7 px-2 text-[11px]" onClick={() => setMapFullscreen(true)}>
+              <Maximize2 className="size-3" />
+              Expand
+            </Button>
+          )}
         </div>
-        <ul className="flex flex-wrap gap-x-4 gap-y-2 text-sm text-cream/80">
-          {LEGEND.map((item) => (
-            <li key={item.phase} className="inline-flex items-center gap-2">
-              <span className="h-3 w-3 rounded-sm" style={{ background: item.fill }} />
-              {PHASE_LABELS[item.phase]}
-              <span className="text-cream/50">
-                {item.phase === "harvest" ? counts.harvest : item.phase === "market" ? counts.market : counts.off}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <PhaseLegend />
       </div>
 
-      {mapFirst ? (
-        <>
+      <div className="min-h-0 flex-1 overflow-y-auto">
+        <div className="mx-auto flex max-w-4xl flex-col gap-3 px-3 py-3">
           {map}
-          {chart}
-        </>
-      ) : (
-        <>
-          {chart}
-          {map}
-        </>
-      )}
-
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-        <button
-          type="button"
-          aria-pressed={activeOnly}
-          onClick={() => setActiveOnly((current) => !current)}
-          className={`inline-flex min-h-11 items-center rounded-md border px-3 text-sm ${
-            activeOnly
-              ? "border-amber bg-amber text-background"
-              : "border-white/15 text-cream hover:bg-white/5"
-          }`}
-        >
-          Active this month
-        </button>
-        <p className="text-sm text-cream/60">
-          {activeOnly
-            ? "Showing origins harvesting or on market this month"
-            : "Show all origins"}
-          {" · "}
-          {COFFEE_HARVEST_SEASONS.length} origins in this calendar
-        </p>
+          {mapFirst ? null : (
+            <>
+              <HarvestSeasonGantt selectedMonth={month} locale={LOCALE} onMonthSelect={setMonth} />
+              <div className="flex gap-2 rounded-md border border-border/40 bg-card/20 px-2.5 py-2 text-[11px] leading-snug text-muted-foreground">
+                <Info className="mt-0.5 size-3.5 shrink-0" />
+                <div className="space-y-1">
+                  <p>
+                    These are approximate country-level windows. Actual arrival at roasters depends on region,
+                    processing, and shipping.
+                  </p>
+                  <p>
+                    On market means harvest has finished for that crop. If a month overlaps both windows, we show
+                    harvesting — but beans from earlier picks may still be on sale at roasters during harvest months.
+                  </p>
+                </div>
+              </div>
+              <p className="text-center text-[11px] text-muted-foreground">
+                {COFFEE_HARVEST_SEASONS.length} origins in this calendar
+              </p>
+            </>
+          )}
+        </div>
       </div>
 
-      <div className="space-y-2 text-sm leading-6 text-cream/60">
-        <p>
-          These are approximate country-level windows. Actual arrival at roasters depends on region,
-          processing, and shipping.
-        </p>
-        <p>
-          On market means harvest has finished for that crop. If a month overlaps both windows, we show
-          harvesting — but beans from earlier picks may still be on sale at roasters during harvest months.
-        </p>
-      </div>
+      <FullscreenModal
+        isOpen={mapFullscreen}
+        onClose={() => setMapFullscreen(false)}
+        title={`Harvest season map · ${monthYearLabel}`}
+      >
+        <div className="h-full min-h-0">
+          <HarvestSeasonMap
+            month={month}
+            phaseLabels={PHASE_LABELS}
+            formatCountryName={formatCountryName}
+            formatCountryNotes={formatCountryNotes}
+            enableZoom
+          />
+        </div>
+      </FullscreenModal>
     </div>
   );
 }

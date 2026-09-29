@@ -28,7 +28,9 @@ export default function HarvestCalendarPage() {
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
         <div className="min-w-0">
           <AdSlot slot="article" className="mb-8 border-x-0" />
-          <HarvestCalendar />
+          <div className="h-[80vh] min-h-[36rem] overflow-hidden rounded-md border border-border/40 bg-card/10">
+            <HarvestCalendar />
+          </div>
         </div>
         <aside className="space-y-4">
           <AdSlot slot="sidebar" className="border" />

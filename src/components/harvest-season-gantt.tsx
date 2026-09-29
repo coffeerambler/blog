@@ -1,107 +1,236 @@
 "use client";
 
+import { useMemo, useRef, useCallback, useState } from "react";
 import {
   COFFEE_HARVEST_SEASONS,
-  MONTH_LABELS,
-  MONTH_NAMES,
-  MONTHS_IN_YEAR,
   getPhaseForMonth,
   isOriginActiveInMonth,
+  MONTHS_IN_YEAR,
+  type OriginHarvestSeason,
   type SeasonPhase,
 } from "@/lib/coffee-harvest-seasons";
-import {
-  COFFEE_BELT_FILL_HARVEST,
-  COFFEE_BELT_FILL_MARKET,
-  COFFEE_BELT_FILL_OFF_DARK,
-} from "@/lib/coffee-belt";
+import { Toggle } from "@/components/ui/toggle";
+import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
+import { cn } from "@/lib/utils";
 
 const PHASE_FILL: Record<SeasonPhase, string> = {
-  harvest: COFFEE_BELT_FILL_HARVEST,
-  market: COFFEE_BELT_FILL_MARKET,
-  off: COFFEE_BELT_FILL_OFF_DARK,
+  harvest: "bg-[#8fcb86]",
+  market: "bg-[#C8925A]",
+  off: "bg-muted-foreground/15",
 };
 
-const PHASE_LABEL: Record<SeasonPhase, string> = {
-  harvest: "Harvesting",
-  market: "On market",
-  off: "Off season",
-};
+const GRID_COLS =
+  "grid grid-cols-[minmax(5.5rem,7rem)_repeat(12,minmax(1.25rem,1fr))] gap-px";
 
 type HarvestSeasonGanttProps = {
-  month: number;
-  onMonthChange: (month: number) => void;
-  activeOnly: boolean;
+  selectedMonth: number;
+  locale: string;
+  onMonthSelect: (month: number) => void;
 };
 
-export function HarvestSeasonGantt({ month, onMonthChange, activeOnly }: HarvestSeasonGanttProps) {
-  const origins = COFFEE_HARVEST_SEASONS.filter((origin) =>
-    activeOnly ? isOriginActiveInMonth(origin, month) : true,
-  ).sort((a, b) => a.country.localeCompare(b.country));
+function monthLongLabel(month: number, locale: string): string {
+  return new Intl.DateTimeFormat(locale, { month: "long" }).format(new Date(2024, month - 1, 1));
+}
+
+function monthShortLabel(month: number, locale: string): string {
+  return new Intl.DateTimeFormat(locale, { month: "short" }).format(new Date(2024, month - 1, 1));
+}
+
+function sortOrigins(origins: OriginHarvestSeason[], locale: string): OriginHarvestSeason[] {
+  const collator = new Intl.Collator(locale, { sensitivity: "base" });
+  return [...origins].sort((a, b) => collator.compare(a.country, b.country));
+}
+
+const COUNTRY_CELL_CLASS =
+  "sticky left-0 z-[1] flex min-w-0 items-center border-r border-border/30 bg-card/95 py-1 pr-1.5 text-[11px] font-medium leading-tight text-foreground backdrop-blur-sm";
+
+function CountryNameCell({ countryLabel, notesLabel }: { countryLabel: string; notesLabel?: string }) {
+  if (!notesLabel) {
+    return (
+      <div className={COUNTRY_CELL_CLASS}>
+        <span className="truncate">{countryLabel}</span>
+      </div>
+    );
+  }
 
   return (
-    <div>
-      <div className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
-        <h2 className="font-serif text-2xl text-cream">Season chart</h2>
-        <p className="text-sm text-cream/60">
-          {origins.length} of {COFFEE_HARVEST_SEASONS.length} showing
-        </p>
-      </div>
-      {origins.length === 0 ? (
-        <p className="text-sm text-cream/70">No origins are harvesting or on market this month.</p>
-      ) : (
-        <div className="overflow-x-auto rounded-xl border border-white/10">
-          <table className="w-full min-w-[720px] border-collapse text-left text-sm">
-            <thead>
-              <tr className="border-b border-white/10">
-                <th className="sticky left-0 z-10 bg-card px-3 py-2 font-medium text-cream/70">Origin</th>
-                {MONTHS_IN_YEAR.map((value) => {
-                  const selected = value === month;
-                  return (
-                    <th key={value} className="px-1 py-2 text-center font-medium">
-                      <button
-                        type="button"
-                        onClick={() => onMonthChange(value)}
-                        aria-label={`View ${MONTH_NAMES[value - 1]}`}
-                        aria-pressed={selected}
-                        className={`inline-flex min-h-11 min-w-11 items-center justify-center rounded-md px-1 ${
-                          selected ? "bg-amber text-background" : "text-cream/70 hover:text-cream"
-                        }`}
-                      >
-                        {MONTH_LABELS[value - 1]}
-                      </button>
-                    </th>
-                  );
-                })}
-              </tr>
-            </thead>
-            <tbody>
-              {origins.map((origin) => (
-                <tr key={origin.country} className="border-b border-white/5 last:border-0">
-                  <th
-                    scope="row"
-                    className="sticky left-0 z-10 bg-card px-3 py-2 text-left font-normal text-cream"
-                  >
-                    {origin.country}
-                  </th>
-                  {MONTHS_IN_YEAR.map((value) => {
-                    const phase = getPhaseForMonth(origin, value);
-                    const selected = value === month;
-                    return (
-                      <td key={value} className="px-1 py-1.5">
-                        <span
-                          title={`${origin.country}, ${MONTH_NAMES[value - 1]}: ${PHASE_LABEL[phase]}`}
-                          className={`block h-6 rounded-sm ${selected ? "ring-1 ring-cream/70" : ""}`}
-                          style={{ background: PHASE_FILL[phase] }}
-                        />
-                      </td>
-                    );
-                  })}
-                </tr>
-              ))}
-            </tbody>
-          </table>
+    <HoverCard openDelay={200} closeDelay={100}>
+      <HoverCardTrigger asChild>
+        <button
+          type="button"
+          className={cn(COUNTRY_CELL_CLASS, "w-full cursor-help text-left hover:bg-card")}
+          aria-label={`${countryLabel} — ${notesLabel}`}
+        >
+          <span className="truncate underline decoration-dotted decoration-border/60 underline-offset-2">
+            {countryLabel}
+          </span>
+        </button>
+      </HoverCardTrigger>
+      <HoverCardContent side="right" align="start" className="w-auto max-w-[16rem] p-2.5 text-xs leading-snug">
+        <p className="font-medium">{countryLabel}</p>
+        <p className="mt-1 text-muted-foreground">{notesLabel}</p>
+      </HoverCardContent>
+    </HoverCard>
+  );
+}
+
+function GanttRow({
+  origin,
+  selectedMonth,
+  countryLabel,
+  notesLabel,
+  onMonthSelect,
+  selectMonthLabel,
+}: {
+  origin: OriginHarvestSeason;
+  selectedMonth: number;
+  countryLabel: string;
+  notesLabel?: string;
+  onMonthSelect: (month: number) => void;
+  selectMonthLabel: (month: number) => string;
+}) {
+  return (
+    <div className={GRID_COLS}>
+      <CountryNameCell countryLabel={countryLabel} notesLabel={notesLabel} />
+      {MONTHS_IN_YEAR.map((m) => {
+        const phase = getPhaseForMonth(origin, m);
+        const isSelected = m === selectedMonth;
+        return (
+          <button
+            key={m}
+            type="button"
+            onClick={() => onMonthSelect(m)}
+            aria-label={selectMonthLabel(m)}
+            aria-current={isSelected ? "true" : undefined}
+            className={cn(
+              "flex items-center rounded-sm py-0.5 transition-colors hover:bg-foreground/[0.04]",
+              isSelected && "bg-foreground/[0.06] ring-1 ring-inset ring-foreground/15",
+            )}
+          >
+            <div
+              className={cn("pointer-events-none h-1.5 w-full rounded-sm", PHASE_FILL[phase])}
+              role="img"
+              aria-hidden
+            />
+          </button>
+        );
+      })}
+    </div>
+  );
+}
+
+export function HarvestSeasonGantt({ selectedMonth, locale, onMonthSelect }: HarvestSeasonGanttProps) {
+  const [activeOnly, setActiveOnly] = useState(false);
+  const headerScrollRef = useRef<HTMLDivElement>(null);
+  const bodyScrollRef = useRef<HTMLDivElement>(null);
+  const syncingScroll = useRef(false);
+
+  const sortedOrigins = useMemo(
+    () => sortOrigins(COFFEE_HARVEST_SEASONS, locale),
+    [locale],
+  );
+
+  const visibleOrigins = useMemo(
+    () =>
+      activeOnly
+        ? sortedOrigins.filter((origin) => isOriginActiveInMonth(origin, selectedMonth))
+        : sortedOrigins,
+    [sortedOrigins, activeOnly, selectedMonth],
+  );
+
+  const syncScrollLeft = useCallback((source: HTMLDivElement, target: HTMLDivElement) => {
+    if (syncingScroll.current) return;
+    syncingScroll.current = true;
+    target.scrollLeft = source.scrollLeft;
+    syncingScroll.current = false;
+  }, []);
+
+  const onBodyScroll = useCallback(() => {
+    const body = bodyScrollRef.current;
+    const header = headerScrollRef.current;
+    if (body && header) syncScrollLeft(body, header);
+  }, [syncScrollLeft]);
+
+  const onHeaderScroll = useCallback(() => {
+    const body = bodyScrollRef.current;
+    const header = headerScrollRef.current;
+    if (body && header) syncScrollLeft(header, body);
+  }, [syncScrollLeft]);
+
+  const selectMonthLabel = useCallback(
+    (month: number) => `View ${monthLongLabel(month, locale)}`,
+    [locale],
+  );
+
+  return (
+    <div className="rounded-md border border-border/40 bg-card/20">
+      <div className="flex items-center justify-between gap-2 border-b border-border/30 px-2.5 py-1.5">
+        <div className="flex min-w-0 flex-wrap items-baseline gap-x-2 gap-y-0.5">
+          <h3 className="font-serif text-xs font-semibold text-foreground">Season chart</h3>
+          <span className="text-[11px] text-muted-foreground tabular-nums">
+            {visibleOrigins.length} of {COFFEE_HARVEST_SEASONS.length} showing
+          </span>
         </div>
-      )}
+        <Toggle
+          variant="outline"
+          size="sm"
+          pressed={activeOnly}
+          onPressedChange={setActiveOnly}
+          className="h-7 shrink-0 px-2 text-[11px] data-[state=on]:border-primary/40 data-[state=on]:bg-primary/10 data-[state=on]:text-foreground"
+          aria-label={
+            activeOnly
+              ? "Showing origins harvesting or on market this month"
+              : "Show all origins"
+          }
+        >
+          Active this month
+        </Toggle>
+      </div>
+
+      <div className="sticky top-0 z-20 border-b border-border/30 bg-card/95 shadow-sm backdrop-blur-sm">
+        <div ref={headerScrollRef} className="overflow-x-auto overscroll-x-contain" onScroll={onHeaderScroll}>
+          <div className={cn("min-w-[36rem] px-1 pt-1.5", GRID_COLS)}>
+            <div className="sticky left-0 z-[1] border-r border-border/30 bg-card/95 backdrop-blur-sm" />
+            {MONTHS_IN_YEAR.map((m) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => onMonthSelect(m)}
+                aria-label={selectMonthLabel(m)}
+                aria-current={m === selectedMonth ? "true" : undefined}
+                className={cn(
+                  "rounded-sm pb-0.5 text-center text-[10px] font-medium text-muted-foreground tabular-nums transition-colors hover:bg-foreground/[0.04] hover:text-foreground",
+                  m === selectedMonth && "bg-foreground/[0.06] font-semibold text-foreground",
+                )}
+              >
+                {monthShortLabel(m, locale)}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <div ref={bodyScrollRef} className="overflow-x-auto overscroll-x-contain" onScroll={onBodyScroll}>
+        <div className="min-w-[36rem] space-y-px px-1 py-1.5">
+          {visibleOrigins.length === 0 ? (
+            <p className="px-1 py-3 text-center text-[11px] text-muted-foreground">
+              No origins are harvesting or on market this month.
+            </p>
+          ) : (
+            visibleOrigins.map((origin) => (
+              <GanttRow
+                key={origin.country}
+                origin={origin}
+                selectedMonth={selectedMonth}
+                countryLabel={origin.country}
+                notesLabel={origin.notes}
+                onMonthSelect={onMonthSelect}
+                selectMonthLabel={selectMonthLabel}
+              />
+            ))
+          )}
+        </div>
+      </div>
     </div>
   );
 }
