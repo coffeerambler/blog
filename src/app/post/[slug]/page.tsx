@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { AdSlot } from "@/components/ad-slot";
 import { notFound } from "next/navigation";
+import { RelatedCategoryPosts } from "@/components/related-category-posts";
 import { UnpublishedBanner } from "@/components/unpublished-banner";
 import { hasAdminSession } from "@/lib/admin";
-import { loadPost } from "@/lib/content";
+import { loadPost, otherPostsInSameCategory } from "@/lib/content";
 import { MarkdownWithGalleries } from "@/lib/markdown";
 import { splitMarkdownAfterParagraphs, stripDuplicateCoverImage } from "@/lib/post-body";
 import { publishStatus } from "@/lib/publish";
@@ -76,6 +77,7 @@ export default async function PostPage({ params }: Props) {
         ) : null}
         <AdSlot slot="article" className="my-8" />
         {rest ? <MarkdownWithGalleries markdown={rest} /> : null}
+        <RelatedCategoryPosts posts={otherPostsInSameCategory(post)} />
       </article>
     </>
   );
