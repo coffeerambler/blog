@@ -110,9 +110,9 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Democratic Republic of the Congo",
-    harvestMonths: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    harvestMonths: [3, 4, 5, 6, 7, 9, 10, 11, 12, 1],
     marketMonths: [5, 6, 7, 8, 11, 12, 1, 2, 3],
-    notes: "Kivu & Ituri: main Apr–Jul and Sep–Dec; fly crop Jan–Mar.",
+    notes: "Kivu & Ituri: main Mar–Jul; fly crop Sep–Jan.",
   },
   {
     country: "Tanzania",
