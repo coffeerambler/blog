@@ -27,12 +27,12 @@ export const ethiopiaGuide: CountryGuide = {
   regionsCaption:
     "Zones, not the whole of Oromia. Gedeo stands in for Yirgacheffe; East Harerge and Hareri for Harrar. Guji is listed on its own. It used to get lumped into Sidama. Ethiopia is arabica country; robusta is not a commercial crop here.",
   regions: [
-    { id: "harrar", number: 1, name: "Harrar", species: "arabica", altitude: "1,500–2,100 m", season: "Oct–Feb", notes: "East. Dry-processed fruit bombs when they are good. Inky when they are not." },
+    { id: "harrar", number: 1, name: "Harrar", species: "arabica", altitude: "1,500–2,100 m", season: "Oct–Jan", notes: "East. Dry-processed fruit bombs when they are good. Inky when they are not." },
     { id: "yirgacheffe", number: 2, name: "Yirgacheffe", species: "arabica", altitude: "1,700–2,200 m", season: "Oct–Jan", notes: "Gedeo zone. Washed lots can taste like bergamot. The name everyone knows." },
     { id: "sidama", number: 3, name: "Sidama", species: "arabica", altitude: "1,400–2,200 m", season: "Oct–Jan", notes: "Now its own regional state. Broader than Yirgacheffe, still often excellent." },
     { id: "guji", number: 4, name: "Guji", species: "arabica", altitude: "1,800–2,200 m", season: "Oct–Jan", notes: "Split out of Sidama in the trade. Dense, floral, a lot of the exciting lots of the last decade." },
     { id: "jimma", number: 5, name: "Jimma / Limu", species: "arabica", altitude: "1,400–2,100 m", season: "Nov–Jan", notes: "Western Oromia. Limu and the old Djimmah market sit in this zone." },
-    { id: "lekempti", number: 6, name: "Lekempti", species: "arabica", altitude: "1,500–2,100 m", season: "Feb–Apr", notes: "West Wellega / Gimbi. Later harvest than the south." },
+    { id: "lekempti", number: 6, name: "Lekempti", species: "arabica", altitude: "1,500–2,100 m", season: "Nov–Jan", notes: "West Wellega / Gimbi. Often starts a little later than the south." },
     { id: "tepi", number: 7, name: "Tepi", species: "arabica", altitude: "1,100–1,900 m", season: "Nov–Jan", notes: "Sheka. Forest and plantation coffee, lower than Yirgacheffe." },
     { id: "bebeka", number: 8, name: "Bebeka", species: "arabica", altitude: "950–1,200 m", season: "Nov–Jan", notes: "Bench Maji. The low one. Plantation history, less of the tea-floral thing." },
   ],
@@ -42,7 +42,7 @@ export const ethiopiaGuide: CountryGuide = {
       title: "Common processes",
       markdown: `Due to the lack of water in some areas of Ethiopia, and its dry air, the natural process is well suited to these coffees. These [dry processed coffees](/archive/the-dry-process-an-introduction-to-natural-coffees) can be remarkably delicious, with fermented tropical fruit and strawberry flavours with a pleasant medium acidity. Washed coffees tend to be more acidic with tangy, tangerine flavours.
 
-A bag of Ethiopian coffee beans are usually mixed in size. Compare this with uniform sizes of coffee from Kenya or Colombia, where bean size is measured and segregated. Ethiopian coffee's non-uniformity is a result of the heirloom varieties and their trees not being farmed in the way they are in other countries. This helps add to the diversity we taste in Ethiopian coffee.
+A bag of Ethiopian coffee beans is usually mixed in size. Compare this with uniform sizes of coffee from Kenya or Colombia, where bean size is measured and segregated. Ethiopian coffee's non-uniformity is a result of the heirloom varieties and their trees not being farmed in the way they are in other countries. This helps add to the diversity we taste in Ethiopian coffee.
 
 There are so many [varieties of arabica](/archive/coffee-varieties-a-brief-look-at-significant-varieties) in Ethiopia that to isolate and farm them has not occurred on any large scale. There are some cooperatives offering all [Geisha](/archive/the-geisha-variety-what-s-the-big-deal) beans (the variety originates in Ethiopia) but this is rare. Instead, wild and planted coffees are combined and are called heirloom. Characteristics of Ethiopian coffee can therefore be loosely based on their origin, and named after areas such as Yirgacheffe and the cooperatives that grew them.`,
     },

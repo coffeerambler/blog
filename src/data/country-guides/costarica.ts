@@ -25,13 +25,13 @@ export const costaRicaGuide: CountryGuide = {
   regionsCaption:
     "ICAFE’s named regions as canton unions. Tarrazú is Dota, Tarrazú and León Cortés. A 30-year robusta ban was lifted in 2018; plantings exist, but they are not a region on this map yet.",
   regions: [
-    { id: "west-valley", number: 1, name: "West Valley", species: "arabica", altitude: "800–1,650 m", season: "Oct–Mar", notes: "Alajuela belt. Villa Sarchí comes from here." },
+    { id: "west-valley", number: 1, name: "West Valley", species: "arabica", altitude: "800–1,650 m", season: "Nov–Mar", notes: "Alajuela belt. Villa Sarchí comes from here." },
     { id: "central-valley", number: 2, name: "Central Valley", species: "arabica", altitude: "900–1,600 m", season: "Nov–Mar", notes: "Around San José and Heredia. Urban pressure on the trees." },
     { id: "tarrazu", number: 3, name: "Tarrazú", species: "arabica", altitude: "1,200–1,900 m", season: "Dec–Mar", notes: "Los Santos. The name that sells. High, tight, often the most expensive." },
     { id: "tres-rios", number: 4, name: "Tres Ríos", species: "arabica", altitude: "1,200–1,650 m", season: "Dec–Mar", notes: "La Unión, Cartago. Small, volcanic, historically fancy." },
-    { id: "turrialba", number: 5, name: "Turrialba", species: "arabica", altitude: "600–1,400 m", season: "Jul–Feb", notes: "Wetterside. Earlier and longer harvest." },
-    { id: "orosi", number: 6, name: "Orosí", species: "arabica", altitude: "900–1,400 m", season: "Sep–Feb", notes: "Paraíso canton. Valley coffee, less famous than Tarrazú, still proper." },
-    { id: "brunca", number: 7, name: "Brunca", species: "arabica", altitude: "800–1,200 m", season: "Aug–Jan", notes: "Pérez Zeledón and Coto Brus. South, often a bit lower." },
+    { id: "turrialba", number: 5, name: "Turrialba", species: "arabica", altitude: "600–1,400 m", season: "Nov–Feb", notes: "The wetter Caribbean side of the country." },
+    { id: "orosi", number: 6, name: "Orosí", species: "arabica", altitude: "900–1,400 m", season: "Nov–Feb", notes: "Paraíso canton. Valley coffee, less famous than Tarrazú, still proper." },
+    { id: "brunca", number: 7, name: "Brunca", species: "arabica", altitude: "800–1,200 m", season: "Nov–Jan", notes: "Pérez Zeledón and Coto Brus. South, often a bit lower." },
   ],
   sections: [
     {
@@ -43,7 +43,7 @@ As a relatively rich coffee producing country, farmers have a little more money 
 
 There is much experimentation with processing methods in Costa Rica, with many farmers operating their own micro mills. This is a specialty coffee buyer's dream, offering the chance to find exciting new profiles but not without risk. The farmers can roll the dice experimenting, especially if asked to do so by major specialty roasters. If the bean doesn't cup well after processing, the farmer can be left with large quantities of coffee they can't sell, or which they lose money on. However, results can be great with Costa Rica consistently producing fantastic coffees, particularly [honey-processed](/archive/coffee-processing-the-honey-process) beans.
 
-The Panamanian [Geishas](/archive/the-geisha-variety-what-s-the-big-deal) we have all come to know was carried away from Costa Rica in the 1960s. Since they blew up in the 00s, Costa Rica has taken again to high quality geisha and SL28 [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties). Other common varieties include Caturra, Villa Sarchi (a mutation of bourbon endemic to Costa Rica), Villa Lobos and Venesia, a mutation of Caturra.`,
+The Panamanian [Geishas](/archive/the-geisha-variety-what-s-the-big-deal) we have all come to know were carried away from Costa Rica in the 1960s. Since they blew up in the 00s, Costa Rica has taken again to high quality geisha and SL28 [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties). Other common varieties include Caturra, Villa Sarchi (a mutation of bourbon endemic to Costa Rica), Villa Lobos and Venecia, a mutation of Caturra.`,
     },
     {
       id: "grading",
