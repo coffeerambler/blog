@@ -32,7 +32,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Colombia",
-    harvestMonths: [1, 2, 3, 4, 5, 9, 10, 11, 12],
+    harvestMonths: [1, 2, 3, 4, 5, 6, 9, 10, 11, 12],
     marketMonths: [5, 6, 7, 11, 12, 1, 2],
     notes: "Centre: main Sep–Jan, mitaca Apr–Jun; south reverses.",
   },
@@ -94,7 +94,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Ecuador",
-    harvestMonths: [3, 4, 5, 6, 9, 10, 11],
+    harvestMonths: [3, 4, 5, 6, 7, 8, 9, 10, 11],
     marketMonths: [5, 6, 7, 8, 11, 12, 1],
     notes: "Coastal and Andean harvests differ.",
   },
@@ -135,7 +135,7 @@ export const COFFEE_HARVEST_SEASONS: OriginHarvestSeason[] = [
   },
   {
     country: "Indonesia",
-    harvestMonths: [5, 6, 7, 8, 9, 10, 11, 12],
+    harvestMonths: [1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
     marketMonths: [7, 8, 9, 10, 11, 12, 1, 2],
     notes: "Sumatra arabica Mar–May & Oct–Jan; Java May–Sep; Sulawesi May–Oct.",
   },
