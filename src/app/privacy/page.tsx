@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { adsenseEnabled, googleAdsEnabled } from "@/lib/ads";
+import { plausibleEnabled } from "@/lib/plausible";
 
 export const dynamic = "force-dynamic";
 
@@ -17,6 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function PrivacyPage() {
   const adsOn = adsenseEnabled();
   const gtagOn = googleAdsEnabled();
+  const visitsOn = plausibleEnabled();
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
@@ -36,8 +38,16 @@ export default function PrivacyPage() {
           <h2 className="font-serif text-2xl text-cream">What this site stores</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 leading-7">
             <li>
-              Casual visits create no account and no profile. Google Analytics, Meta Pixel and similar
-              trackers are not installed.
+              Casual visits create no account and no profile.{" "}
+              {visitsOn ? (
+                <>
+                  Pages opened on this site, and clicks onward to other sites, are counted by Plausible.
+                  That count uses no tracking cookie and no profile, and the script is served from this
+                  site. Google Analytics and Meta Pixel are not installed.
+                </>
+              ) : (
+                <>Google Analytics, Meta Pixel and similar trackers are not installed.</>
+              )}
             </li>
             <li>
               {adsOn ? (
@@ -88,6 +98,9 @@ export default function PrivacyPage() {
           <p className="mt-3 leading-7">
             Posts and guides link out to shops, origin sites, YouTube and rambler.coffee. Those services
             have their own privacy policies. This site does not control what they store.
+            {visitsOn
+              ? " A click from this site to another site is included in the Plausible count."
+              : ""}
           </p>
         </section>
       </div>
