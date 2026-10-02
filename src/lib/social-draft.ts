@@ -1,6 +1,6 @@
 import { loadPosts, readPageFile } from "@/lib/content";
 import { getCountryGuideBundle, templatedCountrySlugs } from "@/lib/country-guides";
-import { captionFromModel, SOCIAL_CAPTION_SCHEMA } from "@/lib/social-caption";
+import { captionFromModel, MAX_SOCIAL_PICKS, SOCIAL_CAPTION_SCHEMA } from "@/lib/social-caption";
 import { isApproved } from "@/lib/publish";
 import { completeStructured, writingKey } from "@/lib/openai";
 import { publicPostUrl } from "@/lib/share-post";
@@ -10,6 +10,7 @@ import {
   runSocialJob,
   saveSocialQueue,
   takenSocialKeys,
+  type SocialChoice,
   type SocialItem,
   type SocialKind,
 } from "@/lib/social-queue";
@@ -67,8 +68,29 @@ export function listSocialCandidates(): SocialCandidate[] {
   return [...guides, ...posts];
 }
 
-export function nextSocialCandidates(candidates: SocialCandidate[], taken: Set<string>, limit: number) {
-  return candidates.filter((item) => !taken.has(`${item.kind}:${item.slug}`)).slice(0, limit);
+export function listSocialChoices(): SocialChoice[] {
+  return listSocialCandidates().map(({ kind, slug, title }) => ({ kind, slug, title }));
+}
+
+/** Keep the picks the admin chose, in that order, skipping anything already lined up. */
+export function chosenSocialCandidates(
+  candidates: SocialCandidate[],
+  taken: Set<string>,
+  picks: { kind: string; slug: string }[],
+) {
+  const chosen: SocialCandidate[] = [];
+  const seen = new Set<string>();
+  for (const pick of picks) {
+    if (pick.kind !== "guide" && pick.kind !== "post") continue;
+    const key = `${pick.kind}:${pick.slug}`;
+    if (seen.has(key) || taken.has(key)) continue;
+    const match = candidates.find((item) => item.kind === pick.kind && item.slug === pick.slug);
+    if (!match) continue;
+    seen.add(key);
+    chosen.push(match);
+    if (chosen.length >= MAX_SOCIAL_PICKS) break;
+  }
+  return chosen;
 }
 
 function withLink(caption: string, path: string) {
@@ -77,15 +99,18 @@ function withLink(caption: string, path: string) {
   return `${caption}\n\n${url}`;
 }
 
-export async function createSocialPosts(limit = 3) {
+export async function createSocialPosts(picks: { kind: string; slug: string }[]) {
   return runSocialJob(async () => {
-    if (!writingKey()) return { needsKey: true as const, added: [] as SocialItem[], note: "", waiting: 0 };
+    if (!writingKey()) return { needsKey: true as const, added: [] as SocialItem[], note: "" };
     const queued = readSocialQueue();
     const taken = takenSocialKeys(queued);
-    const waiting = listSocialCandidates().filter((item) => !taken.has(`${item.kind}:${item.slug}`));
-    const batch = nextSocialCandidates(waiting, new Set(), limit);
+    const batch = chosenSocialCandidates(listSocialCandidates(), taken, picks);
     if (!batch.length) {
-      return { needsKey: false as const, added: [] as SocialItem[], note: "Nothing approved is waiting.", waiting: 0 };
+      return {
+        needsKey: false as const,
+        added: [] as SocialItem[],
+        note: "Pick a country guide or a blog post that is not already in the list.",
+      };
     }
 
     let items = queued;
@@ -117,6 +142,6 @@ export async function createSocialPosts(limit = 3) {
     }
 
     const note = skipped.length ? `No caption was kept for ${skipped.join(", ")}.` : "";
-    return { needsKey: false as const, added, note, waiting: waiting.length - added.length };
+    return { needsKey: false as const, added, note };
   });
 }

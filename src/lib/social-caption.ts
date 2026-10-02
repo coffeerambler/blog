@@ -1,3 +1,5 @@
+export const MAX_SOCIAL_PICKS = 5;
+
 export const SOCIAL_CAPTION_SCHEMA = {
   type: "object",
   additionalProperties: false,

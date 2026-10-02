@@ -3,6 +3,12 @@ import fs from "node:fs";
 import path from "node:path";
 
 export type SocialKind = "guide" | "post";
+
+export type SocialChoice = {
+  kind: SocialKind;
+  slug: string;
+  title: string;
+};
 export type SocialStatus = "ready" | "posted";
 
 export type SocialItem = {
