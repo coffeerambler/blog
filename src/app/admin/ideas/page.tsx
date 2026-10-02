@@ -12,8 +12,8 @@ export default async function AdminIdeasPage() {
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
       <h1 className="font-serif text-4xl text-cream">Ideas</h1>
       <p className="mt-3 max-w-2xl text-sm text-cream/70">
-        Read a summary, then dismiss it or hold it. The same idea is remembered, so it will not be offered again.
-        Writing the full post waits until the writing key is set.
+        Find 3 ideas reads Daily Coffee News, Sprudge, and Perfect Daily Grind. Dismiss anything you do not
+        want. The same story will not come back. Writing the full post waits until the writing key is set.
       </p>
       <AdminIdeasPanel ideas={ideas} />
     </div>

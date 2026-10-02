@@ -11,6 +11,7 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
   const router = useRouter();
   const [message, setMessage] = useState("");
   const [pendingId, setPendingId] = useState("");
+  const [finding, setFinding] = useState(false);
 
   async function dismiss(id: string) {
     setPendingId(id);
@@ -28,11 +29,29 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
     router.refresh();
   }
 
+  async function find() {
+    setFinding(true);
+    setMessage("");
+    const response = await fetch("/api/admin/ideas/find", { method: "POST" });
+    setFinding(false);
+    if (!response.ok) {
+      setMessage("The feeds could not be read.");
+      return;
+    }
+    const body = (await response.json()) as { added?: number; failures?: string[]; note?: string };
+    const parts: string[] = [];
+    if (body.added) parts.push(body.added === 1 ? "1 new idea." : `${body.added} new ideas.`);
+    if (body.note) parts.push(body.note);
+    if (body.failures?.length) parts.push(`Could not read ${body.failures.join(", ")}.`);
+    setMessage(parts.join(" ") || "No new ideas.");
+    router.refresh();
+  }
+
   return (
     <div className="mt-6">
       <div className="flex flex-wrap items-center gap-3">
-        <Button type="button" onClick={() => setMessage(KEY_MESSAGE)}>
-          Find 3 ideas
+        <Button type="button" disabled={finding} onClick={() => void find()}>
+          {finding ? "Looking…" : "Find 3 ideas"}
         </Button>
         {message ? <p className="text-sm text-cream/70">{message}</p> : null}
       </div>
@@ -43,7 +62,9 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
           {ideas.map((idea) => (
             <li key={idea.id} className="rounded-xl border border-white/10 bg-card px-4 py-4">
               <p className="font-medium text-cream">{idea.title}</p>
-              {idea.summary ? <p className="mt-2 text-sm leading-6 text-cream/75">{idea.summary}</p> : null}
+              {idea.summary ? (
+                <p className="mt-2 whitespace-pre-line text-sm leading-6 text-cream/75">{idea.summary}</p>
+              ) : null}
               {idea.sourceUrl ? (
                 <p className="mt-2 text-xs text-cream/50">
                   {idea.sourceName ? `${idea.sourceName} · ` : null}
