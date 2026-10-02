@@ -20,9 +20,9 @@ export default async function AdminAnalyticsPage() {
         <div className="mt-6 max-w-2xl space-y-3 text-sm leading-6 text-cream/75">
           <p>To turn the count on:</p>
           <ol className="list-decimal space-y-2 pl-5">
-            <li>Create a Plausible site for www.coffeerambler.com.</li>
+            <li>Create a Plausible site for coffeerambler.com. Leave off https and www.</li>
             <li>
-              Add <code className="text-cream">NEXT_PUBLIC_PLAUSIBLE_DOMAIN=www.coffeerambler.com</code> to{" "}
+              Add <code className="text-cream">NEXT_PUBLIC_PLAUSIBLE_DOMAIN=coffeerambler.com</code> to{" "}
               <code className="text-cream">.env.local</code>, then restart.
             </li>
             <li>
