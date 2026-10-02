@@ -21,7 +21,107 @@
     "/archive/the-dry-process-an-introduction-to-natural-coffees"
   ],
   "seoTitle": "Brazil | World Coffee Guide",
-  "seoDescription": "Brazil coffee guide: Minas Gerais, Santos, naturals and conilon, USDA 2026/27 production.",
-  "status": "in_review",
-  "generatedBy": "agent"
+  "seoDescription": "Brazil grows about two fifths of the world's coffee. Most of what you actually drink is a natural or pulped-natural arabica from Minas Gerais, or conilon robusta from Espírito Santo.",
+  "status": "approved",
+  "generatedBy": "agent",
+  "guide": {
+    "name": "Brazil",
+    "kicker": "World Coffee Guide",
+    "lede": "Brazil grows about two fifths of the world's coffee. Most of what you actually drink is a natural or pulped-natural arabica from Minas Gerais, or conilon robusta from Espírito Santo. The cup is usually chocolate, nut and low acidity. That is for use in blends, and it is easy to write off as boring if brewed as a single origin.",
+    "facts": [
+      {
+        "label": "Capital",
+        "value": "Brasília"
+      },
+      {
+        "label": "Coffee in Portuguese",
+        "value": "Café"
+      },
+      {
+        "label": "Population",
+        "value": "212.8 million (World Bank, 2025)"
+      },
+      {
+        "label": "Production",
+        "value": "4.31 million tonnes / 71.9 million 60-kg bags (USDA, 2026/27)"
+      },
+      {
+        "label": "Main varieties",
+        "value": "Mundo Novo, Catuaí, Bourbon, Catucaí; conilon clones"
+      },
+      {
+        "label": "Typical cup",
+        "value": "Chocolate, nut, low acidity on naturals; washed lots are cleaner and less common"
+      }
+    ],
+    "regionsCaption": "The map shows the main coffee states, though the farms sit in belts within each state rather than across the whole of it. USDA puts most of the arabica in Minas Gerais and most of the conilon in Espírito Santo.",
+    "regions": [
+      {
+        "id": "minas",
+        "name": "Minas Gerais",
+        "altitude": "700–1,400 m",
+        "season": "May–Sep",
+        "notes": "Sul de Minas, the Cerrado and Matas de Minas, which grow most of the arabica."
+      },
+      {
+        "id": "saopaulo",
+        "name": "São Paulo",
+        "altitude": "800–1,300 m",
+        "season": "May–Sep",
+        "notes": "The Mogiana, with older estates close to the road to Santos."
+      },
+      {
+        "id": "bahia",
+        "name": "Bahia",
+        "altitude": "700–1,200 m",
+        "season": "Jun–Sep",
+        "notes": "Chapada Diamantina and the western cerrado, with some of the better lots."
+      },
+      {
+        "id": "parana",
+        "name": "Paraná",
+        "altitude": "600–1,000 m",
+        "season": "May–Sep",
+        "notes": "Frost country, and a smaller producer than it once was."
+      },
+      {
+        "id": "espirito",
+        "name": "Espírito Santo",
+        "altitude": "Low–800 m",
+        "season": "May–Sep",
+        "notes": "Conilon, which USDA says is about 70% of Brazil's robusta."
+      },
+      {
+        "id": "rondonia",
+        "name": "Rondônia",
+        "altitude": "Low–400 m",
+        "season": "May–Aug",
+        "notes": "Amazon conilon, grown for volume rather than specialty."
+      }
+    ],
+    "sections": [
+      {
+        "id": "processes",
+        "title": "Common processes",
+        "markdown": "Most Brazilian arabica is a [natural](/archive/the-dry-process-an-introduction-to-natural-coffees) or a pulped natural. Cherry dries on the patio, or it is pulped and the mucilage is left on while it dries. The climate in the Cerrado and Sul de Minas is dry enough at harvest that this works, which is why Brazil can do it at a scale nobody else can. That gives body and chocolate, but also a fermented edge when the drying is slow or the coffee is piled too deep.\n\nWhen a Minas lot is fully washed it can taste closer to a mild Central American than to the Brazil people expect in an espresso blend. Conilon is Brazil's robusta, which is strip-picked, dried and used in instant coffee and the cheaper end of blends. USDA's 2026/27 split is about 47.5 million bags of arabica and 24.4 million of robusta."
+      },
+      {
+        "id": "grading",
+        "title": "Grading",
+        "markdown": "Brazilian coffee is graded in more than one way, and none of them is a cupping score. Screen size is the one you see on a sack, with 17/18 the larger bean and 14/16 the smaller. As with AA in [Kenya](/country-guide-kenya), it is not a mark of quality, and is there so the roast can be even.\n\nThe old cup classification runs from Strictly Soft, the cleanest, through Soft and Hard, down to Rio and Rio Zona, which taste of iodine and are not what you want. Separately, a type number counts defects in a sample. Type 2 has fewer defects than Type 4. A fine Strictly Soft, screen 17/18, Type 2 lot is the top of that old system. A specialty natural from Chapada may never mention any of it, and still be the better drink."
+      },
+      {
+        "id": "history",
+        "title": "Historical development",
+        "markdown": "Coffee came in from French Guiana in the 1720s and became the crop that paid for a lot of the nineteenth-century economy. The belt moved as frost and tired soil pushed it on: Rio, then São Paulo, then Paraná, then Minas Gerais. Santos was the port, and for a long time the port's name was the grade.\n\nWhat still surprises people who only know smallholder origins is the machines. Large farms in the Cerrado harvest with them. That is why Brazil can move tens of millions of bags, and why a lot of it tastes even from bag to bag. USDA has 2026/27 at 71.9 million bags, up on a rebound in Minas after a run of poor arabica years. [Vietnam](/country-guide-vietnam) is the second biggest producer, at about 32.5 million, almost all robusta. Between them they set the price of the drink more than anyone else."
+      },
+      {
+        "id": "culture",
+        "title": "Present-day coffee culture",
+        "markdown": "Cafezinho is the everyday cup: small, hot, sweet, often from a blend that would not get a score on a tasting table. São Paulo and Belo Horizonte have specialty bars now, and they'd be happy to talk you through the best speciality lots. At the padaria it is still cafezinho.\n\nBrazilian beans are used in espresso blends when the roaster wants chocolate and a round body without the brightness of a washed [Colombia](/country-guide-colombia). A single-origin natural from Sul de Minas can be much more interesting than the blend coffee people dismiss. It is still Brazil though, with chocolate and nut rather than the blackcurrant you get from a washed Kenya."
+      }
+    ]
+  },
+  "draft": false,
+  "approvedAt": "2026-10-01"
 }

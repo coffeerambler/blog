@@ -13,7 +13,7 @@ import {
   slugifyTitle,
   uniqueSlug,
 } from "@/lib/idea-model";
-import { fetchOpenAlex, fetchSource, IDEA_SOURCES, type FeedItem } from "@/lib/idea-sources";
+import { fetchEuropePmc, fetchOpenAlex, fetchSource, ideaSearchWords, IDEA_SOURCES, type FeedItem } from "@/lib/idea-sources";
 import {
   hasSeen,
   ideaFingerprint,
@@ -34,7 +34,7 @@ const POSTS = path.join(process.cwd(), "content", "posts");
 const CHOOSE_INSTRUCTIONS = `You choose blog ideas for Coffee Rambler. British English. Keiran Jones writes the site.
 
 Keep at most three items from the numbered list:
-- Research findings, studies, and what they mean for growing, processing, or tasting coffee. OpenAlex items are papers from the coffee research index.
+- Research findings, studies, and what they mean for growing, processing, or tasting coffee. OpenAlex and Europe PMC items are papers.
 - Cultural pieces about how people grow, drink, and understand coffee.
 
 Leave out funding rounds, jobs, executive appointments, cafe openings and build-outs, events calendars, gear launches, and news that does not change much for a reader.
@@ -130,10 +130,11 @@ function unseenPile(items: FeedItem[]) {
   return pile;
 }
 
-async function loadFeeds() {
+async function loadFeeds(words: string) {
   const jobs = [
     ...IDEA_SOURCES.map((source) => ({ name: source.name, run: () => fetchSource(source) })),
-    { name: "OpenAlex", run: () => fetchOpenAlex() },
+    { name: "OpenAlex", run: () => fetchOpenAlex(words) },
+    { name: "Europe PMC", run: () => fetchEuropePmc(words) },
   ];
   const settled = await Promise.all(
     jobs.map(async (job) => {
@@ -153,28 +154,36 @@ async function loadFeeds() {
   return { items, failures };
 }
 
-export async function findReviewedIdeas(limit = 3): Promise<FindResult> {
+export async function findReviewedIdeas(limit = 3, wordsRaw = ""): Promise<FindResult> {
   return runIdeaJob(async () => {
     if (!writingKey()) return { added: [], failures: [], note: "", needsKey: true };
+    const words = ideaSearchWords(wordsRaw);
 
-    const { items, failures } = await loadFeeds();
+    const { items, failures } = await loadFeeds(words);
     const pile = unseenPile(items);
     if (!pile.length) {
       return {
         added: [],
         failures,
         needsKey: false,
-        note: items.length ? "The research index and the feeds had nothing else new." : "",
+        note: items.length
+          ? words
+            ? "Nothing new matched those words."
+            : "The research index and the feeds had nothing else new."
+          : "",
       };
     }
 
     const categories = loadCategories();
     const slugs = categories.map((category) => category.slug);
+    const focus = words
+      ? `\n\nThe reader asked for ideas about: ${words}\nKeep an item only when the title or description is about those words. If none are, return an empty picks list.`
+      : "";
     const parsed = await completeStructured({
       name: "idea_picks",
       schema: selectionSchema(slugs),
       instructions: CHOOSE_INSTRUCTIONS,
-      input: pileText(pile, categories),
+      input: pileText(pile, categories) + focus,
       maxOutputTokens: 4000,
     });
     const picks = acceptedPicks(parsed, pile.length, slugs).slice(0, limit);
@@ -212,7 +221,9 @@ export async function findReviewedIdeas(limit = 3): Promise<FindResult> {
       needsKey: false,
       note: added.length
         ? ""
-        : "None of these were research findings or cultural pieces. Nothing was saved.",
+        : words
+          ? "Nothing matched those words. Nothing was saved."
+          : "None of these were research findings or cultural pieces. Nothing was saved.",
     };
   });
 }

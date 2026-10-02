@@ -24,7 +24,7 @@ export const colombiaGuide: CountryGuide = {
     { id: "buenaventura", name: "Buenaventura", kind: "port", coordinates: [-77.0738, 3.8882], label: "left" },
   ],
   regionsCaption:
-    "Department polygons for the classic FNC belt. Harvest timing flips with latitude: many northern departments pick late in the year; Cauca, Tolima, Cundinamarca and Nariño also run a first-half crop. Colombia does not grow robusta at any scale that belongs on this map.",
+    "The map shows the main coffee departments of the Colombian coffee belt. Harvest timing changes with latitude, so many northern departments pick late in the year, while Cauca, Tolima, Cundinamarca and Nariño also have a crop in the first half of the year. Colombia does not grow robusta at any scale.",
   regions: [
     { id: "magdalena", number: 1, name: "Sierra Nevada / Magdalena", species: "arabica", altitude: "900–1,600 m", season: "Sep–Dec", notes: "Caribbean slope. Lower, often a bit wilder in the cup." },
     { id: "santander", number: 2, name: "Santander", species: "arabica", altitude: "1,200–1,800 m", season: "Sep–Dec", notes: "Mapped with Norte de Santander. Body and cocoa more than floral lift." },
@@ -50,7 +50,7 @@ Main harvests are generally at the end of the year whilst there is also a smalle
 
 Another great aspect of Colombian farming is the diversity of the ecosystem. Many coffees are shade grown with lemon, orange, maize, apples and many other fruits. This is both highly beneficial for soil quality and Colombia's bird species, of which are over 1900. No other country has as many bird species.
 
-It's worth tasting coffee from the different regions as each one has distinct characteristics. Coffee from Nariño can be quite special, grown at very high elevation and therefore highly acidic and aromatic. If it weren't for the rising heat from the valley, coffee crops here would probably die from the night's cold. It's mild flavour contrasts with the obvious fruitier coffees from the Huila region.
+It's worth tasting coffee from the different regions as each one has distinct characteristics. Coffee from Nariño can be quite special, grown at very high elevation and therefore highly acidic and aromatic. If it weren't for the rising heat from the valley, coffee crops here would probably die from the night's cold. Its mild flavour contrasts with the obvious fruitier coffees from the Huila region.
 
 Most of the growing regions' main three [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties) are Typica, Caturra and Castillo. The Caturra is a naturally occurring mutation of the Bourbon variety first found in Brazil. Castillo (2005) has received some negative bias because of its Catimor lineage. This bias might be misplaced though, as [this research](https://coffeelands.crs.org/2015/04/more-precision-on-castillo-v-caturra/) conducted in 2015 shows cuppers could not much distinguish quality between the Castillo and Caturra varieties.`,
     },
@@ -76,7 +76,7 @@ And then to study its problems, the FNC founded [Cenicafé](http://www.cenicafe.
 
 Cenicafé has helped produce new varieties to increase yield and protect the plant. One criticism is that it sometimes favours yield over quality. However, Colombian coffee is generally of very high quality. Brazil and Vietnam are the biggest producers of coffee overall. Brazil also grows more arabica. Colombia is the large washed-arabica origin, usually second in arabica and third in coffee overall.
 
-With peace being made in 2017 with the guerrilla fighters of FARC, we can now expect more quality to come from regions like Tolima affected by the group. This is a welcome new era with this disruptive force hopefully at an end. Long may it continue.`,
+With peace being made in 2016 with the guerrilla fighters of FARC, we can now expect more quality to come from regions like Tolima affected by the group. This is a welcome new era with this disruptive force hopefully at an end. Long may it continue.`,
     },
     {
       id: "culture",

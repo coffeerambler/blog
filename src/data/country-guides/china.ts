@@ -35,7 +35,7 @@ export const chinaGuide: CountryGuide = {
       name: "Baoshan",
       species: "arabica",
       altitude: "1,000–1,700 m",
-      season: "Dec–Apr",
+      season: "Dec–Jan",
       notes: "Yunnan. About a quarter of the Yunnan crop. Catimor country, dry and bright.",
     },
     {
@@ -44,7 +44,7 @@ export const chinaGuide: CountryGuide = {
       name: "Pu'er",
       species: "arabica",
       altitude: "1,300–2,000 m",
-      season: "Nov–Feb",
+      season: "Nov–Jan",
       notes: "Largest Yunnan volume, around two fifths of the provincial crop.",
     },
     {
@@ -53,7 +53,7 @@ export const chinaGuide: CountryGuide = {
       name: "Dehong",
       species: "arabica",
       altitude: "1,000–2,000 m",
-      season: "Dec–Apr",
+      season: "Dec–Jan",
       notes: "Includes Ruili. Hotter, lower, and one of the older commercial planting belts.",
     },
     {
@@ -62,7 +62,7 @@ export const chinaGuide: CountryGuide = {
       name: "Lincang",
       species: "arabica",
       altitude: "1,000–1,800 m",
-      season: "Nov–Mar",
+      season: "Nov–Jan",
       notes: "Fourth Yunnan prefecture. Smaller than Pu'er and Baoshan, now on the USDA list.",
     },
     {
@@ -112,7 +112,7 @@ Hainan and Fujian robusta is a different, lower commercial coffee. It is not the
       title: "Historical development",
       markdown: `French missionaries [brought coffee to China](https://www.freshcup.com/yunnan-coffee/) but it took a good hundred years for it to be grown on any scale. [Since 2009](http://www.ico.org/documents/cy2014-15/icc-115-7e-study-china.pdf) coffee production has soared and since 2013 more has been staying for in-country consumption. A lot of that coffee used to leave for Hamburg. Most of it is roasted in China now. USDA has the country at about 1.9 million bags.
 
-Today, Starbucks and Nestlé overlook a lot of the industry, in some ways keeping a large portion at the commercial grade. Luckin now has more shops than Starbucks in China, and both keep opening. Instant still does a huge amount of the actual drinking. In 2016, specialty Chinese coffee shops were bidding high for the [best lots in Panama](http://auction.stoneworks.com/PA2016/final_results.php).`,
+Today, Starbucks and Nestlé oversee a lot of the industry, in some ways keeping a large portion at the commercial grade. Luckin now has more shops than Starbucks in China, and both keep opening. Instant still does a huge amount of the actual drinking. In 2016, specialty Chinese coffee shops were bidding high for the [best lots in Panama](http://auction.stoneworks.com/PA2016/final_results.php).`,
     },
     {
       id: "culture",
@@ -123,7 +123,7 @@ The majority of China's coffee drinkers consume instant but there was a big incr
 
 Many independent coffee shops are minimalist in style, with colours of concrete and brown. Most offer a good selection of specialty coffees and well-made desserts. They look set to follow western and northern European coffee cultures. Local commercial coffee chains are large and look more rustic, serving Chinese-style western food. Coffee and food quality is generally low here.
 
-In Pu'er, southern Yunnan, there are some who drink Pu'er tea mixed with whole coffee beans. Pu'er tea is very famous throughout China for its distinctive taste and unique processing method. It has overripe fruit and earthy flavours, a heavy body and balanced sweetness. With coffee it can mix well, adding a complimenting bitter-sweet taste.`,
+In Pu'er, southern Yunnan, there are some who drink Pu'er tea mixed with whole coffee beans. Pu'er tea is very famous throughout China for its distinctive taste and unique processing method. It has overripe fruit and earthy flavours, a heavy body and balanced sweetness. With coffee it can mix well, adding a complementing bitter-sweet taste.`,
     },
   ],
   gallery: [

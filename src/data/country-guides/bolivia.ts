@@ -13,7 +13,7 @@ export const boliviaGuide: CountryGuide = {
   },
   facts: [
     { label: "Capital", value: "Sucre (constitutional); La Paz (seat of government)" },
-    { label: "Coffee in Spanish / Aymara", value: "Café / Kaphiy" },
+    { label: "Coffee in Spanish", value: "Café" },
     { label: "Population", value: "12.6 million (World Bank, 2025)" },
     { label: "Production", value: "About 5,000 tonnes / 85,000 60-kg bags (USDA PSD, 2024)" },
     { label: "Main varieties", value: "Caturra, Catuai, Typica" },
@@ -24,13 +24,13 @@ export const boliviaGuide: CountryGuide = {
     { id: "caranavi", name: "Caranavi", kind: "city", coordinates: [-67.3921, -15.6946] },
   ],
   regionsCaption:
-    "Caranavi is where most of the coffee actually grows. The other Yungas, Nor, Sud and Inquisivi, sit beside it. Cochabamba and Santa Cruz are drawn as whole departments, but the farms are on the Andean edge rather than across the lowlands. Los Cintis is Nor and Sur Cinti in Tarija. It is arabica only.",
+    "Caranavi is where most of the coffee actually grows. The other Yungas, Nor, Sud and Inquisivi, sit beside it. Cochabamba and Santa Cruz are drawn as whole departments, but the farms are on the Andean edge rather than across the lowlands. Los Cintis is Nor and Sur Cinti in Tarija. The coffee grown is arabica.",
   regions: [
-    { id: "caranavi", number: 1, name: "Caranavi", species: "arabica", altitude: "1,400–2,000 m", season: "Apr–Sep", notes: "La Paz Yungas. Roughly four fifths of the national crop." },
-    { id: "yungas", number: 2, name: "Other Yungas", species: "arabica", altitude: "1,400–2,300 m", season: "Apr–Sep", notes: "Nor Yungas, Sud Yungas and Inquisivi, including La Asunta." },
-    { id: "cochabamba", number: 3, name: "Cochabamba", species: "arabica", altitude: "1,200–2,000 m", season: "May–Sep", notes: "Chapare and the mountain edge. The map shows the whole department." },
+    { id: "caranavi", number: 1, name: "Caranavi", species: "arabica", altitude: "1,400–2,000 m", season: "May–Sep", notes: "In the Yungas of La Paz, and roughly four fifths of the national crop." },
+    { id: "yungas", number: 2, name: "Other Yungas", species: "arabica", altitude: "1,400–2,300 m", season: "May–Sep", notes: "Nor Yungas, Sud Yungas and Inquisivi, including La Asunta." },
+    { id: "cochabamba", number: 3, name: "Cochabamba", species: "arabica", altitude: "1,200–2,000 m", season: "May–Sep", notes: "Chapare and the edge of the mountains, though the map shows the whole department." },
     { id: "santacruz", number: 4, name: "Santa Cruz", species: "arabica", altitude: "800–1,600 m", season: "May–Sep", notes: "Lower and warmer. Specialty lots exist, though they are not the main story." },
-    { id: "cintis", number: 5, name: "Los Cintis / Tarija", species: "arabica", altitude: "1,500–2,200 m", season: "Jun–Sep", notes: "Nor and Sur Cinti. High, dry and small." },
+    { id: "cintis", number: 5, name: "Los Cintis / Tarija", species: "arabica", altitude: "1,500–2,200 m", season: "Jun–Sep", notes: "Nor and Sur Cinti, which are high, dry and small." },
   ],
   sections: [
     {
@@ -47,7 +47,7 @@ Most farms are tiny, a few hectares, and a lot of them are certified organic bec
       title: "Grading",
       markdown: `Bolivia does not have a famous export grade that specialty drinkers learn the way they learn Supremo or SHB. There is no national screen size that means the coffee is the good one. Most of what reaches a roaster is sold by where it grew, Caranavi or the wider Yungas, often with an organic certificate and a cup score.
 
-That is not a complaint. The lots are small, and a score plus a mill name tells you more than a grade invented for a container would. The altitude is already high almost everywhere that matters here, so a hard-bean label would not sort the coffee the way it does in [Costa Rica](/country-guide-costarica). If you are buying, read the region and how it was dried first.`,
+With lots this small, a score and a mill name tell you far more than a grade designed for whole containers would. The altitude is already high almost everywhere that matters here, so a hard-bean label would not sort the coffee the way it does in [Costa Rica](/country-guide-costarica). If you are buying, read the region and how it was dried first.`,
     },
     {
       id: "history",
@@ -65,7 +65,7 @@ The road is part of the story too. Blockades still happen in harvest. When the r
 
 There are specialty bars in La Paz and Santa Cruz now, and they will talk about Caranavi properly, which is a nice change from a menu that just says Bolivia. At home it is still a stove-top pot and sugar, and there is nothing wrong with that.
 
-If you go, go in harvest, and give yourself time for the road down from La Paz into the Yungas. It is a long drive, and it is the best way to see why so little of this coffee makes it out looking as good as it tasted on the tree.`,
+If you visit during the harvest, give yourself time for the road down from La Paz into the Yungas. It is a long drive, and it is the best way to see why so little of this coffee makes it out looking as good as it tasted on the tree.`,
     },
   ],
   gallery: [],

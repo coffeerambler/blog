@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
 import type { Idea } from "@/lib/ideas";
 
 const KEY_MESSAGE = "The writing key is not set. Add OPENAI_API_KEY to .env.local and restart the dev server.";
@@ -14,6 +16,7 @@ export function AdminIdeasPanel({ ideas, hasWritingKey }: { ideas: Idea[]; hasWr
   const [pendingId, setPendingId] = useState("");
   const [writingId, setWritingId] = useState("");
   const [finding, setFinding] = useState(false);
+  const [words, setWords] = useState("");
   const busy = finding || Boolean(pendingId) || Boolean(writingId);
 
   async function dismiss(id: string) {
@@ -41,7 +44,11 @@ export function AdminIdeasPanel({ ideas, hasWritingKey }: { ideas: Idea[]; hasWr
     setFinding(true);
     setMessage("");
     setDraftHref("");
-    const response = await fetch("/api/admin/ideas/find", { method: "POST" });
+    const response = await fetch("/api/admin/ideas/find", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ words }),
+    });
     const body = (await response.json().catch(() => null)) as {
       added?: number;
       failures?: string[];
@@ -107,7 +114,20 @@ export function AdminIdeasPanel({ ideas, hasWritingKey }: { ideas: Idea[]; hasWr
 
   return (
     <div className="mt-6">
-      <div className="flex flex-wrap items-center gap-3">
+      <div className="max-w-xl space-y-2">
+        <Label htmlFor="idea-words">Words to look for</Label>
+        <Input
+          id="idea-words"
+          value={words}
+          onChange={(event) => setWords(event.target.value)}
+          placeholder="Optional. For example, fermentation or water"
+          className="text-cream"
+        />
+        <p className="text-xs leading-5 text-cream/50">
+          Leave this blank for the latest research and news. With words, only matching pieces are kept.
+        </p>
+      </div>
+      <div className="mt-4 flex flex-wrap items-center gap-3">
         <Button type="button" disabled={busy} onClick={() => void find()}>
           {finding ? "Choosing…" : "Find 3 ideas"}
         </Button>

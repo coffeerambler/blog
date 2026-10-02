@@ -26,14 +26,14 @@ export const brazilGuide: CountryGuide = {
   legendArabica: "Arabica (Minas, São Paulo, Bahia, Paraná)",
   legendRobusta: "Robusta / conilon (Espírito Santo, Rondônia)",
   regionsCaption:
-    "State polygons. The farms sit in belts inside those states, not the whole polygon. USDA puts most arabica in Minas Gerais and most conilon in Espírito Santo.",
+    "The map shows the main coffee states, though the farms sit in belts within each state rather than across the whole of it. USDA puts most of the arabica in Minas Gerais and most of the conilon in Espírito Santo.",
   regions: [
     { id: "minas", number: 1, name: "Minas Gerais", species: "arabica", altitude: "700–1,400 m", season: "May–Sep", notes: "Sul de Minas, Cerrado and Matas. Most of the arabica kilos." },
     { id: "saopaulo", number: 2, name: "São Paulo", species: "arabica", altitude: "800–1,300 m", season: "May–Sep", notes: "Mogiana. Older estates, close to the Santos road." },
-    { id: "bahia", number: 3, name: "Bahia", species: "arabica", altitude: "700–1,200 m", season: "Jun–Oct", notes: "Chapada Diamantina and the western cerrado. Some of the better lots." },
+    { id: "bahia", number: 3, name: "Bahia", species: "arabica", altitude: "700–1,200 m", season: "Jun–Sep", notes: "Chapada Diamantina and the western cerrado. Some of the better lots." },
     { id: "parana", number: 4, name: "Paraná", species: "arabica", altitude: "600–1,000 m", season: "May–Sep", notes: "Frost country. Smaller than it was." },
-    { id: "espirito", number: 5, name: "Espírito Santo", species: "robusta", altitude: "Low–800 m", season: "Apr–Sep", notes: "Conilon. USDA says about 70% of the robusta crop." },
-    { id: "rondonia", number: 6, name: "Rondônia", species: "robusta", altitude: "Low–400 m", season: "Apr–Aug", notes: "Amazon conilon. Volume, not a specialty story." },
+    { id: "espirito", number: 5, name: "Espírito Santo", species: "robusta", altitude: "Low–800 m", season: "May–Sep", notes: "Conilon. USDA says about 70% of the robusta crop." },
+    { id: "rondonia", number: 6, name: "Rondônia", species: "robusta", altitude: "Low–400 m", season: "May–Aug", notes: "Amazon conilon. Volume, not a specialty story." },
   ],
   sections: [
     {
