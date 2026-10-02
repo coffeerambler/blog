@@ -13,7 +13,7 @@ import {
   slugifyTitle,
   uniqueSlug,
 } from "@/lib/idea-model";
-import { fetchSource, IDEA_SOURCES, type FeedItem } from "@/lib/idea-sources";
+import { fetchOpenAlex, fetchSource, IDEA_SOURCES, type FeedItem } from "@/lib/idea-sources";
 import {
   hasSeen,
   ideaFingerprint,
@@ -28,12 +28,13 @@ import { completeStructured, writingKey } from "@/lib/openai";
 import { todayIsoDate } from "@/lib/publish";
 
 const PILE = 30;
+const PER_SOURCE = 10;
 const POSTS = path.join(process.cwd(), "content", "posts");
 
 const CHOOSE_INSTRUCTIONS = `You choose blog ideas for Coffee Rambler. British English. Keiran Jones writes the site.
 
 Keep at most three items from the numbered list:
-- Research findings, studies, and what they mean for growing, processing, or tasting coffee.
+- Research findings, studies, and what they mean for growing, processing, or tasting coffee. OpenAlex items are papers from the coffee research index.
 - Cultural pieces about how people grow, drink, and understand coffee.
 
 Leave out funding rounds, jobs, executive appointments, cafe openings and build-outs, events calendars, gear launches, and news that does not change much for a reader.
@@ -97,31 +98,57 @@ function pileText(pile: FeedItem[], categories: { slug: string; title: string }[
 
 function unseenPile(items: FeedItem[]) {
   const file = readIdeas();
-  const pile: FeedItem[] = [];
+  const candidates: FeedItem[] = [];
   const batch = new Set<string>();
   const sorted = [...items].sort((a, b) => b.publishedAt - a.publishedAt);
   for (const item of sorted) {
-    if (pile.length >= PILE) break;
     const fingerprint = ideaFingerprint(item.title);
     if (!item.url || batch.has(item.url) || batch.has(fingerprint) || hasSeen(file, item.url, fingerprint)) {
       continue;
     }
     batch.add(item.url);
     batch.add(fingerprint);
+    candidates.push(item);
+  }
+  const counts = new Map<string, number>();
+  const pile: FeedItem[] = [];
+  const rest: FeedItem[] = [];
+  for (const item of candidates) {
+    const count = counts.get(item.sourceName) || 0;
+    if (count >= PER_SOURCE) {
+      rest.push(item);
+      continue;
+    }
+    counts.set(item.sourceName, count + 1);
+    pile.push(item);
+    if (pile.length >= PILE) return pile;
+  }
+  for (const item of rest) {
+    if (pile.length >= PILE) break;
     pile.push(item);
   }
   return pile;
 }
 
 async function loadFeeds() {
+  const jobs = [
+    ...IDEA_SOURCES.map((source) => ({ name: source.name, run: () => fetchSource(source) })),
+    { name: "OpenAlex", run: () => fetchOpenAlex() },
+  ];
+  const settled = await Promise.all(
+    jobs.map(async (job) => {
+      try {
+        return { name: job.name, items: await job.run() };
+      } catch {
+        return { name: job.name, items: null as FeedItem[] | null };
+      }
+    }),
+  );
   const items: FeedItem[] = [];
   const failures: string[] = [];
-  for (const source of IDEA_SOURCES) {
-    try {
-      items.push(...(await fetchSource(source)));
-    } catch {
-      failures.push(source.name);
-    }
+  for (const result of settled) {
+    if (!result.items) failures.push(result.name);
+    else items.push(...result.items);
   }
   return { items, failures };
 }
@@ -137,7 +164,7 @@ export async function findReviewedIdeas(limit = 3): Promise<FindResult> {
         added: [],
         failures,
         needsKey: false,
-        note: items.length ? "The feeds had nothing else new." : "",
+        note: items.length ? "The research index and the feeds had nothing else new." : "",
       };
     }
 
