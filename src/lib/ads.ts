@@ -45,8 +45,9 @@ export function gaMeasurementId(): string {
   return raw;
 }
 
+/** Send hits only from the deployed site, so local reading stays out of the live property. */
 export function gaEnabled(): boolean {
-  return gaMeasurementId().length > 0;
+  return process.env.NODE_ENV === "production" && gaMeasurementId().length > 0;
 }
 
 /** Search Console HTML-tag code, the content value only. */

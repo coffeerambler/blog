@@ -26,27 +26,21 @@ export default async function AdminAnalyticsPage() {
       </p>
       {measurementId ? (
         <p className="mt-6 max-w-2xl text-sm leading-6 text-cream/75">
-          Visit counting is set for {measurementId}. It measures this site. The Wix visitors stay in
-          Wix until the domain points here. In Google Analytics, open the property, then Data streams,
-          and switch on enhanced measurement, including outbound clicks.
+          Visit counting uses the existing property {measurementId}. Hits send when this site is
+          deployed. Reading it on this machine does not send a hit. Visitors on the Wix site stay in
+          that same property until the domain points here. In the property, open Data streams and
+          switch on enhanced measurement, including outbound clicks.
         </p>
       ) : (
         <div className="mt-6 max-w-2xl space-y-3 text-sm leading-6 text-cream/75">
-          <p>To count visits:</p>
+          <p>Use the Google Analytics property already pointed at coffeerambler.com. Do not create a second one.</p>
           <ol className="list-decimal space-y-2 pl-5">
-            <li>
-              Open{" "}
-              <a className="text-amber hover:underline" href="https://analytics.google.com">
-                Google Analytics
-              </a>{" "}
-              and create a property for coffeerambler.com.
-            </li>
-            <li>Copy the measurement ID. It starts with G-.</li>
+            <li>In that property, open Admin, then Data streams, and copy the measurement ID. It starts with G-.</li>
             <li>
               Add <code className="text-cream">NEXT_PUBLIC_GA_MEASUREMENT_ID=G-your-id</code> to{" "}
               <code className="text-cream">.env.local</code>, then restart.
             </li>
-            <li>In that property, switch on enhanced measurement, including outbound clicks.</li>
+            <li>In that same stream, switch on enhanced measurement, including outbound clicks.</li>
           </ol>
         </div>
       )}
@@ -57,11 +51,11 @@ export default async function AdminAnalyticsPage() {
         </p>
       ) : (
         <p className="mt-6 max-w-2xl text-sm leading-6 text-cream/75">
-          Search Console is separate from the visit count. If coffeerambler.com is already verified
-          there through Wix, the search report is already available. To verify this app when it is the
-          live site, choose the HTML tag method and put only the content code in{" "}
+          Search Console for coffeerambler.com is already the search report. It describes the site
+          Google indexes now, which is still Wix. The live Wix page carries the verification tag. Before
+          this app becomes the live site, copy that tag’s content value into{" "}
           <code className="text-cream">GOOGLE_SITE_VERIFICATION</code> in{" "}
-          <code className="text-cream">.env.local</code>.
+          <code className="text-cream">.env.local</code>, or Search Console will ask you to verify again.
         </p>
       )}
     </div>

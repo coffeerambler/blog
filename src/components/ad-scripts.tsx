@@ -1,9 +1,9 @@
-import { adsenseClient, gaMeasurementId, googleAdsId } from "@/lib/ads";
+import { adsenseClient, gaEnabled, gaMeasurementId, googleAdsId } from "@/lib/ads";
 
 export function AdScripts({ measureVisits = true }: { measureVisits?: boolean }) {
   const client = adsenseClient();
   const adsId = googleAdsId();
-  const gaId = measureVisits ? gaMeasurementId() : "";
+  const gaId = measureVisits && gaEnabled() ? gaMeasurementId() : "";
   const tagIds = [adsId, gaId].filter(Boolean);
   const primary = tagIds[0];
 
