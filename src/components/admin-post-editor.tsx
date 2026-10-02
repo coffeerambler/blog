@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { AdminMarkdownPreview } from "@/components/admin-markdown-preview";
+import { AdminShareBox } from "@/components/admin-share-box";
 import { AdminStatusSelect } from "@/components/admin-status-select";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -312,6 +313,8 @@ export function AdminPostEditor(props: {
           ) : null}
         </div>
       </div>
+
+      {props.status === "approved" ? <AdminShareBox title={title} path={props.viewHref} /> : null}
 
       <div className="sticky bottom-0 z-30 -mx-4 mt-8 border-t border-white/10 bg-background px-4 py-3 sm:-mx-6 sm:px-6">
         <div className="flex flex-wrap items-center gap-3">
