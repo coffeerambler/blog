@@ -82,6 +82,24 @@ export function parseFeed(xml: string, sourceName: string): FeedItem[] {
 /** OpenAlex topic "Coffee research and impacts". Primary topic keeps side mentions out. */
 const OPENALEX_TOPIC = "T11264";
 
+const SEARCH_STOP = new Set(["and", "or", "not"]);
+
+/** Keep a short list of words. Punctuation and query words are dropped so they cannot change the search. */
+export function ideaSearchWords(raw: string) {
+  return raw
+    .replace(/[^\p{L}\p{N}\s'-]/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .filter((word) => word && !SEARCH_STOP.has(word.toLowerCase()))
+    .join(" ")
+    .slice(0, 80);
+}
+
+function plainText(value: string) {
+  return decode(decode(value)).slice(0, 2000);
+}
+
 export function abstractFromInvertedIndex(index: unknown) {
   if (!index || typeof index !== "object") return "";
   const words: string[] = [];
@@ -101,12 +119,13 @@ export function paperLink(doi: unknown, id: unknown) {
   return "";
 }
 
-export async function fetchOpenAlex(): Promise<FeedItem[]> {
+export async function fetchOpenAlex(words = ""): Promise<FeedItem[]> {
   const url = new URL("https://api.openalex.org/works");
   url.searchParams.set("filter", `primary_topic.id:${OPENALEX_TOPIC},type:article,language:en,has_abstract:true`);
   url.searchParams.set("sort", "publication_date:desc");
   url.searchParams.set("per-page", "12");
   url.searchParams.set("select", "display_name,publication_date,doi,id,abstract_inverted_index");
+  if (words) url.searchParams.set("search", words);
   const response = await fetch(url, {
     headers: {
       Accept: "application/json",
@@ -139,6 +158,67 @@ export async function fetchOpenAlex(): Promise<FeedItem[]> {
       description,
       publishedAt: Number.isNaN(publishedAt) ? 0 : publishedAt,
       sourceName: "OpenAlex",
+    });
+  }
+  return items;
+}
+
+function europePmcQuery(words: string) {
+  const coffee = `(TITLE:"coffea" OR TITLE:"coffee bean" OR TITLE:"arabica" OR TITLE:"robusta" OR ABSTRACT:"Coffea arabica" OR ABSTRACT:"coffee fermentation") AND HAS_ABSTRACT:Y AND LANG:eng`;
+  if (!words) return coffee;
+  const terms = words
+    .split(" ")
+    .filter(Boolean)
+    .map((word) => `(TITLE:"${word}" OR ABSTRACT:"${word}")`)
+    .join(" AND ");
+  return `(${coffee}) AND (${terms})`;
+}
+
+/** Europe PMC is the open archive behind PubMed. The coffee terms keep stray medical papers out. */
+export async function fetchEuropePmc(words = ""): Promise<FeedItem[]> {
+  const url = new URL("https://www.ebi.ac.uk/europepmc/webservices/rest/search");
+  url.searchParams.set("query", europePmcQuery(words));
+  url.searchParams.set("format", "json");
+  url.searchParams.set("pageSize", "12");
+  url.searchParams.set("resultType", "core");
+  url.searchParams.set("sort", "P_PDATE_D desc");
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/json",
+      "User-Agent": "CoffeeRamblerAdmin/1.0 (+https://www.coffeerambler.com)",
+    },
+    signal: AbortSignal.timeout(12000),
+    cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`Europe PMC returned ${response.status}`);
+  const payload = (await response.json()) as { resultList?: { result?: unknown } };
+  const rows = payload.resultList?.result;
+  if (!Array.isArray(rows)) return [];
+  const items: FeedItem[] = [];
+  for (const row of rows) {
+    if (!row || typeof row !== "object") continue;
+    const paper = row as {
+      title?: unknown;
+      abstractText?: unknown;
+      doi?: unknown;
+      id?: unknown;
+      source?: unknown;
+      firstPublicationDate?: unknown;
+    };
+    const title = typeof paper.title === "string" ? plainText(paper.title) : "";
+    const description = typeof paper.abstractText === "string" ? plainText(paper.abstractText) : "";
+    const doi = typeof paper.doi === "string" ? paper.doi.trim() : "";
+    const recordId = typeof paper.id === "string" ? paper.id.trim() : "";
+    const recordSource = typeof paper.source === "string" ? paper.source.trim() : "MED";
+    const link = doi ? `https://doi.org/${doi.replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")}` : recordId ? `https://europepmc.org/article/${recordSource}/${recordId}` : "";
+    if (!title || !link || description.length < 40) continue;
+    const publishedAt = typeof paper.firstPublicationDate === "string" ? Date.parse(paper.firstPublicationDate) : NaN;
+    items.push({
+      title,
+      url: link,
+      description,
+      publishedAt: Number.isNaN(publishedAt) ? 0 : publishedAt,
+      sourceName: "Europe PMC",
     });
   }
   return items;

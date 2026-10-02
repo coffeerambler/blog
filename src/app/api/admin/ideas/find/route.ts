@@ -7,13 +7,15 @@ import { ModelError } from "@/lib/openai";
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
 
-export async function POST() {
+export async function POST(request: Request) {
   const store = await cookies();
   if (store.get("cr_admin")?.value !== expectedAdminCookie()) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
+  const body = (await request.json().catch(() => null)) as { words?: unknown } | null;
+  const words = typeof body?.words === "string" ? body.words : "";
   try {
-    const result = await findReviewedIdeas(3);
+    const result = await findReviewedIdeas(3, words);
     if (result.needsKey) return NextResponse.json({ needsKey: true });
     return NextResponse.json({
       added: result.added.length,
