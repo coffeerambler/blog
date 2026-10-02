@@ -1,7 +1,6 @@
-import { createHash, randomUUID } from "node:crypto";
+import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
-import { fetchSource, IDEA_SOURCES, type FeedItem } from "@/lib/idea-sources";
 
 export type IdeaStatus = "new" | "dismissed" | "used";
 
@@ -19,6 +18,7 @@ export type Idea = {
   sourceTitle: string;
   sourceUrl: string;
   sourceName: string;
+  sourceDescription: string;
   category: string;
   postSlug: string;
   createdAt: string;
@@ -48,17 +48,31 @@ export function readIdeas(): IdeaFile {
     const parsed = JSON.parse(fs.readFileSync(FILE, "utf8")) as Partial<IdeaFile>;
     return {
       seen: Array.isArray(parsed.seen) ? parsed.seen : [],
-      ideas: Array.isArray(parsed.ideas) ? parsed.ideas : [],
+      ideas: Array.isArray(parsed.ideas)
+        ? parsed.ideas.map((idea) => ({ ...idea, sourceDescription: idea.sourceDescription || "" }))
+        : [],
     };
   } catch {
     return emptyFile();
   }
 }
 
-function writeIdeas(file: IdeaFile) {
+export function saveIdeas(file: IdeaFile) {
   const tmp = `${FILE}.tmp`;
   fs.writeFileSync(tmp, JSON.stringify(file, null, 2) + "\n");
   fs.renameSync(tmp, FILE);
+}
+
+let ideaChain: Promise<void> = Promise.resolve();
+
+/** One admin click at a time, so two finds cannot save the same story. */
+export function runIdeaJob<T>(job: () => Promise<T> | T): Promise<T> {
+  const run = ideaChain.then(() => job());
+  ideaChain = run.then(
+    () => undefined,
+    () => undefined,
+  );
+  return run;
 }
 
 export function rememberSeen(file: IdeaFile, url: string, fingerprint: string) {
@@ -80,70 +94,13 @@ export function hasSeen(file: IdeaFile, url: string, fingerprint: string) {
 }
 
 export function dismissIdea(id: string) {
-  const file = readIdeas();
-  const idea = file.ideas.find((row) => row.id === id);
-  if (!idea || idea.status !== "new") return null;
-  idea.status = "dismissed";
-  rememberSeen(file, idea.sourceUrl, ideaFingerprint(idea.sourceTitle || idea.title));
-  writeIdeas(file);
-  return idea;
-}
-
-function trimDescription(value: string) {
-  const clean = value.replace(/\s+/g, " ").trim();
-  if (clean.length <= 500) return clean;
-  const cut = clean.slice(0, 500);
-  const lastSpace = cut.lastIndexOf(" ");
-  return `${(lastSpace > 300 ? cut.slice(0, lastSpace) : cut).trim()}…`;
-}
-
-function summaryFor(item: FeedItem) {
-  const description = trimDescription(item.description);
-  const sourceLine = `Source: ${item.sourceName}. ${item.url}`;
-  return description ? `${description}\n\n${sourceLine}` : sourceLine;
-}
-
-export async function findNewIdeas(limit = 3) {
-  const file = readIdeas();
-  const collected: FeedItem[] = [];
-  const failures: string[] = [];
-  for (const source of IDEA_SOURCES) {
-    try {
-      collected.push(...(await fetchSource(source)));
-    } catch {
-      failures.push(source.name);
-    }
-  }
-  collected.sort((a, b) => b.publishedAt - a.publishedAt);
-
-  const added: Idea[] = [];
-  const batch = new Set<string>();
-  for (const item of collected) {
-    if (added.length >= limit) break;
-    const fingerprint = ideaFingerprint(item.title);
-    const key = `${item.url} ${fingerprint}`;
-    if (batch.has(key) || hasSeen(file, item.url, fingerprint)) continue;
-    batch.add(key);
-    const idea: Idea = {
-      id: randomUUID(),
-      status: "new",
-      title: item.title,
-      summary: summaryFor(item),
-      sourceTitle: item.title,
-      sourceUrl: item.url,
-      sourceName: item.sourceName,
-      category: "",
-      postSlug: "",
-      createdAt: new Date().toISOString(),
-    };
-    file.ideas.unshift(idea);
-    rememberSeen(file, item.url, fingerprint);
-    added.push(idea);
-  }
-  if (added.length) writeIdeas(file);
-  return {
-    added,
-    failures,
-    note: added.length < limit ? "The feeds had nothing else new." : "",
-  };
+  return runIdeaJob(() => {
+    const file = readIdeas();
+    const idea = file.ideas.find((row) => row.id === id);
+    if (!idea || idea.status !== "new") return null;
+    idea.status = "dismissed";
+    rememberSeen(file, idea.sourceUrl, ideaFingerprint(idea.sourceTitle || idea.title));
+    saveIdeas(file);
+    return idea;
+  });
 }

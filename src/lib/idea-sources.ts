@@ -79,6 +79,71 @@ export function parseFeed(xml: string, sourceName: string): FeedItem[] {
   return items;
 }
 
+/** OpenAlex topic "Coffee research and impacts". Primary topic keeps side mentions out. */
+const OPENALEX_TOPIC = "T11264";
+
+export function abstractFromInvertedIndex(index: unknown) {
+  if (!index || typeof index !== "object") return "";
+  const words: string[] = [];
+  for (const [word, positions] of Object.entries(index as Record<string, unknown>)) {
+    if (!Array.isArray(positions)) continue;
+    for (const position of positions) {
+      if (typeof position === "number" && position >= 0 && position < 8000) words[position] = word;
+    }
+  }
+  return words.filter((word) => word !== undefined).join(" ").replace(/\s+/g, " ").trim();
+}
+
+export function paperLink(doi: unknown, id: unknown) {
+  if (typeof doi === "string" && doi.startsWith("https://")) return doi;
+  if (typeof doi === "string" && doi.startsWith("10.")) return `https://doi.org/${doi}`;
+  if (typeof id === "string" && id.startsWith("https://")) return id;
+  return "";
+}
+
+export async function fetchOpenAlex(): Promise<FeedItem[]> {
+  const url = new URL("https://api.openalex.org/works");
+  url.searchParams.set("filter", `primary_topic.id:${OPENALEX_TOPIC},type:article,language:en,has_abstract:true`);
+  url.searchParams.set("sort", "publication_date:desc");
+  url.searchParams.set("per-page", "12");
+  url.searchParams.set("select", "display_name,publication_date,doi,id,abstract_inverted_index");
+  const response = await fetch(url, {
+    headers: {
+      Accept: "application/json",
+      "User-Agent": "CoffeeRamblerAdmin/1.0 (+https://www.coffeerambler.com)",
+    },
+    signal: AbortSignal.timeout(12000),
+    cache: "no-store",
+  });
+  if (!response.ok) throw new Error(`OpenAlex returned ${response.status}`);
+  const payload = (await response.json()) as { results?: unknown };
+  if (!Array.isArray(payload.results)) return [];
+  const items: FeedItem[] = [];
+  for (const row of payload.results) {
+    if (!row || typeof row !== "object") continue;
+    const paper = row as {
+      display_name?: unknown;
+      publication_date?: unknown;
+      doi?: unknown;
+      id?: unknown;
+      abstract_inverted_index?: unknown;
+    };
+    const title = typeof paper.display_name === "string" ? paper.display_name.replace(/\s+/g, " ").trim() : "";
+    const link = paperLink(paper.doi, paper.id);
+    const description = abstractFromInvertedIndex(paper.abstract_inverted_index).slice(0, 2000);
+    if (!title || !link || !description) continue;
+    const publishedAt = typeof paper.publication_date === "string" ? Date.parse(paper.publication_date) : NaN;
+    items.push({
+      title,
+      url: link,
+      description,
+      publishedAt: Number.isNaN(publishedAt) ? 0 : publishedAt,
+      sourceName: "OpenAlex",
+    });
+  }
+  return items;
+}
+
 export async function fetchSource(source: IdeaSource): Promise<FeedItem[]> {
   const response = await fetch(source.url, {
     headers: {
