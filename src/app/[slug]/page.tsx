@@ -29,6 +29,21 @@ const RESERVED = new Set([
 
 type Props = { params: Promise<{ slug: string }> };
 
+function countryGuideSocial(slug: string, name: string, approved: boolean) {
+  if (!approved) return {};
+  const image = siteUrl(`/country-map/${slug}`);
+  const alt = `Coffee growing map of ${name}`;
+  return {
+    openGraph: {
+      images: [{ url: image, alt }],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      images: [image],
+    },
+  };
+}
+
 export const dynamic = "force-dynamic";
 export const dynamicParams = true;
 export const revalidate = 0;
@@ -67,6 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
       description: page?.seoDescription || page?.description || bundle.guide.lede,
       alternates: { canonical: siteUrl(bundle.guide.path) },
+      ...countryGuideSocial(decoded, bundle.guide.name, isApproved(record)),
     };
   }
   return {
