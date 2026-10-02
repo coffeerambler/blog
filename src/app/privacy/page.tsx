@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { adsenseEnabled, googleAdsEnabled } from "@/lib/ads";
+import { adsenseEnabled, gaEnabled, googleAdsEnabled } from "@/lib/ads";
 
 export const dynamic = "force-dynamic";
 
@@ -7,9 +7,11 @@ export async function generateMetadata(): Promise<Metadata> {
   const adsOn = adsenseEnabled();
   return {
     title: "Privacy and cookies",
-    description: adsOn
-      ? "Coffee Rambler has no member login. Google AdSense may set cookies to serve ads. The homepage hero does not carry an advertisement."
-      : "Coffee Rambler has no member login. Advertisement boxes stay placeholders and do not set ad cookies until a publisher ID is set.",
+    description: gaEnabled()
+      ? "Coffee Rambler has no member login. Google Analytics uses cookies to measure visits. Search Console reports Google searches."
+      : adsOn
+        ? "Coffee Rambler has no member login. Google AdSense may set cookies to serve ads. The homepage hero does not carry an advertisement."
+        : "Coffee Rambler has no member login. Advertisement boxes stay placeholders and do not set ad cookies until a publisher ID is set.",
     alternates: { canonical: "https://www.coffeerambler.com/privacy" },
   };
 }
@@ -17,6 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function PrivacyPage() {
   const adsOn = adsenseEnabled();
   const gtagOn = googleAdsEnabled();
+  const visitsOn = gaEnabled();
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-12 sm:px-6">
@@ -36,8 +39,16 @@ export default function PrivacyPage() {
           <h2 className="font-serif text-2xl text-cream">What this site stores</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 leading-7">
             <li>
-              Casual visits create no account and no profile. Google Analytics, Meta Pixel and similar
-              trackers are not installed.
+              Casual visits create no account on Coffee Rambler.{" "}
+              {visitsOn ? (
+                <>
+                  Google Analytics measures pages opened, return visits, and where a visit came from.
+                  It uses cookies. Google Search Console shows the Google searches that lead here. Search
+                  Console does not set a cookie on visitors. Meta Pixel is not installed.
+                </>
+              ) : (
+                <>Google Analytics, Meta Pixel and similar trackers are not installed.</>
+              )}
             </li>
             <li>
               {adsOn ? (
@@ -65,11 +76,13 @@ export default function PrivacyPage() {
 
         <section>
           <h2 className="font-serif text-2xl text-cream">Cookies</h2>
-          {adsOn || gtagOn ? (
+          {adsOn || gtagOn || visitsOn ? (
             <p className="mt-3 leading-7">
               This site does not set its own tracking cookies for visitors. There is no member cookie
-              and no “remember me” for the public site. Google may set cookies for ads
-              {gtagOn ? " and conversion measurement" : ""} when those tags are active.
+              and no “remember me” for the public site.
+              {visitsOn ? " Google Analytics sets cookies to measure visits." : ""}
+              {adsOn ? " Google may set cookies for ads." : ""}
+              {gtagOn ? " Google may set cookies for conversion measurement." : ""}
             </p>
           ) : (
             <p className="mt-3 leading-7">
@@ -88,6 +101,9 @@ export default function PrivacyPage() {
           <p className="mt-3 leading-7">
             Posts and guides link out to shops, origin sites, YouTube and rambler.coffee. Those services
             have their own privacy policies. This site does not control what they store.
+            {visitsOn
+              ? " Clicks onward to other sites can be included in Google Analytics when outbound clicks are switched on in that account."
+              : ""}
           </p>
         </section>
       </div>

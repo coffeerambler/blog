@@ -5,6 +5,8 @@ import { AdScripts } from "@/components/ad-scripts";
 import { CookieNotice } from "@/components/cookie-notice";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { hasAdminSession } from "@/lib/admin";
+import { searchConsoleVerification } from "@/lib/ads";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -19,25 +21,30 @@ const playfair = Playfair_Display({
   weight: ["500", "600", "700"],
 });
 
-export const metadata: Metadata = {
-  metadataBase: new URL("https://www.coffeerambler.com"),
-  title: {
-    default: "Coffee Rambler",
-    template: "%s | Coffee Rambler",
-  },
-  description:
-    "Find, share and enjoy better coffee. Brewing guides, origin notes and independent specialty writing from Keiran Jones.",
-  alternates: { canonical: "https://www.coffeerambler.com" },
-  openGraph: {
-    type: "website",
-    siteName: "Coffee Rambler",
-    locale: "en_GB",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const google = searchConsoleVerification();
+  return {
+    metadataBase: new URL("https://www.coffeerambler.com"),
+    title: {
+      default: "Coffee Rambler",
+      template: "%s | Coffee Rambler",
+    },
+    description:
+      "Find, share and enjoy better coffee. Brewing guides, origin notes and independent specialty writing from Keiran Jones.",
+    alternates: { canonical: "https://www.coffeerambler.com" },
+    openGraph: {
+      type: "website",
+      siteName: "Coffee Rambler",
+      locale: "en_GB",
+    },
+    verification: google ? { google } : undefined,
+  };
+}
 
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const path = (await headers()).get("x-pathname") ?? "";
   const admin = path.startsWith("/admin");
+  const loggedIn = await hasAdminSession();
 
   return (
     <html
@@ -45,7 +52,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
       className={`${dmSans.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
-        <AdScripts />
+        <AdScripts measureVisits={!admin && !loggedIn} />
         {admin ? null : <SiteHeader />}
         <main className="flex-1">{children}</main>
         {admin ? null : <SiteFooter />}

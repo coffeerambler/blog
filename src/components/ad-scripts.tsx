@@ -1,8 +1,11 @@
-import { adsenseClient, googleAdsId } from "@/lib/ads";
+import { adsenseClient, gaMeasurementId, googleAdsId } from "@/lib/ads";
 
-export function AdScripts() {
+export function AdScripts({ measureVisits = true }: { measureVisits?: boolean }) {
   const client = adsenseClient();
   const adsId = googleAdsId();
+  const gaId = measureVisits ? gaMeasurementId() : "";
+  const tagIds = [adsId, gaId].filter(Boolean);
+  const primary = tagIds[0];
 
   return (
     <>
@@ -13,18 +16,15 @@ export function AdScripts() {
           crossOrigin="anonymous"
         />
       ) : null}
-      {adsId ? (
+      {primary ? (
         <>
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(adsId)}`}
-          />
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(primary)}`} />
           <script
             dangerouslySetInnerHTML={{
               __html: `window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', ${JSON.stringify(adsId)});`,
+${tagIds.map((id) => `gtag('config', ${JSON.stringify(id)});`).join("\n")}`,
             }}
           />
         </>
