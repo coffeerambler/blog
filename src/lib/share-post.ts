@@ -6,9 +6,11 @@ export function publicPostUrl(path: string) {
   return `${PUBLIC_SITE}${normalised}`;
 }
 
-export function defaultShareCaption(title: string, url: string) {
+export function defaultShareCaption(title: string, url: string, summary = "") {
   const heading = title.trim() || "Coffee Rambler";
-  return `${heading}\n${url}`;
+  const brief = summary.replace(/\s+/g, " ").trim();
+  if (!brief) return `${heading}\n${url}`;
+  return `${heading}\n\n${brief}\n\n${url}`;
 }
 
 export type ShareWindow = {

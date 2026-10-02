@@ -6,9 +6,21 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { defaultShareCaption, publicPostUrl, shareWindows } from "@/lib/share-post";
 
-export function AdminShareBox({ title, path }: { title: string; path: string }) {
+export function AdminShareBox({
+  title,
+  path,
+  summary = "",
+  imageSrc = "",
+  imageAlt = "",
+}: {
+  title: string;
+  path: string;
+  summary?: string;
+  imageSrc?: string;
+  imageAlt?: string;
+}) {
   const url = publicPostUrl(path);
-  const suggested = defaultShareCaption(title, url);
+  const suggested = defaultShareCaption(title, url, summary);
   const [override, setOverride] = useState<string | null>(null);
   const [note, setNote] = useState("");
   const caption = override ?? suggested;
@@ -39,12 +51,21 @@ export function AdminShareBox({ title, path }: { title: string; path: string }) 
         caption. Facebook and LinkedIn receive the link, so paste the caption if their window leaves
         it blank.
       </p>
+      {imageSrc ? (
+        <figure className="mt-4 max-w-xl">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={imageSrc} alt={imageAlt} className="w-full rounded-xl border border-white/10" />
+          <figcaption className="mt-2 text-xs leading-5 text-cream/55">
+            This map is the picture social sites use with the link.
+          </figcaption>
+        </figure>
+      ) : null}
       <div className="mt-4 space-y-2">
         <Label htmlFor="share-caption">Caption</Label>
         <Textarea
           id="share-caption"
           value={caption}
-          rows={4}
+          rows={summary ? 7 : 4}
           onChange={(event) => {
             setOverride(event.target.value);
             setNote("");

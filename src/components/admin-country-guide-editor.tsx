@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { AdminShareBox } from "@/components/admin-share-box";
 import { AdminStatusSelect } from "@/components/admin-status-select";
 import { postAdminSave } from "@/lib/admin-save";
 import { editorialFromGuide } from "@/lib/guide-editorial";
@@ -253,6 +254,15 @@ export function AdminCountryGuideEditor(props: {
           </div>
         ))}
       </section>
+      {props.status === "approved" ? (
+        <AdminShareBox
+          title={name}
+          path={props.viewHref}
+          summary={lede}
+          imageSrc={`/country-map/${props.slug}`}
+          imageAlt={`Coffee growing map of ${name}`}
+        />
+      ) : null}
       <div className="flex flex-wrap items-center gap-3">
         <Button type="submit">Save</Button>
         {status !== "approved" ? (
