@@ -5,7 +5,7 @@ export const elSalvadorGuide: CountryGuide = {
   path: "/country-guide-elsalvador",
   name: "El Salvador",
   kicker: "World Coffee Guide",
-  lede: "Almost all arabica, and not a lot of it. Bourbon and Pacamara from the western volcanoes can be excellent when the mill is paying attention. Rust and people leaving the farms have cut the volume.",
+  lede: "Salvadoran coffees are sweet and gentle, with chocolate and stone fruit, and a well-made Pacamara can be floral and enormous in the cup. Almost all of it is arabica, much of it Bourbon grown on the western volcanoes, and there is less of it than there used to be after leaf rust and a shortage of farm workers cut the harvest.",
   flag: {
     src: "/images/flags/el-salvador.svg",
     alt: "",
@@ -24,7 +24,7 @@ export const elSalvadorGuide: CountryGuide = {
     { id: "acajutla", name: "Acajutla", kind: "port", coordinates: [-89.8298, 13.5898], label: "bottom" },
   ],
   regionsCaption:
-    "The six Consejo Salvadoreño del Café denominations of origin, drawn as department unions. Apaneca-Ilamatepec is the volume engine. Alotepec-Metapán is Chalatenango on the map. Metapán town sits in Santa Ana, already coloured as Apaneca. El Salvador does not grow robusta at commercial scale.",
+    "These are the six coffee regions recognised by the Consejo Salvadoreño del Café, shown by the departments they cover. Apaneca-Ilamatepec in the west grows the most coffee. Alotepec-Metapán is shown as Chalatenango, because the town of Metapán sits in Santa Ana, which is already coloured as Apaneca. El Salvador does not grow robusta at any scale.",
   regions: [
     {
       id: "apaneca",
@@ -32,8 +32,8 @@ export const elSalvadorGuide: CountryGuide = {
       name: "Apaneca-Ilamatepec",
       species: "arabica",
       altitude: "500–2,300 m",
-      season: "Oct–Mar",
-      notes: "Ahuachapán, Santa Ana, Sonsonate. First GI (2010). Roughly half the national crop.",
+      season: "Nov–Feb",
+      notes: "Ahuachapán, Santa Ana and Sonsonate, roughly half the national crop and the first protected origin, in 2010.",
     },
     {
       id: "balsamo",
@@ -41,8 +41,8 @@ export const elSalvadorGuide: CountryGuide = {
       name: "El Bálsamo-Quezaltepec",
       species: "arabica",
       altitude: "500–1,800 m",
-      season: "Oct–Mar",
-      notes: "La Libertad / San Salvador highlands. Closer to the capital, still volcanic.",
+      season: "Nov–Feb",
+      notes: "The volcanic highlands of La Libertad and San Salvador, close to the capital.",
     },
     {
       id: "tecapa",
@@ -50,8 +50,8 @@ export const elSalvadorGuide: CountryGuide = {
       name: "Tecapa-Chinameca",
       species: "arabica",
       altitude: "500–1,600 m",
-      season: "Nov–Mar",
-      notes: "Usulután and San Miguel. Eastern volcanoes.",
+      season: "Nov–Feb",
+      notes: "The eastern volcanoes of Usulután and San Miguel.",
     },
     {
       id: "chichontepec",
@@ -59,8 +59,8 @@ export const elSalvadorGuide: CountryGuide = {
       name: "Chichontepec",
       species: "arabica",
       altitude: "500–2,000 m",
-      season: "Nov–Mar",
-      notes: "San Vicente. The San Vicente volcano massif.",
+      season: "Nov–Feb",
+      notes: "The slopes of the San Vicente volcano.",
     },
     {
       id: "cacahuatique",
@@ -68,8 +68,8 @@ export const elSalvadorGuide: CountryGuide = {
       name: "Cacahuatique",
       species: "arabica",
       altitude: "600–1,800 m",
-      season: "Nov–Mar",
-      notes: "Morazán. Smaller belt, high-grown lots turn up in specialty.",
+      season: "Nov–Feb",
+      notes: "A smaller area in Morazán, whose high-grown lots turn up in specialty.",
     },
     {
       id: "alotepec",
@@ -77,40 +77,48 @@ export const elSalvadorGuide: CountryGuide = {
       name: "Alotepec-Metapán",
       species: "arabica",
       altitude: "1,000–1,800 m",
-      season: "Dec–Mar",
-      notes: "Chalatenango / Metapán highlands. Cooler, slower, often the most ‘specialty’ of the six.",
+      season: "Dec–Feb",
+      notes: "The cool Chalatenango and Metapán highlands, often the most interesting of the six.",
     },
   ],
   sections: [
     {
       id: "processes",
       title: "Common processes",
-      markdown: `Washed coffee is still what most Salvadoran mills know how to do well. Honey and natural lots exist. Same Central American story as Costa Rica, just with fewer micro mills and less spare cash to gamble.
+      markdown: `Most Salvadoran coffee is [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean), and it is what the mills here do best. Cherry is pulped, fermented and washed, then dried on patios or raised beds. Honey and natural lots are made too, as they are in [Costa Rica](/country-guide-costarica), though El Salvador has fewer micro mills and farmers have less spare money to gamble on experiments that might not sell.
 
-Pacas is a Bourbon mutation found here in the 1940s. Pacamara is Pacas × Maragogype, also Salvadoran breeding, and when it is ripe and well dried it can be absurd: floral, savoury, a bean the size of a thumbnail. Catimors went in after rust. They kept trees alive. They did not always keep the cup interesting.
+El Salvador has given the coffee world two well-known varieties. Pacas is a natural mutation of Bourbon found on a Salvadoran farm in the 1940s. Pacamara was bred here by crossing Pacas with the giant Maragogipe, and when it is picked ripe and dried well it can be extraordinary, floral and savoury, from a bean the size of a thumbnail. After leaf rust, many farms planted Catimors, which kept the trees alive but did not always keep the cup interesting.
 
-Shade is traditional. Altitude does the rest. The [Consejo Salvadoreño del Café](https://www.csc.gob.sv/) runs the six geographical indications and the usual extension work. Certifications (Rainforest, Fairtrade, Café Practices) are how a lot of farms still get paid above C.`,
+Most coffee is grown under shade, which is traditional here, and the altitude of the volcanoes does the rest. The [Consejo Salvadoreño del Café](https://www.csc.gob.sv/) looks after the six protected regions and supports farmers, and certifications such as Rainforest Alliance and Fairtrade are still how many farms earn a little more than the market price.`,
     },
     {
       id: "grading",
       title: "Grading",
-      markdown: `Salvadoran coffee is graded by altitude, in the same family as Costa Rica's hard-bean system. Strictly High Grown, SHG, is the high coffee, generally above about 1,200 metres. High Grown sits below that, and Central Standard is the lower belt.
+      markdown: `Salvadoran coffee is graded by altitude, in the same way as Costa Rica's hard-bean system. The classifications are as follows:
 
-On a specialty bag the region often matters more than the initials. A Chalatenango SHG and a lower western lot are not the same cup, even when both have been washed. The grade tells you where it could have grown. It does not tell you it was picked ripe.`,
+SHG, Strictly High Grown — grown above about 1,200 metres
+
+HG, High Grown — grown below that
+
+Central Standard — the lower-grown coffee
+
+On a specialty bag the region often matters more than the grade. A Chalatenango SHG and a lower-grown lot from the west will taste quite different, even if both are washed, and the grade tells you where the coffee grew rather than whether it was picked ripe.`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `Coffee made nineteenth-century El Salvador rich and politically lopsided. Augustine Sedgewick’s [Coffeeland](/post/coffeeland-a-short-summary-and-review) is the long version. The civil war (1979–1992) emptied farms and wrecked mills; some of the famous fincas never fully came back. Leaf rust in 2012–13 did a second round of damage. Production has been stuck well below a million bags for years. USDA’s 2026/27 number is about 542,000 bags. Tiny next to Colombia. A live origin if you care about Bourbon.
+      markdown: `Coffee made nineteenth-century El Salvador rich, but the wealth and the land ended up in very few hands. Augustine Sedgewick's [Coffeeland](/post/coffeeland-a-short-summary-and-review) tells that story in detail. The civil war from 1979 to 1992 emptied many farms and wrecked mills, and some famous fincas never fully recovered. Leaf rust in 2012 and 2013 did a second round of damage.
 
-Labour is the current squeeze. People leave, and pruning and picking slip. The government has handed out plants. FAS notes many of them never go in the ground because nobody can afford to farm them.`,
+Production has been well below a million bags for years, and USDA puts the 2026/27 harvest at around 542,000 bags. That is tiny next to Colombia, but it is still an origin well worth seeking out if you love Bourbon.
+
+Labour is the biggest problem now. Many people have left the farms, and pruning and picking suffer as a result. The government has given out young coffee plants, but USDA's attachés note that many are never planted, because farmers cannot afford the work needed to grow them.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `As with most coffee producing countries, a lot of the best coffee is packed off for export. What you are poured in a San Salvador office is often darker and cheaper than the Pacamara that landed in Oslo. There are specialty bars now, and they will talk about Chalatenango.
+      markdown: `As with most coffee producing countries, much of the best coffee is exported. The coffee you are served in a San Salvador office is often darker and cheaper than the Pacamara that ends up in a café in Oslo. There are specialty cafés in the capital now, though, and they are happy to talk about Chalatenango and the western volcanoes.
 
-At home it is still a stove-top or a chorreador cousin, usually sweet. Farm visits are easier in the west, Juayúa, Ataco, the Santa Ana volcano road, than they were during the war. Go in harvest if you can. Pacamara trees look slightly ridiculous, with beans the size of a thumbnail. When they are ripe and well dried they can be floral and huge.`,
+At home, people usually make coffee on the stove or with a cloth filter, and drink it sweet. Farm visits are much easier than they were during the war, especially in the west around Juayúa, Ataco and the road up the Santa Ana volcano. If you can visit during the harvest, look out for the Pacamara trees, whose huge cherries are hard to miss.`,
     },
   ],
   gallery: [],

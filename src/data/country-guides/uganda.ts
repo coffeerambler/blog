@@ -5,7 +5,7 @@ export const ugandaGuide: CountryGuide = {
   path: "/country-guide-uganda",
   name: "Uganda",
   kicker: "World Coffee Guide",
-  lede: "Robusta is native here, and it is still most of the kilos. The arabica people talk about is Bugisu on Mount Elgon, and a smaller pile on the Rwenzori. Washed Elgon can be floral and citrus. The robusta is the crop that actually pays, and USDA now puts Uganda among the bigger origins on earth.",
+  lede: "Washed arabica from Mount Elgon can be floral and citrusy, with a sweetness that is easy to like, while Ugandan robusta is heavy and chocolatey and turns up in a lot of espresso blends. Robusta is native to Uganda and makes up most of the harvest, and USDA now counts Uganda among the larger coffee producers in the world.",
   flag: {
     src: "/images/flags/uganda.svg",
     alt: "",
@@ -25,36 +25,57 @@ export const ugandaGuide: CountryGuide = {
   legendArabica: "Arabica (Elgon, Rwenzori, West Nile)",
   legendRobusta: "Robusta (Central Region)",
   regionsCaption:
-    "Elgon and Rwenzori are older-county unions. West Nile is Okoro. Central robusta is the whole Central Region; farms are not the whole polygon. Uganda is landlocked.",
+    "Mount Elgon and the Rwenzori are shown by the districts around each mountain, and West Nile by Okoro. The robusta is shown across the whole Central Region, though the farms only cover part of it. Uganda is landlocked, so there is no port on the map.",
   regions: [
-    { id: "elgon", number: 1, name: "Mount Elgon / Bugisu", species: "arabica", altitude: "1,500–2,200 m", season: "Oct–Feb", notes: "Mbale, Sironko, Kapchorwa, Bududa. The washed arabica name." },
-    { id: "rwenzori", number: 2, name: "Rwenzori", species: "arabica", altitude: "1,400–2,200 m", season: "Sep–Jan", notes: "Kasese side. Smaller than Bugisu on menus." },
-    { id: "westnile", number: 3, name: "West Nile", species: "arabica", altitude: "1,200–1,800 m", season: "Oct–Feb", notes: "Okoro / Zombo. A pocket, not the national crop." },
-    { id: "central", number: 4, name: "Central", species: "robusta", altitude: "1,000–1,400 m", season: "Oct–Feb", notes: "Native robusta. Most of the kilos. Mapped as the whole region." },
+    { id: "elgon", number: 1, name: "Mount Elgon / Bugisu", species: "arabica", altitude: "1,500–2,200 m", season: "Oct–Feb", notes: "Mbale, Sironko, Kapchorwa and Bududa, where Uganda's washed arabica comes from." },
+    { id: "rwenzori", number: 2, name: "Rwenzori", species: "arabica", altitude: "1,400–2,200 m", season: "Oct–Jan", notes: "The Kasese side of the mountains, seen less often than Bugisu." },
+    { id: "westnile", number: 3, name: "West Nile", species: "arabica", altitude: "1,200–1,800 m", season: "Oct–Feb", notes: "A small arabica area in Okoro and Zombo." },
+    { id: "central", number: 4, name: "Central", species: "robusta", altitude: "1,000–1,400 m", season: "Oct–Feb", notes: "Native robusta, which makes up most of the national harvest." },
   ],
   sections: [
     {
       id: "processes",
       title: "Common processes",
-      markdown: `Bugisu arabica is usually washed at a mill and sold as a grade. The better lots now come with a co-op or a hillside name. Natural robusta is the old default for the south and centre: cherry dried, hulled, shipped. Washed robusta exists. It is still not what most of the volume is.
+      markdown: `Bugisu arabica from Mount Elgon is usually [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean) at a mill, and the better lots are now sold with the name of a co-operative or a hillside rather than just a grade. Some Elgon coffee is also sold as a natural, which gives a fruitier, heavier cup.
 
-[SL14](/archive/coffee-varieties-a-brief-look-at-significant-varieties) and Nyasaland show up on Elgon. Robusta here is not an import. It is Ugandan.
+Most Ugandan robusta is [natural](/archive/the-dry-process-an-introduction-to-natural-coffees). The cherry is dried whole, then hulled and sold, much as it has been for generations. Washed robusta and carefully picked fine robusta lots are becoming more common, and they can be surprisingly clean and sweet, but they are still a small part of the harvest.
 
-USDA has 7.16 million bags for 2026/27. That is in the same conversation as India, and well above [Kenya](/country-guide-kenya). Most of it is robusta.`,
+[SL14](/archive/coffee-varieties-a-brief-look-at-significant-varieties) and Nyasaland, an old Typica-type variety, are common on Elgon. Robusta, though, is not an import here. It grows wild in Uganda's forests, and the country is one of the places it comes from.
+
+USDA has 7.16 million bags for 2026/27, putting Uganda in the same league as India and well ahead of [Kenya](/country-guide-kenya). Most of that is robusta.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Ugandan coffee is graded by screen size and by process. Washed arabica, mostly Bugisu, is graded in a similar way to [Kenya](/country-guide-kenya):
+
+AA — the largest beans
+
+A — slightly smaller beans
+
+B — smaller beans again
+
+PB — peaberries
+
+Natural arabica is sold as Drugar, short for dry Ugandan arabica, which is a heavier and more rustic cup than washed Bugisu. Robusta is graded by screen, with Screen 18 the largest bean, followed by Screen 15 and Screen 12.
+
+As with other origins, the grade tells you about the size of the bean rather than how it tastes, so for specialty coffee the cup score and the name of the co-op or washing station matter more.`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `Arabica on Elgon is a colonial planting. Robusta was already in the lakeshore forests. The Uganda Coffee Development Authority still sits over the trade. Production has climbed as trees were replanted and as robusta prices jumped.
+      markdown: `Robusta grew wild in the forests around Lake Victoria long before anyone farmed it, and it is still grown by smallholders across the centre and south of the country. Arabica came later, planted on the slopes of Mount Elgon in the early twentieth century, and the Bugisu people living there took it up as their own crop.
 
-Kampala is the capital. Mbale is the Elgon town. There is no seaport. Export goes out through Mombasa, same problem as Rwanda, with more kilos behind it.`,
+For decades the trade was run by a state marketing board, until it was liberalised in the early 1990s. The Uganda Coffee Development Authority then oversaw the industry for over thirty years, until it was dissolved at the end of 2024 and its work was handed to the Ministry of Agriculture, Animal Industry and Fisheries.
+
+Production has climbed steadily as old trees have been replaced and as high robusta prices have encouraged farmers to plant more, and Uganda is now one of the biggest coffee exporters in Africa. Kampala is the capital and Mbale is the main town on Elgon. As Uganda is landlocked, the coffee travels by road and rail to Mombasa before it is shipped, as Rwanda's does.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `Kaawa is drunk, often milky and sweet, or as a strong black café coffee in Kampala. Instant is still everywhere. Specialty bars in the capital will talk about Bugisu. A lot of Ugandans still drink tea.
+      markdown: `Tea is still more popular than coffee in a lot of Ugandan homes, and when coffee is drunk it is often instant, or milky and sweet. Kampala has a growing number of specialty cafés though, and they are proud to serve Bugisu arabica alongside good local robusta.
 
-If you want the origin, drink a washed Elgon next to a decent washed robusta. They are from the same country and they are not the same drink. The robusta is the one the numbers are about.`,
+If you want to get to know the origin, try a washed Elgon next to a washed robusta. They are from the same country but they are very different drinks, and it is a good way to see why robusta deserves more credit than it gets.`,
     },
   ],
   gallery: [

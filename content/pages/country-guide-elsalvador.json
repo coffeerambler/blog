@@ -3,7 +3,7 @@
   "slug": "country-guide-elsalvador",
   "path": "/country-guide-elsalvador",
   "title": "El Salvador | World Coffee Guide",
-  "description": "Almost all arabica, and not a lot of it. Bourbon and Pacamara from the western volcanoes can be excellent when the mill is paying attention. Rust and people leaving the farms have cut the volume.",
+  "description": "Salvadoran coffees are sweet and gentle, with chocolate and stone fruit, and a well-made Pacamara can be floral and enormous in the cup. Almost all of it is arabica, much of it Bourbon grown on the western volcanoes, and there is less of it than there used to be after leaf rust and a shortage of farm workers cut the harvest.",
   "date": "2026-09-19",
   "body": "# El Salvador\n\nThis page is rendered from the country-guide template. See `src/data/country-guides/elsalvador.ts`.",
   "images": [

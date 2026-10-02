@@ -5,7 +5,7 @@ export const mexicoGuide: CountryGuide = {
   path: "/country-guide-mexico",
   name: "Mexico",
   kicker: "World Coffee Guide",
-  lede: "Chiapas grows most of it. Veracruz, Oaxaca, Puebla, a little Guerrero and Hidalgo. Washed arabica, often shade-grown, often organic because the hills never saw much fertiliser. The everyday cup is mild chocolate. The better lots, usually higher, can be brighter than the reputation.",
+  lede: "Mexican coffee is usually mild and easy to drink, with chocolate and nut flavours, though the higher-grown lots can be much brighter than the country's reputation suggests. Most of it is washed arabica from Chiapas, Veracruz and Oaxaca, often shade grown and very often organic.",
   flag: {
     src: "/images/flags/mexico.svg",
     alt: "",
@@ -24,38 +24,55 @@ export const mexicoGuide: CountryGuide = {
     { id: "veracruz", name: "Veracruz", kind: "port", coordinates: [-96.1342, 19.1738] },
   ],
   regionsCaption:
-    "State polygons. Chiapas is the volume. Farms sit in the south of those states, not the whole polygon. Arabica at commercial scale.",
+    "The map shows the main coffee-growing states, though the farms are in the mountains rather than across each whole state. Chiapas grows the most, and the coffee grown at any scale is arabica.",
   regions: [
-    { id: "chiapas", number: 1, name: "Chiapas", species: "arabica", altitude: "900–1,700 m", season: "Nov–Mar", notes: "Soconusco and the highlands. Most of the national crop." },
-    { id: "veracruz", number: 2, name: "Veracruz", species: "arabica", altitude: "1,000–1,600 m", season: "Nov–Mar", notes: "Coatepec, Huatusco, Córdoba. An older named belt." },
-    { id: "oaxaca", number: 3, name: "Oaxaca", species: "arabica", altitude: "1,000–1,700 m", season: "Dec–Mar", notes: "Pluma and the southern hills. Smallholder, often organic." },
-    { id: "puebla", number: 4, name: "Puebla", species: "arabica", altitude: "1,000–1,500 m", season: "Nov–Mar", notes: "Sierra Norte. Smaller than Chiapas, still real." },
-    { id: "guerrero", number: 5, name: "Guerrero", species: "arabica", altitude: "900–1,500 m", season: "Dec–Mar", notes: "The Costa and the highlands. Less on specialty menus." },
-    { id: "hidalgo", number: 6, name: "Hidalgo", species: "arabica", altitude: "1,000–1,500 m", season: "Nov–Mar", notes: "Huehuetla and the east. A pocket." },
+    { id: "chiapas", number: 1, name: "Chiapas", species: "arabica", altitude: "900–1,700 m", season: "Nov–Mar", notes: "The Soconusco and the highlands, which grow most of the national crop." },
+    { id: "veracruz", number: 2, name: "Veracruz", species: "arabica", altitude: "1,000–1,600 m", season: "Nov–Mar", notes: "Coatepec, Huatusco and Córdoba, one of the oldest coffee areas." },
+    { id: "oaxaca", number: 3, name: "Oaxaca", species: "arabica", altitude: "1,000–1,700 m", season: "Dec–Mar", notes: "Pluma Hidalgo and the southern hills, mostly smallholders and often organic." },
+    { id: "puebla", number: 4, name: "Puebla", species: "arabica", altitude: "1,000–1,500 m", season: "Nov–Mar", notes: "The Sierra Norte, around Xicotepec and Zihuateutla." },
+    { id: "guerrero", number: 5, name: "Guerrero", species: "arabica", altitude: "900–1,500 m", season: "Dec–Mar", notes: "The coastal mountains, seen less often on specialty menus." },
+    { id: "hidalgo", number: 6, name: "Hidalgo", species: "arabica", altitude: "1,000–1,500 m", season: "Nov–Mar", notes: "A small area in the east of the state, around Huehuetla." },
   ],
   sections: [
     {
       id: "processes",
       title: "Common processes",
-      markdown: `Washed coffee is the default. Small wet mills, patios, some raised beds. Honey and natural lots exist in the specialty sample tables, in the same way they do in [Guatemala](/country-guide-guatemala).
+      markdown: `Most Mexican coffee is [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean), usually at small wet mills on or near the farm, and dried on patios or sometimes raised beds. Honey and natural lots are becoming more common in specialty, as they are in [Guatemala](/country-guide-guatemala) next door, but washed coffee is still what Mexico is known for.
 
-Leaf rust hit hard in the 2010s. Catimors and Marsellesa went into the ground because they survived. Typica and Bourbon are still there on higher plots. [Variety](/archive/coffee-varieties-a-brief-look-at-significant-varieties) on a Mexican bag is often a mix.
+Much of the coffee is grown under shade by smallholders who have never been able to afford much fertiliser, and Mexico is one of the largest producers of certified organic coffee in the world.
 
-USDA has 4.14 million bags for 2026/27. That is a real origin, not a rounding error, and still smaller than Honduras.`,
+Leaf rust hit Mexico hard in the 2010s, and many farmers replanted with resistant varieties such as Marsellesa and Catimors because they survived. Typica and Bourbon are still grown on higher plots, and a bag of Mexican coffee is often a mix of [varieties](/archive/coffee-varieties-a-brief-look-at-significant-varieties) from many small farms.
+
+USDA has 4.14 million bags for 2026/27, which makes Mexico a sizeable origin, though still a little smaller than Honduras.`,
+    },
+    {
+      id: "grading",
+      title: "Grading",
+      markdown: `Mexican coffee is graded by altitude, in a similar way to [Guatemala](/country-guide-guatemala) and [Costa Rica](/country-guide-costarica). The classifications are roughly as follows:
+
+SHG, Strictly High Grown — grown above about 1,700 metres
+
+HG, High Grown — grown between about 1,000 and 1,600 metres
+
+Prime Washed — the lower-grown washed coffee
+
+You may also see older names like Altura, meaning high-grown, on bags from Coatepec or Pluma. As always, the grade tells you where the coffee grew rather than how it tastes, and for specialty coffee the region, the farm or co-op and the cup score tell you more.`,
     },
     {
       id: "history",
       title: "Historical development",
-      markdown: `Coffee came in through Veracruz and the Soconusco. Large fincas, then land reform, then a lot of smallholders in Chiapas and Oaxaca. AMECAFE and the institutes have come and gone. The hills kept growing coffee.
+      markdown: `Coffee arrived in Veracruz in the late eighteenth century and spread through the mountains of the south. In the late nineteenth century, German and other European planters set up large fincas in the Soconusco of Chiapas, near the Guatemalan border, and much of the work was done by indigenous labourers.
 
-Veracruz is the historic port. Tapachula is the Chiapas coffee town, near the Guatemala border. Mexico City drinks a lot of it and imports as well.`,
+After the Mexican Revolution, land reform broke up many of the big estates, and coffee became a smallholder crop in Chiapas, Oaxaca and Veracruz. For decades the state coffee institute, INMECAFE, bought coffee and supported farmers, but it was wound down around 1990, just as world coffee prices collapsed. Many farmers formed co-operatives to sell their coffee themselves, which is part of why Mexico has so much organic and Fairtrade coffee today.
+
+Veracruz is the historic coffee port, and Tapachula is the coffee town of Chiapas. Mexico City drinks a lot of Mexican coffee, but also imports coffee from abroad.`,
     },
     {
       id: "culture",
       title: "Present-day coffee culture",
-      markdown: `Café de olla is the folkloric cup: clay pot, piloncillo, cinnamon. Instant and a dark espresso are the weekday cups. Mexico City has a proper specialty scene now, and it will talk about Oaxaca and Chiapas without pretending they are Ethiopia.
+      markdown: `Café de olla is the traditional cup, brewed in a clay pot with piloncillo, an unrefined cane sugar, and cinnamon. Day to day, a lot of people drink instant or a dark espresso, but Mexico City now has a real specialty coffee scene, and its cafés serve coffee from Oaxaca, Chiapas and Veracruz with real pride.
 
-I have had washed Pluma lots that were sweeter than the mild-Mexico reputation. I have also had a lot of chocolate-nut coffee that did its job in a blend and did not need a story. Both are Mexico.`,
+I have had washed lots from Pluma Hidalgo that were far sweeter and brighter than the mild Mexican reputation would suggest. I have also had plenty of chocolate and nut coffees that were simply good in a blend, and there is nothing wrong with that.`,
     },
   ],
   gallery: [
