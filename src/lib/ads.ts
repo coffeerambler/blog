@@ -37,3 +37,22 @@ export function googleAdsId(): string {
 export function googleAdsEnabled(): boolean {
   return googleAdsId().length > 0;
 }
+
+/** GA4 measurement ID from NEXT_PUBLIC_GA_MEASUREMENT_ID. Empty if unset. */
+export function gaMeasurementId(): string {
+  const raw = (process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "").trim();
+  if (!/^G-[A-Z0-9]+$/i.test(raw)) return "";
+  return raw;
+}
+
+/** Send hits only from the deployed site, so local reading stays out of the live property. */
+export function gaEnabled(): boolean {
+  return process.env.NODE_ENV === "production" && gaMeasurementId().length > 0;
+}
+
+/** Search Console HTML-tag code, the content value only. */
+export function searchConsoleVerification(): string {
+  const raw = (process.env.GOOGLE_SITE_VERIFICATION ?? "").trim();
+  if (!/^[A-Za-z0-9_-]{8,200}$/.test(raw)) return "";
+  return raw;
+}

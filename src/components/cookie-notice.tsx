@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { adsenseEnabled } from "@/lib/ads";
+import { adsenseEnabled, gaEnabled } from "@/lib/ads";
 
 const STORAGE_KEY = "cr-cookie-notice-dismissed";
 
@@ -12,6 +12,7 @@ export function CookieNotice() {
   const barRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
   const adsOn = adsenseEnabled();
+  const visitsOn = gaEnabled();
 
   useEffect(() => {
     if (pathname?.startsWith("/admin")) {
@@ -63,9 +64,13 @@ export function CookieNotice() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-cream/80">
-          {adsOn
-            ? "You do not need an account to read Coffee Rambler. Google may use cookies to serve and measure advertisements on this site."
-            : "You do not need an account to read Coffee Rambler. This site does not use tracking cookies."}{" "}
+          {adsOn && visitsOn
+            ? "You do not need an account to read Coffee Rambler. Google may use cookies to serve and measure advertisements, and Google Analytics uses cookies to measure visits."
+            : visitsOn
+              ? "You do not need an account to read Coffee Rambler. Google Analytics uses cookies to measure visits to this site."
+              : adsOn
+                ? "You do not need an account to read Coffee Rambler. Google may use cookies to serve and measure advertisements on this site."
+                : "You do not need an account to read Coffee Rambler. This site does not use tracking cookies."}{" "}
           <Link href="/privacy" className="text-amber hover:underline">
             Privacy and cookies
           </Link>
