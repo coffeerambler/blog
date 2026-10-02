@@ -23,11 +23,10 @@ The buttons run on the website, on the server, when Keiran is logged into `/admi
 What to add, and only when Step 5 starts:
 
 - One API key in `.env.local`, which is gitignored. Never commit the value. Never print it in the admin page.
-- The provider is Anthropic. The variable is `ANTHROPIC_API_KEY`.
+- The provider is OpenAI. The variable is `OPENAI_API_KEY`. The model id is `gpt-6.1-sol`.
 - Add the name, with an empty value, to `.env.example` in that same step, next to `ADMIN_PASSWORD`.
-- The key comes from Anthropic's API console, not from a Claude.ai login. It is billed per use. Three idea summaries are a small request. One full article is a larger one. At this volume the bill stays small.
-- One provider only. Do not build a model picker.
-- Grok is the weaker choice for this site's copy, from Keiran's own experience with it. OpenAI is a fallback only if he already has an API key and says to use that instead. If he does, the variable is `OPENAI_API_KEY` and the rest of this plan stays the same.
+- The key comes from the OpenAI API console (platform.openai.com), not from a ChatGPT login. It is billed per use. Reviewing a batch of headlines is a small request. One full article is a larger one. At this volume the bill stays small.
+- One model only. Do not build a model picker. `gpt-6.1-sol` is the model for both choosing the three ideas and writing the draft. It is the current balance of judgement and cost. GPT-6 Astra is the stronger model and is unnecessary for this volume. GPT-6 Luna is the cheaper model and is the weaker choice for the house voice.
 
 Steps 1 to 4 do not need the key. Until Step 5, Find 3 ideas can only drop the obvious business items listed below. It cannot reliably tell a research piece from a news item. The model is the reviewer that makes that call. Write this post stays visible and says the key is missing until Step 5. The rest of admin works without it.
 
@@ -144,7 +143,7 @@ Done when: running the action twice never repeats an idea, a funding or shop-ope
 
 ## Step 5. Summarise, then write the post
 
-This is the step that needs `ANTHROPIC_API_KEY` in `.env.local`. Restart the dev server after the key is added. If the key is empty, the buttons keep the Step 3 message and change nothing.
+This is the step that needs `OPENAI_API_KEY` in `.env.local`. Calls use `gpt-6.1-sol`. Restart the dev server after the key is added. If the key is empty, the buttons keep the Step 3 message and change nothing.
 
 **Find 3 ideas** fetches the same wider pile as Step 4, skips anything already seen, and asks the model to choose. The model is the reviewer. It reads the titles and short descriptions only, and it returns at most three items that fit:
 
@@ -222,7 +221,7 @@ Done when: one named network receives a single test post from an approved articl
 7. Analytics, after the store is chosen.
 8. Real posting, after the accounts are named.
 
-Steps 1 to 4 are safe to build with no accounts. Step 5 waits on the Anthropic key. Steps 7 and 8 wait on a decision from Keiran.
+Steps 1 to 4 are safe to build with no accounts. Step 5 waits on the OpenAI key. Steps 7 and 8 wait on a decision from Keiran.
 
 ## Still open, and not blocking Steps 1 to 4
 
