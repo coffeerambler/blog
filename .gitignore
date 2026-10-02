@@ -41,6 +41,8 @@ yarn-error.log*
 /content/local-editorial.json
 /content/local-editorial.json.tmp
 /content/ideas.json.tmp
+/content/social-queue.json
+/content/social-queue.json.tmp
 scripts/__pycache__/
 
 # vercel

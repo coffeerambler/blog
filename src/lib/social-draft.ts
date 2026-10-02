@@ -1,0 +1,122 @@
+import { loadPosts, readPageFile } from "@/lib/content";
+import { getCountryGuideBundle, templatedCountrySlugs } from "@/lib/country-guides";
+import { captionFromModel, SOCIAL_CAPTION_SCHEMA } from "@/lib/social-caption";
+import { isApproved } from "@/lib/publish";
+import { completeStructured, writingKey } from "@/lib/openai";
+import { publicPostUrl } from "@/lib/share-post";
+import {
+  appendSocialItem,
+  readSocialQueue,
+  runSocialJob,
+  saveSocialQueue,
+  takenSocialKeys,
+  type SocialItem,
+  type SocialKind,
+} from "@/lib/social-queue";
+
+const INSTRUCTIONS = `You write the social caption for Coffee Rambler, in the voice of Keiran Jones.
+British spelling. Two or three complete sentences. The opening line carries the point.
+Use only the source text. Do not invent figures, harvest months, places, or study results.
+Do not add hashtags. Do not include a URL. Do not mention that you are writing a caption.`;
+
+export type SocialCandidate = {
+  kind: SocialKind;
+  slug: string;
+  title: string;
+  path: string;
+  imagePath: string;
+  sourceText: string;
+};
+
+function clip(text: string, max = 1200) {
+  const plain = text.replace(/!\[[^\]]*]\([^)]*\)/g, "").replace(/\s+/g, " ").trim();
+  if (plain.length <= max) return plain;
+  const cut = plain.slice(0, max);
+  const lastStop = Math.max(cut.lastIndexOf(". "), cut.lastIndexOf("? "), cut.lastIndexOf("! "));
+  return (lastStop > max * 0.6 ? cut.slice(0, lastStop + 1) : cut).trim();
+}
+
+export function listSocialCandidates(): SocialCandidate[] {
+  const guides: SocialCandidate[] = [];
+  for (const slug of templatedCountrySlugs()) {
+    const page = readPageFile(slug);
+    if (!isApproved(page || { slug })) continue;
+    const bundle = getCountryGuideBundle(slug);
+    if (!bundle) continue;
+    const sections = bundle.guide.sections.map((section) => `${section.title}\n${section.markdown}`).join("\n\n");
+    guides.push({
+      kind: "guide",
+      slug,
+      title: bundle.guide.name,
+      path: bundle.guide.path,
+      imagePath: `/country-map/${slug}`,
+      sourceText: clip(`${bundle.guide.lede}\n\n${sections}`, 1600),
+    });
+  }
+  guides.sort((a, b) => a.title.localeCompare(b.title));
+
+  const posts: SocialCandidate[] = loadPosts("live").map((post) => ({
+    kind: "post" as const,
+    slug: post.slug,
+    title: post.title,
+    path: post.path,
+    imagePath: post.coverImage || "",
+    sourceText: clip(`${post.description}\n\n${post.body}`),
+  }));
+
+  return [...guides, ...posts];
+}
+
+export function nextSocialCandidates(candidates: SocialCandidate[], taken: Set<string>, limit: number) {
+  return candidates.filter((item) => !taken.has(`${item.kind}:${item.slug}`)).slice(0, limit);
+}
+
+function withLink(caption: string, path: string) {
+  const url = publicPostUrl(path);
+  if (caption.includes(url)) return caption;
+  return `${caption}\n\n${url}`;
+}
+
+export async function createSocialPosts(limit = 3) {
+  return runSocialJob(async () => {
+    if (!writingKey()) return { needsKey: true as const, added: [] as SocialItem[], note: "", waiting: 0 };
+    const queued = readSocialQueue();
+    const taken = takenSocialKeys(queued);
+    const waiting = listSocialCandidates().filter((item) => !taken.has(`${item.kind}:${item.slug}`));
+    const batch = nextSocialCandidates(waiting, new Set(), limit);
+    if (!batch.length) {
+      return { needsKey: false as const, added: [] as SocialItem[], note: "Nothing approved is waiting.", waiting: 0 };
+    }
+
+    let items = queued;
+    const added: SocialItem[] = [];
+    const skipped: string[] = [];
+    for (const candidate of batch) {
+      const parsed = await completeStructured({
+        name: "social_caption",
+        schema: SOCIAL_CAPTION_SCHEMA,
+        instructions: INSTRUCTIONS,
+        input: `Title: ${candidate.title}\nKind: ${candidate.kind === "guide" ? "country guide" : "blog post"}\nSource:\n${candidate.sourceText}`,
+        maxOutputTokens: 800,
+      });
+      const caption = captionFromModel(parsed);
+      if (!caption) {
+        skipped.push(candidate.title);
+        continue;
+      }
+      items = appendSocialItem(items, {
+        kind: candidate.kind,
+        slug: candidate.slug,
+        title: candidate.title,
+        caption: withLink(caption, candidate.path),
+        path: candidate.path,
+        imagePath: candidate.imagePath,
+      });
+      added.push(items[items.length - 1]);
+      saveSocialQueue(items);
+    }
+
+    const note = skipped.length ? `No caption was kept for ${skipped.join(", ")}.` : "";
+    return { needsKey: false as const, added, note, waiting: waiting.length - added.length };
+  });
+}
