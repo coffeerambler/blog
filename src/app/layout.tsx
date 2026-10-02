@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import { AdScripts } from "@/components/ad-scripts";
-import { CookieNotice } from "@/components/cookie-notice";
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
+import { SiteChrome } from "@/components/site-chrome";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -42,10 +40,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
         <AdScripts />
-        <SiteHeader />
-        <main className="flex-1">{children}</main>
-        <SiteFooter />
-        <CookieNotice />
+        <SiteChrome>{children}</SiteChrome>
       </body>
     </html>
   );

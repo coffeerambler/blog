@@ -1,7 +1,6 @@
 import { cookies } from "next/headers";
 import Link from "next/link";
 import { AdminLoginForm } from "@/components/admin-login-form";
-import { AdminLogoutButton } from "@/components/admin-logout-button";
 import { AdminPostsQueue } from "@/components/admin-posts-queue";
 import { AdminRecordList } from "@/components/admin-record-list";
 import { Button } from "@/components/ui/button";
@@ -48,12 +47,9 @@ export default async function AdminPage() {
             to edit a blog post. Filter Draft, In review or Approved.
           </p>
         </div>
-        <div className="flex flex-wrap gap-2">
-          <Button asChild>
-            <Link href="/admin/new/post">New post</Link>
-          </Button>
-          <AdminLogoutButton />
-        </div>
+        <Button asChild>
+          <Link href="/admin/new/post">New post</Link>
+        </Button>
       </div>
 
       <section className="mt-12" id="review">

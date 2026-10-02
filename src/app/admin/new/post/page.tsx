@@ -1,21 +1,16 @@
-import { cookies } from "next/headers";
 import Link from "next/link";
-import { redirect } from "next/navigation";
 import { AdminNewPostForm } from "@/components/admin-new-post-form";
-import { expectedAdminCookie } from "@/lib/admin";
+import { requireAdmin } from "@/lib/admin-guard";
 
 export const dynamic = "force-dynamic";
 
 export default async function AdminNewPostPage() {
-  const store = await cookies();
-  if (store.get("cr_admin")?.value !== expectedAdminCookie()) {
-    redirect("/admin");
-  }
+  await requireAdmin();
   return (
-    <div className="mx-auto max-w-3xl px-4 py-12">
+    <div className="mx-auto max-w-3xl px-4 py-8 sm:px-6">
       <p className="text-sm">
-        <Link className="text-amber hover:underline" href="/admin">
-          Back to admin
+        <Link className="text-amber hover:underline" href="/admin/posts">
+          Back to posts
         </Link>
       </p>
       <h1 className="mt-4 font-serif text-3xl text-cream">New post</h1>
