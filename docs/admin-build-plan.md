@@ -9,7 +9,7 @@ Nothing in this file is built yet. The public site, the country guides, and the 
 A private admin that behaves more like Wix: one left-hand toolbar, and a tidy place for each kind of work.
 
 1. Review posts, country guides, and ordinary pages without scrolling one long list.
-2. Find three blog ideas from a fixed list of coffee news feeds, remember them so the same idea never comes back, and let Keiran read a summary.
+2. Find up to three blog ideas from a fixed list of coffee feeds, aimed at research findings and cultural pieces, remember them so the same idea never comes back, and let Keiran read a summary.
 3. On a second click, write that idea up as a normal blog post and put it in Review. Publishing stays a separate approval.
 4. Later, post an approved piece to social accounts from a button.
 5. Later, show visitors and which links they open, on a page inside the same toolbar.
@@ -29,7 +29,7 @@ What to add, and only when Step 5 starts:
 - One provider only. Do not build a model picker.
 - Grok is the weaker choice for this site's copy, from Keiran's own experience with it. OpenAI is a fallback only if he already has an API key and says to use that instead. If he does, the variable is `OPENAI_API_KEY` and the rest of this plan stays the same.
 
-Steps 1 to 4 do not need the key. The Find and Write buttons stay visible and explain that the key is missing until Step 5. The rest of admin works without it.
+Steps 1 to 4 do not need the key. Until Step 5, Find 3 ideas can only drop the obvious business items listed below. It cannot reliably tell a research piece from a news item. The model is the reviewer that makes that call. Write this post stays visible and says the key is missing until Step 5. The rest of admin works without it.
 
 ## How the site works today
 
@@ -127,29 +127,39 @@ Default sources, unless Keiran replaces this list before the step is built:
 
 Keep the list in one module, `src/lib/idea-sources.ts`, so adding a feed later is a one-line change. Skip a source that fails and say so on the page. Do not block the other two.
 
-On **Find 3 ideas**:
+On **Find 3 ideas**, before the writing key exists:
 
-1. Fetch each feed. Keep the title, link, date, and description. Discard the rest.
+1. Fetch each feed. Keep the title, link, date, and description. Discard the rest. Hold a wider unseen pile, about thirty items, not three.
 2. Drop any item whose link or fingerprint is already in `seen`, including dismissed and used ideas.
-3. Take the three newest remaining items.
-4. Save three `new` ideas. The summary at this step is the feed description, trimmed, plus the source name and link. Mark their links and fingerprints as seen immediately, so a second click cannot return them.
-5. If fewer than three are new, show the ones that are new and say the feeds had nothing else.
+3. Drop items that are clearly a funding round, a job or hiring post, an executive appointment, a cafe opening or build-out, an events calendar, or a gear launch. Leave those unmarked in `seen`, so a later change of the rules can still consider them.
+4. From what remains, take the three newest. Do not pad the three with the dropped items.
+5. Save those as `new` ideas. The summary at this step is the feed description, trimmed, plus the source name and link. Mark their links and fingerprints as seen immediately, so a second click cannot return them.
+6. If fewer than three remain, show those and say the latest feeds had nothing else that was not business news.
+
+This step still cannot prefer a study or a cultural essay over a general headline. That choice is Step 5.
 
 Do not follow the article URL. Do not store the full article.
 
-Done when: running the action twice never repeats an idea, a failed feed does not wipe ideas already saved, and the three cards are readable in the inbox.
+Done when: running the action twice never repeats an idea, a funding or shop-opening headline is not offered, a failed feed does not wipe ideas already saved, and the cards are readable in the inbox.
 
 ## Step 5. Summarise, then write the post
 
 This is the step that needs `ANTHROPIC_API_KEY` in `.env.local`. Restart the dev server after the key is added. If the key is empty, the buttons keep the Step 3 message and change nothing.
 
-**Find 3 ideas** stays the Step 4 flow, then asks the model to rewrite each card:
+**Find 3 ideas** fetches the same wider pile as Step 4, skips anything already seen, and asks the model to choose. The model is the reviewer. It reads the titles and short descriptions only, and it returns at most three items that fit:
+
+- Research findings, studies, and what they mean for growing, processing, or tasting coffee.
+- Cultural pieces: how people grow, drink, and understand coffee.
+
+It leaves out funding rounds, jobs, executive appointments, cafe openings and build-outs, events calendars, gear launches, and news that does not change much for a reader. If none of the pile qualifies, it saves nothing and the page says so. It does not invent a story that was not in the pile, and it does not pad the three with a weak headline.
+
+For each chosen item the model also rewrites the card:
 
 - A title in the house voice.
 - A summary of a few sentences: what happened, why a Coffee Rambler reader would care, and the source.
 - One category slug from `content/categories.json`.
 
-The source title, URL, and name stay on the card, unchanged by the model. The model does not choose a different story.
+The source title, URL, and name stay on the card, unchanged by the model. The model chooses which of the fetched items to keep. It does not swap in a different article.
 
 **Write this post** on one card:
 
