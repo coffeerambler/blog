@@ -5,13 +5,16 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import type { Idea } from "@/lib/ideas";
 
-const KEY_MESSAGE = "The writing key is not set. Summaries and full drafts wait until that step.";
+const KEY_MESSAGE = "The writing key is not set. Add OPENAI_API_KEY to .env.local and restart the dev server.";
 
-export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
+export function AdminIdeasPanel({ ideas, hasWritingKey }: { ideas: Idea[]; hasWritingKey: boolean }) {
   const router = useRouter();
   const [message, setMessage] = useState("");
+  const [draftHref, setDraftHref] = useState("");
   const [pendingId, setPendingId] = useState("");
+  const [writingId, setWritingId] = useState("");
   const [finding, setFinding] = useState(false);
+  const busy = finding || Boolean(pendingId) || Boolean(writingId);
 
   async function dismiss(id: string) {
     setPendingId(id);
@@ -30,15 +33,31 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
   }
 
   async function find() {
-    setFinding(true);
-    setMessage("");
-    const response = await fetch("/api/admin/ideas/find", { method: "POST" });
-    setFinding(false);
-    if (!response.ok) {
-      setMessage("The feeds could not be read.");
+    if (!hasWritingKey) {
+      setMessage(KEY_MESSAGE);
+      setDraftHref("");
       return;
     }
-    const body = (await response.json()) as { added?: number; failures?: string[]; note?: string };
+    setFinding(true);
+    setMessage("");
+    setDraftHref("");
+    const response = await fetch("/api/admin/ideas/find", { method: "POST" });
+    const body = (await response.json().catch(() => null)) as {
+      added?: number;
+      failures?: string[];
+      note?: string;
+      needsKey?: boolean;
+      error?: string;
+    } | null;
+    setFinding(false);
+    if (body?.needsKey) {
+      setMessage(KEY_MESSAGE);
+      return;
+    }
+    if (!response.ok || !body) {
+      setMessage(body?.error || "The feeds could not be read.");
+      return;
+    }
     const parts: string[] = [];
     if (body.added) parts.push(body.added === 1 ? "1 new idea." : `${body.added} new ideas.`);
     if (body.note) parts.push(body.note);
@@ -47,13 +66,57 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
     router.refresh();
   }
 
+  async function write(id: string) {
+    if (!hasWritingKey) {
+      setMessage(KEY_MESSAGE);
+      setDraftHref("");
+      return;
+    }
+    setWritingId(id);
+    setMessage("");
+    setDraftHref("");
+    const response = await fetch("/api/admin/ideas/write", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id }),
+    });
+    const body = (await response.json().catch(() => null)) as {
+      needsKey?: boolean;
+      tooThin?: boolean;
+      reason?: string;
+      error?: string;
+      slug?: string;
+    } | null;
+    setWritingId("");
+    if (body?.needsKey) {
+      setMessage(KEY_MESSAGE);
+      return;
+    }
+    if (body?.tooThin) {
+      setMessage(body.reason || "The source is too thin to support a post.");
+      return;
+    }
+    if (!response.ok || !body?.slug) {
+      setMessage(body?.error || "That post could not be written.");
+      return;
+    }
+    setMessage("Draft is in Review.");
+    setDraftHref(`/admin/edit/post/${body.slug}`);
+    router.refresh();
+  }
+
   return (
     <div className="mt-6">
       <div className="flex flex-wrap items-center gap-3">
-        <Button type="button" disabled={finding} onClick={() => void find()}>
-          {finding ? "Looking…" : "Find 3 ideas"}
+        <Button type="button" disabled={busy} onClick={() => void find()}>
+          {finding ? "Choosing…" : "Find 3 ideas"}
         </Button>
         {message ? <p className="text-sm text-cream/70">{message}</p> : null}
+        {draftHref ? (
+          <a className="text-sm text-amber hover:underline" href={draftHref}>
+            Open the draft
+          </a>
+        ) : null}
       </div>
       {!ideas.length ? (
         <p className="mt-6 text-sm text-cream/55">No new ideas.</p>
@@ -74,14 +137,20 @@ export function AdminIdeasPanel({ ideas }: { ideas: Idea[] }) {
                 </p>
               ) : null}
               <div className="mt-3 flex flex-wrap gap-2">
-                <Button type="button" variant="outline" size="sm" onClick={() => setMessage(KEY_MESSAGE)}>
-                  Write this post
+                <Button
+                  type="button"
+                  variant="outline"
+                  size="sm"
+                  disabled={busy}
+                  onClick={() => void write(idea.id)}
+                >
+                  {writingId === idea.id ? "Writing…" : "Write this post"}
                 </Button>
                 <Button
                   type="button"
                   variant="ghost"
                   size="sm"
-                  disabled={pendingId === idea.id}
+                  disabled={busy || pendingId === idea.id}
                   onClick={() => dismiss(idea.id)}
                 >
                   Dismiss
