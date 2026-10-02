@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
+import { headers } from "next/headers";
 import { AdScripts } from "@/components/ad-scripts";
-import { SiteChrome } from "@/components/site-chrome";
+import { CookieNotice } from "@/components/cookie-notice";
+import { SiteFooter } from "@/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -32,7 +35,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: LayoutProps<"/">) {
+  const path = (await headers()).get("x-pathname") ?? "";
+  const admin = path.startsWith("/admin");
+
   return (
     <html
       lang="en-GB"
@@ -40,7 +46,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
         <AdScripts />
-        <SiteChrome>{children}</SiteChrome>
+        {admin ? null : <SiteHeader />}
+        <main className="flex-1">{children}</main>
+        {admin ? null : <SiteFooter />}
+        <CookieNotice />
       </body>
     </html>
   );

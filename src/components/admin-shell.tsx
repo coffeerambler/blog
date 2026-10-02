@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
@@ -23,11 +23,8 @@ function isCurrent(pathname: string, href: string, exact?: boolean) {
 
 export function AdminShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
-
-  useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
+  const [openPath, setOpenPath] = useState<string | null>(null);
+  const open = openPath === pathname;
 
   return (
     <div className="min-h-screen lg:grid lg:grid-cols-[220px_minmax(0,1fr)]">
@@ -36,7 +33,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
           type="button"
           aria-label="Close menu"
           className="fixed inset-0 z-30 bg-black/50 lg:hidden"
-          onClick={() => setOpen(false)}
+          onClick={() => setOpenPath(null)}
         />
       ) : null}
       <aside
@@ -74,7 +71,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
           <button
             type="button"
             className="inline-flex min-h-11 items-center text-sm text-amber"
-            onClick={() => setOpen(true)}
+            onClick={() => setOpenPath(pathname)}
           >
             Menu
           </button>
