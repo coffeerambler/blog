@@ -19,9 +19,10 @@ export default async function AdminSocialPage() {
       <h1 className="font-serif text-4xl text-cream">Social</h1>
       <p className="mt-3 max-w-2xl text-sm leading-6 text-cream/70">
         Tick a country guide, or search for a blog post, then write the captions. Up to five at a
-        time. They line up below, with the growing map as the picture on a country guide. Remove from
-        list drops one. Open X, Facebook, or LinkedIn when you are ready. Nothing is sent until you
-        press Post in that window.
+        time. Each caption is a short summary plus four hashtags taken from that piece. They line up
+        below, with the growing map as the picture on a country guide. Remove from list drops one.
+        Open X, Facebook, or LinkedIn when you are ready. Nothing is sent until you press Post in that
+        window.
       </p>
       <AdminSocialPanel
         ready={ready}

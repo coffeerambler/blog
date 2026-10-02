@@ -18,7 +18,8 @@ import {
 const INSTRUCTIONS = `You write the social caption for Coffee Rambler, in the voice of Keiran Jones.
 British spelling. Two or three complete sentences. The opening line carries the point.
 Use only the source text. Do not invent figures, harvest months, places, or study results.
-Do not add hashtags. Do not include a URL. Do not mention that you are writing a caption.`;
+Do not include a URL. Do not mention that you are writing a caption. Do not put hashtags inside the caption.
+Add exactly four hashtags. Each one names something already in the source: the origin, the process, the cup, or the variety. One word or a short joined phrase, without a # sign. Do not invent a campaign tag.`;
 
 export type SocialCandidate = {
   kind: SocialKind;
