@@ -25,11 +25,9 @@ export default function HarvestCalendarPage() {
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_280px]">
         <div className="min-w-0">
           <AdSlot slot="article" className="mb-8 border-x-0" />
-          <div className="h-[80vh] min-h-[36rem] overflow-hidden rounded-md border border-border/40 bg-card/10">
-            <HarvestCalendar />
-          </div>
+          <HarvestCalendar />
         </div>
-        <aside className="space-y-4">
+        <aside className="space-y-4 lg:sticky lg:top-4 lg:self-start">
           <AdSlot slot="sidebar" className="border" />
           <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
             <Link href="/world-coffee-guide" className="inline-flex min-h-11 items-center font-serif text-lg text-cream hover:text-amber">

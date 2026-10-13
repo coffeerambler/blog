@@ -42,10 +42,10 @@ export type HarvestCalendarProps = {
 
 function PhaseLegend() {
   return (
-    <ul className="flex flex-wrap items-center justify-center gap-x-3 gap-y-1 text-[11px] text-muted-foreground">
+    <ul className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted-foreground">
       {LEGEND.map((item) => (
-        <li key={item.phase} className="inline-flex items-center gap-1.5">
-          <span className={`h-2 w-2 rounded-full ${item.dot}`} />
+        <li key={item.phase} className="inline-flex items-center gap-2">
+          <span className={`h-2.5 w-2.5 rounded-full ${item.dot}`} />
           {PHASE_LABELS[item.phase]}
         </li>
       ))}
@@ -94,7 +94,7 @@ export function HarvestCalendar({
   const map = (
     <div
       data-tour={mapTourTarget}
-      className="relative w-full overflow-hidden rounded-md border border-border/40 bg-card/20"
+      className="relative w-full overflow-hidden rounded-xl border border-border/40 bg-card/20"
       style={{ aspectRatio: "2 / 1" }}
     >
       <HarvestSeasonMap
@@ -107,24 +107,24 @@ export function HarvestCalendar({
   );
 
   return (
-    <div className="flex h-full min-h-0 flex-col overflow-hidden">
-      <div className="flex shrink-0 flex-col gap-2 border-b border-border/30 px-3 py-2">
-        <div className="flex items-center justify-between gap-2">
-          <div className="flex items-center gap-1">
+    <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-3 rounded-xl border border-border/40 bg-card/20 px-3 py-3 sm:px-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center gap-1.5">
             <Button
               variant="outline"
               size="icon"
-              className="h-7 w-7"
+              className="h-9 w-9"
               onClick={() => shiftMonth(-1)}
               aria-label="Previous month"
             >
               <ChevronLeft />
             </Button>
-            <span className="min-w-[9.5rem] text-center text-sm font-medium tabular-nums">{monthYearLabel}</span>
+            <span className="min-w-[10.5rem] text-center text-base font-medium tabular-nums">{monthYearLabel}</span>
             <Button
               variant="outline"
               size="icon"
-              className="h-7 w-7"
+              className="h-9 w-9"
               onClick={() => shiftMonth(1)}
               aria-label="Next month"
             >
@@ -132,40 +132,38 @@ export function HarvestCalendar({
             </Button>
           </div>
           {mapFirst ? null : (
-            <Button variant="outline" size="sm" className="h-7 px-2 text-[11px]" onClick={() => setMapFullscreen(true)}>
-              <Maximize2 className="size-3" />
-              Expand
+            <Button variant="outline" size="sm" className="h-9 px-3 text-sm" onClick={() => setMapFullscreen(true)}>
+              <Maximize2 className="size-3.5" />
+              Expand map
             </Button>
           )}
         </div>
         <PhaseLegend />
       </div>
 
-      <div className="min-h-0 flex-1 overflow-y-auto">
-        <div className="mx-auto flex max-w-4xl flex-col gap-3 px-3 py-3">
-          {map}
-          {mapFirst ? null : (
-            <>
-              <HarvestSeasonGantt selectedMonth={month} locale={LOCALE} onMonthSelect={setMonth} />
-              <div className="flex gap-2 rounded-md border border-border/40 bg-card/20 px-2.5 py-2 text-[11px] leading-snug text-muted-foreground">
-                <Info className="mt-0.5 size-3.5 shrink-0" />
-                <div className="space-y-1">
-                  <p>
-                    These are approximate country-level windows. Actual arrival at roasters depends on region,
-                    processing, and shipping.
-                  </p>
-                  <p>
-                    On market means harvest has finished for that crop. If a month overlaps both windows, we show
-                    harvesting — but beans from earlier picks may still be on sale at roasters during harvest months.
-                  </p>
-                </div>
+      <div className="flex flex-col gap-5">
+        {map}
+        {mapFirst ? null : (
+          <>
+            <HarvestSeasonGantt selectedMonth={month} locale={LOCALE} onMonthSelect={setMonth} />
+            <div className="flex gap-3 rounded-xl border border-border/40 bg-card/20 px-4 py-3 text-sm leading-relaxed text-muted-foreground">
+              <Info className="mt-0.5 size-4 shrink-0" />
+              <div className="space-y-2">
+                <p>
+                  These are approximate country-level windows. Actual arrival at roasters depends on region,
+                  processing, and shipping.
+                </p>
+                <p>
+                  On market means harvest has finished for that crop. If a month overlaps both windows, we show
+                  harvesting — but beans from earlier picks may still be on sale at roasters during harvest months.
+                </p>
               </div>
-              <p className="text-center text-[11px] text-muted-foreground">
-                {COFFEE_HARVEST_SEASONS.length} origins in this calendar
-              </p>
-            </>
-          )}
-        </div>
+            </div>
+            <p className="text-center text-sm text-muted-foreground">
+              {COFFEE_HARVEST_SEASONS.length} origins in this calendar
+            </p>
+          </>
+        )}
       </div>
 
       <FullscreenModal
