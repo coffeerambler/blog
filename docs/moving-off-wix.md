@@ -36,12 +36,12 @@ Set a password before you share the preview address. `/admin` is on that address
 | `OPENAI_API_KEY` | Your OpenAI API key | [platform.openai.com](https://platform.openai.com/api-keys). Needed for Find 3 ideas and for writing social captions. A ChatGPT login is not this key. |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | The existing `G-…` ID | See below. Add this only when you are about to move the domain, then redeploy. The preview address would otherwise count visits in the same property as the live site. |
 | `GOOGLE_SITE_VERIFICATION` | `Qbo5yKPNAP1yAMbrHJ_z9SfKrBD-942AmrtmRVZYENI` | Paste this exact value. See below. Safe to add during the preview. |
-| `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-3729038989288939` | This is the publisher ID already on the live site. Add it after the domain points here, then redeploy. Ads on the `*.vercel.app` address are not an approved AdSense site. |
-| `NEXT_PUBLIC_ADSENSE_SLOT_HEADER` | A numeric unit ID, or leave empty | Optional. Empty still loads AdSense in the labelled slots once the publisher ID is set. |
-| `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` | same | Optional. |
-| `NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR` | same | Optional. |
-| `NEXT_PUBLIC_ADSENSE_SLOT_FOOTER` | same | Optional. |
-| `NEXT_PUBLIC_GOOGLE_ADS_ID` | An `AW-…` ID, or leave empty | Only if you run Google Ads campaigns. The live Wix page is not using one. |
+| `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-3729038989288939` | Leave this empty until step 7. Ads on the `*.vercel.app` address are not allowed. |
+| `NEXT_PUBLIC_ADSENSE_SLOT_HEADER` | Leave empty | Optional. Skip unless you create a specific ad unit later. |
+| `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` | Leave empty | Optional. Skip. |
+| `NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR` | Leave empty | Optional. Skip. |
+| `NEXT_PUBLIC_ADSENSE_SLOT_FOOTER` | Leave empty | Optional. Skip. |
+| `NEXT_PUBLIC_GOOGLE_ADS_ID` | Leave empty | This is Google Ads campaigns, not AdSense. The live site is not using one. |
 
 Do not create a second Analytics property or a second Search Console property. Both already point at `coffeerambler.com`.
 
@@ -129,11 +129,18 @@ Only after `www` is serving this site: unpublish or disconnect the Wix site. Kee
 
 ## 7. Turn advertising back on
 
-1. In [AdSense](https://www.google.com/adsense), confirm `coffeerambler.com` is already an approved site. Use the existing account. The publisher ID is `ca-pub-3729038989288939`.
-2. Add `NEXT_PUBLIC_ADSENSE_CLIENT` with that value in Vercel and redeploy.
-3. Load an article. The dashed **Advertisement** label should be replaced by an AdSense unit. The homepage hero stays free of a header ad. The first hours can still show a blank unit while AdSense reviews the new pages.
-4. If you create specific units in AdSense (**Ads → By ad unit**), paste each numeric ID into the matching `NEXT_PUBLIC_ADSENSE_SLOT_*` variable and redeploy. Leaving them empty is fine.
-5. The cookie notice changes on its own to say that Google may use cookies for ads, and for Analytics if that ID is set. The privacy page does the same. Read both after the redeploy and confirm they match what is actually on.
+Do this only after `https://www.coffeerambler.com` is the new site. Until then, leave every AdSense variable empty. The dashed **Advertisement** bars on the preview are supposed to be there.
+
+You already have an AdSense account. Do not open a second one. The publisher ID on the live site is `ca-pub-3729038989288939`. `public/ads.txt` in the repo is already the matching line, so you do not upload that file anywhere.
+
+1. Open [AdSense](https://www.google.com/adsense) and sign in with the account that already serves coffeerambler.com. Under **Sites**, `coffeerambler.com` should say it is ready. If it asks you to add a site, add `coffeerambler.com` and use the existing publisher ID. Do not add the `*.vercel.app` address.
+2. In Vercel, **Settings → Environment Variables → Add**. Name: `NEXT_PUBLIC_ADSENSE_CLIENT`. Value: `ca-pub-3729038989288939`. Environment: **Production**. Save.
+3. Leave `NEXT_PUBLIC_ADSENSE_SLOT_HEADER`, `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE`, `NEXT_PUBLIC_ADSENSE_SLOT_SIDEBAR`, `NEXT_PUBLIC_ADSENSE_SLOT_FOOTER`, and `NEXT_PUBLIC_GOOGLE_ADS_ID` empty.
+4. Open **Deployments**, redeploy the latest production deployment, and wait until it finishes. This variable is baked in at build time, so saving it is not enough on its own.
+5. Open an article on `https://www.coffeerambler.com` in a private window. The dashed **Advertisement** label should be replaced by an ad. The homepage hero stays free of a header ad. A blank gap for the first few hours is normal while AdSense looks at the new pages.
+6. Read the cookie bar and the privacy page. Both should now say that Google may use cookies for ads. You do not edit that text.
+
+Skip creating new ad units. The four slot variables are only for a unit you build yourself later under **Ads → By ad unit**. The number from that screen is what you would paste. Empty slots still show ads.
 
 ## 8. How publishing works once the site is on Vercel
 
