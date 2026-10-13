@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: post.date || undefined,
   }));
   const pages = loadPages()
-    .filter((page) => page.type !== "region")
+    .filter((page) => page.type !== "region" && page.path !== "/country-guides-1")
     .map((page) => ({
       url: siteUrl(page.path),
       lastModified: page.date || undefined,

@@ -33,6 +33,7 @@ const nextConfig: NextConfig = {
         destination: "/privacy",
         statusCode: 301,
       },
+      { source: "/country-guides-1", destination: "/world-coffee-guide", statusCode: 301 },
       { source: "/africa", destination: "/world-coffee-guide", statusCode: 301 },
       { source: "/asia", destination: "/world-coffee-guide", statusCode: 301 },
       { source: "/central-america", destination: "/world-coffee-guide", statusCode: 301 },
