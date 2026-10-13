@@ -35,7 +35,7 @@ Set a password before you share the preview address. `/admin` is on that address
 | `ADMIN_PASSWORD` | A password only you know | You choose it. There is no username. |
 | `OPENAI_API_KEY` | Your OpenAI API key | [platform.openai.com](https://platform.openai.com/api-keys). Needed for Find 3 ideas and for writing social captions. A ChatGPT login is not this key. |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | The existing `G-…` ID | See below. Add this only when you are about to move the domain, then redeploy. The preview address would otherwise count visits in the same property as the live site. |
-| `GOOGLE_SITE_VERIFICATION` | The content value of the verification tag | See below. Safe to add during the preview. |
+| `GOOGLE_SITE_VERIFICATION` | `Qbo5yKPNAP1yAMbrHJ_z9SfKrBD-942AmrtmRVZYENI` | Paste this exact value. See below. Safe to add during the preview. |
 | `NEXT_PUBLIC_ADSENSE_CLIENT` | `ca-pub-3729038989288939` | This is the publisher ID already on the live site. Add it after the domain points here, then redeploy. Ads on the `*.vercel.app` address are not an approved AdSense site. |
 | `NEXT_PUBLIC_ADSENSE_SLOT_HEADER` | A numeric unit ID, or leave empty | Optional. Empty still loads AdSense in the labelled slots once the publisher ID is set. |
 | `NEXT_PUBLIC_ADSENSE_SLOT_ARTICLE` | same | Optional. |
@@ -57,13 +57,18 @@ Visit counting is off on your own computer. It sends only from a production depl
 
 ### Search Console verification
 
-The domain’s DNS already has a `google-site-verification` TXT record. In step 5 you leave that record in place. That is what keeps Search Console verified if the property was proved with a DNS record.
+Google already knows you own `coffeerambler.com`. You are not creating a new Search Console property, and you do not need to open the page source.
 
-Also copy the HTML tag, in case the property was proved with a meta tag:
+Do this now, in Vercel:
 
-1. Open `https://www.coffeerambler.com`, view the page source, and find `google-site-verification`.
-2. Copy only the `content` value. There may be more than one tag. In [Search Console](https://search.google.com/search-console) open **Settings → Ownership verification** and use the value shown for the `https://www.coffeerambler.com` property.
-3. Paste that value into `GOOGLE_SITE_VERIFICATION`.
+1. Open the project, then **Settings → Environment Variables → Add**.
+2. Name: `GOOGLE_SITE_VERIFICATION`
+3. Value: `Qbo5yKPNAP1yAMbrHJ_z9SfKrBD-942AmrtmRVZYENI`
+4. Environment: **Production**. Save.
+
+That value is already on the live Wix homepage and in the domain’s DNS. Pasting it here puts the same tag on the new site, so Google still accepts the site after Wix is gone.
+
+Later, in step 5, you will see a DNS record whose value starts with `google-site-verification=Qbo5yKPNAP1yAMbrHJ_z9SfKrBD-942AmrtmRVZYENI`. Leave that record. Do not edit it and do not delete it.
 
 ## 3. Check the preview before you touch DNS
 
