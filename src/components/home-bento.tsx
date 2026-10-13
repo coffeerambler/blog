@@ -49,60 +49,62 @@ export function HomeBento({ posts }: { posts: Post[] }) {
         </h1>
       </header>
 
-      <div className="grid gap-4 lg:h-[min(82vh,880px)] lg:grid-cols-2 lg:grid-rows-3">
-        <Link
-          href="/brewing-guides"
-          className={cn(tileClass, "min-h-[340px] lg:row-span-3 lg:min-h-0")}
-        >
+      <div className="grid items-stretch gap-4 lg:grid-cols-2">
+        <Link href="/brewing-guides" className={cn(tileClass, "min-h-[340px]")}>
           <TileImage src={CHEMEX} alt="" className="object-[center_35%] bg-[#f4f4f4]" />
           <TileOverlay>
             <h2 className="font-serif text-3xl text-cream sm:text-4xl">Home Brewing Guides</h2>
           </TileOverlay>
         </Link>
 
-        <Link href="/archive" className={cn(tileClass, "min-h-[240px]")}>
-          <TileImage src={CUPS} alt="" className="object-[center_70%]" />
-          <TileOverlay>
-            <p className="text-xs uppercase tracking-[0.22em] text-amber">Latest posts</p>
-            <h2 className="mt-1 font-serif text-2xl text-cream">Blog Archive</h2>
-            {latest.length ? (
-              <ul className="mt-3 space-y-1.5 text-sm text-cream/80">
-                {latest.map((post) => (
-                  <li key={post.slug} className="line-clamp-1">
-                    <span className="text-amber/80">{formatDate(post.date)}</span>
-                    <span className="text-cream/40"> · </span>
-                    {post.title}
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="mt-3 text-sm text-cream/70">Posts from the archive.</p>
-            )}
-          </TileOverlay>
-        </Link>
-
-        <Link href="/world-coffee-guide" className={cn(tileClass, "min-h-[240px]")}>
-          <TileImage src={WORLD} alt="" className="object-center" />
-          <TileOverlay>
-            <h2 className="font-serif text-2xl text-cream">World Coffee Guide</h2>
-          </TileOverlay>
-        </Link>
-
-        <a href="https://rambler.coffee" className={cn(tileClass, "min-h-[260px] bg-[#0b0a08]")}>
-          <TileImage src={WHEEL} alt="" className="object-[center_42%]" />
-          <TileOverlay>
-            <p className="text-xs uppercase tracking-[0.22em] text-amber">Coffee Rambler AI</p>
-            <h2 className="mt-1 font-serif text-2xl text-cream">Gets smarter the more you brew</h2>
-            <span
-              className={cn(
-                buttonVariants({ size: "sm" }),
-                "mt-3 pointer-events-none bg-primary text-primary-foreground",
+        <div className="flex flex-col gap-4">
+          <Link href="/archive" className={cn(tileClass, "min-h-[240px] flex-1")}>
+            <TileImage src={CUPS} alt="" className="object-[center_70%]" />
+            <TileOverlay>
+              <p className="text-xs uppercase tracking-[0.22em] text-amber">Latest posts</p>
+              <h2 className="mt-1 font-serif text-2xl text-cream">Blog Archive</h2>
+              {latest.length ? (
+                <ul className="mt-3 space-y-1.5 text-sm text-cream/80">
+                  {latest.map((post) => (
+                    <li key={post.slug} className="line-clamp-1">
+                      <span className="text-amber/80">{formatDate(post.date)}</span>
+                      <span className="text-cream/40"> · </span>
+                      {post.title}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="mt-3 text-sm text-cream/70">Posts from the archive.</p>
               )}
-            >
-              rambler.coffee
-            </span>
-          </TileOverlay>
-        </a>
+            </TileOverlay>
+          </Link>
+
+          <Link href="/world-coffee-guide" className={cn(tileClass, "min-h-[220px] flex-1")}>
+            <TileImage src={WORLD} alt="" className="object-center" />
+            <TileOverlay>
+              <h2 className="font-serif text-2xl text-cream">World Coffee Guide</h2>
+            </TileOverlay>
+          </Link>
+
+          <a
+            href="https://rambler.coffee"
+            className={cn(tileClass, "min-h-[240px] flex-1 bg-[#0b0a08]")}
+          >
+            <TileImage src={WHEEL} alt="" className="object-[center_42%]" />
+            <TileOverlay>
+              <p className="text-xs uppercase tracking-[0.22em] text-amber">Coffee Rambler AI</p>
+              <h2 className="mt-1 font-serif text-2xl text-cream">Gets smarter the more you brew</h2>
+              <span
+                className={cn(
+                  buttonVariants({ size: "sm" }),
+                  "mt-3 pointer-events-none bg-primary text-primary-foreground",
+                )}
+              >
+                rambler.coffee
+              </span>
+            </TileOverlay>
+          </a>
+        </div>
       </div>
     </div>
   );
