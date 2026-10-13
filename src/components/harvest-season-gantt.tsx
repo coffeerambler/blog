@@ -10,6 +10,7 @@ import {
   type SeasonPhase,
 } from "@/lib/coffee-harvest-seasons";
 import { Toggle } from "@/components/ui/toggle";
+import { formatMonthWindow } from "@/lib/harvest-window";
 import { cn } from "@/lib/utils";
 
 const PHASE_FILL: Record<SeasonPhase, string> = {
@@ -56,23 +57,28 @@ function GanttRow({
   selectedMonth,
   countryLabel,
   notesLabel,
+  locale,
   onMonthSelect,
-  selectMonthLabel,
 }: {
   origin: OriginHarvestSeason;
   selectedMonth: number;
   countryLabel: string;
   notesLabel?: string;
+  locale: string;
   onMonthSelect: (month: number) => void;
-  selectMonthLabel: (month: number) => string;
 }) {
   const selectedPhase = getPhaseForMonth(origin, selectedMonth);
+  const harvestWindow = formatMonthWindow(origin.harvestMonths);
+  const marketWindow = formatMonthWindow(origin.marketMonths);
 
   return (
     <li className="px-3 py-4 sm:px-4">
       <div className="mb-2.5 flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <p className="text-base font-medium leading-snug text-foreground">{countryLabel}</p>
+          <h3 className="text-base font-medium leading-snug text-foreground">{countryLabel}</h3>
+          <p className="mt-1 text-sm leading-relaxed text-cream/80">
+            Coffee harvest: {harvestWindow}. On market: {marketWindow}.
+          </p>
           {notesLabel ? (
             <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{notesLabel}</p>
           ) : null}
@@ -95,7 +101,7 @@ function GanttRow({
               key={m}
               type="button"
               onClick={() => onMonthSelect(m)}
-              aria-label={`${selectMonthLabel(m)}, ${PHASE_LABEL[phase]}`}
+              aria-label={`${countryLabel} coffee harvest in ${monthLongLabel(m, locale)}: ${PHASE_LABEL[phase]}`}
               aria-current={isSelected ? "true" : undefined}
               className={cn(
                 "flex h-9 items-center rounded-md px-0.5 transition-colors hover:bg-foreground/[0.06]",
@@ -139,7 +145,7 @@ export function HarvestSeasonGantt({ selectedMonth, locale, onMonthSelect }: Har
     <div className="rounded-xl border border-border/40 bg-card/30">
       <div className="flex flex-wrap items-center justify-between gap-3 border-b border-border/30 px-3 py-3 sm:px-4">
         <div className="min-w-0">
-          <h3 className="font-serif text-xl font-semibold text-foreground">Season chart</h3>
+          <h2 className="font-serif text-xl font-semibold text-foreground">Season chart</h2>
           <p className="mt-0.5 text-sm text-muted-foreground tabular-nums">
             {visibleOrigins.length} of {COFFEE_HARVEST_SEASONS.length} origins
           </p>
@@ -192,9 +198,9 @@ export function HarvestSeasonGantt({ selectedMonth, locale, onMonthSelect }: Har
               origin={origin}
               selectedMonth={selectedMonth}
               countryLabel={origin.country}
-              notesLabel={origin.notes}
-              onMonthSelect={onMonthSelect}
-              selectMonthLabel={selectMonthLabel}
+                notesLabel={origin.notes}
+                locale={locale}
+                onMonthSelect={onMonthSelect}
             />
           ))}
         </ul>
