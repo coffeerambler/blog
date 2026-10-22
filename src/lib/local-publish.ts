@@ -23,6 +23,27 @@ function writeJsonAtomic(file: string, value: unknown) {
   fs.renameSync(tmp, file);
 }
 
+/** Status from a map. Pages already marked approved in the file stay approved. */
+export function applyStatusFromMap<
+  T extends { slug?: string; status?: string; type?: string; path?: string },
+>(record: T, overlay: PublishStatus | undefined): T {
+  if (!record.slug) return record;
+  const jsonStatus = isPublishStatus(record.status) ? record.status : undefined;
+  const isPost = record.type === "post" || Boolean(record.path?.startsWith("/post/"));
+
+  if (isPost) {
+    if (!overlay) return record;
+    return { ...record, status: overlay };
+  }
+
+  if (jsonStatus === "approved") {
+    return jsonStatus === record.status ? record : { ...record, status: "approved" };
+  }
+
+  if (!overlay || overlay === record.status) return record;
+  return { ...record, status: overlay };
+}
+
 export function readLocalStatus(): StatusMap {
   const parsed = readJsonFile<Record<string, unknown>>(STATUS_FILE, {});
   const out: StatusMap = {};
@@ -68,28 +89,10 @@ export function applyLocalStatus<
   const overlay = readLocalStatus()[slug];
   const jsonStatus = isPublishStatus(record.status) ? record.status : undefined;
   const isPost = record.type === "post" || Boolean(record.path?.startsWith("/post/"));
-
-  if (isPost) {
-    if (!overlay) return record;
-    if (overlay === "draft") return { ...record, status: "draft" };
-    if (overlay === "in_review") return { ...record, status: "in_review" };
-    if (overlay === "approved") return { ...record, status: "approved" };
-    return record;
+  if (!isPost && jsonStatus === "approved" && overlay && overlay !== "approved") {
+    writeLocalStatus(slug, "approved");
   }
-
-  if (jsonStatus === "approved") {
-    if (overlay && overlay !== "approved") writeLocalStatus(slug, "approved");
-    return jsonStatus === record.status ? record : { ...record, status: "approved" };
-  }
-
-  if (!overlay) return record;
-
-  if (overlay === "approved") {
-    return { ...record, status: "approved" };
-  }
-
-  if (overlay === record.status) return record;
-  return { ...record, status: overlay };
+  return applyStatusFromMap(record, overlay);
 }
 
 /** Last saved editorial, used when JSON lost its `guide` key (git reset). */

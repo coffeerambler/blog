@@ -1,8 +1,8 @@
 import { loadPosts } from "@/lib/content";
 import { siteUrl } from "@/lib/utils";
 
-export function GET() {
-  const posts = loadPosts();
+export async function GET() {
+  const posts = await loadPosts();
   const items = posts
     .map(
       (post) => `  <item>

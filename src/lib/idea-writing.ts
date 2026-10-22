@@ -2,6 +2,8 @@ import { randomUUID } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import { loadCategories } from "@/lib/content";
+import { writeEditableRecord } from "@/lib/content-store";
+import { cupboardEnabled, readCupboard } from "@/lib/cupboard";
 import {
   acceptedPicks,
   draftFromModel,
@@ -23,7 +25,6 @@ import {
   saveIdeas,
   type Idea,
 } from "@/lib/ideas";
-import { writeLocalStatus } from "@/lib/local-publish";
 import { completeStructured, writingKey } from "@/lib/openai";
 import { todayIsoDate } from "@/lib/publish";
 
@@ -96,8 +97,7 @@ function pileText(pile: FeedItem[], categories: { slug: string; title: string }[
   return `Allowed categories: ${guide}\n\n${items.join("\n\n")}`;
 }
 
-function unseenPile(items: FeedItem[]) {
-  const file = readIdeas();
+function unseenPile(items: FeedItem[], file: Awaited<ReturnType<typeof readIdeas>>) {
   const candidates: FeedItem[] = [];
   const batch = new Set<string>();
   const sorted = [...items].sort((a, b) => b.publishedAt - a.publishedAt);
@@ -160,7 +160,7 @@ export async function findReviewedIdeas(limit = 3, wordsRaw = ""): Promise<FindR
     const words = ideaSearchWords(wordsRaw);
 
     const { items, failures } = await loadFeeds(words);
-    const pile = unseenPile(items);
+    const pile = unseenPile(items, await readIdeas());
     if (!pile.length) {
       return {
         added: [],
@@ -207,12 +207,12 @@ export async function findReviewedIdeas(limit = 3, wordsRaw = ""): Promise<FindR
     }
 
     if (added.length) {
-      const file = readIdeas();
+      const file = await readIdeas();
       for (const idea of added) {
         rememberSeen(file, idea.sourceUrl, ideaFingerprint(idea.sourceTitle || idea.title));
       }
       file.ideas = [...added, ...file.ideas];
-      saveIdeas(file);
+      await saveIdeas(file);
     }
 
     return {
@@ -231,7 +231,7 @@ export async function findReviewedIdeas(limit = 3, wordsRaw = ""): Promise<FindR
 export async function writeIdeaPost(id: string): Promise<WriteResult> {
   return runIdeaJob(async () => {
     if (!writingKey()) return { needsKey: true as const };
-    const file = readIdeas();
+    const file = await readIdeas();
     const idea = file.ideas.find((row) => row.id === id);
     if (!idea || idea.status === "dismissed") {
       return { ok: false as const, error: "That idea is not in the inbox.", status: 404 };
@@ -264,8 +264,19 @@ export async function writeIdeaPost(id: string): Promise<WriteResult> {
     const categories = new Set(loadCategories().map((category) => category.slug));
     const category = idea.category && categories.has(idea.category) ? idea.category : "";
     const body = ensureSourceLink(draft.body, idea.sourceName, idea.sourceUrl);
+    const used = new Set(
+      fs.existsSync(POSTS)
+        ? fs
+            .readdirSync(POSTS)
+            .filter((file) => file.endsWith(".json"))
+            .map((file) => file.slice(0, -".json".length))
+        : [],
+    );
+    if (cupboardEnabled()) {
+      for (const existing of Object.keys((await readCupboard()).posts)) used.add(existing);
+    }
     const slug = uniqueSlug(slugifyTitle(draft.title) || slugifyTitle(idea.sourceTitle) || "coffee-note", (candidate) =>
-      fs.existsSync(path.join(POSTS, `${candidate}.json`)),
+      used.has(candidate),
     );
     const description = draft.description;
     const record = {
@@ -290,12 +301,10 @@ export async function writeIdeaPost(id: string): Promise<WriteResult> {
       draft: false,
       generatedBy: "agent" as const,
     };
-    fs.mkdirSync(POSTS, { recursive: true });
-    fs.writeFileSync(path.join(POSTS, `${slug}.json`), JSON.stringify(record, null, 2) + "\n");
-    writeLocalStatus(slug, "in_review");
+    await writeEditableRecord("post", slug, record, { status: "in_review" });
     idea.status = "used";
     idea.postSlug = slug;
-    saveIdeas(file);
+    await saveIdeas(file);
     return { ok: true as const, slug, path: record.path };
   });
 }

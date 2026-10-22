@@ -19,10 +19,10 @@ export async function POST(request: Request) {
   }
   const caption = body.caption.trim();
   if (!caption) return NextResponse.json({ error: "The caption is empty." }, { status: 400 });
-  const found = await runSocialJob(() => {
-    const items = readSocialQueue();
+  const found = await runSocialJob(async () => {
+    const items = await readSocialQueue();
     if (!items.some((item) => item.id === id)) return false;
-    saveSocialQueue(updateSocialCaption(items, id, caption));
+    await saveSocialQueue(updateSocialCaption(items, id, caption));
     return true;
   });
   if (!found) return NextResponse.json({ error: "That social post is not in the lineup." }, { status: 404 });
@@ -36,10 +36,10 @@ export async function PUT(request: Request) {
   if (!id || (body?.action !== "posted" && body?.action !== "remove")) {
     return NextResponse.json({ error: "Missing action." }, { status: 400 });
   }
-  const found = await runSocialJob(() => {
-    const items = readSocialQueue();
+  const found = await runSocialJob(async () => {
+    const items = await readSocialQueue();
     if (!items.some((item) => item.id === id)) return false;
-    saveSocialQueue(body?.action === "posted" ? markSocialPosted(items, id) : removeSocialItem(items, id));
+    await saveSocialQueue(body?.action === "posted" ? markSocialPosted(items, id) : removeSocialItem(items, id));
     return true;
   });
   if (!found) return NextResponse.json({ error: "That social post is not in the lineup." }, { status: 404 });

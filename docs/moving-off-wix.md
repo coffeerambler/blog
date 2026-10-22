@@ -144,19 +144,45 @@ Skip creating new ad units. The four slot variables are only for a unit you buil
 
 ## 8. How publishing works once the site is on Vercel
 
-`/admin` on the Vercel site can sign you in, but it cannot be where you save work. Posts, approvals, ideas, and the social lineup are files on the server’s disk. Vercel does not keep that disk. A post you approve there can vanish on the next deploy, and a second visit may not see it.
+Approving on the Vercel admin publishes the public page on the next load. The approval is stored in a private Vercel Blob cupboard, not in git. The articles already in the repository stay in git. When both have the same piece, the cupboard copy is the one visitors see.
 
-Do the editing on your computer:
+### One-time setup
+
+1. In the Vercel project, open **Storage** and create one private Blob store.
+2. Add `BLOB_READ_WRITE_TOKEN` to **Production** and **Preview**. Add it after this branch is merged, so an unfinished preview does not write into the live cupboard.
+3. Add `OPENAI_API_KEY` to **Preview** as well as **Production**, or **Find 3 ideas** and **Write captions** stay dead on the preview URL.
+4. Leave the Blob token out of `.env.local`. This computer keeps writing files, as it does now.
+
+A new country, with a new map, is still made on this computer and deployed with a commit. The ten guides already in review can be approved from the phone.
+
+### On another device
+
+1. Sign in to the Vercel admin.
+2. Open **Review**, then the article or country guide.
+3. Tap **Approve & publish**.
+4. Open the public page and confirm it is there.
+
+That is the whole publish. Do not edit that same piece in the repository until you fold it. A git edit before the fold stays hidden, because visitors are reading the cupboard copy.
+
+**Ideas** and **Social** save into the same cupboard. **Dismiss** removes an idea and remembers it. **Delete draft** removes a phone-made draft that is not in the repository. **Remove from list** and **Mark as posted** update the caption lineup.
+
+For Instagram, tap **Copy caption**, save the picture by holding it, and paste both into the app. The site does not post to Instagram.
+
+### When you are next at this computer
+
+The fold copies the cupboard back into `content/` and `public/images/`. Run it with the token in the command, not saved in `.env.local`:
 
 ```bash
-git pull
-npm install
-npm run dev
+BLOB_READ_WRITE_TOKEN="the token from Vercel" npm run fold-cupboard
 ```
 
-Open `http://127.0.0.1:43127/admin`. Approve, edit, or create the piece. Then commit the JSON under `content/` and push to `main`. Vercel redeploys, and that version is what the world sees.
+Read the diff. The article or guide should now say approved. Commit it and push it. After that push, empty the entries you just folded. Ideas and the social lineup stay in the cupboard.
 
-`content/social-queue.json` is not in git. It lives only on the computer where you created it. That is the lineup in the next section.
+```bash
+BLOB_READ_WRITE_TOKEN="the token from Vercel" npm run empty-cupboard
+```
+
+Do not approve something new on your phone between the fold and the empty. A piece that changed after the fold is left in the cupboard, and the script names it. Deleting the Blob store is how phone-made work that has not been folded would be lost. Emptying a folded entry is the reconcile.
 
 ## 9. What has to be true for social posts to work
 
@@ -164,16 +190,16 @@ Shared links use `https://www.coffeerambler.com/...`. Until step 6 is done, a po
 
 ### What you can do the day the domain moves
 
-This part is built. Nothing is posted until you press Post in X, Facebook, or LinkedIn.
+Nothing is posted until you press Post in X, Facebook, or LinkedIn, or you paste a caption into Instagram yourself.
 
-1. On your computer, with `OPENAI_API_KEY` in `.env.local`, run the site and sign in at `http://127.0.0.1:43127/admin`.
+1. Sign in at the Vercel `/admin` once `BLOB_READ_WRITE_TOKEN` and `OPENAI_API_KEY` are set. This computer still works at `http://127.0.0.1:43127/admin` with `OPENAI_API_KEY` in `.env.local`.
 2. Open **Social**.
 3. Tick a country guide, or search for a blog post. Up to five at a time. Only approved pieces are offered. The ten guides still in review will not appear, and they should not.
 4. Write the captions. Each one is a short summary plus four hashtags taken from that piece. You can edit the text before you share it.
-5. A country guide’s picture is its growing map. A blog post’s picture is its cover. Those pictures are not uploaded as files. X, Facebook, and LinkedIn fetch the live page and use its preview. That preview exists only after step 6.
+5. A country guide’s picture is its growing map. A blog post’s picture is its cover. X, Facebook, and LinkedIn fetch the live page and use its preview. That preview exists only after step 6. A cover you upload on Vercel is stored in the cupboard until you fold it.
 6. Allow pop-ups for the site. Press **X**, **Facebook**, or **LinkedIn**, then press Post in that window.
-7. If the window is blocked, press **Copy caption** and paste it into the network yourself. The link has to be the `www.coffeerambler.com` URL in the caption.
-8. **Remove from list** drops a caption from the lineup on this computer. **Mark as posted** is only a note on this computer. It does not tell the network anything.
+7. If the window is blocked, or you are posting to Instagram, press **Copy caption**. Save the picture, then paste both into the app. The link has to be the `www.coffeerambler.com` URL in the caption.
+8. **Remove from list** drops a caption. **Mark as posted** is only a note in the lineup. It does not tell the network anything. On Vercel those notes stay in the cupboard. On this computer they stay in `content/social-queue.json`, which is not committed.
 
 After the first shares, refresh each network’s preview of the old Wix page:
 
@@ -183,11 +209,11 @@ After the first shares, refresh each network’s preview of the old Wix page:
 
 ### What is not built, and what finishing it requires
 
-The site does not post on a timer, and it does not send a post by itself. The Social page on the Vercel `/admin` will not remember a lineup, because that file is not kept there. Do not use the hosted admin for this.
+The site does not post on a timer, and it does not send a post by itself. The hosted admin remembers the lineup in the cupboard from section 8. It still does not press Post for you.
 
 To have the site release posts on a schedule later, all of the following have to exist. None of them are required for the domain move.
 
-1. A store Vercel keeps (for example Vercel KV, Blob, or a small database). The lineup, the “already posted” log, and any new article you approve from the hosted admin have to live there. A file in the project is not that store.
+1. The cupboard from section 8 is the store. A scheduled job would read the lineup from it.
 2. One connected account at a time, with that network’s keys stored as Vercel environment variables, never in git.
 3. A scheduled job that runs when you are not at the machine. Vercel Cron can wake one. The job has to read the lineup from the store in step 1.
 4. The network’s own posting access:

@@ -1,6 +1,7 @@
 import { randomUUID } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { cupboardEnabled, readCupboard, updateCupboard } from "@/lib/cupboard";
 
 export type SocialKind = "guide" | "post";
 
@@ -54,17 +55,31 @@ function readItem(value: unknown): SocialItem | null {
   };
 }
 
-export function readSocialQueue(): SocialItem[] {
+function normaliseQueue(value: unknown): SocialItem[] {
+  const items = Array.isArray(value)
+    ? value
+    : value && typeof value === "object" && Array.isArray((value as Partial<SocialFile>).items)
+      ? (value as SocialFile).items
+      : [];
+  return items.map(readItem).filter((item): item is SocialItem => Boolean(item));
+}
+
+export async function readSocialQueue(): Promise<SocialItem[]> {
+  if (cupboardEnabled()) return normaliseQueue((await readCupboard()).social);
   try {
-    const parsed = JSON.parse(fs.readFileSync(FILE, "utf8")) as Partial<SocialFile>;
-    if (!Array.isArray(parsed.items)) return [];
-    return parsed.items.map(readItem).filter((item): item is SocialItem => Boolean(item));
+    return normaliseQueue(JSON.parse(fs.readFileSync(FILE, "utf8")));
   } catch {
     return [];
   }
 }
 
-export function saveSocialQueue(items: SocialItem[]) {
+export async function saveSocialQueue(items: SocialItem[]) {
+  if (cupboardEnabled()) {
+    await updateCupboard((draft) => {
+      draft.social = items;
+    });
+    return;
+  }
   const tmp = `${FILE}.tmp`;
   fs.writeFileSync(tmp, JSON.stringify({ items } satisfies SocialFile, null, 2) + "\n");
   fs.renameSync(tmp, FILE);

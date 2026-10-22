@@ -9,7 +9,7 @@ type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata(props: Props) {
   const { slug } = await props.params;
-  const post = loadPost(decodeURIComponent(slug));
+  const post = await loadPost(decodeURIComponent(slug));
   if (!post) return { title: "Archive" };
   return postMeta({ params: Promise.resolve({ slug }) });
 }
@@ -17,7 +17,7 @@ export async function generateMetadata(props: Props) {
 export default async function ArchiveSlugPage({ params }: Props) {
   const { slug } = await params;
   if (slug === "categories") notFound();
-  const post = loadPost(decodeURIComponent(slug));
+  const post = await loadPost(decodeURIComponent(slug));
   if (!post) notFound();
   return PostPage({ params: Promise.resolve({ slug: post.slug }) });
 }

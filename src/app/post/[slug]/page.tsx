@@ -19,7 +19,7 @@ type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const admin = await hasAdminSession();
-  const post = loadPost(decodeURIComponent(slug), admin ? "all" : "live");
+  const post = await loadPost(decodeURIComponent(slug), admin ? "all" : "live");
   if (!post) notFound();
   return {
     title: post.seoTitle || post.title,
@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
   const admin = await hasAdminSession();
-  const post = loadPost(decodeURIComponent(slug), admin ? "all" : "live");
+  const post = await loadPost(decodeURIComponent(slug), admin ? "all" : "live");
   if (!post) notFound();
   const status = publishStatus(post);
   const body = stripDuplicateCoverImage(post.body, post.coverImage, post.title);
@@ -77,7 +77,7 @@ export default async function PostPage({ params }: Props) {
         ) : null}
         <AdSlot slot="article" className="my-8" />
         {rest ? <MarkdownWithGalleries markdown={rest} /> : null}
-        <RelatedCategoryPosts posts={otherPostsInSameCategory(post)} />
+        <RelatedCategoryPosts posts={await otherPostsInSameCategory(post)} />
       </article>
     </>
   );

@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminGuidesPage() {
   await requireAdmin();
-  const guides = countryGuideRecords(loadAdminRecords());
+  const guides = countryGuideRecords(await loadAdminRecords());
   const review = recordsByStatus(guides, "in_review");
   const approved = recordsByStatus(guides, "approved");
   const drafts = recordsByStatus(guides, "draft");

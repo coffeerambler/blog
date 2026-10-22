@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminPostsPage() {
   await requireAdmin();
-  const posts = postRecords(loadAdminRecords());
+  const posts = postRecords(await loadAdminRecords());
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">

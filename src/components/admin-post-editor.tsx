@@ -30,6 +30,7 @@ export function AdminPostEditor(props: {
   category: string;
   topics: { slug: string; title: string }[];
   viewHref: string;
+  canDeleteDraft?: boolean;
 }) {
   const router = useRouter();
   const [title, setTitle] = useState(props.title);
@@ -147,6 +148,26 @@ export function AdminPostEditor(props: {
           ? "Unpublished. The public URL is no longer live."
           : "Saved.",
     );
+    router.refresh();
+  }
+
+  async function deleteDraft() {
+    if (!window.confirm("Delete this draft from the cupboard? It will leave the review list.")) return;
+    setSaving(true);
+    setMessage("");
+    const response = await fetch("/api/admin/posts/delete", {
+      method: "POST",
+      credentials: "include",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ slug: props.slug }),
+    });
+    const data = (await response.json().catch(() => null)) as { error?: string } | null;
+    if (!response.ok) {
+      setSaving(false);
+      setMessage(data?.error || "That draft could not be deleted.");
+      return;
+    }
+    router.push("/admin");
     router.refresh();
   }
 
@@ -327,6 +348,11 @@ export function AdminPostEditor(props: {
               Unpublish
             </Button>
           )}
+          {props.canDeleteDraft && status !== "approved" ? (
+            <Button type="button" variant="outline" disabled={saving} onClick={() => void deleteDraft()}>
+              Delete draft
+            </Button>
+          ) : null}
           <button type="button" className="text-sm text-amber hover:underline" onClick={viewOnSite}>
             View on site
           </button>

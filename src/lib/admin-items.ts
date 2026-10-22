@@ -33,8 +33,8 @@ function fromPost(post: Post): AdminRecord {
   };
 }
 
-export function loadAdminRecords(): AdminRecord[] {
-  return [...loadPages("all").map(fromPage), ...loadPosts("all").map(fromPost)];
+export async function loadAdminRecords(): Promise<AdminRecord[]> {
+  return [...(await loadPages("all")).map(fromPage), ...(await loadPosts("all")).map(fromPost)];
 }
 
 function countryFirst(a: AdminRecord, b: AdminRecord) {

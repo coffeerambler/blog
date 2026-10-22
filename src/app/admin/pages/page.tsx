@@ -6,7 +6,7 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminPagesPage() {
   await requireAdmin();
-  const pages = loadAdminRecords()
+  const pages = (await loadAdminRecords())
     .filter((record) => record.kind === "page" && record.pageType !== "country")
     .sort((a, b) => a.title.localeCompare(b.title));
 

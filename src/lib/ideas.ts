@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { cupboardEnabled, readCupboard, updateCupboard } from "@/lib/cupboard";
 
 export type IdeaStatus = "new" | "dismissed" | "used";
 
@@ -43,21 +44,37 @@ export function ideaFingerprint(title: string) {
   return createHash("sha256").update(normalised || title).digest("hex").slice(0, 16);
 }
 
-export function readIdeas(): IdeaFile {
+function normaliseIdeas(value: unknown): IdeaFile {
+  if (!value || typeof value !== "object") return emptyFile();
+  const parsed = value as Partial<IdeaFile>;
+  return {
+    seen: Array.isArray(parsed.seen) ? parsed.seen : [],
+    ideas: Array.isArray(parsed.ideas)
+      ? parsed.ideas.map((idea) => ({ ...idea, sourceDescription: idea.sourceDescription || "" }))
+      : [],
+  };
+}
+
+function readIdeasFromDisk(): IdeaFile {
   try {
-    const parsed = JSON.parse(fs.readFileSync(FILE, "utf8")) as Partial<IdeaFile>;
-    return {
-      seen: Array.isArray(parsed.seen) ? parsed.seen : [],
-      ideas: Array.isArray(parsed.ideas)
-        ? parsed.ideas.map((idea) => ({ ...idea, sourceDescription: idea.sourceDescription || "" }))
-        : [],
-    };
+    return normaliseIdeas(JSON.parse(fs.readFileSync(FILE, "utf8")));
   } catch {
     return emptyFile();
   }
 }
 
-export function saveIdeas(file: IdeaFile) {
+export async function readIdeas(): Promise<IdeaFile> {
+  if (cupboardEnabled()) return normaliseIdeas((await readCupboard()).ideas);
+  return readIdeasFromDisk();
+}
+
+export async function saveIdeas(file: IdeaFile) {
+  if (cupboardEnabled()) {
+    await updateCupboard((draft) => {
+      draft.ideas = file;
+    });
+    return;
+  }
   const tmp = `${FILE}.tmp`;
   fs.writeFileSync(tmp, JSON.stringify(file, null, 2) + "\n");
   fs.renameSync(tmp, FILE);
@@ -94,13 +111,13 @@ export function hasSeen(file: IdeaFile, url: string, fingerprint: string) {
 }
 
 export function dismissIdea(id: string) {
-  return runIdeaJob(() => {
-    const file = readIdeas();
+  return runIdeaJob(async () => {
+    const file = await readIdeas();
     const idea = file.ideas.find((row) => row.id === id);
     if (!idea || idea.status !== "new") return null;
     idea.status = "dismissed";
     rememberSeen(file, idea.sourceUrl, ideaFingerprint(idea.sourceTitle || idea.title));
-    saveIdeas(file);
+    await saveIdeas(file);
     return idea;
   });
 }

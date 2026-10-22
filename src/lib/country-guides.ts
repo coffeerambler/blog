@@ -127,13 +127,13 @@ export function isTemplatedCountryGuide(slug: string) {
   return slug in GUIDES;
 }
 
-export function isLiveCountryGuide(slug: string) {
+export async function isLiveCountryGuide(slug: string) {
   if (!isTemplatedCountryGuide(slug)) return false;
-  const page = readPageFile(slug);
+  const page = await readPageFile(slug);
   return page ? isApproved(page) : isApproved({ slug });
 }
 
-export function getCountryGuideBundle(slug: string): CountryGuideBundle | null {
+export async function getCountryGuideBundle(slug: string): Promise<CountryGuideBundle | null> {
   const guide = GUIDES[slug];
   const collection = MAPS[slug];
   if (!guide || !collection) return null;
@@ -143,7 +143,7 @@ export function getCountryGuideBundle(slug: string): CountryGuideBundle | null {
     .filter((entry) => entry !== country)
     .map((entry) => entry as GrowingRegionFeature)
     .sort((a, b) => a.properties.number - b.properties.number);
-  const page = readPageFile(slug);
+  const page = await readPageFile(slug);
   return {
     guide: applyGuideEditorial(guide, page?.guide),
     country: country as Feature<Geometry, { id: string; name: string }>,
