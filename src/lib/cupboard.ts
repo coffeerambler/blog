@@ -1,4 +1,4 @@
-import { get, put, BlobPreconditionFailedError } from "@vercel/blob";
+import { get, put } from "@vercel/blob";
 
 /** Private JSON document. Ideas, captions, approvals, and phone-made drafts live here. */
 export const CUPBOARD_PATH = "cupboard.json";
@@ -76,17 +76,17 @@ function parseCupboard(text: string): CupboardData {
   }
 }
 
-async function loadRaw(): Promise<{ data: CupboardData; etag?: string }> {
+async function loadRaw(): Promise<CupboardData> {
   const result = await get(CUPBOARD_PATH, { access: "private", useCache: false, ...blobAuth() });
-  if (!result || result.statusCode !== 200 || !result.stream) return { data: emptyCupboard() };
+  if (!result || result.statusCode !== 200 || !result.stream) return emptyCupboard();
   const text = await new Response(result.stream).text();
-  return { data: parseCupboard(text), etag: result.blob.etag || undefined };
+  return parseCupboard(text);
 }
 
 export async function readCupboard(): Promise<CupboardData> {
   if (!cupboardEnabled()) return emptyCupboard();
   if (memory && Date.now() - memory.at < MEMORY_MS) return structuredClone(memory.value);
-  const { data } = await loadRaw();
+  const data = await loadRaw();
   memory = { at: Date.now(), value: data };
   return structuredClone(data);
 }
@@ -94,25 +94,16 @@ export async function readCupboard(): Promise<CupboardData> {
 export async function updateCupboard(mutate: (draft: CupboardData) => void): Promise<void> {
   if (!cupboardEnabled()) return;
   const run = writeChain.then(async () => {
-    for (let attempt = 0; attempt < 4; attempt += 1) {
-      const { data, etag } = await loadRaw();
-      mutate(data);
-      try {
-        await put(CUPBOARD_PATH, JSON.stringify(data), {
-          access: "private",
-          addRandomSuffix: false,
-          allowOverwrite: true,
-          contentType: "application/json",
-          ...blobAuth(),
-          ...(etag ? { ifMatch: etag } : {}),
-        });
-        memory = { at: Date.now(), value: structuredClone(data) };
-        return;
-      } catch (error) {
-        if (attempt < 3 && error instanceof BlobPreconditionFailedError) continue;
-        throw error;
-      }
-    }
+    const data = await loadRaw();
+    mutate(data);
+    await put(CUPBOARD_PATH, JSON.stringify(data), {
+      access: "private",
+      addRandomSuffix: false,
+      allowOverwrite: true,
+      contentType: "application/json",
+      ...blobAuth(),
+    });
+    memory = { at: Date.now(), value: structuredClone(data) };
   });
   writeChain = run.then(
     () => undefined,

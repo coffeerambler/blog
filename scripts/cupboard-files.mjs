@@ -25,19 +25,18 @@ export function blobToken() {
 
 export async function readCupboardFile() {
   const result = await get(CUPBOARD_PATH, { access: "private", useCache: false, token: blobToken() });
-  if (!result || result.statusCode !== 200 || !result.stream) return { data: null, etag: undefined };
+  if (!result || result.statusCode !== 200 || !result.stream) return { data: null };
   const data = JSON.parse(await new Response(result.stream).text());
-  return { data, etag: result.blob.etag || undefined };
+  return { data };
 }
 
-export async function writeCupboardFile(data, etag) {
+export async function writeCupboardFile(data) {
   await put(CUPBOARD_PATH, JSON.stringify(data), {
     access: "private",
     addRandomSuffix: false,
     allowOverwrite: true,
     contentType: "application/json",
     token: blobToken(),
-    ...(etag ? { ifMatch: etag } : {}),
   });
 }
 

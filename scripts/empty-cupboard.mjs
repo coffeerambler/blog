@@ -17,7 +17,7 @@ if (!fs.existsSync(MANIFEST)) {
 }
 
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
-const { data, etag } = await readCupboardFile();
+const { data } = await readCupboardFile();
 if (!data) {
   console.log("The cupboard is already empty of saved articles.");
   process.exit(0);
@@ -63,7 +63,7 @@ for (const image of images) {
 }
 data.images = remaining;
 
-await writeCupboardFile(data, etag);
+await writeCupboardFile(data);
 if (kept.length) {
   console.log(`Left these in the cupboard because they changed after the fold: ${kept.join(", ")}`);
 }
