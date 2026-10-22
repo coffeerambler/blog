@@ -1,11 +1,9 @@
-import fs from "node:fs";
-import path from "node:path";
 import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import type { CountryGuideEditorial } from "@/data/country-guides/types";
 import { expectedAdminCookie } from "@/lib/admin";
-import { writeLocalEditorial, writeLocalStatus } from "@/lib/local-publish";
+import { readEditableRecord, writeEditableRecord } from "@/lib/content-store";
 import { isPublishStatus, todayIsoDate, type PublishStatus } from "@/lib/publish";
 
 export const dynamic = "force-dynamic";
@@ -13,12 +11,6 @@ export const dynamic = "force-dynamic";
 function safeFileSlug(slug: string) {
   if (!slug || slug.includes("..") || slug.includes("/") || slug.includes("\\")) return null;
   return slug;
-}
-
-function writeJsonAtomic(file: string, value: unknown) {
-  const tmp = `${file}.tmp`;
-  fs.writeFileSync(tmp, JSON.stringify(value, null, 2) + "\n");
-  fs.renameSync(tmp, file);
 }
 
 function revalidateAfterSave(pagePath: string) {
@@ -52,19 +44,14 @@ export async function POST(request: Request) {
   if (!slug || (body.kind !== "post" && body.kind !== "page")) {
     return NextResponse.json({ error: "Missing slug" }, { status: 400 });
   }
-  const dir = path.join(process.cwd(), "content", body.kind === "post" ? "posts" : "pages");
-  fs.mkdirSync(dir, { recursive: true });
-  const file = path.join(dir, `${slug}.json`);
-  const existing = fs.existsSync(file)
-    ? (JSON.parse(fs.readFileSync(file, "utf8")) as Record<string, unknown>)
-    : {
-        type: body.kind,
-        slug,
-        path: body.kind === "post" ? `/post/${slug}` : `/${slug}`,
-        images: [],
-        author: "Keiran Jones",
-        body: "",
-      };
+  const existing = (await readEditableRecord(body.kind, slug)) || {
+    type: body.kind,
+    slug,
+    path: body.kind === "post" ? `/post/${slug}` : `/${slug}`,
+    images: [],
+    author: "Keiran Jones",
+    body: "",
+  };
 
   const next: Record<string, unknown> = { ...existing };
   if (body.title !== undefined) next.title = body.title;
@@ -88,10 +75,7 @@ export async function POST(request: Request) {
   if (Array.isArray(body.categories)) {
     next.categories = body.categories.filter((value) => typeof value === "string");
   }
-  if (body.guide !== undefined) {
-    next.guide = body.guide;
-    writeLocalEditorial(slug, body.guide);
-  }
+  if (body.guide !== undefined) next.guide = body.guide;
 
   let status: PublishStatus | undefined;
   if (isPublishStatus(body.status)) status = body.status;
@@ -101,13 +85,22 @@ export async function POST(request: Request) {
     next.draft = status === "draft";
     if (status === "approved") next.approvedAt = todayIsoDate();
     else delete next.approvedAt;
-    writeLocalStatus(slug, status);
   }
 
-  writeJsonAtomic(file, next);
-  const written = JSON.parse(fs.readFileSync(file, "utf8")) as { status?: string; path?: string };
-  if (status && written.status !== status) {
-    return NextResponse.json({ error: "Status did not persist to disk." }, { status: 500 });
+  try {
+    await writeEditableRecord(body.kind, slug, next, {
+      status,
+      guide: body.guide,
+    });
+  } catch (error) {
+    const code = error && typeof error === "object" && "code" in error ? String(error.code) : "";
+    if (code === "EROFS" || code === "EPERM" || code === "EACCES") {
+      return NextResponse.json(
+        { error: "This server cannot store the edit. Add BLOB_READ_WRITE_TOKEN on Vercel." },
+        { status: 500 },
+      );
+    }
+    throw error;
   }
 
   const pagePath = typeof next.path === "string" ? next.path : `/${slug}`;
@@ -116,6 +109,6 @@ export async function POST(request: Request) {
   return NextResponse.json({
     ok: true,
     path: pagePath,
-    status: written.status || status || "approved",
+    status: (typeof next.status === "string" && next.status) || status || "approved",
   });
 }

@@ -1,8 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { cache } from "react";
 import type { CountryGuideEditorial } from "@/data/country-guides/types";
-import { applyLocalEditorial, applyLocalStatus } from "@/lib/local-publish";
-import { isApproved, publishStatus, type PublishStatus } from "@/lib/publish";
+import { cupboardEnabled, readCupboard, type CupboardData } from "@/lib/cupboard";
+import { applyLocalEditorial, applyLocalStatus, applyStatusFromMap } from "@/lib/local-publish";
+import { isApproved, isPublishStatus, publishStatus, type PublishStatus } from "@/lib/publish";
 
 export type ContentImage = {
   wix: string;
@@ -73,60 +75,109 @@ function readJson<T>(file: string, fallback: T): T {
   }
 }
 
-export function loadPosts(scope: ContentScope = "live"): Post[] {
-  const dir = path.join(ROOT, "posts");
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) =>
-      applyLocalStatus(applyLocalEditorial(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Post)),
-    )
-    .filter((p) => scope === "all" || isApproved(p))
-    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
-}
-
-export function loadPost(slug: string, scope: ContentScope = "live"): Post | null {
-  const file = path.join(ROOT, "posts", `${slug}.json`);
-  if (!fs.existsSync(file)) return null;
-  const post = applyLocalStatus(
-    applyLocalEditorial(JSON.parse(fs.readFileSync(file, "utf8")) as Post),
-  );
-  if (scope === "live" && !isApproved(post)) return null;
-  return post;
-}
-
-export function loadPages(scope: ContentScope = "live"): SitePage[] {
-  const dir = path.join(ROOT, "pages");
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".json"))
-    .map((f) =>
-      applyLocalStatus(applyLocalEditorial(JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as SitePage)),
-    )
-    .filter((p) => scope === "all" || isApproved(p));
-}
-
-export function loadPageByPath(pathname: string, scope: ContentScope = "live"): SitePage | null {
-  const pages = loadPages(scope);
-  return pages.find((p) => p.path === pathname) || null;
-}
-
 export function pageFileSlug(slug: string) {
   return slug.replaceAll("/", "--");
 }
 
-export function readPageFile(slug: string): SitePage | null {
-  const file = path.join(ROOT, "pages", `${pageFileSlug(slug)}.json`);
-  if (!fs.existsSync(file)) return null;
-  return applyLocalStatus(
-    applyLocalEditorial(JSON.parse(fs.readFileSync(file, "utf8")) as SitePage),
-  );
+function readJsonDir<T>(dirName: string): T[] {
+  const dir = path.join(ROOT, dirName);
+  if (!fs.existsSync(dir)) return [];
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => JSON.parse(fs.readFileSync(path.join(dir, file), "utf8")) as T);
 }
 
-export function loadPageBySlug(slug: string, scope: ContentScope = "live"): SitePage | null {
-  const page = readPageFile(slug);
+function overlayStatus(status: Record<string, unknown>, slug: string): PublishStatus | undefined {
+  const direct = status[slug];
+  if (isPublishStatus(direct)) return direct;
+  const filed = status[pageFileSlug(slug)];
+  return isPublishStatus(filed) ? filed : undefined;
+}
+
+function overlayGuide(editorial: Record<string, unknown>, slug: string): CountryGuideEditorial | undefined {
+  const direct = editorial[slug];
+  if (direct && typeof direct === "object") return direct as CountryGuideEditorial;
+  const filed = editorial[pageFileSlug(slug)];
+  if (filed && typeof filed === "object") return filed as CountryGuideEditorial;
+  return undefined;
+}
+
+function finishRecord<T extends { slug?: string; guide?: CountryGuideEditorial; type?: string; path?: string; status?: string }>(
+  record: T,
+  data: CupboardData | null,
+): T {
+  if (!data) return applyLocalStatus(applyLocalEditorial(record));
+  const slug = record.slug || "";
+  const guide = record.guide || (slug ? overlayGuide(data.editorial, slug) : undefined);
+  const withGuide = guide && !record.guide ? { ...record, guide } : record;
+  return applyStatusFromMap(withGuide, slug ? overlayStatus(data.status, slug) : undefined);
+}
+
+function mergeRecords<T extends { slug?: string }>(disk: T[], blob: Record<string, unknown>, data: CupboardData | null): T[] {
+  const map = new Map<string, T>();
+  for (const record of disk) {
+    if (!record.slug) continue;
+    map.set(record.slug, finishRecord(record, data));
+  }
+  for (const [key, value] of Object.entries(blob)) {
+    if (!value || typeof value !== "object") continue;
+    const record = value as T;
+    const slug = record.slug || key;
+    map.set(slug, finishRecord({ ...record, slug }, data));
+  }
+  return [...map.values()];
+}
+
+const loadContentIndex = cache(async () => {
+  const diskPosts = readJsonDir<Post>("posts");
+  const diskPages = readJsonDir<SitePage>("pages");
+  if (!cupboardEnabled()) {
+    return {
+      posts: diskPosts.map((post) => finishRecord(post, null)),
+      pages: diskPages.map((page) => finishRecord(page, null)),
+    };
+  }
+  const data = await readCupboard();
+  return {
+    posts: mergeRecords(diskPosts, data.posts, data),
+    pages: mergeRecords(diskPages, data.pages, data),
+  };
+});
+
+export async function loadPosts(scope: ContentScope = "live"): Promise<Post[]> {
+  const { posts } = await loadContentIndex();
+  return posts
+    .filter((post) => scope === "all" || isApproved(post))
+    .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
+}
+
+export async function loadPost(slug: string, scope: ContentScope = "live"): Promise<Post | null> {
+  const { posts } = await loadContentIndex();
+  const post = posts.find((item) => item.slug === slug) || null;
+  if (!post) return null;
+  if (scope === "live" && !isApproved(post)) return null;
+  return post;
+}
+
+export async function loadPages(scope: ContentScope = "live"): Promise<SitePage[]> {
+  const { pages } = await loadContentIndex();
+  return pages.filter((page) => scope === "all" || isApproved(page));
+}
+
+export async function loadPageByPath(pathname: string, scope: ContentScope = "live"): Promise<SitePage | null> {
+  const pages = await loadPages(scope);
+  return pages.find((page) => page.path === pathname) || null;
+}
+
+export async function readPageFile(slug: string): Promise<SitePage | null> {
+  const { pages } = await loadContentIndex();
+  const fileSlug = pageFileSlug(slug);
+  return pages.find((page) => page.slug === slug || pageFileSlug(page.slug) === fileSlug) || null;
+}
+
+export async function loadPageBySlug(slug: string, scope: ContentScope = "live"): Promise<SitePage | null> {
+  const page = await readPageFile(slug);
   if (!page) return null;
   if (scope === "live" && !isApproved(page)) return null;
   return page;
@@ -148,9 +199,9 @@ export function loadCategories(): Category[] {
   ];
 }
 
-export function postsInCategory(slug: string): Post[] {
-  const page = loadPageByPath(`/archive/categories/${slug}`);
-  const posts = loadPosts();
+export async function postsInCategory(slug: string): Promise<Post[]> {
+  const page = await loadPageByPath(`/archive/categories/${slug}`);
+  const posts = await loadPosts();
   const links = new Set(
     (page?.internalLinks || [])
       .map((href) => href.replace(/^https?:\/\/www\.coffeerambler\.com/, ""))
@@ -203,11 +254,11 @@ export type TopicGroup = {
 };
 
 /** One primary topic per post, newest first. Leftovers go to About Coffee or Other. */
-export function groupPostsByTopic(posts: Post[]): TopicGroup[] {
+export async function groupPostsByTopic(posts: Post[]): Promise<TopicGroup[]> {
   const categories = loadCategories();
   const members = new Map<string, Set<string>>();
   for (const cat of categories) {
-    members.set(cat.slug, new Set(postsInCategory(cat.slug).map((p) => p.slug)));
+    members.set(cat.slug, new Set((await postsInCategory(cat.slug)).map((p) => p.slug)));
   }
 
   const buckets = new Map<string, Post[]>();
@@ -240,8 +291,8 @@ export function groupPostsByTopic(posts: Post[]): TopicGroup[] {
 }
 
 /** Three other live posts that share this post's archive category. */
-export function otherPostsInSameCategory(post: Post, limit = 3): Post[] {
-  const groups = groupPostsByTopic(loadPosts());
+export async function otherPostsInSameCategory(post: Post, limit = 3): Promise<Post[]> {
+  const groups = await groupPostsByTopic(await loadPosts());
   const explicit = (post.categories || []).find((slug) => groups.some((group) => group.topic.slug === slug));
   const group =
     groups.find((entry) => entry.posts.some((item) => item.slug === post.slug)) ||
@@ -301,14 +352,14 @@ export function rewriteInternalPath(href: string): string {
   return pathname + suffix;
 }
 
-export function brewGuides(): SitePage[] {
-  return loadPages()
+export async function brewGuides(): Promise<SitePage[]> {
+  return (await loadPages())
     .filter((p) => p.type === "brew-guide")
     .sort((a, b) => a.title.localeCompare(b.title));
 }
 
-export function countryPages(): SitePage[] {
-  return loadPages().filter((p) => p.type === "country");
+export async function countryPages(): Promise<SitePage[]> {
+  return (await loadPages()).filter((p) => p.type === "country");
 }
 
 function isLogoTitle(value?: string | null) {

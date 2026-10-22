@@ -82,7 +82,7 @@ Done when: the same records appear as before, a country guide does not show up i
 
 Give the ideas a place to live before any feed or model is attached.
 
-- Store them in `content/ideas.json`, which is committed. Shape:
+- Store them in `content/ideas.json` on this computer. That file is not committed. On Vercel the same list lives in the Blob cupboard. Shape:
 
 ```json
 {

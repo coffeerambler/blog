@@ -5,7 +5,7 @@ import { documentTitle, loadPageByPath, loadPosts } from "@/lib/content";
 export const dynamic = "force-dynamic";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = loadPageByPath("/");
+  const page = await loadPageByPath("/");
   return {
     title: {
       absolute: page
@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function HomePage() {
-  const posts = loadPosts();
+export default async function HomePage() {
+  const posts = await loadPosts();
   return <HomeBento posts={posts} />;
 }

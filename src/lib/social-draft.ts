@@ -38,12 +38,12 @@ function clip(text: string, max = 1200) {
   return (lastStop > max * 0.6 ? cut.slice(0, lastStop + 1) : cut).trim();
 }
 
-export function listSocialCandidates(): SocialCandidate[] {
+export async function listSocialCandidates(): Promise<SocialCandidate[]> {
   const guides: SocialCandidate[] = [];
   for (const slug of templatedCountrySlugs()) {
-    const page = readPageFile(slug);
+    const page = await readPageFile(slug);
     if (!isApproved(page || { slug })) continue;
-    const bundle = getCountryGuideBundle(slug);
+    const bundle = await getCountryGuideBundle(slug);
     if (!bundle) continue;
     const sections = bundle.guide.sections.map((section) => `${section.title}\n${section.markdown}`).join("\n\n");
     guides.push({
@@ -57,7 +57,7 @@ export function listSocialCandidates(): SocialCandidate[] {
   }
   guides.sort((a, b) => a.title.localeCompare(b.title));
 
-  const posts: SocialCandidate[] = loadPosts("live").map((post) => ({
+  const posts: SocialCandidate[] = (await loadPosts("live")).map((post) => ({
     kind: "post" as const,
     slug: post.slug,
     title: post.title,
@@ -69,8 +69,8 @@ export function listSocialCandidates(): SocialCandidate[] {
   return [...guides, ...posts];
 }
 
-export function listSocialChoices(): SocialChoice[] {
-  return listSocialCandidates().map(({ kind, slug, title }) => ({ kind, slug, title }));
+export async function listSocialChoices(): Promise<SocialChoice[]> {
+  return (await listSocialCandidates()).map(({ kind, slug, title }) => ({ kind, slug, title }));
 }
 
 /** Keep the picks the admin chose, in that order, skipping anything already lined up. */
@@ -103,9 +103,9 @@ function withLink(caption: string, path: string) {
 export async function createSocialPosts(picks: { kind: string; slug: string }[]) {
   return runSocialJob(async () => {
     if (!writingKey()) return { needsKey: true as const, added: [] as SocialItem[], note: "" };
-    const queued = readSocialQueue();
+    const queued = await readSocialQueue();
     const taken = takenSocialKeys(queued);
-    const batch = chosenSocialCandidates(listSocialCandidates(), taken, picks);
+    const batch = chosenSocialCandidates(await listSocialCandidates(), taken, picks);
     if (!batch.length) {
       return {
         needsKey: false as const,
@@ -139,7 +139,7 @@ export async function createSocialPosts(picks: { kind: string; slug: string }[])
         imagePath: candidate.imagePath,
       });
       added.push(items[items.length - 1]);
-      saveSocialQueue(items);
+      await saveSocialQueue(items);
     }
 
     const note = skipped.length ? `No caption was kept for ${skipped.join(", ")}.` : "";

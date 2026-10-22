@@ -5,6 +5,7 @@ import { AdminEditor } from "@/components/admin-editor";
 import { AdminPostEditor } from "@/components/admin-post-editor";
 import { requireAdmin } from "@/lib/admin-guard";
 import { loadCategories, loadPost, pageFileSlug, readPageFile } from "@/lib/content";
+import { canDeleteCupboardDraft } from "@/lib/content-store";
 import { getCountryGuideBundle, isTemplatedCountryGuide } from "@/lib/country-guides";
 import { publishStatus } from "@/lib/publish";
 
@@ -19,7 +20,7 @@ export default async function AdminEditPage({ params }: Props) {
   const decoded = decodeURIComponent(slug);
 
   if (kind === "post") {
-    const record = loadPost(decoded, "all");
+    const record = await loadPost(decoded, "all");
     if (!record) notFound();
     const topics = loadCategories();
     const category =
@@ -44,15 +45,16 @@ export default async function AdminEditPage({ params }: Props) {
           category={category}
           topics={topics}
           viewHref={record.path}
+          canDeleteDraft={await canDeleteCupboardDraft(record.slug)}
         />
       </div>
     );
   }
 
-  const record = readPageFile(decoded) || readPageFile(decoded.replaceAll("--", "/"));
+  const record = (await readPageFile(decoded)) || (await readPageFile(decoded.replaceAll("--", "/")));
   if (!record) notFound();
   const fileSlug = pageFileSlug(record.slug);
-  const bundle = isTemplatedCountryGuide(record.slug) ? getCountryGuideBundle(record.slug) : null;
+  const bundle = isTemplatedCountryGuide(record.slug) ? await getCountryGuideBundle(record.slug) : null;
 
   const backHref = bundle ? "/admin/guides" : "/admin/pages";
   const backLabel = bundle ? "Back to country guides" : "Back to pages";

@@ -3,7 +3,7 @@ import { BrewGuidesDirectory } from "@/components/brew-guides-directory";
 import { documentTitle, loadPageByPath } from "@/lib/content";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = loadPageByPath("/brewing-guides");
+  const page = await loadPageByPath("/brewing-guides");
   return {
     title: { absolute: page ? documentTitle(page) : "Home Brewing Guides | Coffee Rambler" },
     description: page?.description,
@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function BrewingGuidesPage() {
-  const page = loadPageByPath("/brewing-guides");
+export default async function BrewingGuidesPage() {
+  const page = await loadPageByPath("/brewing-guides");
   if (!page) return null;
   return <BrewGuidesDirectory hub={page} />;
 }

@@ -12,7 +12,7 @@ export const revalidate = 0;
 
 export async function generateMetadata(): Promise<Metadata> {
   await connection();
-  const page = loadPageByPath("/world-coffee-guide");
+  const page = await loadPageByPath("/world-coffee-guide");
   return {
     title: { absolute: page ? documentTitle(page) : "World Coffee Guide | Coffee Rambler" },
     description: page?.description,
@@ -22,8 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function WorldCoffeeGuidePage() {
   await connection();
-  const page = loadPageByPath("/world-coffee-guide");
-  const guides = originCountryGuides();
+  const page = await loadPageByPath("/world-coffee-guide");
+  const guides = await originCountryGuides();
   return (
     <article className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <header className="mb-8 max-w-3xl">

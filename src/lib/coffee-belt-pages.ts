@@ -2,8 +2,8 @@ import { ORIGIN_COUNTRIES, type CountryGuideLink } from "@/lib/coffee-belt";
 import { isTemplatedCountryGuide, isLiveCountryGuide } from "@/lib/country-guides";
 import { loadPages, type SitePage } from "@/lib/content";
 
-export function originCountryGuides(): CountryGuideLink[] {
-  const pages = loadPages().filter(
+export async function originCountryGuides(): Promise<CountryGuideLink[]> {
+  const pages = (await loadPages()).filter(
     (page) => page.type === "country" && page.path !== "/country-guides-1",
   );
   const links: CountryGuideLink[] = [];
@@ -14,7 +14,7 @@ export function originCountryGuides(): CountryGuideLink[] {
       continue;
     }
     const slug = `country-guide-${country.name.toLowerCase().replace(/[^a-z0-9]+/g, "")}`;
-    if (isTemplatedCountryGuide(slug) && isLiveCountryGuide(slug)) {
+    if (isTemplatedCountryGuide(slug) && (await isLiveCountryGuide(slug))) {
       links.push({ name: country.name, href: `/${slug}`, numericCode: country.numericCode });
     }
   }

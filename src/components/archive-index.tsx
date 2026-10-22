@@ -121,8 +121,8 @@ export function ArchiveYearList({ posts }: { posts: Post[] }) {
   );
 }
 
-export function ArchiveTopicList({ posts }: { posts: Post[] }) {
-  const groups = groupPostsByTopic(posts);
+export async function ArchiveTopicList({ posts }: { posts: Post[] }) {
+  const groups = await groupPostsByTopic(posts);
   if (!groups.length) return null;
   return (
     <div className="space-y-12">

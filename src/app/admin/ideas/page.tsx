@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminIdeasPage() {
   await requireAdmin();
-  const ideas = readIdeas().ideas.filter((idea) => idea.status === "new");
+  const ideas = (await readIdeas()).ideas.filter((idea) => idea.status === "new");
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">

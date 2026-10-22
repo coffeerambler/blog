@@ -29,8 +29,8 @@ function tileImage(guide: SitePage, hub?: SitePage | null) {
   return grind?.local || guide.images?.[0]?.local || "";
 }
 
-export function BrewGuidesDirectory({ hub }: { hub: SitePage }) {
-  const byPath = new Map(brewGuides().map((guide) => [guide.path, guide]));
+export async function BrewGuidesDirectory({ hub }: { hub: SitePage }) {
+  const byPath = new Map((await brewGuides()).map((guide) => [guide.path, guide]));
   const tiles = DIRECTORY_ORDER.map((path) => byPath.get(path)).filter(
     (guide): guide is SitePage => Boolean(guide),
   );

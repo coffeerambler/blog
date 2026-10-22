@@ -11,8 +11,8 @@ type Props = { params: Promise<{ slug: string }> };
 export async function GET(_request: Request, { params }: Props) {
   const { slug } = await params;
   const decoded = decodeURIComponent(slug);
-  const bundle = getCountryGuideBundle(decoded);
-  const page = readPageFile(decoded);
+  const bundle = await getCountryGuideBundle(decoded);
+  const page = await readPageFile(decoded);
   if (!bundle || !isApproved(page || { slug: decoded })) {
     return new Response("Not found", { status: 404 });
   }

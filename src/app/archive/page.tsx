@@ -8,7 +8,7 @@ export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = loadPageByPath("/archive");
+  const page = await loadPageByPath("/archive");
   return {
     title: { absolute: "Archive | Coffee Rambler" },
     description:
@@ -18,9 +18,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function ArchivePage() {
-  const page = loadPageByPath("/archive");
-  const posts = loadPosts();
+export default async function ArchivePage() {
+  const page = await loadPageByPath("/archive");
+  const posts = await loadPosts();
   const categories = loadCategories();
   const featured = posts[0];
   const rest = posts.slice(1);

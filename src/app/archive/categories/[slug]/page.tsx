@@ -19,7 +19,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const page = loadPageByPath(`/archive/categories/${slug}`);
+  const page = await loadPageByPath(`/archive/categories/${slug}`);
   const title = page ? documentTitle(page) : slug;
   return {
     title: { absolute: title },
@@ -31,9 +31,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CategoryPage({ params }: Props) {
   const { slug } = await params;
   const decoded = decodeURIComponent(slug);
-  const page = loadPageByPath(`/archive/categories/${decoded}`);
+  const page = await loadPageByPath(`/archive/categories/${decoded}`);
   if (!page) notFound();
-  const posts = postsInCategory(decoded);
+  const posts = await postsInCategory(decoded);
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <Link

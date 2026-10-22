@@ -8,11 +8,11 @@ export const dynamic = "force-dynamic";
 
 export default async function AdminSocialPage() {
   await requireAdmin();
-  const items = readSocialQueue();
+  const items = await readSocialQueue();
   const taken = new Set(items.map((item) => socialKey(item.kind, item.slug)));
   const ready = items.filter((item) => item.status === "ready");
   const posted = items.filter((item) => item.status === "posted");
-  const choices = listSocialChoices().filter((choice) => !taken.has(socialKey(choice.kind, choice.slug)));
+  const choices = (await listSocialChoices()).filter((choice) => !taken.has(socialKey(choice.kind, choice.slug)));
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8 sm:px-8">
@@ -22,7 +22,8 @@ export default async function AdminSocialPage() {
         time. Each caption is a short summary plus four hashtags taken from that piece. They line up
         below, with the growing map as the picture on a country guide. Remove from list drops one.
         Open X, Facebook, or LinkedIn when you are ready. Nothing is sent until you press Post in that
-        window.
+        window. For Instagram, copy the caption, save the picture, and paste them into the app. The
+        link in a feed caption is text. A Story can use a link sticker.
       </p>
       <AdminSocialPanel
         ready={ready}

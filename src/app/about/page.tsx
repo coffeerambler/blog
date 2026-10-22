@@ -3,7 +3,7 @@ import { ImportedPage } from "@/components/imported-page";
 import { documentTitle, loadPageByPath } from "@/lib/content";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const page = loadPageByPath("/about");
+  const page = await loadPageByPath("/about");
   return {
     title: { absolute: page ? documentTitle(page) : "About | Coffee Rambler" },
     description: page?.description,
@@ -11,8 +11,8 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default function AboutPage() {
-  const page = loadPageByPath("/about");
+export default async function AboutPage() {
+  const page = await loadPageByPath("/about");
   if (!page) return null;
   return <ImportedPage page={page} />;
 }

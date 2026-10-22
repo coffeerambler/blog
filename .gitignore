@@ -40,7 +40,9 @@ yarn-error.log*
 /content/local-status.json.tmp
 /content/local-editorial.json
 /content/local-editorial.json.tmp
+/content/ideas.json
 /content/ideas.json.tmp
+/content/.cupboard-fold.json
 /content/social-queue.json
 /content/social-queue.json.tmp
 scripts/__pycache__/
