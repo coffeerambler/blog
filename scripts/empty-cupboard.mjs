@@ -2,6 +2,7 @@ import { del } from "@vercel/blob";
 import fs from "node:fs";
 import {
   MANIFEST,
+  blobToken,
   hashValue,
   readCupboardFile,
   requireToken,
@@ -58,7 +59,7 @@ for (const image of images) {
     remaining.push(image);
     continue;
   }
-  await del(image.pathname);
+  await del(image.pathname, { token: blobToken() });
 }
 data.images = remaining;
 

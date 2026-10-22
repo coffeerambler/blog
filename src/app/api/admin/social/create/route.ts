@@ -1,7 +1,7 @@
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { expectedAdminCookie } from "@/lib/admin";
-import { ModelError } from "@/lib/openai";
+import { adminFailure } from "@/lib/openai";
 import { createSocialPosts } from "@/lib/social-draft";
 
 export const dynamic = "force-dynamic";
@@ -26,7 +26,7 @@ export async function POST(request: Request) {
       note: result.note,
     });
   } catch (error) {
-    const message = error instanceof ModelError ? error.message : "The social posts could not be written.";
+    const message = adminFailure(error, "The social posts could not be written.");
     return NextResponse.json({ error: message }, { status: 502 });
   }
 }

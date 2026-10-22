@@ -24,8 +24,17 @@ const MEMORY_MS = 5000;
 let memory: { at: number; value: CupboardData } | null = null;
 let writeChain: Promise<void> = Promise.resolve();
 
+export function blobReadWriteToken() {
+  return process.env.BLOB_READ_WRITE_TOKEN?.trim() || "";
+}
+
 export function cupboardEnabled() {
-  return Boolean(process.env.BLOB_READ_WRITE_TOKEN);
+  return Boolean(blobReadWriteToken());
+}
+
+/** Pass the token on every call. On Vercel, a connected store also sets BLOB_STORE_ID, and the SDK then ignores BLOB_READ_WRITE_TOKEN unless it is passed in. */
+function blobAuth() {
+  return { token: blobReadWriteToken() };
 }
 
 export function emptyCupboard(): CupboardData {
@@ -68,7 +77,7 @@ function parseCupboard(text: string): CupboardData {
 }
 
 async function loadRaw(): Promise<{ data: CupboardData; etag?: string }> {
-  const result = await get(CUPBOARD_PATH, { access: "private", useCache: false });
+  const result = await get(CUPBOARD_PATH, { access: "private", useCache: false, ...blobAuth() });
   if (!result || result.statusCode !== 200 || !result.stream) return { data: emptyCupboard() };
   const text = await new Response(result.stream).text();
   return { data: parseCupboard(text), etag: result.blob.etag || undefined };
@@ -94,6 +103,7 @@ export async function updateCupboard(mutate: (draft: CupboardData) => void): Pro
           addRandomSuffix: false,
           allowOverwrite: true,
           contentType: "application/json",
+          ...blobAuth(),
           ...(etag ? { ifMatch: etag } : {}),
         });
         memory = { at: Date.now(), value: structuredClone(data) };

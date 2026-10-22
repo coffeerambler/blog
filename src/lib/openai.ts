@@ -11,6 +11,16 @@ export function writingKey() {
   return process.env.OPENAI_API_KEY?.trim() || "";
 }
 
+export function adminFailure(error: unknown, fallback: string) {
+  if (error instanceof ModelError) return error.message;
+  const message = error instanceof Error ? error.message : "";
+  const clean = message
+    .replace(/sk-[A-Za-z0-9_-]+/g, "[key]")
+    .replace(/vercel_blob_\S+/g, "[token]")
+    .slice(0, 220);
+  return clean || fallback;
+}
+
 function safeDetail(payload: unknown) {
   if (!payload || typeof payload !== "object" || !("error" in payload)) return "";
   const message = (payload as { error?: { message?: unknown } }).error?.message;

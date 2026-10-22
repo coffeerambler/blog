@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { expectedAdminCookie } from "@/lib/admin";
 import { findReviewedIdeas } from "@/lib/idea-writing";
-import { ModelError } from "@/lib/openai";
+import { adminFailure } from "@/lib/openai";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
@@ -23,7 +23,7 @@ export async function POST(request: Request) {
       note: result.note,
     });
   } catch (error) {
-    const message = error instanceof ModelError ? error.message : "The feeds could not be read.";
+    const message = adminFailure(error, "The feeds could not be read.");
     return NextResponse.json({ error: message }, { status: 502 });
   }
 }
