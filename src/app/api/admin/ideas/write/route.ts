@@ -2,7 +2,7 @@ import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { expectedAdminCookie } from "@/lib/admin";
 import { writeIdeaPost } from "@/lib/idea-writing";
-import { ModelError } from "@/lib/openai";
+import { adminFailure } from "@/lib/openai";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 120;
@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     if (!result.ok) return NextResponse.json({ error: result.error }, { status: result.status });
     return NextResponse.json({ ok: true, slug: result.slug, path: result.path });
   } catch (error) {
-    const message = error instanceof ModelError ? error.message : "That post could not be written.";
+    const message = adminFailure(error, "That post could not be written.");
     return NextResponse.json({ error: message }, { status: 502 });
   }
 }

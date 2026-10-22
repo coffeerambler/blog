@@ -4,7 +4,7 @@ import { put } from "@vercel/blob";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import { expectedAdminCookie } from "@/lib/admin";
-import { cupboardEnabled, readCupboard, updateCupboard } from "@/lib/cupboard";
+import { blobReadWriteToken, cupboardEnabled, readCupboard, updateCupboard } from "@/lib/cupboard";
 
 export const dynamic = "force-dynamic";
 
@@ -72,6 +72,7 @@ export async function POST(request: Request) {
       addRandomSuffix: false,
       allowOverwrite: true,
       contentType: file.type || "application/octet-stream",
+      token: blobReadWriteToken(),
     });
     await updateCupboard((draft) => {
       draft.images = [
