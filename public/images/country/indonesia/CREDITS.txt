@@ -1,0 +1,31 @@
+Open-licence photos used on the Indonesia country guide.
+
+indonesia-01-jangkat-plantation.jpg
+  Source: Wikimedia Commons — Perkebunan_Kopi_Jangkat_Merangin.jpg
+  Author: Roby diery
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Perkebunan_Kopi_Jangkat_Merangin.jpg
+
+indonesia-02-natural-drying.jpg
+  Source: Wikimedia Commons — Kopi_dohot_proses_jemur_natural.jpg
+  Author: AHMatondang
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Kopi_dohot_proses_jemur_natural.jpg
+
+indonesia-03-mandailing-garden.jpg
+  Source: Wikimedia Commons — Gambar_ni_kobun_kopi_arabika_i_Mandailing.jpg
+  Author: AHMatondang
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Gambar_ni_kobun_kopi_arabika_i_Mandailing.jpg
+
+indonesia-04-robusta-patio-historic.jpg
+  Source: Wikimedia Commons — Tropenmuseum collection TMnr 20014119
+  Author: unknown photographer
+  Licence: CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Een_man_bezig_met_het_omharken_van_Robusta_koffie_dat_ligt_te_drogen_op_een_cementen_droogvloer_TMnr_20014119.jpg
+
+indonesia-05-asian-palm-civet.jpg
+  Source: Wikimedia Commons — Asian_Palm_Civet.jpg
+  Author: Pondeyo
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Asian_Palm_Civet.jpg

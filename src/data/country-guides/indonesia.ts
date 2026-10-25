@@ -75,5 +75,26 @@ The trade names stuck: Java, Mandheling, Ankola, Toraja. They are markets and me
 Jakarta, Bandung and Yogyakarta have specialty bars now. They roast Gayo and Flores, and they will talk about process in the same way a Melbourne bar would. At home, tubruk still wins. A wet-hulled Lintong is a fairer introduction to what this origin tastes like than anything with a civet on the bag. It will never taste like a Kenya, and it is not trying to.`,
     },
   ],
-  gallery: [],
+  gallery: [
+    {
+      src: "/images/country/indonesia/indonesia-01-jangkat-plantation.jpg",
+      alt: "Coffee plantation in the hills at Jangkat, Merangin, Sumatra",
+    },
+    {
+      src: "/images/country/indonesia/indonesia-02-natural-drying.jpg",
+      alt: "Turning coffee cherries on a natural drying bed in Indonesia",
+    },
+    {
+      src: "/images/country/indonesia/indonesia-03-mandailing-garden.jpg",
+      alt: "Arabica coffee garden on a Mandailing hillside",
+    },
+    {
+      src: "/images/country/indonesia/indonesia-04-robusta-patio-historic.jpg",
+      alt: "Raking robusta coffee on a cement drying patio",
+    },
+    {
+      src: "/images/country/indonesia/indonesia-05-asian-palm-civet.jpg",
+      alt: "Asian palm civet, the animal behind kopi luwak",
+    },
+  ],
 };
