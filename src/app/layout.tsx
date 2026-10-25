@@ -41,7 +41,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function RootLayout({ children }: LayoutProps<"/">) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const path = (await headers()).get("x-pathname") ?? "";
   const admin = path.startsWith("/admin");
   const loggedIn = await hasAdminSession();
