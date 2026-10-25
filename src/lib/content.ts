@@ -371,7 +371,7 @@ function isLogoTitle(value?: string | null) {
 const TITLE_FALLBACK: Record<string, string> = {
   "/": "Find, share and enjoy better coffee",
   "/about": "About",
-  "/privacy": "Privacy and cookies",
+  "/privacy": "Privacy Policy",
   "/archive": "Make Better Coffee | Archive",
   "/brewing-guides": "Home Brewing Guides",
   "/world-coffee-guide": "World Coffee Guide",

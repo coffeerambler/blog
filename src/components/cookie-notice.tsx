@@ -72,7 +72,7 @@ export function CookieNotice() {
                 ? "You do not need an account to read Coffee Rambler. Google may use cookies to serve and measure advertisements on this site."
                 : "You do not need an account to read Coffee Rambler. This site does not use tracking cookies."}{" "}
           <Link href="/privacy" className="text-amber hover:underline">
-            Privacy and cookies
+            Privacy Policy
           </Link>
         </p>
         <button
