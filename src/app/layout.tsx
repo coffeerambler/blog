@@ -31,7 +31,14 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     description:
       "Find, share and enjoy better coffee. Brewing guides, origin notes and independent specialty writing from Keiran Jones.",
-    alternates: { canonical: "https://www.coffeerambler.com" },
+    alternates: {
+      canonical: "https://www.coffeerambler.com",
+      types: {
+        "application/rss+xml": [
+          { url: "https://www.coffeerambler.com/blog-feed.xml", title: "Coffee Rambler" },
+        ],
+      },
+    },
     openGraph: {
       type: "website",
       siteName: "Coffee Rambler",

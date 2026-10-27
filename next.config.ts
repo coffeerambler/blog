@@ -38,6 +38,15 @@ const nextConfig: NextConfig = {
       { source: "/asia", destination: "/world-coffee-guide", statusCode: 301 },
       { source: "/central-america", destination: "/world-coffee-guide", statusCode: 301 },
       { source: "/south-america", destination: "/world-coffee-guide", statusCode: 301 },
+      // Legacy Wix / feed aliases — keep old bookmarks and subscribers on the new site.
+      { source: "/blog", destination: "/archive", statusCode: 301 },
+      { source: "/feed.xml", destination: "/blog-feed.xml", statusCode: 301 },
+      { source: "/rss.xml", destination: "/blog-feed.xml", statusCode: 301 },
+      {
+        source: "/single-post/coffee-brewing-tips",
+        destination: "/post/coffee-brewing-tips-simple-ways-to-improve-your-brew",
+        statusCode: 301,
+      },
     ];
   },
 };

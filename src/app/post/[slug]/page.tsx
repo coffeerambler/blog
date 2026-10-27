@@ -21,18 +21,45 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const admin = await hasAdminSession();
   const post = await loadPost(decodeURIComponent(slug), admin ? "all" : "live");
   if (!post) notFound();
+  const title = post.seoTitle || post.title;
+  const description = post.seoDescription || post.description;
+  const url = siteUrl(post.path);
   return {
-    title: post.seoTitle || post.title,
-    description: post.seoDescription || post.description,
-    alternates: { canonical: siteUrl(post.path) },
+    title,
+    description,
+    alternates: { canonical: url },
     openGraph: {
       type: "article",
+      url,
       title: post.title,
-      description: post.description,
+      description,
       publishedTime: post.datetime || post.date,
       authors: [post.author],
       images: post.coverImage ? [post.coverImage] : undefined,
     },
+  };
+}
+
+function blogPostingJsonLd(post: NonNullable<Awaited<ReturnType<typeof loadPost>>>) {
+  const url = siteUrl(post.path);
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.seoDescription || post.description,
+    datePublished: post.datetime || post.date,
+    author: {
+      "@type": "Person",
+      name: post.author || "Keiran Jones",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Coffee Rambler",
+      url: "https://www.coffeerambler.com",
+    },
+    mainEntityOfPage: url,
+    url,
+    image: post.coverImage ? [siteUrl(post.coverImage)] : undefined,
   };
 }
 
@@ -46,6 +73,10 @@ export default async function PostPage({ params }: Props) {
   const { lead, rest } = splitMarkdownAfterParagraphs(body, 2);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingJsonLd(post)) }}
+      />
       {admin && status !== "approved" ? (
         <UnpublishedBanner
           status={status}
