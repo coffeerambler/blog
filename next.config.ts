@@ -47,6 +47,8 @@ const nextConfig: NextConfig = {
         destination: "/post/coffee-brewing-tips-simple-ways-to-improve-your-brew",
         statusCode: 301,
       },
+      // One-segment archive post URLs (not /archive/categories/...) → canonical /post/...
+      { source: "/archive/:slug", destination: "/post/:slug", statusCode: 301 },
     ];
   },
 };
