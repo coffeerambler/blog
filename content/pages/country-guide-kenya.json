@@ -20,7 +20,135 @@
     "/archive/water-for-coffee-part-ii-tasting-with-ph-in-mind"
   ],
   "seoTitle": "Kenya | World Coffee Guide",
-  "seoDescription": "Kenya coffee guide: Nyeri, Kirinyaga and the central highlands, SL28, the Nairobi auction, and USDA production.",
-  "status": "in_review",
-  "generatedBy": "agent"
+  "seoDescription": "Specialty Kenyan coffee often has a wine-like body, a bright acidity and blackcurrant flavour notes. The washed lots from Nyeri and Kirinyaga, on the slopes of Mount Kenya, are the ones most people have in mind, and the old SL28 and SL34 varieties still do most of the interesting work.",
+  "status": "approved",
+  "generatedBy": "agent",
+  "guide": {
+    "name": "Kenya",
+    "kicker": "World Coffee Guide",
+    "lede": "Specialty Kenyan coffee often has a wine-like body, a bright acidity and blackcurrant flavour notes. The washed lots from Nyeri and Kirinyaga, on the slopes of Mount Kenya, are the ones most people have in mind, and the old SL28 and SL34 varieties still do most of the interesting work.",
+    "facts": [
+      {
+        "label": "Capital",
+        "value": "Nairobi"
+      },
+      {
+        "label": "Coffee in Swahili",
+        "value": "Kahawa"
+      },
+      {
+        "label": "Population",
+        "value": "57.5 million (World Bank, 2025)"
+      },
+      {
+        "label": "Production",
+        "value": "57,000 tonnes / 950,000 60-kg bags (USDA, 2026/27)"
+      },
+      {
+        "label": "Main varieties",
+        "value": "SL28, SL34, Ruiru 11, Batian, K7"
+      },
+      {
+        "label": "Typical cup",
+        "value": "Wine-like body, bright acidity, blackcurrant and plum"
+      }
+    ],
+    "regionsCaption": "The map shows the counties of the main coffee belt. Meru is shown together with Tharaka, Kisii with Nyamira and Kericho with Bomet. Kenya does not grow robusta at any scale.",
+    "regions": [
+      {
+        "id": "nyeri",
+        "name": "Nyeri",
+        "altitude": "1,400–2,000 m",
+        "season": "Oct–Dec",
+        "notes": "In the central highlands, and often the most expensive lots at auction."
+      },
+      {
+        "id": "kirinyaga",
+        "name": "Kirinyaga",
+        "altitude": "1,300–1,900 m",
+        "season": "Oct–Dec",
+        "notes": "On the slopes of Mount Kenya, home to a lot of the SL28 people look for."
+      },
+      {
+        "id": "muranga",
+        "name": "Murang'a",
+        "altitude": "1,300–1,800 m",
+        "season": "Oct–Dec",
+        "notes": "Between Kiambu and Nyeri, where co-operatives still handle most of the cherry."
+      },
+      {
+        "id": "kiambu",
+        "name": "Kiambu",
+        "altitude": "1,400–1,800 m",
+        "season": "Oct–Dec",
+        "notes": "Closest to Nairobi, with estates and smallholders under pressure from the growing city."
+      },
+      {
+        "id": "embu",
+        "name": "Embu",
+        "altitude": "1,300–1,800 m",
+        "season": "Oct–Dec",
+        "notes": "The eastern slope of Mount Kenya, with a cup similar to Kirinyaga and often a lower price."
+      },
+      {
+        "id": "meru",
+        "name": "Meru",
+        "altitude": "1,400–2,000 m",
+        "season": "Oct–Dec",
+        "notes": "Shown with Tharaka, and some years harvested later than Nyeri."
+      },
+      {
+        "id": "machakos",
+        "name": "Machakos",
+        "altitude": "1,300–1,800 m",
+        "season": "Oct–Dec",
+        "notes": "Ukambani, which is drier than the mountain counties."
+      },
+      {
+        "id": "bungoma",
+        "name": "Mount Elgon / Bungoma",
+        "altitude": "1,500–2,200 m",
+        "season": "Oct–Dec",
+        "notes": "Western Kenya, with different soils and often a softer cup."
+      },
+      {
+        "id": "kisii",
+        "name": "Kisii",
+        "altitude": "1,400–1,900 m",
+        "season": "Oct–Dec",
+        "notes": "The Nyanza highlands, shown together with Nyamira."
+      },
+      {
+        "id": "kericho",
+        "name": "Kericho",
+        "altitude": "1,700–2,200 m",
+        "season": "Oct–Dec",
+        "notes": "Tea country that also grows coffee, shown together with Bomet."
+      }
+    ],
+    "sections": [
+      {
+        "id": "processes",
+        "title": "Common processes",
+        "markdown": "Almost all of the coffee that matters here is [washed](/archive/coffee-processing-methods-from-cherry-to-green-bean). Cherry is pulped at a factory, then the beans go into a tank to ferment dry, with no added water, so the mucilage does the work. They are washed, then soaked a second time under clean water before drying on raised beds. That double fermentation is part of why the acidity can feel so sharp and clean, alongside altitude, volcanic soils and the varieties themselves. Washed Kenya is the origin I think of when people talk about blackcurrant and plum. Naturals exist, but they are still the exception, and they are not what built the reputation.\n\n[SL28 and SL34](/archive/coffee-varieties-a-brief-look-at-significant-varieties) were selected in the 1930s at Scott Laboratories. Ruiru 11 and Batian came later, bred to resist coffee berry disease and leaf rust while still yielding well. They are good trees, but the older SL varieties are still what most people mean when they say a Kenyan tastes like blackcurrant, so it is worth checking which one is in the bag."
+      },
+      {
+        "id": "grading",
+        "title": "Grading",
+        "markdown": "Grading of Kenyan coffee is done mostly by size and density, not by how the coffee tastes. The beans are shaken over screens and sorted by size, and the lighter beans are then separated out by air. A larger bean is not necessarily a better cup, and I have had AB lots that beat the AA from the same factory. The sizes help a roast stay even, in the same way Supremo and Excelso do in [Colombia](/country-guide-colombia), and they are easy to misread on a menu.\n\nAA — screens 17 and 18, the large bean\n\nAB — screens 15 and 16\n\nPB — peaberry, one round bean in the cherry instead of two\n\nC, TT and T — smaller beans and the lower grades\n\nE — elephant beans, often misshapen rather than a prize"
+      },
+      {
+        "id": "history",
+        "title": "Historical development",
+        "markdown": "The Holy Ghost Fathers planted coffee in the 1890s, and the British then built an estate industry, and after them a co-operative and auction system that is still how a lot of Kenyan coffee gets a price. Smallholders grow most of the crop now. The Nairobi Coffee Exchange runs the auction and the Coffee Directorate regulates the trade. Factories sell and exporters buy, though direct sales are now allowed alongside the auction and take a growing share.\n\nKenya is a small origin, and USDA puts it at around 950,000 bags for 2026/27, while [Ethiopia](/country-guide-ethiopia) next door grows more than ten times that. Its reputation comes from the quality of the cup rather than the size of the harvest. I used a [light roasted Kenyan](/archive/water-for-coffee-part-ii-tasting-with-ph-in-mind) when testing water for this site, so we could focus on the water rather than the coffee. It shows up good water, bad water and over-extraction very clearly, which is why I keep coming back to it."
+      },
+      {
+        "id": "culture",
+        "title": "Present-day coffee culture",
+        "markdown": "Tea is still the bigger drink. At a roadside kiosk you are more likely to be poured instant, or a dark roast with milk and sugar, than a Nyeri pour-over. Kahawa is hospitality, and it does not have to be the coffee that wins a cupping.\n\nNairobi has a proper specialty scene now. Independent bars talk about Nyeri and Kirinyaga in the same way a London bar would, and they have first pick of some lots that used to leave the country immediately. If you get the chance to visit a factory during harvest, go early. You can see the double fermentation in the tanks, which is the bit that never quite comes across on a tasting card."
+      }
+    ]
+  },
+  "draft": false,
+  "approvedAt": "2026-10-28"
 }
