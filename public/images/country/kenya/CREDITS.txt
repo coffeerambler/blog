@@ -1,0 +1,25 @@
+Open-licence photos used on the Kenya country guide.
+
+kenya-01-washing-pits-fairview.jpg
+  Source: Wikimedia Commons — Coffee_washing_pits_at_Fairview_Estate,_Kiamu,_KE.jpg
+  Author: Daniel Case
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Coffee_washing_pits_at_Fairview_Estate,_Kiamu,_KE.jpg
+
+kenya-02-drying-beds-historic.jpg
+  Source: Wikimedia Commons — Photo_Drying_of_coffee_beans_1955_-_Touring_Club_Italiano_1.2765.jpg
+  Author: unknown (Touring Club Italiano archive)
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Photo_Drying_of_coffee_beans_1955_-_Touring_Club_Italiano_1.2765.jpg
+
+kenya-03-nyeri-countryside.jpg
+  Source: Wikimedia Commons — Countryside_near_Nyeri_city.jpg
+  Author: Ninara
+  Licence: CC BY 2.0
+  https://commons.wikimedia.org/wiki/File:Countryside_near_Nyeri_city.jpg
+
+kenya-04-parchment-raised-beds.jpg
+  Source: Wikimedia Commons — Coffee_beans_drying_at_Fairview_Estate,_Kiambu,_KE.jpg
+  Author: Daniel Case
+  Licence: CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Coffee_beans_drying_at_Fairview_Estate,_Kiambu,_KE.jpg
