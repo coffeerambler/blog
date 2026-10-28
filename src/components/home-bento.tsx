@@ -4,7 +4,7 @@ import { buttonVariants } from "@/components/ui/button";
 import type { Post } from "@/lib/content";
 import { cn, formatDate } from "@/lib/utils";
 
-const CHEMEX = "/images/675337_066f59671f3b4a92b61cb21d62577c8b~mv2.jpg";
+const CHEMEX = "/images/home/brewing-guides-chemex.jpg";
 const CUPS = "/images/675337_942531fd7b744f1a961704d870be1f0a~mv2.jpg";
 const WORLD = "/images/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg";
 const WHEEL = "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png";
@@ -50,7 +50,7 @@ export function HomeBento({ posts }: { posts: Post[] }) {
 
       <div className="grid items-stretch gap-4 lg:grid-cols-2">
         <Link href="/brewing-guides" className={cn(tileClass, "min-h-[340px]")}>
-          <TileImage src={CHEMEX} alt="" className="object-[center_35%] bg-[#f4f4f4]" />
+          <TileImage src={CHEMEX} alt="" className="object-[center_40%]" />
           <TileOverlay>
             <h2 className="font-serif text-3xl text-cream sm:text-4xl">Home Brewing Guides</h2>
           </TileOverlay>
