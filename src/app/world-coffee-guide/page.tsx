@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { connection } from "next/server";
 import { AdSlot } from "@/components/ad-slot";
+import { AppPromoBox } from "@/components/app-promo-box";
 import { OriginsMap } from "@/components/origins-map";
 import { originCountryGuides } from "@/lib/coffee-belt-pages";
 import { displayTitle, documentTitle, loadPageByPath } from "@/lib/content";
@@ -77,13 +78,7 @@ export default async function WorldCoffeeGuidePage() {
         </div>
         <aside className="space-y-4">
           <AdSlot slot="sidebar" className="border" />
-          <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
-            <p className="font-serif text-lg text-cream">Coffee Rambler AI</p>
-            <p className="mt-2">The same coffee-belt map used in the app, here as navigation into country guides.</p>
-            <a href="https://rambler.coffee" className="mt-3 inline-flex min-h-11 items-center text-amber hover:underline">
-              Open rambler.coffee
-            </a>
-          </div>
+          <AppPromoBox />
         </aside>
       </div>
     </article>

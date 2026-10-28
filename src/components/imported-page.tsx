@@ -1,6 +1,7 @@
 import { displayTitle, type SitePage } from "@/lib/content";
 import { MarkdownBody } from "@/lib/markdown";
 import { AdSlot } from "@/components/ad-slot";
+import { AppPromoBox } from "@/components/app-promo-box";
 
 export function ImportedPage({ page }: { page: SitePage }) {
   const title = displayTitle(page);
@@ -20,18 +21,7 @@ export function ImportedPage({ page }: { page: SitePage }) {
         </div>
         <aside className="space-y-4">
           <AdSlot slot="sidebar" className="border" />
-          <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
-            <p className="font-serif text-lg text-cream">Coffee Rambler AI</p>
-            <p className="mt-2">
-              Personalised brewing guidance, a brew diary and sensory coaching.
-            </p>
-            <a
-              href="https://rambler.coffee"
-              className="mt-3 inline-flex min-h-11 items-center text-amber hover:underline"
-            >
-              Open rambler.coffee
-            </a>
-          </div>
+          <AppPromoBox />
         </aside>
       </div>
     </article>
