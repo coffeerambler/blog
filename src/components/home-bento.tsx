@@ -43,8 +43,7 @@ export function HomeBento({ posts }: { posts: Post[] }) {
   return (
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6">
       <header className="mb-8 max-w-3xl">
-        <p className="text-xs uppercase tracking-[0.22em] text-amber">Coffee Rambler</p>
-        <h1 className="mt-2 font-serif text-4xl leading-tight text-cream sm:text-5xl">
+        <h1 className="font-serif text-4xl leading-tight text-cream sm:text-5xl">
           Find, share and enjoy better coffee
         </h1>
       </header>
