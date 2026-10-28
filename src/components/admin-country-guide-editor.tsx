@@ -157,7 +157,7 @@ export function AdminCountryGuideEditor(props: {
         <h2 className="font-serif text-2xl text-cream">Growing regions</h2>
         <p className="text-sm text-cream/60">Numbers and species stay tied to the map. Notes are the copy to check.</p>
         {regions.map((region, index) => (
-          <div key={region.id} className="space-y-3 rounded-xl border border-white/10 bg-card p-4">
+          <div key={region.id} className="space-y-3 rounded-xl border border-border bg-card p-4">
             <p className="text-sm text-amber">
               {region.number}. {region.name} ({region.species})
             </p>

@@ -26,7 +26,7 @@ export function AdminMarkdownPreview({ markdown }: { markdown: string }) {
               <img
                 src={src}
                 alt={alt || ""}
-                className="my-4 w-full rounded-lg border border-white/10 object-cover"
+                className="my-4 w-full rounded-lg border border-border object-cover"
               />
             );
           },

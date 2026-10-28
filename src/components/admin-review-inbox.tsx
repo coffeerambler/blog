@@ -36,7 +36,7 @@ export function AdminReviewInbox({ records }: { records: AdminRecord[] }) {
             className={`inline-flex min-h-11 items-center rounded-md border px-3 text-sm ${
               filter === item.value
                 ? "border-amber/50 bg-amber/15 text-amber"
-                : "border-white/10 text-cream/70 hover:text-cream"
+                : "border-border text-cream/70 hover:text-cream"
             }`}
           >
             {item.label}

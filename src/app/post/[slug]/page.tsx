@@ -98,7 +98,7 @@ export default async function PostPage({ params }: Props) {
             src={post.coverImage}
             alt=""
             decoding="async"
-            className="mt-8 w-full rounded-xl border border-white/10 object-cover"
+            className="mt-8 w-full rounded-xl border border-border object-cover"
           />
         ) : null}
         {lead ? (

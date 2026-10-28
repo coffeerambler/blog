@@ -1,6 +1,37 @@
 @import "tailwindcss";
 
+/* Light mode — same tokens as rambler.coffee :root */
 :root {
+  color-scheme: light;
+  --background: #fff8f0;
+  --foreground: #230903;
+  --cream: #230903;
+  --amber: #c8925a;
+  --card: #fffdf9;
+  --muted: #6a4a43;
+  --muted-foreground: #6a4a43;
+  --popover: #fffdf9;
+  --popover-foreground: #230903;
+  --border: #e8dccf;
+  --primary: #8fcb86;
+  --primary-foreground: #230903;
+  --secondary: #f2eadf;
+  --secondary-foreground: #230903;
+  --accent: #8fcb86;
+  --accent-foreground: #230903;
+  --destructive: #d63939;
+  --input: #e8dccf;
+  --ring: #8fcb86;
+  --map-canvas: #fffdf9;
+  --map-off: #ddd8b8;
+  --map-off-hover: #cec3a5;
+  --map-has: #c8925a;
+  --map-has-hover: #d4a574;
+}
+
+/* Dark mode — previous blog chrome */
+.dark {
+  color-scheme: dark;
   --background: #0e0d0b;
   --foreground: #f4efe6;
   --cream: #f4efe6;
@@ -20,6 +51,11 @@
   --destructive: #b42318;
   --input: rgba(244, 239, 230, 0.16);
   --ring: #c8925a;
+  --map-canvas: #161410;
+  --map-off: #2a2520;
+  --map-off-hover: #3d3732;
+  --map-has: #c8925a;
+  --map-has-hover: #d4a574;
 }
 
 @theme inline {
@@ -42,6 +78,7 @@
   --color-destructive: var(--destructive);
   --color-input: var(--input);
   --color-ring: var(--ring);
+  --color-map-canvas: var(--map-canvas);
   --font-sans: var(--font-dm-sans);
   --font-serif: var(--font-playfair);
 }
@@ -77,7 +114,11 @@ body {
 }
 
 ::selection {
-  background: #c8925a;
+  background: var(--amber);
+  color: var(--background);
+}
+
+.dark ::selection {
   color: #0e0d0b;
 }
 
@@ -90,15 +131,15 @@ body {
 }
 
 .origins-map a:focus-visible path {
-  stroke: #c8925a;
+  stroke: var(--map-has);
   stroke-width: 1.5;
 }
 
 .origins-map path[data-has-guide="true"]:hover,
 .origins-map a:hover path {
-  fill: #d4a574;
+  fill: var(--map-has-hover);
 }
 
 .origins-map path[data-has-guide="false"]:hover {
-  fill: #3d3732;
+  fill: var(--map-off-hover);
 }

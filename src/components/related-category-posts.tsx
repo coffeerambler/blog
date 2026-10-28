@@ -4,7 +4,7 @@ import type { Post } from "@/lib/content";
 
 export function RelatedCategoryPosts({ posts }: { posts: Post[] }) {
   return (
-    <section className="mt-14 border-t border-white/10 pt-8">
+    <section className="mt-14 border-t border-border pt-8">
       {posts.length ? (
         <>
           <h2 className="font-serif text-2xl text-cream">Other posts in this category</h2>
@@ -19,7 +19,7 @@ export function RelatedCategoryPosts({ posts }: { posts: Post[] }) {
                       width={480}
                       height={320}
                       sizes="(min-width: 768px) 220px, 100vw"
-                      className="aspect-[3/2] w-full rounded-lg border border-white/10 object-cover"
+                      className="aspect-[3/2] w-full rounded-lg border border-border object-cover"
                     />
                   ) : (
                     <span className="block aspect-[3/2] rounded-lg bg-gradient-to-br from-amber/30 to-background" />

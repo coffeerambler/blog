@@ -5,6 +5,7 @@ import { AdScripts } from "@/components/ad-scripts";
 import { CookieNotice } from "@/components/cookie-notice";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { ThemeScript } from "@/components/theme-script";
 import { hasAdminSession } from "@/lib/admin";
 import { searchConsoleVerification } from "@/lib/ads";
 import "./globals.css";
@@ -56,8 +57,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
   return (
     <html
       lang="en-GB"
+      suppressHydrationWarning
       className={`${dmSans.variable} ${playfair.variable} h-full antialiased`}
     >
+      <head>
+        <ThemeScript />
+      </head>
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
         <AdScripts measureVisits={!admin && !loggedIn} />
         {admin ? null : <SiteHeader />}

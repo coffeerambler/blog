@@ -56,7 +56,7 @@ export function CountryGrowingMap({
 
   return (
     <div
-      className="relative overflow-hidden rounded-xl border border-white/10 bg-[#120f0c]"
+      className="relative overflow-hidden rounded-xl border border-border bg-map-canvas"
       style={{ aspectRatio: `${viewW} / ${viewH}` }}
     >
       <svg
@@ -173,14 +173,14 @@ export function CountryGrowingMap({
       </svg>
       {activePlace ? (
         <div
-          className="pointer-events-none absolute bottom-3 left-3 rounded border border-white/15 bg-[#221e18] px-2 py-1 font-sans text-sm text-cream shadow-md"
+          className="pointer-events-none absolute bottom-3 left-3 rounded border border-border bg-popover px-2 py-1 font-sans text-sm text-cream shadow-md"
           data-place-tooltip="true"
         >
           {activePlace.name} — {placeKindLabel(activePlace.kind)}
         </div>
       ) : activeRegion ? (
         <div
-          className="pointer-events-none absolute bottom-3 left-3 rounded border border-white/15 bg-[#221e18] px-2 py-1 font-sans text-sm text-cream shadow-md"
+          className="pointer-events-none absolute bottom-3 left-3 rounded border border-border bg-popover px-2 py-1 font-sans text-sm text-cream shadow-md"
           data-region-tooltip="true"
         >
           {activeRegion.properties.number}. {activeRegion.properties.name}

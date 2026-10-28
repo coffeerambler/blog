@@ -21,7 +21,7 @@ function BrewImage({
       src={src}
       alt={alt || ""}
       className={cn(
-        "mx-auto rounded-xl border border-white/10 object-contain",
+        "mx-auto rounded-xl border border-border object-contain",
         wheel ? "max-h-[28rem] w-auto max-w-full" : "max-h-[22rem] w-auto max-w-full",
       )}
     />
@@ -78,7 +78,7 @@ export function BrewGuidePage({ page }: { page: SitePage }) {
           return (
             <dl
               key={index}
-              className="my-8 grid gap-3 rounded-2xl border border-white/10 bg-card p-4 sm:grid-cols-3"
+              className="my-8 grid gap-3 rounded-2xl border border-border bg-card p-4 sm:grid-cols-3"
             >
               {block.items.map((item) => (
                 <div key={item.label}>
@@ -97,7 +97,7 @@ export function BrewGuidePage({ page }: { page: SitePage }) {
                 {block.items.map((item) => (
                   <li
                     key={item}
-                    className="rounded-lg border border-white/10 bg-card px-3 py-2 text-cream/85"
+                    className="rounded-lg border border-border bg-card px-3 py-2 text-cream/85"
                   >
                     {item}
                   </li>
@@ -112,7 +112,7 @@ export function BrewGuidePage({ page }: { page: SitePage }) {
               {block.steps.map((step) => (
                 <li
                   key={step.n}
-                  className="rounded-2xl border border-white/10 bg-card p-5 sm:p-6"
+                  className="rounded-2xl border border-border bg-card p-5 sm:p-6"
                 >
                   <div className="flex items-baseline gap-3">
                     <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-amber font-serif text-lg text-background">

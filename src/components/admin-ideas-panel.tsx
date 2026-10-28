@@ -143,7 +143,7 @@ export function AdminIdeasPanel({ ideas, hasWritingKey }: { ideas: Idea[]; hasWr
       ) : (
         <ul className="mt-6 space-y-4">
           {ideas.map((idea) => (
-            <li key={idea.id} className="rounded-xl border border-white/10 bg-card px-4 py-4">
+            <li key={idea.id} className="rounded-xl border border-border bg-card px-4 py-4">
               <p className="font-medium text-cream">{idea.title}</p>
               {idea.summary ? (
                 <p className="mt-2 whitespace-pre-line text-sm leading-6 text-cream/75">{idea.summary}</p>

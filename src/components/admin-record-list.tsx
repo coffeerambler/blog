@@ -14,7 +14,7 @@ export function AdminRecordList({
     return <p className="mt-4 text-sm text-cream/55">{empty}</p>;
   }
   return (
-    <ul className="mt-4 divide-y divide-white/10 rounded-xl border border-white/10 bg-card">
+    <ul className="mt-4 divide-y divide-white/10 rounded-xl border border-border bg-card">
       {records.map((record) => (
         <li
           key={`${record.kind}-${record.slug}`}

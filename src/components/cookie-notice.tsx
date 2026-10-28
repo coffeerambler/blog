@@ -60,7 +60,7 @@ export function CookieNotice() {
     <div
       ref={barRef}
       data-cookie-notice="true"
-      className="fixed inset-x-0 bottom-0 z-50 border-t border-white/10 bg-background px-4 py-3 sm:px-6"
+      className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background px-4 py-3 sm:px-6"
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-cream/80">

@@ -64,7 +64,7 @@ export function AdminPostsQueue({
       {!filtered.length ? (
         <p className="mt-4 text-sm text-cream/55">No posts match that search.</p>
       ) : (
-        <ul className="mt-4 divide-y divide-white/10 rounded-xl border border-white/10 bg-card">
+        <ul className="mt-4 divide-y divide-white/10 rounded-xl border border-border bg-card">
           {filtered.map((record) => (
             <li
               key={record.slug}
