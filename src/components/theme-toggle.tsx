@@ -1,11 +1,12 @@
 "use client";
 
+import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 
 type Theme = "light" | "dark";
 
 function applyTheme(theme: Theme) {
-  document.documentElement.classList.toggle("dark", theme === "dark");
+  document.documentElement.classList.toggle("light", theme === "light");
   try {
     localStorage.setItem("cr-theme", theme);
   } catch {
@@ -14,10 +15,10 @@ function applyTheme(theme: Theme) {
 }
 
 export function ThemeToggle({ className = "" }: { className?: string }) {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   useEffect(() => {
-    setTheme(document.documentElement.classList.contains("dark") ? "dark" : "light");
+    setTheme(document.documentElement.classList.contains("light") ? "light" : "dark");
   }, []);
 
   function toggle() {
@@ -26,15 +27,17 @@ export function ThemeToggle({ className = "" }: { className?: string }) {
     applyTheme(next);
   }
 
+  const toLight = theme === "dark";
+
   return (
     <button
       type="button"
       onClick={toggle}
-      className={`inline-flex min-h-11 min-w-11 items-center justify-center rounded-md border border-border px-3 text-sm text-cream hover:text-amber ${className}`}
-      aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
-      title={theme === "dark" ? "Light mode" : "Dark mode"}
+      className={`inline-flex size-8 items-center justify-center rounded-md text-cream/45 transition-colors hover:text-amber ${className}`}
+      aria-label={toLight ? "Switch to light mode" : "Switch to dark mode"}
+      title={toLight ? "Light mode" : "Dark mode"}
     >
-      {theme === "dark" ? "Light" : "Dark"}
+      {toLight ? <Sun className="size-3.5" strokeWidth={1.75} /> : <Moon className="size-3.5" strokeWidth={1.75} />}
     </button>
   );
 }
