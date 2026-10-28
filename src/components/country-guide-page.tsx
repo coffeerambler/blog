@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AdSlot } from "@/components/ad-slot";
+import { AppPromoBox } from "@/components/app-promo-box";
 import { CountryGuideRegions } from "@/components/country-guide-regions";
 import { MarkdownBody } from "@/lib/markdown";
 import type { CountryGuide, CountryGuideGalleryImage } from "@/data/country-guides/types";
@@ -97,15 +98,7 @@ export function CountryGuidePage({
           ) : null}
         </div>
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
-          <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
-            <p className="font-serif text-lg text-cream">Coffee Rambler AI</p>
-            <p className="mt-2">
-              Personalised brewing guidance, a brew diary and sensory coaching.
-            </p>
-            <a href="https://rambler.coffee" className="mt-3 inline-flex min-h-11 items-center text-amber hover:underline">
-              Open rambler.coffee
-            </a>
-          </div>
+          <AppPromoBox />
           <figure className="rounded-xl border border-white/10 bg-card p-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
