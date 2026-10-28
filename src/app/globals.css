@@ -1,36 +1,7 @@
 @import "tailwindcss";
 
-/* Light mode — same tokens as rambler.coffee :root */
+/* Dark mode — default (no class needed) */
 :root {
-  color-scheme: light;
-  --background: #fff8f0;
-  --foreground: #230903;
-  --cream: #230903;
-  --amber: #c8925a;
-  --card: #fffdf9;
-  --muted: #6a4a43;
-  --muted-foreground: #6a4a43;
-  --popover: #fffdf9;
-  --popover-foreground: #230903;
-  --border: #e8dccf;
-  --primary: #8fcb86;
-  --primary-foreground: #230903;
-  --secondary: #f2eadf;
-  --secondary-foreground: #230903;
-  --accent: #8fcb86;
-  --accent-foreground: #230903;
-  --destructive: #d63939;
-  --input: #e8dccf;
-  --ring: #8fcb86;
-  --map-canvas: #fffdf9;
-  --map-off: #ddd8b8;
-  --map-off-hover: #cec3a5;
-  --map-has: #c8925a;
-  --map-has-hover: #d4a574;
-}
-
-/* Dark mode — previous blog chrome */
-.dark {
   color-scheme: dark;
   --background: #0e0d0b;
   --foreground: #f4efe6;
@@ -54,6 +25,35 @@
   --map-canvas: #161410;
   --map-off: #2a2520;
   --map-off-hover: #3d3732;
+  --map-has: #c8925a;
+  --map-has-hover: #d4a574;
+}
+
+/* Light mode — same tokens as rambler.coffee :root */
+.light {
+  color-scheme: light;
+  --background: #fff8f0;
+  --foreground: #230903;
+  --cream: #230903;
+  --amber: #c8925a;
+  --card: #fffdf9;
+  --muted: #6a4a43;
+  --muted-foreground: #6a4a43;
+  --popover: #fffdf9;
+  --popover-foreground: #230903;
+  --border: #e8dccf;
+  --primary: #8fcb86;
+  --primary-foreground: #230903;
+  --secondary: #f2eadf;
+  --secondary-foreground: #230903;
+  --accent: #8fcb86;
+  --accent-foreground: #230903;
+  --destructive: #d63939;
+  --input: #e8dccf;
+  --ring: #8fcb86;
+  --map-canvas: #fffdf9;
+  --map-off: #ddd8b8;
+  --map-off-hover: #cec3a5;
   --map-has: #c8925a;
   --map-has-hover: #d4a574;
 }
@@ -116,10 +116,6 @@ body {
 ::selection {
   background: var(--amber);
   color: var(--background);
-}
-
-.dark ::selection {
-  color: #0e0d0b;
 }
 
 .origins-map path {

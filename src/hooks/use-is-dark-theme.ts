@@ -2,13 +2,13 @@
 
 import { useEffect, useState } from "react";
 
-/** True when `<html>` has the `.dark` class. */
+/** True unless `<html>` has the `.light` class (dark is the default). */
 export function useIsDarkTheme() {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     const root = document.documentElement;
-    const sync = () => setDark(root.classList.contains("dark"));
+    const sync = () => setDark(!root.classList.contains("light"));
     sync();
     const observer = new MutationObserver(sync);
     observer.observe(root, { attributes: true, attributeFilter: ["class"] });
