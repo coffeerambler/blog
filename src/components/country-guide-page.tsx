@@ -70,7 +70,7 @@ export function CountryGuidePage({
                     alt={divider.alt}
                     loading="lazy"
                     decoding="async"
-                    className="aspect-[16/9] w-full rounded-lg border border-white/10 object-cover sm:aspect-[2/1]"
+                    className="aspect-[16/9] w-full rounded-lg border border-border object-cover sm:aspect-[2/1]"
                   />
                 </figure>
               ) : null}
@@ -90,7 +90,7 @@ export function CountryGuidePage({
                     alt={image.alt}
                     loading="lazy"
                     decoding="async"
-                    className="w-full rounded-lg border border-white/10 object-cover"
+                    className="w-full rounded-lg border border-border object-cover"
                   />
                 ))}
               </div>
@@ -99,12 +99,12 @@ export function CountryGuidePage({
         </div>
         <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
           <AppPromoBox />
-          <figure className="rounded-xl border border-white/10 bg-card p-3">
+          <figure className="rounded-xl border border-border bg-card p-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={guide.flag.src}
               alt=""
-              className="mx-auto h-auto w-28 rounded-sm border border-white/10 sm:w-32"
+              className="mx-auto h-auto w-28 rounded-sm border border-border sm:w-32"
             />
           </figure>
           <AdSlot slot="sidebar" className="border" />

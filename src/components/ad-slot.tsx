@@ -81,7 +81,7 @@ function Placeholder({
       <aside
         aria-label={LABELS[slot]}
         data-ad-slot={slot}
-        className={`border-y border-dashed border-white/10 bg-white/[0.02] ${className}`}
+        className={`border-y border-dashed border-border bg-foreground/[0.03] ${className}`}
       >
         <div className="mx-auto flex min-h-16 max-w-6xl items-center justify-center px-4 py-3 text-center sm:px-6">
           <p className="text-[10px] uppercase tracking-[0.28em] text-cream/35">
@@ -136,7 +136,7 @@ export function AdSlot({
       <aside
         aria-label={LABELS[slot]}
         data-ad-slot={slot}
-        className={`border-y border-dashed border-white/10 bg-white/[0.02] ${className}`}
+        className={`border-y border-dashed border-border bg-foreground/[0.03] ${className}`}
       >
         <div className="mx-auto flex min-h-16 w-full max-w-6xl flex-col items-center justify-center gap-2 overflow-hidden px-4 py-3 text-center sm:px-6">
           <p className="text-[10px] uppercase tracking-[0.28em] text-cream/35">

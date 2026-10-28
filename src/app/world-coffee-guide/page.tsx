@@ -62,7 +62,7 @@ export default async function WorldCoffeeGuidePage() {
                 Harvest Calendar
               </Link>
             </h2>
-            <Link href="/harvest-calendar" className="block overflow-hidden rounded-xl border border-white/10">
+            <Link href="/harvest-calendar" className="block overflow-hidden rounded-xl border border-border">
               <Image
                 src="/images/ripe-coffee-cherries.jpg"
                 alt="Ripe coffee cherries"

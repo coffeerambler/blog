@@ -10,7 +10,7 @@ const WORLD = "/images/675337_87f13b2039374f44a74f6156d7141986~mv2.jpg";
 const WHEEL = "/images/675337_635b291743a84837a77127fe674c2dbb~mv2.png";
 
 const tileClass =
-  "group relative flex min-h-[220px] overflow-hidden rounded-2xl border border-white/10 bg-card outline-none transition hover:border-amber/60 focus-visible:ring-2 focus-visible:ring-amber";
+  "group relative flex min-h-[220px] overflow-hidden rounded-2xl border border-border bg-card outline-none transition hover:border-amber/60 focus-visible:ring-2 focus-visible:ring-amber";
 
 function TileOverlay({ children, className }: { children: ReactNode; className?: string }) {
   return (
@@ -87,7 +87,7 @@ export function HomeBento({ posts }: { posts: Post[] }) {
 
           <a
             href="https://rambler.coffee"
-            className={cn(tileClass, "min-h-[240px] flex-1 bg-[#0b0a08]")}
+            className={cn(tileClass, "min-h-[240px] flex-1 bg-card")}
           >
             <TileImage src={WHEEL} alt="" className="object-[center_42%]" />
             <TileOverlay>

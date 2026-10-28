@@ -39,9 +39,9 @@ export function AdminShell({ children }: { children: ReactNode }) {
       <aside
         className={`${
           open ? "fixed inset-y-0 left-0 z-40 flex w-64" : "hidden"
-        } flex-col border-r border-white/10 bg-background lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-auto`}
+        } flex-col border-r border-border bg-background lg:sticky lg:top-0 lg:flex lg:h-screen lg:w-auto`}
       >
-        <div className="border-b border-white/10 px-4 py-5">
+        <div className="border-b border-border px-4 py-5">
           <p className="font-serif text-lg text-cream">Coffee Rambler</p>
           <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-amber">Admin</p>
         </div>
@@ -54,7 +54,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
                 href={item.href}
                 aria-current={current ? "page" : undefined}
                 className={`inline-flex min-h-11 items-center rounded-md px-3 text-sm ${
-                  current ? "bg-amber/15 text-amber" : "text-cream/80 hover:bg-white/5 hover:text-cream"
+                  current ? "bg-amber/15 text-amber" : "text-cream/80 hover:bg-foreground/5 hover:text-cream"
                 }`}
               >
                 {item.label}
@@ -62,12 +62,12 @@ export function AdminShell({ children }: { children: ReactNode }) {
             );
           })}
         </nav>
-        <div className="border-t border-white/10 p-3">
+        <div className="border-t border-border p-3">
           <AdminLogoutButton />
         </div>
       </aside>
       <div className="min-w-0">
-        <div className="sticky top-0 z-20 flex h-14 items-center border-b border-white/10 bg-background px-4 lg:hidden">
+        <div className="sticky top-0 z-20 flex h-14 items-center border-b border-border bg-background px-4 lg:hidden">
           <button
             type="button"
             className="inline-flex min-h-11 items-center text-sm text-amber"

@@ -3,7 +3,7 @@ import { AdSlot } from "@/components/ad-slot";
 
 export function SiteFooter() {
   return (
-    <footer className="mt-16 border-t border-white/10">
+    <footer className="mt-16 border-t border-border">
       <AdSlot slot="footer" />
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-10 sm:flex-row sm:items-start sm:justify-between sm:px-6">
         <div>

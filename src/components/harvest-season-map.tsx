@@ -5,6 +5,7 @@ import { select } from "d3-selection";
 import { zoom, zoomIdentity, type ZoomBehavior } from "d3-zoom";
 import "d3-transition";
 import { useCoffeeBeltFeatures } from "@/hooks/use-coffee-belt-features";
+import { useIsDarkTheme } from "@/hooks/use-is-dark-theme";
 import {
   COFFEE_BELT_FILL_HARVEST,
   COFFEE_BELT_FILL_HARVEST_HOVER,
@@ -12,6 +13,8 @@ import {
   COFFEE_BELT_FILL_MARKET_HOVER,
   COFFEE_BELT_FILL_OFF_DARK,
   COFFEE_BELT_FILL_OFF_HOVER_DARK,
+  COFFEE_BELT_FILL_OFF_HOVER_LIGHT,
+  COFFEE_BELT_FILL_OFF_LIGHT,
   COFFEE_BELT_STROKE,
   COFFEE_BELT_STROKE_WIDTH,
   COFFEE_BELT_VIEWBOX_HEIGHT,
@@ -32,14 +35,17 @@ export type HarvestSeasonMapProps = {
   enableZoom?: boolean;
 };
 
-function fillForPhase(phase: SeasonPhase, isHovered: boolean): string {
+function fillForPhase(phase: SeasonPhase, isHovered: boolean, dark: boolean): string {
   if (phase === "harvest") {
     return isHovered ? COFFEE_BELT_FILL_HARVEST_HOVER : COFFEE_BELT_FILL_HARVEST;
   }
   if (phase === "market") {
     return isHovered ? COFFEE_BELT_FILL_MARKET_HOVER : COFFEE_BELT_FILL_MARKET;
   }
-  return isHovered ? COFFEE_BELT_FILL_OFF_HOVER_DARK : COFFEE_BELT_FILL_OFF_DARK;
+  if (dark) {
+    return isHovered ? COFFEE_BELT_FILL_OFF_HOVER_DARK : COFFEE_BELT_FILL_OFF_DARK;
+  }
+  return isHovered ? COFFEE_BELT_FILL_OFF_HOVER_LIGHT : COFFEE_BELT_FILL_OFF_LIGHT;
 }
 
 export function HarvestSeasonMap({
@@ -49,6 +55,7 @@ export function HarvestSeasonMap({
   formatCountryNotes = (_name, notes) => notes,
   enableZoom = false,
 }: HarvestSeasonMapProps) {
+  const dark = useIsDarkTheme();
   const { nameById, pathGen, features } = useCoffeeBeltFeatures();
   const phaseByCountry = useMemo(() => buildPhaseByCountryMap(month), [month]);
   const [frame, setFrame] = useState<HTMLDivElement | null>(null);
@@ -156,7 +163,7 @@ export function HarvestSeasonMap({
               <path
                 key={id}
                 d={d}
-                fill={fillForPhase(phase, hoveredId === id)}
+                fill={fillForPhase(phase, hoveredId === id, dark)}
                 stroke={COFFEE_BELT_STROKE}
                 strokeWidth={COFFEE_BELT_STROKE_WIDTH}
                 data-id={id}
@@ -193,7 +200,7 @@ export function HarvestSeasonMap({
       ) : null}
       {tooltip ? (
         <div
-          className="pointer-events-none absolute z-10 max-w-[220px] rounded border border-white/15 bg-[#221e18] px-2 py-1 text-sm text-cream shadow-md"
+          className="pointer-events-none absolute z-10 max-w-[220px] rounded border border-border bg-popover px-2 py-1 text-sm text-cream shadow-md"
           style={{
             left: tooltip.x,
             top: tooltip.y,

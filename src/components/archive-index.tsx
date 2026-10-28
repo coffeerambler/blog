@@ -30,7 +30,7 @@ export function ArchiveFeaturedPost({ post }: { post: Post }) {
     <article>
       <Link
         href={post.path}
-        className="group grid gap-6 overflow-hidden rounded-xl border border-white/10 bg-card sm:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]"
+        className="group grid gap-6 overflow-hidden rounded-xl border border-border bg-card sm:grid-cols-[minmax(0,2fr)_minmax(0,3fr)]"
       >
         {post.coverImage ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -65,7 +65,7 @@ function CoverThumb({ src }: { src?: string | null }) {
       height={56}
       sizes="56px"
       quality={60}
-      className="size-14 shrink-0 rounded-md border border-white/10 object-cover"
+      className="size-14 shrink-0 rounded-md border border-border object-cover"
     />
   );
 }

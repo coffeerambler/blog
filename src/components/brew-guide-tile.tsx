@@ -19,7 +19,7 @@ export function BrewGuideTile({
     <Link
       href={href}
       aria-label={name}
-      className="group relative block aspect-square overflow-hidden rounded-2xl border border-white/10 bg-card outline-none focus-visible:ring-2 focus-visible:ring-amber"
+      className="group relative block aspect-square overflow-hidden rounded-2xl border border-border bg-card outline-none focus-visible:ring-2 focus-visible:ring-amber"
       onClick={(event) => {
         const coarse = window.matchMedia("(hover: none)").matches;
         if (coarse && !tapped) {

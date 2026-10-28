@@ -4,7 +4,7 @@ import type { Post } from "@/lib/content";
 
 export function PostCard({ post }: { post: Post }) {
   return (
-    <article className="group overflow-hidden rounded-xl border border-white/10 bg-card">
+    <article className="group overflow-hidden rounded-xl border border-border bg-card">
       <Link href={post.path} className="block">
         {post.coverImage ? (
           // eslint-disable-next-line @next/next/no-img-element
@@ -43,7 +43,7 @@ export function EmptyState({
   body: string;
 }) {
   return (
-    <div className="rounded-xl border border-dashed border-white/15 px-6 py-16 text-center">
+    <div className="rounded-xl border border-dashed border-border px-6 py-16 text-center">
       <h2 className="font-serif text-2xl text-cream">{title}</h2>
       <p className="mx-auto mt-3 max-w-md text-sm text-cream/70">{body}</p>
     </div>

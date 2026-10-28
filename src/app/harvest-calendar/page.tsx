@@ -69,7 +69,7 @@ export default function HarvestCalendarPage() {
         </div>
         <aside className="space-y-4 lg:sticky lg:top-4 lg:self-start">
           <AdSlot slot="sidebar" className="border" />
-          <div className="rounded-xl border border-white/10 bg-card p-4 text-sm text-cream/75">
+          <div className="rounded-xl border border-border bg-card p-4 text-sm text-cream/75">
             <Link href="/world-coffee-guide" className="inline-flex min-h-11 items-center font-serif text-lg text-cream hover:text-amber">
               World Coffee Guide
             </Link>

@@ -3,11 +3,14 @@
 import { useCallback, useMemo, useRef, useState, type MouseEvent } from "react";
 import { useRouter } from "next/navigation";
 import { useCoffeeBeltFeatures } from "@/hooks/use-coffee-belt-features";
+import { useIsDarkTheme } from "@/hooks/use-is-dark-theme";
 import {
   COFFEE_BELT_FILL_MARKET,
   COFFEE_BELT_FILL_MARKET_HOVER,
   COFFEE_BELT_FILL_OFF_DARK,
   COFFEE_BELT_FILL_OFF_HOVER_DARK,
+  COFFEE_BELT_FILL_OFF_HOVER_LIGHT,
+  COFFEE_BELT_FILL_OFF_LIGHT,
   COFFEE_BELT_STROKE,
   COFFEE_BELT_STROKE_WIDTH,
   COFFEE_BELT_VIEWBOX_HEIGHT,
@@ -20,8 +23,11 @@ type Tooltip = { x: number; y: number; name: string; href: string | null };
 
 export function OriginsMap({ guides }: { guides: CountryGuideLink[] }) {
   const router = useRouter();
+  const dark = useIsDarkTheme();
   const frameRef = useRef<HTMLDivElement>(null);
   const { nameById, pathGen, features } = useCoffeeBeltFeatures();
+  const offFill = dark ? COFFEE_BELT_FILL_OFF_DARK : COFFEE_BELT_FILL_OFF_LIGHT;
+  const offHover = dark ? COFFEE_BELT_FILL_OFF_HOVER_DARK : COFFEE_BELT_FILL_OFF_HOVER_LIGHT;
   const hrefById = useMemo(
     () => new Map(guides.map((guide) => [guide.numericCode, guide.href])),
     [guides],
@@ -80,7 +86,7 @@ export function OriginsMap({ guides }: { guides: CountryGuideLink[] }) {
         viewBox={`0 0 ${COFFEE_BELT_VIEWBOX_WIDTH} ${COFFEE_BELT_VIEWBOX_HEIGHT}`}
         width="100%"
         height="100%"
-        className="block h-full w-full overflow-hidden rounded-xl border border-white/10 bg-[#161410]"
+        className="block h-full w-full overflow-hidden rounded-xl border border-border bg-map-canvas"
         style={{ background: "transparent", maxWidth: "none", touchAction: "manipulation" }}
         aria-label="Coffee-growing countries. Hover or tap a country to highlight it."
         onMouseMove={(event: MouseEvent<SVGSVGElement>) => {
@@ -101,8 +107,8 @@ export function OriginsMap({ guides }: { guides: CountryGuideLink[] }) {
                 ? COFFEE_BELT_FILL_MARKET_HOVER
                 : COFFEE_BELT_FILL_MARKET
               : active
-                ? COFFEE_BELT_FILL_OFF_HOVER_DARK
-                : COFFEE_BELT_FILL_OFF_DARK;
+                ? offHover
+                : offFill;
             const d = pathGen(entry);
             if (!d) return null;
             const shape = (
@@ -158,7 +164,7 @@ export function OriginsMap({ guides }: { guides: CountryGuideLink[] }) {
       </svg>
       {tooltip ? (
         <div
-          className="pointer-events-none absolute z-10 rounded border border-white/15 bg-[#221e18] px-2 py-1 font-sans text-sm text-cream shadow-md"
+          className="pointer-events-none absolute z-10 rounded border border-border bg-popover px-2 py-1 font-sans text-sm text-cream shadow-md"
           data-map-tooltip="true"
           style={{
             left: tooltip.x,

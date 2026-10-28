@@ -36,7 +36,7 @@ export default async function ArchivePage() {
           <Link
             key={cat.slug}
             href={cat.path}
-            className="inline-flex min-h-11 items-center rounded-full border border-white/15 px-3 text-sm text-cream/80 hover:border-amber hover:text-amber"
+            className="inline-flex min-h-11 items-center rounded-full border border-border px-3 text-sm text-cream/80 hover:border-amber hover:text-amber"
           >
             {cat.title}
           </Link>

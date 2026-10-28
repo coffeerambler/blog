@@ -16,13 +16,13 @@ import { cn } from "@/lib/utils";
 const PHASE_FILL: Record<SeasonPhase, string> = {
   harvest: "bg-[#8fcb86]",
   market: "bg-[#C8925A]",
-  off: "bg-white/10",
+  off: "bg-foreground/10",
 };
 
 const PHASE_BADGE: Record<SeasonPhase, string> = {
-  harvest: "bg-[#8fcb86]/15 text-[#c6ebc0]",
-  market: "bg-[#C8925A]/20 text-[#e7c39a]",
-  off: "bg-white/5 text-muted-foreground",
+  harvest: "bg-[#8fcb86]/20 text-cream",
+  market: "bg-[#C8925A]/20 text-cream",
+  off: "bg-foreground/5 text-muted-foreground",
 };
 
 const PHASE_LABEL: Record<SeasonPhase, string> = {

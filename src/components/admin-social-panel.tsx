@@ -82,7 +82,7 @@ function SocialCard({ item, onRemove }: { item: SocialItem; onRemove: (id: strin
   }
 
   return (
-    <li className="rounded-xl border border-white/10 bg-card px-4 py-4">
+    <li className="rounded-xl border border-border bg-card px-4 py-4">
       <div className="flex items-start justify-between gap-3">
         <div>
           <p className="text-xs uppercase tracking-wide text-cream/45">
@@ -107,7 +107,7 @@ function SocialCard({ item, onRemove }: { item: SocialItem; onRemove: (id: strin
           <img
             src={item.imagePath}
             alt={item.kind === "guide" ? `Coffee growing map of ${item.title}` : ""}
-            className="w-full rounded-xl border border-white/10"
+            className="w-full rounded-xl border border-border"
           />
           <figcaption className="mt-2 text-xs text-cream/50">
             {item.kind === "guide" ? "This map is the picture on the link." : "This is the picture on the link."}
@@ -173,7 +173,7 @@ function ChoiceList({
           const checked = selected.has(key);
           return (
             <li key={key}>
-              <label className="flex cursor-pointer items-start gap-2 rounded-md px-1 py-1 text-sm text-cream hover:bg-white/5">
+              <label className="flex cursor-pointer items-start gap-2 rounded-md px-1 py-1 text-sm text-cream hover:bg-foreground/5">
                 <input
                   type="checkbox"
                   className="mt-1"
@@ -287,7 +287,7 @@ export function AdminSocialPanel({
 
   return (
     <div className="mt-6">
-      <div className="rounded-xl border border-white/10 bg-card px-4 py-4">
+      <div className="rounded-xl border border-border bg-card px-4 py-4">
         <label htmlFor="social-search" className="text-sm text-cream">
           Choose what to write
         </label>

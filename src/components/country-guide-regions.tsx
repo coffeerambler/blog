@@ -58,7 +58,7 @@ export function CountryGuideRegions({
         <h2 id="facts-heading" className="font-serif text-2xl text-cream">
           Factfile
         </h2>
-        <dl className="mt-4 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-white/10 bg-white/10 sm:grid-cols-2">
+        <dl className="mt-4 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-border bg-foreground/10 sm:grid-cols-2">
           {guide.facts.map((fact) => (
             <div key={fact.label} className="bg-card px-4 py-3">
               <dt className="text-xs uppercase tracking-[0.16em] text-cream/45">{fact.label}</dt>

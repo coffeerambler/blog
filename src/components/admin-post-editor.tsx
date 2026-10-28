@@ -249,10 +249,10 @@ export function AdminPostEditor(props: {
             <img
               src={coverImage}
               alt=""
-              className="max-h-56 w-full rounded-xl border border-white/10 object-cover"
+              className="max-h-56 w-full rounded-xl border border-border object-cover"
             />
           ) : (
-            <p className="rounded-xl border border-dashed border-white/15 px-4 py-8 text-sm text-cream/50">
+            <p className="rounded-xl border border-dashed border-border px-4 py-8 text-sm text-cream/50">
               No cover yet. Pick one from the library or upload.
             </p>
           )}
@@ -274,7 +274,7 @@ export function AdminPostEditor(props: {
             ) : null}
           </div>
           {pickerOpen ? (
-            <div className="rounded-xl border border-white/10 bg-card p-3">
+            <div className="rounded-xl border border-border bg-card p-3">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <Input
                   value={imageQuery}
@@ -292,7 +292,7 @@ export function AdminPostEditor(props: {
                     key={item.src}
                     type="button"
                     className={`overflow-hidden rounded-md border ${
-                      coverImage === item.src ? "border-amber" : "border-white/10"
+                      coverImage === item.src ? "border-amber" : "border-border"
                     }`}
                     onClick={() => setCoverImage(item.src)}
                     onDoubleClick={() => insertImage(item.src)}
@@ -327,14 +327,14 @@ export function AdminPostEditor(props: {
             className="min-h-80 font-mono text-sm text-cream"
           />
           {showPreview ? (
-            <div className="max-h-[40rem] overflow-y-auto rounded-xl border border-white/10 bg-card p-4">
+            <div className="max-h-[40rem] overflow-y-auto rounded-xl border border-border bg-card p-4">
               <AdminMarkdownPreview markdown={markdown} />
             </div>
           ) : null}
         </div>
       </div>
 
-      <div className="sticky bottom-0 z-30 -mx-4 mt-8 border-t border-white/10 bg-background px-4 py-3 sm:-mx-6 sm:px-6">
+      <div className="sticky bottom-0 z-30 -mx-4 mt-8 border-t border-border bg-background px-4 py-3 sm:-mx-6 sm:px-6">
         <div className="flex flex-wrap items-center gap-3">
           <Button type="submit" disabled={saving}>
             {saving ? "Saving…" : "Save"}

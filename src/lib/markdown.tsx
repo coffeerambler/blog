@@ -29,7 +29,7 @@ const components: Components = {
         alt={alt || ""}
         loading="lazy"
         decoding="async"
-        className="my-6 w-full rounded-lg border border-white/10 object-cover"
+        className="my-6 w-full rounded-lg border border-border object-cover"
       />
     );
   },
@@ -105,7 +105,7 @@ function ArticleGallery({ items }: { items: GalleryItem[] }) {
             height={600}
             sizes="(max-width: 640px) 100vw, 50vw"
             quality={70}
-            className="aspect-[4/3] h-auto w-full rounded-lg border border-white/10 object-cover"
+            className="aspect-[4/3] h-auto w-full rounded-lg border border-border object-cover"
           />
           {item.caption ? <GalleryCaption markdown={item.caption} /> : null}
         </figure>
