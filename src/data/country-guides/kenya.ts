@@ -74,5 +74,22 @@ Kenya is a small origin, and USDA puts it at around 950,000 bags for 2026/27, wh
 Nairobi has a proper specialty scene now. Independent bars talk about Nyeri and Kirinyaga in the same way a London bar would, and they have first pick of some lots that used to leave the country immediately. If you get the chance to visit a factory during harvest, go early. You can see the double fermentation in the tanks, which is the bit that never quite comes across on a tasting card.`,
     },
   ],
-  gallery: [],
+  gallery: [
+    {
+      src: "/images/country/kenya/kenya-01-washing-pits-fairview.jpg",
+      alt: "Coffee washing pits at Fairview Estate, Kiambu",
+    },
+    {
+      src: "/images/country/kenya/kenya-02-drying-beds-historic.jpg",
+      alt: "Raised beds of coffee drying at a Kenyan factory",
+    },
+    {
+      src: "/images/country/kenya/kenya-03-nyeri-countryside.jpg",
+      alt: "Countryside near Nyeri in the central highlands",
+    },
+    {
+      src: "/images/country/kenya/kenya-04-parchment-raised-beds.jpg",
+      alt: "Turning parchment coffee on raised drying beds",
+    },
+  ],
 };
