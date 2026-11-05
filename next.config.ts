@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   expireTime: 0,
   // Next's N overlay + SwiftShader in Try Live was crashing the compositor (Aw, Snap).
   devIndicators: false,
+  // Bundle DejaVu for /country-map PNG rasterization (sharp has no system fonts on Vercel).
+  outputFileTracingIncludes: {
+    "/country-map/[slug]": ["./assets/fonts/**/*"],
+  },
   async redirects() {
     return [
       { source: "/signup", destination: "https://rambler.coffee/signup", permanent: false },

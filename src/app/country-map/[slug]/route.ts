@@ -1,5 +1,5 @@
-import sharp from "sharp";
 import { getCountryGuideBundle } from "@/lib/country-guides";
+import { ensureCountryMapFonts } from "@/lib/country-map-fonts";
 import { countryMapSvg } from "@/lib/country-map-svg";
 import { readPageFile } from "@/lib/content";
 import { isApproved } from "@/lib/publish";
@@ -17,6 +17,9 @@ export async function GET(_request: Request, { params }: Props) {
     return new Response("Not found", { status: 404 });
   }
 
+  // Fontconfig must be pointed at the bundled TTFs before sharp/librsvg initializes.
+  ensureCountryMapFonts();
+  const sharp = (await import("sharp")).default;
   const png = await sharp(Buffer.from(countryMapSvg(bundle)))
     .resize({ width: 1200, height: 630, fit: "contain", background: "#120f0c" })
     .png()
