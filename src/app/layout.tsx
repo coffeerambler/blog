@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { headers } from "next/headers";
 import { AdScripts } from "@/components/ad-scripts";
 import { CookieNotice } from "@/components/cookie-notice";
@@ -69,6 +70,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <main className="flex-1">{children}</main>
         {admin ? null : <SiteFooter />}
         <CookieNotice />
+        <Analytics />
       </body>
     </html>
   );
