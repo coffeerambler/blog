@@ -86,9 +86,18 @@ async function loadRaw(): Promise<CupboardData> {
 export async function readCupboard(): Promise<CupboardData> {
   if (!cupboardEnabled()) return emptyCupboard();
   if (memory && Date.now() - memory.at < MEMORY_MS) return structuredClone(memory.value);
-  const data = await loadRaw();
-  memory = { at: Date.now(), value: data };
-  return structuredClone(data);
+  try {
+    const data = await loadRaw();
+    memory = { at: Date.now(), value: data };
+    return structuredClone(data);
+  } catch (error) {
+    // A blocked or unreachable store must not take down public pages.
+    // Writes still go through loadRaw, which throws rather than saving over an empty document.
+    console.error("Cupboard read failed; serving the copies in git.", error);
+    const fallback = emptyCupboard();
+    memory = { at: Date.now(), value: fallback };
+    return structuredClone(fallback);
+  }
 }
 
 export async function updateCupboard(mutate: (draft: CupboardData) => void): Promise<void> {
