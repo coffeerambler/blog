@@ -20,8 +20,12 @@ export type CupboardData = {
 };
 
 const MEMORY_MS = 5000;
+/** A failed read must not be retried on every page view. Each retry is another billed operation. */
+const FAILURE_MS = 60 * 60 * 1000;
+/** Public reads use the CDN cache. One hour keeps a normal month under the free 10,000 simple operations. */
+const CACHE_MAX_AGE_SECONDS = 60 * 60;
 
-let memory: { at: number; value: CupboardData } | null = null;
+let memory: { at: number; value: CupboardData; failed: boolean } | null = null;
 let writeChain: Promise<void> = Promise.resolve();
 
 export function blobReadWriteToken() {
@@ -76,8 +80,14 @@ function parseCupboard(text: string): CupboardData {
   }
 }
 
-async function loadRaw(): Promise<CupboardData> {
-  const result = await get(CUPBOARD_PATH, { access: "private", useCache: false, ...blobAuth() });
+async function loadRaw(fresh = false): Promise<CupboardData> {
+  const result = await get(CUPBOARD_PATH, {
+    access: "private",
+    // A fresh read is only for a save. Public pages must be allowed to hit the CDN cache,
+    // because a cache miss is a billed simple operation and a hit is free.
+    ...(fresh ? { useCache: false as const } : {}),
+    ...blobAuth(),
+  });
   if (!result || result.statusCode !== 200 || !result.stream) return emptyCupboard();
   const text = await new Response(result.stream).text();
   return parseCupboard(text);
@@ -85,25 +95,38 @@ async function loadRaw(): Promise<CupboardData> {
 
 export async function readCupboard(): Promise<CupboardData> {
   if (!cupboardEnabled()) return emptyCupboard();
-  if (memory && Date.now() - memory.at < MEMORY_MS) return structuredClone(memory.value);
-  const data = await loadRaw();
-  memory = { at: Date.now(), value: data };
-  return structuredClone(data);
+  if (memory) {
+    const maxAge = memory.failed ? FAILURE_MS : MEMORY_MS;
+    if (Date.now() - memory.at < maxAge) return structuredClone(memory.value);
+  }
+  try {
+    const data = await loadRaw(false);
+    memory = { at: Date.now(), value: data, failed: false };
+    return structuredClone(data);
+  } catch (error) {
+    // A blocked or unreachable store must not take down public pages.
+    // Writes still go through loadRaw, which throws rather than saving over an empty document.
+    console.error("Cupboard read failed; serving the copies in git.", error);
+    const fallback = emptyCupboard();
+    memory = { at: Date.now(), value: fallback, failed: true };
+    return structuredClone(fallback);
+  }
 }
 
 export async function updateCupboard(mutate: (draft: CupboardData) => void): Promise<void> {
   if (!cupboardEnabled()) return;
   const run = writeChain.then(async () => {
-    const data = await loadRaw();
+    const data = await loadRaw(true);
     mutate(data);
     await put(CUPBOARD_PATH, JSON.stringify(data), {
       access: "private",
       addRandomSuffix: false,
       allowOverwrite: true,
+      cacheControlMaxAge: CACHE_MAX_AGE_SECONDS,
       contentType: "application/json",
       ...blobAuth(),
     });
-    memory = { at: Date.now(), value: structuredClone(data) };
+    memory = { at: Date.now(), value: structuredClone(data), failed: false };
   });
   writeChain = run.then(
     () => undefined,
