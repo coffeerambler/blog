@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { HomeBento } from "@/components/home-bento";
 import { documentTitle, loadPageByPath, loadPosts } from "@/lib/content";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 3600;
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = await loadPageByPath("/");

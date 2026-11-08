@@ -1,24 +1,16 @@
-import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";
 import type { CountryGuideEditorial } from "@/data/country-guides/types";
 import { expectedAdminCookie } from "@/lib/admin";
 import { readEditableRecord, writeEditableRecord } from "@/lib/content-store";
 import { isPublishStatus, todayIsoDate, type PublishStatus } from "@/lib/publish";
+import { revalidatePublic } from "@/lib/revalidate-public";
 
 export const dynamic = "force-dynamic";
 
 function safeFileSlug(slug: string) {
   if (!slug || slug.includes("..") || slug.includes("/") || slug.includes("\\")) return null;
   return slug;
-}
-
-function revalidateAfterSave(pagePath: string) {
-  revalidatePath(pagePath);
-  revalidatePath("/archive");
-  revalidatePath("/world-coffee-guide");
-  revalidatePath("/admin");
-  revalidatePath("/", "layout");
 }
 
 export async function POST(request: Request) {
@@ -104,7 +96,7 @@ export async function POST(request: Request) {
   }
 
   const pagePath = typeof next.path === "string" ? next.path : `/${slug}`;
-  revalidateAfterSave(pagePath);
+  revalidatePublic(pagePath);
 
   return NextResponse.json({
     ok: true,

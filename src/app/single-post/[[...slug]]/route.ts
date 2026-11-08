@@ -13,7 +13,12 @@ export async function GET(request: Request, { params }: Props) {
   );
   const next = rewriteInternalPath(raw || "/single-post");
   if (!next.startsWith("/post/")) {
-    return new NextResponse("Not found", { status: 404 });
+    return new NextResponse("Not found", {
+      status: 404,
+      headers: { "Cache-Control": "public, max-age=3600" },
+    });
   }
-  return NextResponse.redirect(new URL(next, request.url), 301);
+  const response = NextResponse.redirect(new URL(next, request.url), 301);
+  response.headers.set("Cache-Control", "public, max-age=86400");
+  return response;
 }

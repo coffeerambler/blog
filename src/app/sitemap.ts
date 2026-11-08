@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { loadPages, loadPosts } from "@/lib/content";
 import { siteUrl } from "@/lib/utils";
 
+export const revalidate = 3600;
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const posts = (await loadPosts()).map((post) => ({
     url: siteUrl(post.path),

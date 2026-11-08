@@ -11,6 +11,8 @@ import {
   postsInCategory,
 } from "@/lib/content";
 
+export const revalidate = 3600;
+
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {

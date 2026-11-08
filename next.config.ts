@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: false,
-  expireTime: 0,
+  // A saved page can be handed out for a day while a fresh copy is cooked.
+  expireTime: 86400,
   // Next's N overlay + SwiftShader in Try Live was crashing the compositor (Aw, Snap).
   devIndicators: false,
   // Bundle DejaVu for /country-map PNG rasterization (sharp has no system fonts on Vercel).

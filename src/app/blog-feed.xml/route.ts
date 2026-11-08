@@ -1,6 +1,8 @@
 import { loadPosts } from "@/lib/content";
 import { siteUrl } from "@/lib/utils";
 
+export const revalidate = 3600;
+
 export async function GET() {
   const posts = await loadPosts();
   const items = posts
@@ -24,6 +26,9 @@ ${items}
 </channel>
 </rss>`;
   return new Response(xml, {
-    headers: { "Content-Type": "application/rss+xml; charset=utf-8" },
+    headers: {
+      "Content-Type": "application/rss+xml; charset=utf-8",
+      "Cache-Control": "public, s-maxage=3600, stale-while-revalidate=86400",
+    },
   });
 }
