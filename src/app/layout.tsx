@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans, Playfair_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { headers } from "next/headers";
-import { AdScripts } from "@/components/ad-scripts";
-import { CookieNotice } from "@/components/cookie-notice";
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
 import { ThemeScript } from "@/components/theme-script";
-import { hasAdminSession } from "@/lib/admin";
 import { searchConsoleVerification } from "@/lib/ads";
 import "./globals.css";
 
@@ -50,11 +44,7 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const path = (await headers()).get("x-pathname") ?? "";
-  const admin = path.startsWith("/admin");
-  const loggedIn = await hasAdminSession();
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="en-GB"
@@ -65,11 +55,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <ThemeScript />
       </head>
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground">
-        <AdScripts measureVisits={!admin && !loggedIn} />
-        {admin ? null : <SiteHeader />}
-        <main className="flex-1">{children}</main>
-        {admin ? null : <SiteFooter />}
-        <CookieNotice />
+        {children}
         <Analytics />
       </body>
     </html>

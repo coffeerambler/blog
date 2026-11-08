@@ -1,4 +1,4 @@
-import { cookies } from "next/headers";
+import { cookies, draftMode } from "next/headers";
 import { NextResponse } from "next/server";
 import { adminCookieValue, expectedAdminCookie } from "@/lib/admin";
 
@@ -9,6 +9,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Wrong password" }, { status: 401 });
   }
   const store = await cookies();
+  const draft = await draftMode();
+  draft.enable();
   store.set("cr_admin", expected, {
     httpOnly: true,
     sameSite: "lax",

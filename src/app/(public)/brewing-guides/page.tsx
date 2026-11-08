@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { BrewGuidesDirectory } from "@/components/brew-guides-directory";
 import { documentTitle, loadPageByPath } from "@/lib/content";
 
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const page = await loadPageByPath("/brewing-guides");
   return {

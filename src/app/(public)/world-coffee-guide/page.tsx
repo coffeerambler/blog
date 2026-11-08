@@ -1,18 +1,15 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { connection } from "next/server";
 import { AdSlot } from "@/components/ad-slot";
 import { AppPromoBox } from "@/components/app-promo-box";
 import { OriginsMap } from "@/components/origins-map";
 import { originCountryGuides } from "@/lib/coffee-belt-pages";
 import { displayTitle, documentTitle, loadPageByPath } from "@/lib/content";
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const revalidate = 3600;
 
 export async function generateMetadata(): Promise<Metadata> {
-  await connection();
   const page = await loadPageByPath("/world-coffee-guide");
   return {
     title: { absolute: page ? documentTitle(page) : "World Coffee Guide | Coffee Rambler" },
@@ -22,7 +19,6 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function WorldCoffeeGuidePage() {
-  await connection();
   const page = await loadPageByPath("/world-coffee-guide");
   const guides = await originCountryGuides();
   return (

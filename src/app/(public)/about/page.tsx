@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { ImportedPage } from "@/components/imported-page";
 import { documentTitle, loadPageByPath } from "@/lib/content";
 
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const page = await loadPageByPath("/about");
   const description =

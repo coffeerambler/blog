@@ -3,23 +3,27 @@ import { AdSlot } from "@/components/ad-slot";
 import { notFound } from "next/navigation";
 import { RelatedCategoryPosts } from "@/components/related-category-posts";
 import { UnpublishedBanner } from "@/components/unpublished-banner";
-import { hasAdminSession } from "@/lib/admin";
-import { loadPost, otherPostsInSameCategory } from "@/lib/content";
+import { loadPost, loadPosts, otherPostsInSameCategory } from "@/lib/content";
 import { MarkdownWithGalleries } from "@/lib/markdown";
 import { splitMarkdownAfterParagraphs, stripDuplicateCoverImage } from "@/lib/post-body";
+import { isAdminPreview } from "@/lib/preview";
 import { publishStatus } from "@/lib/publish";
 import { formatDate, siteUrl } from "@/lib/utils";
 
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+export const revalidate = 3600;
 export const dynamicParams = true;
+
+export async function generateStaticParams() {
+  const posts = await loadPosts();
+  return posts.map((post) => ({ slug: post.slug }));
+}
 
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const admin = await hasAdminSession();
-  const post = await loadPost(decodeURIComponent(slug), admin ? "all" : "live");
+  const preview = await isAdminPreview();
+  const post = await loadPost(decodeURIComponent(slug), preview ? "all" : "live");
   if (!post) notFound();
   const title = post.seoTitle || post.title;
   const description = post.seoDescription || post.description;
@@ -65,8 +69,8 @@ function blogPostingJsonLd(post: NonNullable<Awaited<ReturnType<typeof loadPost>
 
 export default async function PostPage({ params }: Props) {
   const { slug } = await params;
-  const admin = await hasAdminSession();
-  const post = await loadPost(decodeURIComponent(slug), admin ? "all" : "live");
+  const preview = await isAdminPreview();
+  const post = await loadPost(decodeURIComponent(slug), preview ? "all" : "live");
   if (!post) notFound();
   const status = publishStatus(post);
   const body = stripDuplicateCoverImage(post.body, post.coverImage, post.title);
@@ -77,7 +81,7 @@ export default async function PostPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogPostingJsonLd(post)) }}
       />
-      {admin && status !== "approved" ? (
+      {preview && status !== "approved" ? (
         <UnpublishedBanner
           status={status}
           kind="post"

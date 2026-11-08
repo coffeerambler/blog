@@ -1,13 +1,12 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { connection } from "next/server";
 import { CountryGuidePage } from "@/components/country-guide-page";
 import { BrewGuidePage } from "@/components/brew-guide-page";
 import { ImportedPage } from "@/components/imported-page";
 import { UnpublishedBanner } from "@/components/unpublished-banner";
-import { hasAdminSession } from "@/lib/admin";
 import { documentTitle, loadPages, pageFileSlug, readPageFile } from "@/lib/content";
 import { getCountryGuideBundle, isLiveCountryGuide, templatedCountrySlugs } from "@/lib/country-guides";
+import { isAdminPreview } from "@/lib/preview";
 import { isApproved, publishStatus } from "@/lib/publish";
 import { siteUrl } from "@/lib/utils";
 
@@ -44,9 +43,8 @@ function countryGuideSocial(slug: string, name: string, approved: boolean) {
   };
 }
 
-export const dynamic = "force-dynamic";
 export const dynamicParams = true;
-export const revalidate = 0;
+export const revalidate = 3600;
 
 export async function generateStaticParams() {
   const slugs = new Set<string>();
@@ -63,16 +61,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  await connection();
   const { slug } = await params;
   const decoded = decodeURIComponent(slug);
   if (RESERVED.has(decoded)) notFound();
-  const admin = await hasAdminSession();
+  const preview = await isAdminPreview();
   const page = await readPageFile(decoded);
   const bundle = await getCountryGuideBundle(decoded);
   if (!page && !bundle) return { title: "Not found" };
   const record = page || { slug: decoded };
-  if (!isApproved(record) && !admin) return { title: "Not found", robots: { index: false } };
+  if (!isApproved(record) && !preview) return { title: "Not found", robots: { index: false } };
   if (bundle) {
     return {
       title: {
@@ -93,20 +90,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function RootSlugPage({ params }: Props) {
-  await connection();
   const { slug } = await params;
   const decoded = decodeURIComponent(slug);
   if (RESERVED.has(decoded)) notFound();
-  const admin = await hasAdminSession();
+  const preview = await isAdminPreview();
   const page = await readPageFile(decoded);
   const bundle = await getCountryGuideBundle(decoded);
   if (!page && !bundle) notFound();
   const record = page || { slug: decoded, path: `/${decoded}` };
   const status = publishStatus(record);
-  if (status !== "approved" && !admin) notFound();
+  if (status !== "approved" && !preview) notFound();
 
   const banner =
-    admin && status !== "approved" ? (
+    preview && status !== "approved" ? (
       <UnpublishedBanner
         status={status}
         kind="page"
